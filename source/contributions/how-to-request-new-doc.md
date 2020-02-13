@@ -5,7 +5,7 @@ description: How to submit a request for new documentation
 
 ## 0. Search for existing request
 
-Someone might have had the same feedback you are having and had already started a request. To check whether this is the case, please go to the [issue tracker](https://github.com/louisgv/doc.ift.org/issues) and search for what you are looking for first. The community would be delighted to have you join the conversation!
+Someone might have had the same feedback you are having and had already started a request. To check whether this is the case, please go to the [issue tracker](https://github.com/ift-gftc/doc.ift.org/issues) and search for what you are looking for first. The community would be delighted to have you join the conversation!
 
 If you have determined that your request is unique, there are `two` ways for you to submit your request:
 
@@ -17,7 +17,7 @@ You can submit a new request by simply click on the link that says `Request doc 
 
 ## 1.B. Use github's new issue button
 
-You can submit a documentation request or a non-documentation request (such as feature, bug report), by using the github issue tracker. You can either access this feature by going to the [documentation's github issue tracker](https://github.com/louisgv/doc.ift.org/issues) and click `new issue`, or simply [click here](https://github.com/louisgv/doc.ift.org/issues/new/choose).
+You can submit a documentation request or a non-documentation request (such as feature, bug report), by using the github issue tracker. You can either access this feature by going to the [documentation's github issue tracker](https://github.com/ift-gftc/doc.ift.org/issues) and click `new issue`, or simply [click here](https://github.com/ift-gftc/doc.ift.org/issues/new/choose).
 
 ![Github new issue](./github-new-issue-button.png)
 

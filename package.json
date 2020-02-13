@@ -1,7 +1,7 @@
 {
   "name": "doc.ift.org",
   "private": true,
-  "homepage": "https://louisgv.github.io/doc.ift.org/",
+  "homepage": "https://ift-gftc.github.io/doc.ift.org/",
   "description": "Documentation site for IFT.",
   "version": "0.1.0",
   "author": "Louis <lgvichy@gmail.com>",
@@ -37,9 +37,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/louisgv/doc.ift.org"
+    "url": "https://github.com/ift-gftc/doc.ift.org"
   },
   "bugs": {
-    "url": "https://github.com/louisgv/doc.ift.org/issues"
+    "url": "https://github.com/ift-gftc/doc.ift.org/issues"
   }
 }
