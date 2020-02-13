@@ -189,7 +189,7 @@ export default function PageContent(props) {
   )
 
   const requestLink = (
-    <AsideLink href={"https://github.com/louisgv/doc.ift.org/issues/new?assignees=&labels=documentation&template=document.md&title=DOC+%7C+"}>
+    <AsideLink href={"https://github.com/ift-gftc/doc.ift.org/issues/new?assignees=&labels=documentation&template=document.md&title=DOC+%7C+"}>
       <IconDocument /> Request doc on GitHub
     </AsideLink>
   )
