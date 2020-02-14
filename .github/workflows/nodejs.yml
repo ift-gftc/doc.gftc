@@ -1,4 +1,4 @@
-name: Node.js CI Deploy
+name: Doc CI Deploy
 
 on: [push]
 
@@ -19,5 +19,10 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm install
     - run: npm run deploy
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        publish_dir: ./public
       env:
         CI: true
