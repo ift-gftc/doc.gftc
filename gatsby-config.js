@@ -58,6 +58,7 @@ module.exports = {
 
           ],
           "Resources": [
+            "resources/featured-implementation",
             "resources/index"
           ],
           "Contributions": [
