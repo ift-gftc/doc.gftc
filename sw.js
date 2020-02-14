@@ -27,7 +27,7 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-99c2052ec122921d0b78.js"
+    "url": "webpack-runtime-3d02bde8dd7f057f551a.js"
   },
   {
     "url": "styles.8f92639d06ff110db95e.css"
@@ -39,14 +39,14 @@ self.__precacheManifest = [
     "url": "commons-37441855d95f0423f33d.js"
   },
   {
-    "url": "app-2ba794d003c5891a65c7.js"
+    "url": "app-c097ec3f164b3b779d29.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-ceef87afc058962c4db9.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "a77b565e8ca3fac8339f620cffdc3a78"
+    "revision": "3f7c871c0806e33e3cd7aa95c886ec6d"
   },
   {
     "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
@@ -143,7 +143,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/doc.ift.org/app-2ba794d003c5891a65c7.js`))) {
+  if (!resources || !(await caches.match(`/doc.ift.org/app-c097ec3f164b3b779d29.js`))) {
     return await fetch(event.request)
   }
 
