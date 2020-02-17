@@ -52,6 +52,14 @@ module.exports = {
             "events/at-sea",
             "events/aquaculture",
           ],
+          "EPCIS Extensions": [
+            "extensions/business-steps",
+            "extensions/dispositions",
+            "extensions/certificates",
+            "extensions/catch-area",
+            "extensions/ilmd",
+            "extensions/object-event"
+          ],
           "Open API": [
             "open-api/examples",
             "open-api/swagger-api"
