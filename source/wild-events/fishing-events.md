@@ -1,9 +1,11 @@
 ---
-title: Wild Harvest Events
-description: This page covers the different scenarios around harvesting products from the wild and how those different scenarios are transcribed into GDST EPCIS events.
+title: Fishing Event
+description: This page covers information about capturing the Fishing / Wild Harvest event.
 ---
 
-*We are not going to cover any Aggregated Wild Harvest or Aggregated Fishing Event scenarios here. We will assume that each individual Fishing Event will be recorded. This is because GDST does not support Aggregated fishing Events and we will only cover scenarios that are GDST compliant in this documentation.*
+Fishing Events are used to record when products are harvested from the wild. There are different scenarios that can occur. For the most part Fishing Events should be recorded for each unique harvesting that takes place from the ocean. However, we do recognize that limitations in the industry may not allow for that level of granularity when recording Fishing Events. In the case that level of granularity is not possible, then we recommend that Fishing Events be recorded as often as is possible during a fishing trip.
+
+*For events after the Fishing Event, we will be building upon the scenario of Mulitple Harvests and Multiple Fishing Events.*
 
 ## Master Data
 Here is the Master Data that will be used in the scenarios listed below.
@@ -136,12 +138,7 @@ Here is the Master Data that will be used in the scenarios listed below.
 </EPCISMasterData>
 ```
 
-## Fishing Events
-Fishing Events are used to record when products are harvested from the wild. There are different scenarios that can occur. Each time a vessel harvests products from the water, a fishing event should be recorded. However, it's possible for a vessel to record a single Fishing Event for their entire fishing trip while at sea. 
-
-*For events after the Fishing Event, we will be building upon the scenario of Mulitple Harvests and Multiple Fishing Events.*
-
-### Vessel Multiple Harvests wan Single Fishing Event
+### Vessel Multiple Harvests and Single Fishing Event
 This covers when a single large vessel harvested products from multiple locations while on their fishing trip but only wants to record a single fishing event. In this case, we cannot record a single latitude / longitude for the fishing event, and will just list out all the products captured. in this case we won't record a read point, and will just record a catch area.
 
 In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co.** has gone fishing in **FAO Zone 77**. It has gone trawling in multiple locations for **Tuna**. In this scenario the fishing vessel caught **10,000 Kilograms** of Tuna through out it's fishing trip.
@@ -517,7 +514,7 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
 </ObjectEvent>
 ```
 
-## On-Vessel Processing (INCOMPLETE)
+## On-Vessel Processing
 Sometimes products are initially processedd on the Vessel that catches them. In this case, a Transformation event is recorded to represent this initial processing step.
 
 ```xml
