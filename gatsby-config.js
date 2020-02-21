@@ -49,7 +49,12 @@ module.exports = {
             "regulatory/non-western-regulations",
           ],
           "Aquaculture Events": [
-            "aquaculture-events/aquaculture"
+            "aquaculture-events/master-data",
+            "aquaculture-events/brood-stock",
+            "aquaculture-events/feeding",
+            "aquaculture-events/farm-harvest",
+            "aquaculture-events/wild-to-farmed",
+            "aquaculture-events/commodities"
           ],
           "Wild Events": [
             "wild-events/fishing-events",
