@@ -5,6 +5,7 @@ description: This page contains example master data that is used in events recor
 
 In order to not repeat this master data on every page we have example events, we will display Master Data here that is intended to be used on other Aquaculture Event pages that contain example event data.
 
+
 ## Master Data
 This is the master data that will be used through the events in this aquaculture scenario.
 
