@@ -6,6 +6,7 @@ Here we are going to cover the different events that need to be recorded in Aqua
 
 *We are not going to cover any Aggregated Farm Harvest scenarios here. We will assume that each Farm Harvest will be recorded. This is because GDST does not support Aggregated Farm Harvests in order to be SIMP compliant.*
 
+
 ## Master Data
 This is the master data that will be used through the events in this aquaculture scenario.
 
