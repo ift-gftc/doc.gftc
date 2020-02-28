@@ -2,10 +2,17 @@
 title: Why Extension?
 ---
 
-Duis voluptate nulla ut ea officia ea fugiat et ut ad qui ex cupidatat ad. Incididunt sint deserunt cupidatat exercitation fugiat irure. Cillum incididunt pariatur dolor non laboris pariatur magna id ea. Laborum quis magna eu elit ut ullamco proident laborum sunt labore elit minim dolore incididunt.
+By default, EPCIS was meant to be extended to suit Industry needs. As stated in the EPCIS 1.2 documentation. Because of this, we tried to use the intended extensible points in the EPCIS schema to meet our Seafood Traceability needs. Seafood supply chain events, especially upstream from primary processing differ meaningfully than other supply chain events previously documented by EPCIS, the Core Business Vocabulary and the Global Traceability Standard. GDST has striven to provide clear, common sense extensions to accommodate necessary KDEs as promulgated by the GDST working group 1 process and CTEs defined by working group 2's piloting results. 
 
-Incididunt Lorem ut eu mollit aliquip eiusmod minim commodo dolor ipsum adipisicing dolor deserunt esse. Duis sint nisi anim mollit nulla elit cillum ea ipsum. Occaecat nulla nisi voluptate do non veniam voluptate veniam nostrud.
+> The core specifications provide a core set of data types and operations, but also provide several means whereby the core set may be extended for purposes specific to a given industry or application area. *(EPCIS 1.2 Documentation - pg. 16)*
 
-Eu consectetur nulla in ullamco. Occaecat deserunt deserunt id elit eu dolor. Eiusmod esse ea reprehenderit voluptate proident amet quis dolor voluptate minim mollit.
+This includes extending the following points:
 
-Sint dolor nulla dolor magna do aute. Sit culpa aliqua incididunt excepteur excepteur aliqua occaecat incididunt sint veniam. Id amet in aliquip deserunt consectetur. Cillum proident deserunt dolor dolor officia ex aliqua veniam. Sit fugiat veniam quis amet dolore culpa Lorem pariatur culpa. Sit deserunt et amet excepteur dolor Lorem culpa non.
+* ILMD
+* Master Data
+* Object Event
+    - This was extended to allow for KDEs needed on Object events that could not use ILMD data.
+* Business Steps
+* Disposition
+
+Before extending, we tried to first use the base EPCIS standard and the given attributes, business steps, and dispositions. However, instead of stretching existing standards to try and meet our needs, if nothing existed that fit our needs well, we opted for extending the EPCIS standard where recommended by the EPCIS 1.2 standard. 
