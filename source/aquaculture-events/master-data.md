@@ -3,11 +3,11 @@ title: Master Data
 description: This page contains example master data that is used in events recorded for products harvested from the wild.
 ---
 
-In order to not repeat this master data on every page we have example events, we will display Master Data here that is intended to be used on other Aquaculture Event pages that contain example event data.
+Master data on objects, locations, and entities are data that tend not to grow with trade volume. Given the similarities across CTEs and to reduce redundancy, GDST has documented Aquaculture Master Data here and parcels individual pages based on commodity or life cycle events.
 
 
 ## Master Data
-This is the master data that will be used through the events in this aquaculture scenario.
+This is the master data that will be used through the events in aquaculture scenarios.
 
 ```xml
 <!-- MASTER DATA -->
@@ -18,25 +18,25 @@ This is the master data that will be used through the events in this aquaculture
         <Vocabulary type="urn:epcglobal:epcis:vtype:EPCClass">
             <VocabularyElementList>
                 
-                <!-- VEGETABLES -->
-                <VocabularyElement id="urn:gdst:traceability-solution.com:product:class:7D90C2CD-A801-4E22-ACEE-82BF27A4844D.VEGETABLES">
+                <!-- SOY BASE -->
+                <VocabularyElement id="urn:gdst:traceability-solution.com:product:class:7D90C2CD-A801-4E22-ACEE-82BF27A4844D.SOY">
                     <attribute id="urn:epcglobal:cbv:mda#informationProvider">urn:gdst:traceability-solution.com:party:7D90C2CD-A801-4E22-ACEE-82BF27A4844D</attribute>
                     <attribute id="urn:epcglobal:cbv:owning_party">urn:gdst:traceability-solution.com:party:7D90C2CD-A801-4E22-ACEE-82BF27A4844D</attribute>
-                    <attribute id="urn:epcglobal:cbv:mda#descriptionShort">Vegetables</attribute>
+                    <attribute id="urn:epcglobal:cbv:mda#descriptionShort">Soy</attribute>
                 </VocabularyElement>
 
                 <!-- VEGETERIAN FEED -->
                 <VocabularyElement id="urn:gdst:traceability-solution.com:product:class:7D90C2CD-A801-4E22-ACEE-82BF27A4844D.FEED01">
                     <attribute id="urn:epcglobal:cbv:mda#informationProvider">urn:gdst:traceability-solution.com:party:7D90C2CD-A801-4E22-ACEE-82BF27A4844D</attribute>
                     <attribute id="urn:epcglobal:cbv:owning_party">urn:gdst:traceability-solution.com:party:7D90C2CD-A801-4E22-ACEE-82BF27A4844D</attribute>
-                    <attribute id="urn:epcglobal:cbv:mda#descriptionShort">Vegetarian Salmon Feed</attribute>
+                    <attribute id="urn:epcglobal:cbv:mda#descriptionShort">Soy-based Salmon Feed</attribute>
                 </VocabularyElement>
 
                 <!-- SALMON FRY -->
                 <VocabularyElement id="urn:gdst:traceability-solution.com:product:class:DFA01B63-AAAA-4454-B13C-C53D6BDFAB43.SAL-FRY">
                     <attribute id="urn:epcglobal:cbv:mda#informationProvider">urn:gdst:traceability-solution.com:party:DFA01B63-AAAA-4454-B13C-C53D6BDFAB43</attribute>
                     <attribute id="urn:epcglobal:cbv:owning_party">urn:gdst:traceability-solution.com:party:DFA01B63-AAAA-4454-B13C-C53D6BDFAB43</attribute>
-                    <attribute id="urn:epcglobal:cbv:mda#descriptionShort">Antlatnci Salmon Fry</attribute>
+                    <attribute id="urn:epcglobal:cbv:mda#descriptionShort">Atlantic Salmon Fry</attribute>
                     <attribute id="urn:epcglobal:cbv:mda#speciesForFisheryStatisticsPurposesName">Salmo salar</attribute>
                     <attribute id="urn:epcglobal:cbv:mda#speciesForFisheryStatisticsPurposesCode">SAL</attribute>
                     <attribute id="urn:epcglobal:cbv:mda#radeItemConditionCode">FIL</attribute>
@@ -46,7 +46,7 @@ This is the master data that will be used through the events in this aquaculture
                 <VocabularyElement id="urn:gdst:traceability-solution.com:product:class:D8F9F0B4-A03D-41A3-AA60-B2BE0FD9C2F3.SAL-WHOLE">
                     <attribute id="urn:epcglobal:cbv:mda#informationProvider">urn:gdst:traceability-solution.com:party:D8F9F0B4-A03D-41A3-AA60-B2BE0FD9C2F3</attribute>
                     <attribute id="urn:epcglobal:cbv:owning_party">urn:gdst:traceability-solution.com:party:D8F9F0B4-A03D-41A3-AA60-B2BE0FD9C2F3</attribute>
-                    <attribute id="urn:epcglobal:cbv:mda#descriptionShort">Antlantic Salmon</attribute>
+                    <attribute id="urn:epcglobal:cbv:mda#descriptionShort">Atlantic Salmon</attribute>
                     <attribute id="urn:epcglobal:cbv:mda#speciesForFisheryStatisticsPurposesName">Salmo salar</attribute>
                     <attribute id="urn:epcglobal:cbv:mda#speciesForFisheryStatisticsPurposesCode">SAL</attribute>
                     <attribute id="urn:epcglobal:cbv:mda#radeItemConditionCode">WHL</attribute>
@@ -56,7 +56,7 @@ This is the master data that will be used through the events in this aquaculture
                 <VocabularyElement id="urn:gdst:traceability-solution.com:product:class:30BAD813-7FB9-43BE-8CAA-7E0876552EAA.SAL-FILLET">
                     <attribute id="urn:epcglobal:cbv:mda#informationProvider">urn:gdst:traceability-solution.com:party:30BAD813-7FB9-43BE-8CAA-7E0876552EAA</attribute>
                     <attribute id="urn:epcglobal:cbv:owning_party">urn:gdst:traceability-solution.com:party:30BAD813-7FB9-43BE-8CAA-7E0876552EAA</attribute>
-                    <attribute id="urn:epcglobal:cbv:mda#descriptionShort">Antlantic Salmon Fillet</attribute>
+                    <attribute id="urn:epcglobal:cbv:mda#descriptionShort">Atlantic Salmon Fillet</attribute>
                     <attribute id="urn:epcglobal:cbv:mda#speciesForFisheryStatisticsPurposesName">Salmo salar</attribute>
                     <attribute id="urn:epcglobal:cbv:mda#speciesForFisheryStatisticsPurposesCode">SAL</attribute>
                     <attribute id="urn:epcglobal:cbv:mda#radeItemConditionCode">WHL</attribute>

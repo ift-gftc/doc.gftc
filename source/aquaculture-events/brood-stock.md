@@ -2,7 +2,9 @@
 title: Broodstock / Hatching
 ---
 
-Larvae producted at a hatchery that will be used to stock aquaculture facilities are traced using an `object` `add` event to indicate the Hatchery they were procuded at and then used in the traceability of full-grown harvested products from aquaculture facilities. For larvae produced in an hatchery, we will use the *business step* `urn:gdst:bizStep:hatching` with the disposition `active`. This event is not used for tracing larvae harvested from the wild.
+Larvae grown at a hatchery to be stocked in aquaculture facilities are commissioned using an `object` `add` event. These objects (i.e. larvae or other immature progeny) along with feed inputs begin the aquaculture traceability towards full-grown harvested products. For larvae produced in a hatchery, we will use the *business step* `urn:gdst:bizStep:hatching` with the disposition `active`. 
+
+Note: This event is not used for tracing larvae harvested from the wild.
 
 
 ## Example #1
@@ -49,10 +51,10 @@ Larvae producted at a hatchery that will be used to stock aquaculture facilities
                 <!-- Chain of Custody Certificate -->
                 <cbvmda:certification>
                     <gdst:certificateType>urn:gdst:certType:chain_custody</gdst:certificateType>
-                    <cbvmda:certificationStandard>MSC Chain of Custody</cbvmda:certificationStandard>
-                    <cbvmda:certificationAgency>MSC</cbvmda:certificationAgency>
-                    <cbvmda:certificationValue>MSC_COC_1234567890</cbvmda:certificationValue>
-                    <cbvmda:certificationIdentification>MSC_COC_1234567890</cbvmda:certificationIdentification>
+                    <cbvmda:certificationStandard>ASC Chain of Custody</cbvmda:certificationStandard>
+                    <cbvmda:certificationAgency>ASC</cbvmda:certificationAgency>
+                    <cbvmda:certificationValue>ASC_COC_1234567890</cbvmda:certificationValue>
+                    <cbvmda:certificationIdentification>ASC_COC_1234567890</cbvmda:certificationIdentification>
                 </cbvmda:certification>
 
                 <!-- Code of Good Practice Certificate -->

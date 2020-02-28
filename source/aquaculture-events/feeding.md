@@ -3,7 +3,7 @@ title: Feeding
 description: Covers event data that is recorded around the feeding of products while they are being grown at an aquaculture facility.
 ---
 
-Feeding can occur in 2 ways when it comes to the Aquaculture side of supply chains. The first part of feeding is the actual creation of the feed and connecting the ingredients of the feed to the feed itself. This is considered the **Feed Tranformation** step and is critical to tracing the feed ingredients to the feed, and then to the harvested fish. When the products are harvested from the 
+Feeding in aquaculture have at least two processes: feed transformation and feed input into lifecycle events. The **Feed Tranformation** step is critical to tracing the feed ingredients especially if there are wild-caught origins to the protein source. Feed is then input into lifcycle events as a transformation stp.
 
 ## Feed Transformation Event
 This step is critical in connecting feed ingredients to harvested products from a seafood facility. Here we will define a transformation event that connects the feed ingredients to the actual feed used. The *business step* will be `commissioning` and the *dispoition* will be `active` from the standard **CBV 1.2**.
