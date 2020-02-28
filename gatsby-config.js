@@ -73,6 +73,14 @@ module.exports = {
             "extensions/ilmd",
             "extensions/object-event"
           ],
+          "EPCIS Extensions": [
+            "extensions/business-steps",
+            "extensions/dispositions",
+            "extensions/certificates",
+            "extensions/catch-area",
+            "extensions/ilmd",
+            "extensions/object-event"
+          ],
           "Open API": [
             "open-api/examples",
             "open-api/swagger-api"
