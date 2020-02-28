@@ -20,7 +20,7 @@ Please see [http://www.fao.org/3/t8598e/t8598e05.htm](http://www.fao.org/3/t8598
 `<gdst:aquacultureMethod></gdst:aquacultureMethod>`
 
 ## Fishery Improvement Project
-Publicly-listed name of fishery improvement project which the harvest event is subject to.
+Publicly-listed name of fishery improvement project which the harvest event is subject to. [Standardized Database Maintained by FishChoice](https://fisheryprogress.org)
 
 `<gdst:fisheryImprovementProject></gdst:fisheryImprovementProject>`
 

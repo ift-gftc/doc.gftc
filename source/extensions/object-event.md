@@ -9,7 +9,7 @@ You can see in the Certificates section that we have extended the base object ev
 `<gdst:certificationList></gdst:certificationList>`
 
 
-## Existance of Human Welfare Policy
+## Existence of Human Welfare Policy
 Indicator of human welfare policies in place on a vessel/trip, answering the question "What kind of human welfare, labor, or anti-slavery policy was in place on this vessel/trip?" If internal policy subject to 3rd party audit, select '3P Audit'.
 
 `<gdst:humanWelfarePolicy></gdst:humanWelfarePolicy>`
