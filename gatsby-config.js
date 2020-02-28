@@ -48,9 +48,30 @@ module.exports = {
             "regulatory/eu-catch-cert",
             "regulatory/non-western-regulations",
           ],
-          "Events": [
-            "events/at-sea",
-            "events/aquaculture",
+          "Aquaculture Events": [
+            "aquaculture-events/master-data",
+            "aquaculture-events/brood-stock",
+            "aquaculture-events/feeding",
+            "aquaculture-events/farm-harvest",
+            "aquaculture-events/wild-to-farmed",
+            "aquaculture-events/commodities"
+          ],
+          "Wild Events": [
+            "wild-events/fishing-events",
+            "wild-events/on-vessel-processing",
+            "wild-events/transshipment",
+            "wild-events/landing",
+            "wild-events/gear-types",
+            "wild-events/mari-culture",
+            "wild-events/commodities"
+          ],
+          "EPCIS Extensions": [
+            "extensions/business-steps",
+            "extensions/dispositions",
+            "extensions/certificates",
+            "extensions/catch-area",
+            "extensions/ilmd",
+            "extensions/object-event"
           ],
           "Open API": [
             "open-api/examples",

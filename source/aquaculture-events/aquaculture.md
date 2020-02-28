@@ -1,8 +1,8 @@
 ---
 title: Aquaculture Events
-description: This covers how different events should be recorded for Aqua Culture scenarios.
+description: This covers how different events should be recorded for Aquaculture scenarios.
 ---
-Here we are going to cover the different events that need to be recorded in Aqua Culture scenarios. These events include how the Feed is c
+Here we are going to cover the different events that need to be recorded in Aquaculture scenarios. These events include how the Feed is incorporated in CTEs, commodity specific contingencies, and the traceability of feed protein source.
 
 *We are not going to cover any Aggregated Farm Harvest scenarios here. We will assume that each Farm Harvest will be recorded. This is because GDST does not support Aggregated Farm Harvests in order to be SIMP compliant.*
 
