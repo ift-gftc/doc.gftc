@@ -94,6 +94,7 @@ module.exports = {
             "contributions/how-to-work-on-doc",
             "contributions/how-to-request-new-doc",
             "contributions/how-to-submit-work-for-review",
+            "contributions/running-gatsby",
             "contributions/authors",
             "contributions/contacts"
           ]
