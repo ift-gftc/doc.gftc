@@ -57,6 +57,7 @@ module.exports = {
             "aquaculture-events/commodities"
           ],
           "Wild Events": [
+            "wild-events/master-data",
             "wild-events/fishing-events",
             "wild-events/on-vessel-processing",
             "wild-events/transshipment",
