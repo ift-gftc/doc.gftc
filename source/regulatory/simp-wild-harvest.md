@@ -2,7 +2,9 @@
 title: SIMP - Wild Harvest
 ---
 
-In this scenario we will cover a single large vessel. In SIMP, a large vessel is considered a vessel that is either more than 12 meters long, or 20 metric tons. Below I will give an example EPCIS XML that will include Master Data, a Fishing Event, a Transshipment Event, and an Offload Event. THen we will take the EPCIS data and show how it can be converted into PGA Record(s) for filing a SIMP report. 
+In this scenario we will cover a single large vessel. In SIMP, a large vessel is considered a vessel that is either more than 12 meters long, or 20 metric tons. Below I will give an example EPCIS XML that will include Master Data, a Fishing Event, a Transshipment Event, and an Offload Event. THen we will take the EPCIS data and show how it can be converted into [PGA Record(s)](https://www.cbp.gov/sites/default/files/assets/documents/2017-Oct/Implementation%20Guide%20for%20NMFS%20SIM%209-28-17_v2.pdf) for filing a SIMP report. 
+
+## Required KDEs
 
 In order to fill out a SIMP report for a Wild Harvest scenario we will need the following KDEs:
 * **Scientific Name** - Pulled from Master Data
@@ -25,9 +27,13 @@ In order to fill out a SIMP report for a Wild Harvest scenario we will need the 
 
 This documentation is not meant to serve as a guide for SIMP and is just mean to be an example of converting GDST EPCIS XML into a SIMP Records. For futher documentation on SIMP please see [here](https://www.cbp.gov/sites/default/files/assets/documents/2017-Oct/Implementation%20Guide%20for%20NMFS%20SIM%209-28-17_v2.pdf).
 
-Here is the Example XML for the GDST EPCIS data. This event data will contain a Fishing Event, Transshipment, and Offload Event.
+## Recommended Additonal EPCIS Attributes
+There are attributes required by SIMP that are not part of the GDST guidance. Here are recommendations on how these attributes could be recorded in EPCIS in order to meet SIMP requirements.
+
+* **IFTP Number** - This can be recorded as an additional attribute either in the Party or Location master data. The recommended CBV attribute is "urn:gdst:iftp".
 
 ## Fishing Event
+Here is the Example XML for the GDST EPCIS data. This event data will contain a Fishing Event, Transshipment, and Offload Event.
 
 ```xml
 <!-- FISHING EVENT -->
@@ -192,6 +198,7 @@ Here is the Example XML for the GDST EPCIS data. This event data will contain a 
 </ObjectEvent>
 ```
 
+## Example Wild Harvest SIMP Report
 Now that we have the EPCIS xml, the PGA Record(s) will look like:
 ```
 PG01001NMFSIMY

@@ -2,7 +2,22 @@
 title: SIMP - Aquaculture
 ---
 
-In this scenario we will cover a single Farm with a single Farm Harvest. We will be building a PGA Record based off the Events below. The Master Data for these events can be found above in the Master Data section.
+In this scenario we will cover a single Farm with a single Farm Harvest. We will be building a [PGA Record](https://www.cbp.gov/sites/default/files/assets/documents/2017-Oct/Implementation%20Guide%20for%20NMFS%20SIM%209-28-17_v2.pdf) based off the Events below. The Master Data for these events can be found above in the Master Data section.
+
+## Required KDEs
+
+In order to fill out a SIMP report for a Aquaculture scenario we will need the following KDEs:
+* **Scientific Name** - Pulled from Master Data
+* **Farming Country** - Pulled from the Country of Origin in the ILMD data of the Fishing Event
+* **Harvest Date** - Pulled from the Event Time of the Offload Event.
+* **IFTP Number** - Pulled from the Master Data of the Vessel / Party. In this example we will pull it from the Master Data of the Vessel Owning Party.
+* **Farm Name** - Pulled from the Master Data for Owning Party of the BizLocation of event with the disposition of "entering_commerce".
+* **Farm Address** - Pulled from the Master Data for the BizLocation of event with the disposition of "entering_commerce".
+* **Farm Contact Name** - Pulled from the Master Data for the BizLocation of the event with the disposition of "entering_commerce".
+* **Farm Contact Email** - Pulled from the Master Data for the BizLocation of the event with the disposition of "entering_commerce".
+* **Farm Contact Phone** - Pulled from the Master Data for the BizLocation of the event with the disposition of "entering_commerce".
+* **Product Net Weight** - Pulled from the Net Weight recorded for the Product in the Offload Event
+* **Product Form** - Pulled from the Product Form of the Master Data of the Offloaded product.that occurs.
 
 ## Recommended Additonal EPCIS Attributes
 There are attributes required by SIMP that are not part of the GDST guidance. Here are recommendations on how these attributes could be recorded in EPCIS in order to meet SIMP requirements.
@@ -175,20 +190,7 @@ In order to not repeat the master data used with each example, I would like to p
 </EPCISMasterData>
 ```
 
-## Required KDEs
 
-In order to fill out a SIMP report for a Aquaculture scenario we will need the following KDEs:
-* **Scientific Name** - Pulled from Master Data
-* **Farming Country** - Pulled from the Country of Origin in the ILMD data of the Fishing Event
-* **Harvest Date** - Pulled from the Event Time of the Offload Event.
-* **IFTP Number** - Pulled from the Master Data of the Vessel / Party. In this example we will pull it from the Master Data of the Vessel Owning Party.
-* **Farm Name** - Pulled from the Master Data for Owning Party of the BizLocation of event with the disposition of "entering_commerce".
-* **Farm Address** - Pulled from the Master Data for the BizLocation of event with the disposition of "entering_commerce".
-* **Farm Contact Name** - Pulled from the Master Data for the BizLocation of the event with the disposition of "entering_commerce".
-* **Farm Contact Email** - Pulled from the Master Data for the BizLocation of the event with the disposition of "entering_commerce".
-* **Farm Contact Phone** - Pulled from the Master Data for the BizLocation of the event with the disposition of "entering_commerce".
-* **Product Net Weight** - Pulled from the Net Weight recorded for the Product in the Offload Event
-* **Product Form** - Pulled from the Product Form of the Master Data of the Offloaded product.that occurs.
 
 ## Feed Transformation Event
 This event covers how the Feed is created and the ingredients that go into making the feed.
@@ -445,6 +447,3 @@ PG20                                     Verona               CA US92111
 PG21BY Joe Smith              +1.999-999-9999joe@triunionsf.com
 PG29KG 1000
 ```
-
-## Important Notes
-* 
