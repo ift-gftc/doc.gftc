@@ -2,7 +2,7 @@
 title: SIMP - Aquaculture
 ---
 
-In this scenario we will cover a single Farm with a single Farm Harvest. We will be building a PGA Record based off the Events below. The Master Data for these events can be found above in the Master Data section.
+In this scenario we will cover a single Farm with a single Farm Harvest. We will be building a [PGA Record](https://www.cbp.gov/sites/default/files/assets/documents/2017-Oct/Implementation%20Guide%20for%20NMFS%20SIM%209-28-17_v2.pdf) based off the Events below. The Master Data for these events can be found above in the Master Data section.
 
 ## Required KDEs
 
