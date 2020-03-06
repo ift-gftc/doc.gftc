@@ -70,14 +70,7 @@ module.exports = {
             "extensions/dispositions",
             "extensions/certificates",
             "extensions/catch-area",
-            "extensions/ilmd",
-            "extensions/object-event"
-          ],
-          "EPCIS Extensions": [
-            "extensions/business-steps",
-            "extensions/dispositions",
-            "extensions/certificates",
-            "extensions/catch-area",
+            "extensions/master-data",
             "extensions/ilmd",
             "extensions/object-event"
           ],
