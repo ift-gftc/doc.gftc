@@ -6,17 +6,11 @@ Our goal here is to demystify the requirements of the EU Catch Certificate and s
 
 *EU Regulations define the ability to specify a number of vessels when the vessels are small enough. GDST compliance requires each Vessel's information and does not allow this so these scenarios will not be covered here.*
 
-## Recommended Master Data Extensions
-
-`urn:gdst:vatNumber` - 
-
-`urn:gdst:nationalTaxID` -
-
 ## Recommended ILMD Extensions
 
-`<gdst:fishQualityGrade>` -
-
-`<gdst:fishSizeGrade>` - 
+`<gdst:fishQualityGrade>` - The Quality Grade of the product.
+ 
+`<gdst:fishSizeGrade>` - The Size Grade of the the product.
 
 
 ## Required KDEs
@@ -34,7 +28,7 @@ Production Unit GLN | This is suppoed to be the GLN of the Fishing Vessel that c
 Production Unit Name | This is supposed to be either the name of the Fishing Vessel or the Aquaculture Facility where the product was produced, depending on farmed or wild-caught. In the case of wild-caught, you take the `GLN` of the `<bizLocation>` on the event with a business step `urn:gdst:bizStep:fishingEvent` and look up the `urn:epcglobal:cbv:mda#vesselName` or `urn:epcglobal:cbv:mda#name` on the Master Data associated with that `GLN`. In the case of farmed, you take the `GLN` of the `<bizLocation>` on the event with a business step `urn:gdst:bizStep:farmEvent` and look up the `urn:epcglobal:cbv:mda#name` on the Master Data associated with that `GLN`.
 Fish Species | This can be found in the Master Data of the Product. This Master Data can be located using the GTIN of the Product. In the EPCIS Master Data, this attribute would be `speciesForFisheryStatisticsPurposesCode`
 Scientific Name | This can found in the Master Data of the Product. This Master Data can be located using the GTIN of the Product. In the EPCIS Master Data, this attribute would be `speciesForFisheryStatisticsPurposesName`.
-Commercial Designation |
+Commercial Designation | This can found in the Master Data of the Product. This Master Data can be located using the GTIN of the Product. In the EPCIS Master Data, this attribute would be `urn:epcglobal:cbv:mda:tradeItemDescription`.
 Catch Area | This can be found in the in the `<vesselCatchInformation>` of the `<ilmd>` data on the event with the business step `urn:gdst:bizStep:fishingEvent`. This is found in the `<cbvmda:catchArea>` attribute.
 Catch Certificate ID | This can be found on the certificate with the type `urn:gdst:certType:catch_certificate` on the on the event with the business step `urn:gdst:bizStep:fishingEvent`. In the certificate, the Catch Certificate ID is recorded using the `<cbvmda:certificationIdentification>` element.
 Catch Date(s) | This can be found by doing a Trace Back on the product and looking at the `<eventTime>` on each event with the business step `urn:gdst:bizStep:fishingEvent`.
@@ -48,13 +42,64 @@ Storage State Code | This indicates if the product has previously been frozen or
 Fishing Gear Type | This can be found in the in the `<vesselCatchInformation>` of the `<ilmd>` data on the event with the business step `urn:gdst:bizStep:fishingEvent`. This is found in the `<cbvmda:catchArea>` attribute.
 Fish Quality Grade | This can be found in the `<ilmd>` data of the product under the extended element `<gdst:fishQualityGrade>`.
 Fish Size | This can be found in the `<ilmd>` data of the product under the extended element `<gdst:fishSizeGrade>`.
-Fish Presentation Form | 
-VAT Number | This information can be found by first finding the `PGLN` of the `destination type="urn:epcglobal:cbv:sdt:owning_party"` on the event with the disposition `urn:gdst:disposition:entering_commerce`. Using this `PGLN`, you can look up the Master Data for the PGLN, and locate the **VAT Number**. In EPCIS Master Data, the extension attribute id `urn:gdst:vatNumber` can be used to describe this KDE. More information about this extension is located above.
-National Tax Identification | This information can be found by first finding the `PGLN` of the `destination type="urn:epcglobal:cbv:sdt:owning_party"` on the event with the disposition `urn:gdst:disposition:entering_commerce`. Using this `PGLN`, you can look up the Master Data for the PGLN, and locate the **VAT Number**. In EPCIS Master Data, the extension attribute id `urn:gdst:nationalTaxID` can be used to describe this KDE. More information about this extension is located above.
-Conservation Reference Size |
-Fish Preservation State |
+Fish Presentation Form | This can found in the Master Data of the Product. This Master Data can be located using the GTIN of the Product. In the EPCIS Master Data, this attribute would be `urn:epcglobal:cbv:mda:tradeItemConditionCode`. Note: The values need to be from the EU codelist [http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32011R0404](http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32011R0404) annex I - table 1. *A list of the codes from the EU regulations document 32011R0404 is listed below.*
+VAT Number | This information can be found by first finding the `PGLN` of the `destination type="urn:epcglobal:cbv:sdt:owning_party"` on the event with the disposition `urn:gdst:disposition:entering_commerce`. Using this `PGLN`, you can look up the Master Data for the PGLN, and locate the **VAT Number** in the additional Party IDs. It would be represented as a child elemnt like so `<additionalPartyID partyIDTypeCode="EU_VAT_IDENTIFICATION_NUMBER">` in the attribute element `<attribute id="urn:epcglobal:cbv:mda:additionalPartyID">`.
+National Tax Identification | This information can be found by first finding the `PGLN` of the `destination type="urn:epcglobal:cbv:sdt:owning_party"` on the event with the disposition `urn:gdst:disposition:entering_commerce`. Using this `PGLN`, you can look up the Master Data for the PGLN, and locate the **National Tax Identification** in the additional Party IDs. It would be represented as a child elemnt like so `<additionalPartyID partyIDTypeCode="NATIONAL_TAX_IDENTIFICATION_NUMBER">` in the attribute element `<attribute id="urn:epcglobal:cbv:mda:additionalPartyID">`.
+Conservation Reference Size | This can be found in the in the `<vesselCatchInformation>` of the `<ilmd>` data on the event with the business step `urn:gdst:bizStep:fishingEvent`. This is found in the `<cbvmda:fishConservationReferenceSizeCode>` attribute.
+Fish Preservation State | This can found in the Master Data of the Product. This Master Data can be located using the GTIN of the Product. In the EPCIS Master Data, this attribute would be `urn:epcglobal:cbv:mda:preservationTechniqueCode`. *A list of the codes from the EU regulations document 32011R0404 is listed below.*
 Country of Export | This can be found in the `<ilmd>` data of the product under the `<cbv:countryOfExport>` element. When multiple countries of export are included, the dominant country of export SHALL be included as the first element. 
-Economic Zone |
+Economic Zone | This can be found in the in the `<vesselCatchInformation>` of the `<ilmd>` data on the event with the business step `urn:gdst:bizStep:fishingEvent`. This is found in the `<cbvmda:economicZone>` attribute. *When multiple economic zones are included, the dominant economic zone SHALL be included as the first element.*
 Certification | This can be found on the certificate with the type `urn:gdst:certType:catch_certificate` on the on the event with the business step `urn:gdst:bizStep:fishingEvent`.
 
+## Fish Presentation Codes
+
+These codes were found in Table 1 from the EU Regulations document found here [https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32011R0404#ntr4-L_2011112EN.01006601-E0004](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32011R0404#ntr4-L_2011112EN.01006601-E0004).
+
+3-Alpha product presentation code | Presentation | Description
+----------------------------------|--------------|------------
+CBF | Cod butterfly (escalado) | HEA with skin on, spine on, tail on
+CLA | Claws | Claws only
+DWT | ICCAT code | Gilled, gutted, part of head off, fins off
+FIL | Filleted | HEA+GUT+TLD+bones off, each fish originates two fillets not joined by any par
+FIS | Filleted and skinned fillets | FIL+SKI Each fish originates two fillets not joined by any part
+FSB | Filleted with skin and bones | Filleted with skin and bones on
+FSP | Filleted skinned with pinbone on | Filleted with skin removed and pinbone on
+GHT | Gutted headed and tailed | GUH+TLD
+GUG | Gutted and gilled | Guts and gills removed
+GUH | Gutted and headed | Guts and head removed
+GUL | Gutted liver in | GUT without removing liver parts
+GUS | Gutted headed and skinned | GUH+SKI
+GUT | Gutted | All guts removed
+HEA | Headed | Heads off
+JAP | Japanese cut | Transversal cut removing all parts from head to belly
+JAT | Tailed Japanese cut | Japanese cut with tail removed
+LAP | Lappen | Double fillet, HEA, skin+tails+fins ON
+LVR | Liver | Liver only, In case of collective presentation use code LVR-C
+OTH | Other | Any other presentation (1)
+ROE | Roe (s) | Roe(s) only in case of collective presentation use code ROE-C
+SAD | Salted dry | Headed with skin on, spine on, tail on and salted directly
+SAL | Salted wet light | CBF+salted
+SGH | Salted, gutted and headed | GUH+salted
+SGT | Salted gutted | GUT+salted
+SKI | Skinned | Skin off
+SUR | Surimi | Surimi
+TAL | Tail | Tails only
+TLD | Tailed | Tail off
+TNG | Tongue | Tongue only. In case of collective presentation use code TNG-C
+TUB | Tube only | Tube only (Squid)
+WHL | Whole | No processing
+WNG | Wings | Wings only
+
+## Preservation State Codes
+
+These codes were found in Table 2 from the EU Regulations document found here [https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32011R0404#ntr4-L_2011112EN.01006601-E0004](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32011R0404#ntr4-L_2011112EN.01006601-E0004).
+
+CODE | STATE
+-----|------
+ALI | Alive
+BOI | Boiled
+DRI | Dried
+FRE | Fresh
+FRO | Frozen
+SAL | salted
 
