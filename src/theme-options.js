@@ -8,32 +8,32 @@ const navConfig = {
 
 const footerNavConfig = {
   News: {
-    href: 'https://www.ift.org/news-and-publications/news/',
+    href: 'https://www.traceability-dialogue.org',
     target: '_blank',
     rel: 'noopener noreferrer'
   },
   Community: {
-    href: 'http://connect.ift.org/',
+    href: 'http://traceability-dialogue.org/',
     target: '_blank',
     rel: 'noopener noreferrer'
   }
 };
 
 module.exports = {
-  siteName: "doc.ift",
+  siteName: "doc.gdst",
   subtitle: "IFT Documentations",
   description: "A guide to IFT's standards and APIs",
   menuTitle: 'IFT ECOSYSTEM',
   segmentApiKey: 'wgrIo8Bul0Ujl8USETG3DB6hONdy4kTg',
   algoliaApiKey: '794d68c6a15fef4147f373433a439119',
-  algoliaIndexName: 'iftdocs',
-  baseUrl: 'https://louisgv.github.io/doc.ift.org/',
+  algoliaIndexName: 'gdstdocs',
+  baseUrl: 'https://ift-gftc.github.io/doc.gdst/',
   contentDir: '/source/',
   twitterHandle: 'IFT',
   spectrumHandle: 'ift',
-  spectrumPath: '/doc-ift-org',
+  spectrumPath: '/doc-gdst',
   youtubeUrl: 'https://www.youtube.com/user/IFTlive',
-  logoLink: 'https://www.ift.org/',
+  logoLink: 'https://www.traceability-dialogue.org/',
   defaultVersion: 'default',
   navConfig,
   footerNavConfig
