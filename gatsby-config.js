@@ -32,7 +32,7 @@ module.exports = {
         root: __dirname,
         githubRepo: "ift-gftc/doc.ift.org",
         sidebarCategories: {
-          null: ["index", "intro/executive-summary", "intro/feedback"],
+          null: ["index", "intro/executive-summary", "intro/feedback", "intro/how-to-use-docs"],
           "Pretext": [
             "pretext/why-epcis",
             "pretext/why-extension",

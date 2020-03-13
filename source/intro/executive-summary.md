@@ -129,28 +129,4 @@ interoperable traceability systems.
 
 ## How to Use this Document
 
-The interoperability guidance is designed to be a flexible extension of
-EPCIS standards to address use cases in IUU fishing. Because the GDST is
-a unique business-to-business framework with input from multiple types
-of expertise, this document details the background, rationale, and
-philosophy behind strategic decisions in designing the framework. The
-document is meant for a variety of audiences, but chiefly is intended to
-instruct IT and supply chain management professionals how to implement
-their traceability systems to be interoperable across their supply chain
-partners. The guide is divided into two parts: background and
-explanatory information behind seafood traceability system design and
-specific recommended instructions leveraging GS1 standards to ensure
-interoperability across a variety of data sharing arrangements and data
-collection technologies.
 
-This document is intended for both technical and non-technical seafood
-industry leaders and staff. Part 1 has a broader audience but has
-components which may give explanation to more technical information
-outlined in part 2. This document is intended for organizations of any
-size and for all supply chain parties and stakeholders. If you or your
-organization need access to or share traceability data, this document
-will be relevant for you. For more detailed technical guidance, links
-are provided to more detailed documents and a repository of example
-files and sample code that may be used at no cost under an open source
-license. Part 3 (the appendices) contains the Basic Universal Lists for
-Wild-Caught and Aquaculture seafood.
