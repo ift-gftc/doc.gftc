@@ -1,7 +1,7 @@
 const themeOptions = require("./src/theme-options")
 
 module.exports = {
-  pathPrefix: "/doc.ift.org",
+  pathPrefix: "/doc.gdst.org",
   siteMetadata: {
     title: 'IFT Docs'
   },
