@@ -27,7 +27,7 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-3d02bde8dd7f057f551a.js"
+    "url": "webpack-runtime-ce79af0575a9dc77c864.js"
   },
   {
     "url": "styles.8f92639d06ff110db95e.css"
@@ -39,14 +39,14 @@ self.__precacheManifest = [
     "url": "commons-37441855d95f0423f33d.js"
   },
   {
-    "url": "app-6823254c076c9f5bb776.js"
+    "url": "app-1c1285fe32187b5da754.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-ceef87afc058962c4db9.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "8220e0cbafe4c8cac76cd86dc42b7321"
+    "revision": "f7fc9054219afc474fd21c2a522c3a10"
   },
   {
     "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
@@ -138,12 +138,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/doc.ift.org`), ``)
+  pathname = pathname.replace(new RegExp(`^/doc.gdst.org`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/doc.ift.org/app-6823254c076c9f5bb776.js`))) {
+  if (!resources || !(await caches.match(`/doc.gdst.org/app-1c1285fe32187b5da754.js`))) {
     return await fetch(event.request)
   }
 
@@ -156,7 +156,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/doc.ift.org/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/doc.gdst.org/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
