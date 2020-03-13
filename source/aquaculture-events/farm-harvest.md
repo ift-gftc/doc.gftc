@@ -55,7 +55,7 @@ The `farm harvest` event is used to record the harvested of seafood products fro
         <ilmd>
 
             <!-- FARM HARVEST -->
-            <cbvmmda:productionMethodCode>AQUACULTURE</cbvmda:productionMethodCode>
+            <productionMethodForFishAndSeafoodCode>AQUACULTURE</productionMethodForFishAndSeafoodCode>
 
             <!-- Harvest Date -->
             <cbvmmda:harvestStartDate>Processed</cbvmmda:harvestStartDate>

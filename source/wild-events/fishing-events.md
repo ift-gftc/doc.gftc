@@ -56,7 +56,7 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
             </cbvmda:vesselCatchInformationList>
 
             <!-- WILD HARVEST -->
-            <cbvmda:productionMethodCode>MARINE_FISHERY</cbvmda:productionMethodCode>
+            <productionMethodForFishAndSeafoodCode>MARINE_FISHERY</productionMethodForFishAndSeafoodCode>
             
             <cbvmda:harvestStartDate>2020-01-27</cbvmda:harvestStartDate>
             <cbvmda:harvestEndDate>2020-01-27</cbvmda:harvestEndDate>
@@ -135,7 +135,7 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
             </cbvmda:vesselCatchInformationList>
 
             <!-- WILD HARVEST -->
-            <cbvmda:productionMethodCode>MARINE_FISHERY</cbvmda:productionMethodCode>
+            <productionMethodForFishAndSeafoodCode>MARINE_FISHERY</productionMethodForFishAndSeafoodCode>
             
             <cbvmda:harvestStartDate>2020-01-27</cbvmda:harvestStartDate>
             <cbvmda:harvestEndDate>2020-01-27</cbvmda:harvestEndDate>
@@ -209,7 +209,7 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
             </cbvmda:vesselCatchInformationList>
 
             <!-- WILD HARVEST -->
-            <cbvmda:productionMethodCode>MARINE_FISHERY</cbvmda:productionMethodCode>
+            <productionMethodForFishAndSeafoodCode>MARINE_FISHERY</productionMethodForFishAndSeafoodCode>
             
             <cbvmda:harvestStartDate>2020-01-27</cbvmda:harvestStartDate>
             <cbvmda:harvestEndDate>2020-01-27</cbvmda:harvestEndDate>
@@ -283,7 +283,7 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
             </cbvmda:vesselCatchInformationList>
 
             <!-- WILD HARVEST -->
-            <cbvmda:productionMethodCode>MARINE_FISHERY</cbvmda:productionMethodCode>
+            <productionMethodForFishAndSeafoodCode>MARINE_FISHERY</productionMethodForFishAndSeafoodCode>
             
             <cbvmda:harvestStartDate>2020-01-27</cbvmda:harvestStartDate>
             <cbvmda:harvestEndDate>2020-01-27</cbvmda:harvestEndDate>
@@ -357,7 +357,7 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
             </cbvmda:vesselCatchInformationList>
 
             <!-- WILD HARVEST -->
-            <cbvmda:productionMethodCode>MARINE_FISHERY</cbvmda:productionMethodCode>
+            <productionMethodForFishAndSeafoodCode>MARINE_FISHERY</productionMethodForFishAndSeafoodCode>
             
             <cbvmda:harvestStartDate>2020-01-27</cbvmda:harvestStartDate>
             <cbvmda:harvestEndDate>2020-01-27</cbvmda:harvestEndDate>
