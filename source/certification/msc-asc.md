@@ -49,5 +49,5 @@ Adding a MSC / ASC Chain of Custody certificate to a `OBJECT` event signifies th
 
 According to the standard, volumes are required to be recorded for certified products. This means that all events containing MSC / ASC Chain of Custody certified products must record weights for the product being recorded. This includes all `TRANSFORMATION`, `OBJECT`, and `AGGREGATION` events.
 
-## What about defining the Certificate in Party Master Data?
+## Where should the Certificate be defined, in Party Master Data or Event Data?
 Because there is a potential for mixed products and because the presence of a MSC / ASC Chain of Custody certificate being specifed indicates that the products are MSC / ASC Chain of Custody certificated, we are recommending that the certificate is recorded at the event level.
