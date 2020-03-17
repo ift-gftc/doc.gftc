@@ -8,9 +8,16 @@ Our goal here is to demystify the requirements of the EU Catch Certificate and s
 
 ## Recommended ILMD Extensions
 
-`<gdst:fishQualityGrade>` - The Quality Grade of the product.
+`<gdst:fishQualityGrade>` - The Quality Grade of the product. This attribute can optionally be specified in the `<ilmd>` data or in the Master Data.
  
-`<gdst:fishSizeGrade>` - The Size Grade of the the product.
+`<gdst:fishSizeGrade>` - The Size Grade of the the product. This attribute can optionally be specified in the `<ilmd>` data or in the Master Data.
+
+
+## Recommended Master Data Extensions
+
+`<attribute id="urn:gdst:fishQualityGrade">` - The Quality Grade of the product. This attribute can optionally be specified in the `<ilmd>` data or in the Master Data.
+ 
+`<attribute id="urn:gdst:fishSizeGrade">` - The Size Grade of the the product. This attribute can optionally be specified in the `<ilmd>` data or in the Master Data.
 
 
 ## Required KDEs
