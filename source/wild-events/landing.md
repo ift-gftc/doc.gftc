@@ -65,7 +65,7 @@ When products are harvested in the wild, an offload event is recorded for the fi
 
     <!-- Unloading Port -->
     <!-- Techinically if you look in the Master Data for the location, you can find this there. I included it here for demonstration purposes. -->
-    <gdst:unloadingPort>SDPORT</gdst:unloadingPort>
+    <cbvmda:unloadingPort>SDPORT</cbvmda:unloadingPort>
 
     <!-- Human Welfare Policy -->
     <gdst:humanWelfarePolicy>WHO Human Decency Policy</gdst:humanWelfarePolicy>

@@ -91,7 +91,7 @@ In this case, a Transshipment event is recorded. Here we are going to build on t
 
     <!-- Unloading Port -->
     <!-- This is not filled in here because this was an At-Sea TransShipment. Just including an example of where this attribute goes. -->
-    <gdst:unloadingPort></gdst:unloadingPort>
+    <cbvmda:unloadingPort></cbvmda:unloadingPort>
 
     <!-- Human Welfare Policy -->
     <gdst:humanWelfarePolicy>WHO Human Decency Policy</gdst:humanWelfarePolicy>

@@ -80,6 +80,9 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
                     <!-- FAO ZONE 77 -->
                     <cbvmda:catchArea>77</cbvmda:catchArea>
 
+                    <!-- Fishery Improvement Project -->
+                    <gdst:fisheryImprovementProject>Example Fishery Improvement Project</gdst:fisheryImprovementProject>
+
                     <!-- GEAR TYPE: Beam Trawls -->
                     <cbvmda:fishingGearTypeCode>TBB</cbvmda:fishingGearTypeCode>
                 </cbvmda:vesselCatchInformation>
@@ -213,6 +216,9 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
                     <!-- FAO ZONE 77 -->
                     <cbvmda:catchArea>77</cbvmda:catchArea>
 
+                    <!-- Fishery Improvement Project -->
+                    <gdst:fisheryImprovementProject>Example Fishery Improvement Project</gdst:fisheryImprovementProject>
+
                     <!-- GEAR TYPE: Beam Trawls -->
                     <cbvmda:fishingGearTypeCode>TBB</cbvmda:fishingGearTypeCode>
                 </cbvmda:vesselCatchInformation>
@@ -339,6 +345,9 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
 
                     <!-- FAO ZONE 77 -->
                     <cbvmda:catchArea>77</cbvmda:catchArea>
+
+                    <!-- Fishery Improvement Project -->
+                    <gdst:fisheryImprovementProject>Example Fishery Improvement Project</gdst:fisheryImprovementProject>
 
                     <!-- GEAR TYPE: Beam Trawls -->
                     <cbvmda:fishingGearTypeCode>TBB</cbvmda:fishingGearTypeCode>
@@ -467,6 +476,9 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
                     <!-- FAO ZONE 77 -->
                     <cbvmda:catchArea>77</cbvmda:catchArea>
 
+                    <!-- Fishery Improvement Project -->
+                    <gdst:fisheryImprovementProject>Example Fishery Improvement Project</gdst:fisheryImprovementProject>
+
                     <!-- GEAR TYPE: Beam Trawls -->
                     <cbvmda:fishingGearTypeCode>TBB</cbvmda:fishingGearTypeCode>
                 </cbvmda:vesselCatchInformation>
@@ -593,6 +605,9 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
 
                     <!-- FAO ZONE 77 -->
                     <cbvmda:catchArea>77</cbvmda:catchArea>
+
+                    <!-- Fishery Improvement Project -->
+                    <gdst:fisheryImprovementProject>Example Fishery Improvement Project</gdst:fisheryImprovementProject>
 
                     <!-- GEAR TYPE: Beam Trawls -->
                     <cbvmda:fishingGearTypeCode>TBB</cbvmda:fishingGearTypeCode>
