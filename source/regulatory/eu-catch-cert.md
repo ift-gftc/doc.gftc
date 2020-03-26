@@ -6,20 +6,6 @@ Our goal here is to demystify the requirements of the EU Catch Certificate and s
 
 *EU Regulations define the ability to specify a number of vessels when the vessels are small enough. GDST compliance requires each Vessel's information and does not allow this so these scenarios will not be covered here.*
 
-## Recommended ILMD Extensions
-
-`<gdst:fishQualityGrade>` - The Quality Grade of the product. This attribute can optionally be specified in the `<ilmd>` data or in the Master Data.
- 
-`<gdst:fishSizeGrade>` - The Size Grade of the the product. This attribute can optionally be specified in the `<ilmd>` data or in the Master Data.
-
-
-## Recommended Master Data Extensions
-
-`<attribute id="urn:gdst:fishQualityGrade">` - The Quality Grade of the product. This attribute can optionally be specified in the `<ilmd>` data or in the Master Data.
- 
-`<attribute id="urn:gdst:fishSizeGrade">` - The Size Grade of the the product. This attribute can optionally be specified in the `<ilmd>` data or in the Master Data.
-
-
 ## Required KDEs
 
 KDE | Description
@@ -47,8 +33,6 @@ Production Method | This must either be `caught`, `caught in freshwater`, or `fa
 First Freeze Date | This can be indicated in multiple ways. The first way is that on the `<ilmd>` data there is a possible attribute that can be expressed called `<cbvmda:firstFreezeDate>` that can be used to indicate this. The next way is that the first event with the business step `urn:gdst:bizStep:freezing` in the product's direct history, meaning only CTEs that directly occured to this product following its `OBJECT ADD` or `TRANSFORMATION ADD` event.
 Storage State Code | This indicates if the product has previously been frozen or not. This can be determined by looking if there is a **First Freeze Date**. To look for this please see the above KDE.
 Fishing Gear Type | This can be found in the in the `<vesselCatchInformation>` of the `<ilmd>` data on the event with the business step `urn:gdst:bizStep:fishingEvent`. This is found in the `<cbvmda:catchArea>` attribute.
-Fish Quality Grade | This can be found in the `<ilmd>` data of the product under the extended element `<gdst:fishQualityGrade>`.
-Fish Size | This can be found in the `<ilmd>` data of the product under the extended element `<gdst:fishSizeGrade>`.
 Fish Presentation Form | This can found in the Master Data of the Product. This Master Data can be located using the GTIN of the Product. In the EPCIS Master Data, this attribute would be `urn:epcglobal:cbv:mda:tradeItemConditionCode`. Note: The values need to be from the EU codelist [http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32011R0404](http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32011R0404) annex I - table 1. *A list of the codes from the EU regulations document 32011R0404 is listed below.*
 VAT Number | This information can be found by first finding the `PGLN` of the `destination type="urn:epcglobal:cbv:sdt:owning_party"` on the event with the disposition `urn:gdst:disposition:entering_commerce`. Using this `PGLN`, you can look up the Master Data for the PGLN, and locate the **VAT Number** in the additional Party IDs. It would be represented as a child elemnt like so `<additionalPartyID partyIDTypeCode="EU_VAT_IDENTIFICATION_NUMBER">` in the attribute element `<attribute id="urn:epcglobal:cbv:mda:additionalPartyID">`.
 National Tax Identification | This information can be found by first finding the `PGLN` of the `destination type="urn:epcglobal:cbv:sdt:owning_party"` on the event with the disposition `urn:gdst:disposition:entering_commerce`. Using this `PGLN`, you can look up the Master Data for the PGLN, and locate the **National Tax Identification** in the additional Party IDs. It would be represented as a child elemnt like so `<additionalPartyID partyIDTypeCode="NATIONAL_TAX_IDENTIFICATION_NUMBER">` in the attribute element `<attribute id="urn:epcglobal:cbv:mda:additionalPartyID">`.
