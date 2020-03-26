@@ -62,15 +62,49 @@ Sometimes products are initially processedd on the Vessel that catches them. In 
     <extension>
         <ilmd>
 
-            <!-- Chain of Custody Certificate -->
+            <!-- Vessel Information -->
+            <cbvmda:vesselCatchInformationList>
+                <cbvmda:vesselCatchInformation>
+
+                    <!-- Vessel Name -->
+                    <cbvmda:vesselName>BING Ship</cbvmda:vesselName>
+
+                    <!-- Vessel ID -->
+                    <cbvmda:vesselID>USA</cbvmda:vesselID>
+
+                    <!-- Unique Vessel Registration -->
+                    <gdst:imoNumber>IMO.1234567890</gdst:imoNumber>
+
+                    <!-- Vessel Flag -->
+                    <cbvmda:vesselFlagState>US</cbvmda:vesselFlagState>
+
+                    <!-- Vessel Public Registry Link -->
+                    <gdst:vesselPublicRegistry>https://www.register-my-vessel.fake.com</gdst:vesselPublicRegistry>
+
+                </cbvmda:vesselCatchInformation>
+            </cbvmda:vesselCatchInformationList>
+
+            <!-- Certificates -->
             <cbvmda:certificationList>
+
+                <!-- This is a made up Certificate. This is just an example. -->
                 <cbvmda:certification>
-                    <gdst:certificateType>urn:gdst:certType:chain_custody</gdst:certificateType>
+                    <gdst:certificateType>urn:gdst:certType:harvestCoC</gdst:certificateType>
                     <cbvmda:certificationStandard>MSC Chain of Custody</cbvmda:certificationStandard>
                     <cbvmda:certificationAgency>MSC</cbvmda:certificationAgency>
                     <cbvmda:certificationValue>MSC_COC_1234567890</cbvmda:certificationValue>
                     <cbvmda:certificationIdentification>MSC_COC_1234567890</cbvmda:certificationIdentification>
                 </cbvmda:certification>
+
+                <!-- This is a made up Certificate. This is just an example. -->
+                <cbvmda:certification>
+                    <gdst:certificateType>urn:gdst:certType:humanyPolicy</gdst:certificateType>
+                    <cbvmda:certificationStandard>WHO Human Decency Policy</cbvmda:certificationStandard>
+                    <cbvmda:certificationAgency>WHO</cbvmda:certificationAgency>
+                    <cbvmda:certificationValue>1234567890</cbvmda:certificationValue>
+                    <cbvmda:certificationIdentification>0987654321</cbvmda:certificationIdentification>
+                </cbvmda:certification>
+                
             </cbvmda:certificationList>
 
             <!-- Expiration Date -->
@@ -80,6 +114,9 @@ Sometimes products are initially processedd on the Vessel that catches them. In 
             <cbvmda:countryOfOrigin>US</cbvmda:sellByDate>
         </ilmd>
     </extension>
+
+    <!-- Human Welfare Policy -->
+    <gdst:humanWelfarePolicy>WHO Human Decency Policy</gdst:humanWelfarePolicy>
 
     <!-- Bing Fishing Co. -->
     <gdst:productOwner>urn:gdst:traceability-solution.com:party:0b4e59bb-29ba-4edd-8e51-7e8d1a96dce7</gdst:productOwner>

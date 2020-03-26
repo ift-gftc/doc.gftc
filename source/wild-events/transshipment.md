@@ -57,29 +57,44 @@ In this case, a Transshipment event is recorded. Here we are going to build on t
             <destination type="urn:epcglobal:cbv:sdt:owning_party">urn:gdst:traceability-solution.com:party:0048000.000001</destination>
         </destinationList>
     </extension>
-
     
+    <!-- Certificates (Harvest CoC, Human Policy, and TransShipment Authorization) -->
     <gdst:certificationList>
 
-        <!-- Transshipment Authorization -->
+        <!-- This is a made up Certificate. This is just an example. -->
         <cbvmda:certification>
-            <gdst:certificateType>urn:gdst:certType:transshipment_authorization</gdst:certificateType>
+            <gdst:certificateType>urn:gdst:certType:transshipment</gdst:certificateType>
             <cbvmda:certificationStandard>Transshipment Authority</cbvmda:certificationStandard>
             <cbvmda:certificationAgency>Transshipment Authority</cbvmda:certificationAgency>
             <cbvmda:certificationValue>TA_123456789</cbvmda:certificationValue>
             <cbvmda:certificationIdentification>TA_123456789</cbvmda:certificationIdentification>
         </cbvmda:certification>
 
-        <!-- Chain of Custody -->
+        <!-- This is a made up Certificate. This is just an example. -->
         <cbvmda:certification>
-            <gdst:certificateType>urn:gdst:certType:chain_custody</gdst:certificateType>
+            <gdst:certificateType>urn:gdst:certType:harvestCoC</gdst:certificateType>
             <cbvmda:certificationStandard>MSC Chain of Custody</cbvmda:certificationStandard>
             <cbvmda:certificationAgency>MSC</cbvmda:certificationAgency>
             <cbvmda:certificationValue>MSC_COC_1234567890</cbvmda:certificationValue>
             <cbvmda:certificationIdentification>MSC_COC_1234567890</cbvmda:certificationIdentification>
         </cbvmda:certification>
 
+        <!-- This is a made up Certificate. This is just an example. -->
+        <cbvmda:certification>
+            <gdst:certificateType>urn:gdst:certType:humanyPolicy</gdst:certificateType>
+            <cbvmda:certificationStandard>WHO Human Decency Policy</cbvmda:certificationStandard>
+            <cbvmda:certificationAgency>WHO</cbvmda:certificationAgency>
+            <cbvmda:certificationValue>1234567890</cbvmda:certificationValue>
+            <cbvmda:certificationIdentification>0987654321</cbvmda:certificationIdentification>
+        </cbvmda:certification>
     </gdst:certificationList>
+
+    <!-- Unloading Port -->
+    <!-- This is not filled in here because this was an At-Sea TransShipment. Just including an example of where this attribute goes. -->
+    <gdst:unloadingPort></gdst:unloadingPort>
+
+    <!-- Human Welfare Policy -->
+    <gdst:humanWelfarePolicy>WHO Human Decency Policy</gdst:humanWelfarePolicy>
 
     <!-- Bing Fishing Co. -->
     <gdst:productOwner>urn:gdst:traceability-solution.com:party:0b4e59bb-29ba-4edd-8e51-7e8d1a96dce7</gdst:productOwner>

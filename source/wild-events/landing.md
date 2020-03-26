@@ -43,14 +43,32 @@ When products are harvested in the wild, an offload event is recorded for the fi
     <!-- Landing Authorization -->
     <!-- This is a just an example Certificate for Transshipment Authorization and does not represnt a real Certificate -->
     <gdst:certificationList>
+
+        <!-- This is a made up Certificate. This is just an example. -->
         <cbvmda:certification>
-            <gdst:certificateType>urn:gdst:certType:landing_authorization</gdst:certificateType>
+            <gdst:certificateType>urn:gdst:certType:landingAuth</gdst:certificateType>
             <cbvmda:certificationStandard>Landing Authority</cbvmda:certificationStandard>
             <cbvmda:certificationAgency>Landing Authority</cbvmda:certificationAgency>
             <cbvmda:certificationValue>LA_123456789</cbvmda:certificationValue>
             <cbvmda:certificationIdentification>LA_123456789</cbvmda:certificationIdentification>
         </cbvmda:certification>
+
+        <!-- This is a made up Certificate. This is just an example. -->
+        <cbvmda:certification>
+            <gdst:certificateType>urn:gdst:certType:humanyPolicy</gdst:certificateType>
+            <cbvmda:certificationStandard>WHO Human Decency Policy</cbvmda:certificationStandard>
+            <cbvmda:certificationAgency>WHO</cbvmda:certificationAgency>
+            <cbvmda:certificationValue>1234567890</cbvmda:certificationValue>
+            <cbvmda:certificationIdentification>0987654321</cbvmda:certificationIdentification>
+        </cbvmda:certification>
     </gdst:certificationList>
+
+    <!-- Unloading Port -->
+    <!-- Techinically if you look in the Master Data for the location, you can find this there. I included it here for demonstration purposes. -->
+    <gdst:unloadingPort>SDPORT</gdst:unloadingPort>
+
+    <!-- Human Welfare Policy -->
+    <gdst:humanWelfarePolicy>WHO Human Decency Policy</gdst:humanWelfarePolicy>
 
     <!-- Jimmy's Processing Co. -->
     <gdst:productOwner>urn:gdst:traceability-solution.com:party:0048000.000001</gdst:productOwner>
