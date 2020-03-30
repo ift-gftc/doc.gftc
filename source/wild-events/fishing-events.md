@@ -47,8 +47,41 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
             <cbvmda:vesselCatchInformationList>
                 <cbvmda:vesselCatchInformation>
 
+                    <!-- Vessel Name -->
+                    <cbvmda:vesselName>BING Ship</cbvmda:vesselName>
+
+                    <!-- Vessel ID -->
+                    <cbvmda:vesselID>USA</cbvmda:vesselID>
+
+                    <!-- Unique Vessel Registration -->
+                    <gdst:imoNumber>IMO.1234567890</gdst:imoNumber>
+
+                    <!-- Vessel Flag -->
+                    <cbvmda:vesselFlagState>US</cbvmda:vesselFlagState>
+
+                    <!-- Vessel Public Registry Link -->
+                    <gdst:vesselPublicRegistry>https://www.register-my-vessel.fake.com</gdst:vesselPublicRegistry>
+
+                    <!-- Availability of Catch Coordinates -->
+                    <gdst:gpsAvailability>USA</gdst:gpsAvailability>
+
+                    <!-- Satellite Tracking Authority -->
+                    <gdst:satelliteTrackingAuthority>USA</gdst:satelliteTrackingAuthority>
+
+                    <!-- Economic Zone -->
+                    <cbvmda:economicZone>USA</cbvmda:economicZone>
+
+                    <!-- RMFO Area -->
+                    <gdst:rmfoArea>California</gdst:rmfoArea>
+
+                    <!-- Sub-National Permit Area -->
+                    <gdst:subnationalPermitArea>Los Angeles Fishing Area</gdst:subnationalPermitArea>
+
                     <!-- FAO ZONE 77 -->
                     <cbvmda:catchArea>77</cbvmda:catchArea>
+
+                    <!-- Fishery Improvement Project -->
+                    <gdst:fisheryImprovementProject>Example Fishery Improvement Project</gdst:fisheryImprovementProject>
 
                     <!-- GEAR TYPE: Beam Trawls -->
                     <cbvmda:fishingGearTypeCode>TBB</cbvmda:fishingGearTypeCode>
@@ -58,21 +91,45 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
             <!-- WILD HARVEST -->
             <productionMethodForFishAndSeafoodCode>MARINE_FISHERY</productionMethodForFishAndSeafoodCode>
             
+            <!-- Dates of Captures / Vessel Trip Dates -->
             <cbvmda:harvestStartDate>2020-01-27</cbvmda:harvestStartDate>
             <cbvmda:harvestEndDate>2020-01-27</cbvmda:harvestEndDate>
 
-            <!-- CATCH CERTIFICATE (?) -->
+            <!-- Certificates -->
             <cbvmda:certificationList>
+
+                <!-- This is a made up Certificate. This is just an example. -->
                 <cbvmda:certification>
-                    <gdst:certificateType>urn:gdst:certType:catch_certificate</gdst:certificateType>
-                    <cbvmda:certificationStandard>NM6</cbvmda:certificationStandard>
-                    <cbvmda:certificationAgency>DFO</cbvmda:certificationAgency>
+                    <gdst:certificateType>urn:gdst:certType:harvestCert</gdst:certificateType>
+                    <cbvmda:certificationStandard>Catch Certificate Standard</cbvmda:certificationStandard>
+                    <cbvmda:certificationAgency>Catch Certificate Authority</cbvmda:certificationAgency>
                     <cbvmda:certificationValue>SIMP.LPCO.2</cbvmda:certificationValue>
                     <cbvmda:certificationIdentification>10161781</cbvmda:certificationIdentification>
+                </cbvmda:certification>
+
+                <!-- This is a made up Certificate. This is just an example. -->
+                <cbvmda:certification>
+                    <gdst:certificateType>urn:gdst:certType:fishingAuth</gdst:certificateType>
+                    <cbvmda:certificationStandard>Los Angeles Fishing Authorization</cbvmda:certificationStandard>
+                    <cbvmda:certificationAgency>Los Angeles Fishing Authority</cbvmda:certificationAgency>
+                    <cbvmda:certificationValue>1234567890</cbvmda:certificationValue>
+                    <cbvmda:certificationIdentification>0987654321</cbvmda:certificationIdentification>
+                </cbvmda:certification>
+
+                <!-- This is a made up Certificate. This is just an example. -->
+                <cbvmda:certification>
+                    <gdst:certificateType>urn:gdst:certType:humanyPolicy</gdst:certificateType>
+                    <cbvmda:certificationStandard>WHO Human Decency Policy</cbvmda:certificationStandard>
+                    <cbvmda:certificationAgency>WHO</cbvmda:certificationAgency>
+                    <cbvmda:certificationValue>1234567890</cbvmda:certificationValue>
+                    <cbvmda:certificationIdentification>0987654321</cbvmda:certificationIdentification>
                 </cbvmda:certification>
             </cbvmda:certificationList>
         </ilmd>
     </extension>
+
+    <!-- Human Welfare Policy -->
+    <gdst:humanWelfarePolicy>WHO Human Decency Policy</gdst:humanWelfarePolicy>
 
     <!-- Bing Fishing Co. -->
     <gdst:productOwner>urn:gdst:traceability-solution.com:party:0b4e59bb-29ba-4edd-8e51-7e8d1a96dce7</gdst:productOwner>
@@ -126,8 +183,41 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
             <cbvmda:vesselCatchInformationList>
                 <cbvmda:vesselCatchInformation>
 
+                    <!-- Vessel Name -->
+                    <cbvmda:vesselName>BING Ship</cbvmda:vesselName>
+
+                    <!-- Vessel ID -->
+                    <cbvmda:vesselID>USA</cbvmda:vesselID>
+
+                    <!-- Unique Vessel Registration -->
+                    <gdst:imoNumber>IMO.1234567890</gdst:imoNumber>
+
+                    <!-- Vessel Flag -->
+                    <cbvmda:vesselFlagState>US</cbvmda:vesselFlagState>
+
+                    <!-- Vessel Public Registry Link -->
+                    <gdst:vesselPublicRegistry>https://www.register-my-vessel.fake.com</gdst:vesselPublicRegistry>
+
+                    <!-- Availability of Catch Coordinates -->
+                    <gdst:gpsAvailability>USA</gdst:gpsAvailability>
+
+                    <!-- Satellite Tracking Authority -->
+                    <gdst:satelliteTrackingAuthority>USA</gdst:satelliteTrackingAuthority>
+
+                    <!-- Economic Zone -->
+                    <cbvmda:economicZone>USA</cbvmda:economicZone>
+
+                    <!-- RMFO Area -->
+                    <gdst:rmfoArea>California</gdst:rmfoArea>
+
+                    <!-- Sub-National Permit Area -->
+                    <gdst:subnationalPermitArea>Los Angeles Fishing Area</gdst:subnationalPermitArea>
+
                     <!-- FAO ZONE 77 -->
                     <cbvmda:catchArea>77</cbvmda:catchArea>
+
+                    <!-- Fishery Improvement Project -->
+                    <gdst:fisheryImprovementProject>Example Fishery Improvement Project</gdst:fisheryImprovementProject>
 
                     <!-- GEAR TYPE: Beam Trawls -->
                     <cbvmda:fishingGearTypeCode>TBB</cbvmda:fishingGearTypeCode>
@@ -140,18 +230,41 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
             <cbvmda:harvestStartDate>2020-01-27</cbvmda:harvestStartDate>
             <cbvmda:harvestEndDate>2020-01-27</cbvmda:harvestEndDate>
 
-            <!-- CATCH CERTIFICATE -->
+            <!-- Certificates -->
             <cbvmda:certificationList>
+
+                <!-- This is a made up Certificate. This is just an example. -->
                 <cbvmda:certification>
-                    <gdst:certificateType>urn:gdst:certType:catch_certificate</gdst:certificateType>
-                    <cbvmda:certificationStandard>NM6</cbvmda:certificationStandard>
-                    <cbvmda:certificationAgency>DFO</cbvmda:certificationAgency>
+                    <gdst:certificateType>urn:gdst:certType:harvestCert</gdst:certificateType>
+                    <cbvmda:certificationStandard>Catch Certificate Standard</cbvmda:certificationStandard>
+                    <cbvmda:certificationAgency>Catch Certificate Authority</cbvmda:certificationAgency>
                     <cbvmda:certificationValue>SIMP.LPCO.2</cbvmda:certificationValue>
                     <cbvmda:certificationIdentification>10161781</cbvmda:certificationIdentification>
+                </cbvmda:certification>
+
+                <!-- This is a made up Certificate. This is just an example. -->
+                <cbvmda:certification>
+                    <gdst:certificateType>urn:gdst:certType:fishingAuth</gdst:certificateType>
+                    <cbvmda:certificationStandard>Los Angeles Fishing Authorization</cbvmda:certificationStandard>
+                    <cbvmda:certificationAgency>Los Angeles Fishing Authority</cbvmda:certificationAgency>
+                    <cbvmda:certificationValue>1234567890</cbvmda:certificationValue>
+                    <cbvmda:certificationIdentification>0987654321</cbvmda:certificationIdentification>
+                </cbvmda:certification>
+
+                <!-- This is a made up Certificate. This is just an example. -->
+                <cbvmda:certification>
+                    <gdst:certificateType>urn:gdst:certType:humanyPolicy</gdst:certificateType>
+                    <cbvmda:certificationStandard>WHO Human Decency Policy</cbvmda:certificationStandard>
+                    <cbvmda:certificationAgency>WHO</cbvmda:certificationAgency>
+                    <cbvmda:certificationValue>1234567890</cbvmda:certificationValue>
+                    <cbvmda:certificationIdentification>0987654321</cbvmda:certificationIdentification>
                 </cbvmda:certification>
             </cbvmda:certificationList>
         </ilmd>
     </extension>
+
+    <!-- Human Welfare Policy -->
+    <gdst:humanWelfarePolicy>WHO Human Decency Policy</gdst:humanWelfarePolicy>
 
     <!-- Bing Fishing Co. -->
     <gdst:productOwner>urn:gdst:traceability-solution.com:party:0b4e59bb-29ba-4edd-8e51-7e8d1a96dce7</gdst:productOwner>
@@ -200,8 +313,41 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
             <cbvmda:vesselCatchInformationList>
                 <cbvmda:vesselCatchInformation>
 
+                    <!-- Vessel Name -->
+                    <cbvmda:vesselName>BING Ship</cbvmda:vesselName>
+
+                    <!-- Vessel ID -->
+                    <cbvmda:vesselID>USA</cbvmda:vesselID>
+
+                    <!-- Unique Vessel Registration -->
+                    <gdst:imoNumber>IMO.1234567890</gdst:imoNumber>
+
+                    <!-- Vessel Flag -->
+                    <cbvmda:vesselFlagState>US</cbvmda:vesselFlagState>
+
+                    <!-- Vessel Public Registry Link -->
+                    <gdst:vesselPublicRegistry>https://www.register-my-vessel.fake.com</gdst:vesselPublicRegistry>
+
+                    <!-- Availability of Catch Coordinates -->
+                    <gdst:gpsAvailability>USA</gdst:gpsAvailability>
+
+                    <!-- Satellite Tracking Authority -->
+                    <gdst:satelliteTrackingAuthority>USA</gdst:satelliteTrackingAuthority>
+
+                    <!-- Economic Zone -->
+                    <cbvmda:economicZone>USA</cbvmda:economicZone>
+
+                    <!-- RMFO Area -->
+                    <gdst:rmfoArea>California</gdst:rmfoArea>
+
+                    <!-- Sub-National Permit Area -->
+                    <gdst:subnationalPermitArea>Los Angeles Fishing Area</gdst:subnationalPermitArea>
+
                     <!-- FAO ZONE 77 -->
                     <cbvmda:catchArea>77</cbvmda:catchArea>
+
+                    <!-- Fishery Improvement Project -->
+                    <gdst:fisheryImprovementProject>Example Fishery Improvement Project</gdst:fisheryImprovementProject>
 
                     <!-- GEAR TYPE: Beam Trawls -->
                     <cbvmda:fishingGearTypeCode>TBB</cbvmda:fishingGearTypeCode>
@@ -214,18 +360,41 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
             <cbvmda:harvestStartDate>2020-01-27</cbvmda:harvestStartDate>
             <cbvmda:harvestEndDate>2020-01-27</cbvmda:harvestEndDate>
 
-            <!-- CATCH CERTIFICATE (?) -->
+            <!-- Certificates -->
             <cbvmda:certificationList>
+
+                <!-- This is a made up Certificate. This is just an example. -->
                 <cbvmda:certification>
-                    <gdst:certificateType>urn:gdst:certType:catch_certificate</gdst:certificateType>
-                    <cbvmda:certificationStandard>NM6</cbvmda:certificationStandard>
-                    <cbvmda:certificationAgency>DFO</cbvmda:certificationAgency>
+                    <gdst:certificateType>urn:gdst:certType:harvestCert</gdst:certificateType>
+                    <cbvmda:certificationStandard>Catch Certificate Standard</cbvmda:certificationStandard>
+                    <cbvmda:certificationAgency>Catch Certificate Authority</cbvmda:certificationAgency>
                     <cbvmda:certificationValue>SIMP.LPCO.2</cbvmda:certificationValue>
                     <cbvmda:certificationIdentification>10161781</cbvmda:certificationIdentification>
+                </cbvmda:certification>
+
+                <!-- This is a made up Certificate. This is just an example. -->
+                <cbvmda:certification>
+                    <gdst:certificateType>urn:gdst:certType:fishingAuth</gdst:certificateType>
+                    <cbvmda:certificationStandard>Los Angeles Fishing Authorization</cbvmda:certificationStandard>
+                    <cbvmda:certificationAgency>Los Angeles Fishing Authority</cbvmda:certificationAgency>
+                    <cbvmda:certificationValue>1234567890</cbvmda:certificationValue>
+                    <cbvmda:certificationIdentification>0987654321</cbvmda:certificationIdentification>
+                </cbvmda:certification>
+
+                <!-- This is a made up Certificate. This is just an example. -->
+                <cbvmda:certification>
+                    <gdst:certificateType>urn:gdst:certType:humanyPolicy</gdst:certificateType>
+                    <cbvmda:certificationStandard>WHO Human Decency Policy</cbvmda:certificationStandard>
+                    <cbvmda:certificationAgency>WHO</cbvmda:certificationAgency>
+                    <cbvmda:certificationValue>1234567890</cbvmda:certificationValue>
+                    <cbvmda:certificationIdentification>0987654321</cbvmda:certificationIdentification>
                 </cbvmda:certification>
             </cbvmda:certificationList>
         </ilmd>
     </extension>
+
+    <!-- Human Welfare Policy -->
+    <gdst:humanWelfarePolicy>WHO Human Decency Policy</gdst:humanWelfarePolicy>
 
     <!-- Bing Fishing Co. -->
     <gdst:productOwner>urn:gdst:traceability-solution.com:party:0b4e59bb-29ba-4edd-8e51-7e8d1a96dce7</gdst:productOwner>
@@ -274,8 +443,41 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
             <cbvmda:vesselCatchInformationList>
                 <cbvmda:vesselCatchInformation>
 
+                    <!-- Vessel Name -->
+                    <cbvmda:vesselName>BING Ship</cbvmda:vesselName>
+
+                    <!-- Vessel ID -->
+                    <cbvmda:vesselID>USA</cbvmda:vesselID>
+
+                    <!-- Unique Vessel Registration -->
+                    <gdst:imoNumber>IMO.1234567890</gdst:imoNumber>
+
+                    <!-- Vessel Flag -->
+                    <cbvmda:vesselFlagState>US</cbvmda:vesselFlagState>
+
+                    <!-- Vessel Public Registry Link -->
+                    <gdst:vesselPublicRegistry>https://www.register-my-vessel.fake.com</gdst:vesselPublicRegistry>
+
+                    <!-- Availability of Catch Coordinates -->
+                    <gdst:gpsAvailability>USA</gdst:gpsAvailability>
+
+                    <!-- Satellite Tracking Authority -->
+                    <gdst:satelliteTrackingAuthority>USA</gdst:satelliteTrackingAuthority>
+
+                    <!-- Economic Zone -->
+                    <cbvmda:economicZone>USA</cbvmda:economicZone>
+
+                    <!-- RMFO Area -->
+                    <gdst:rmfoArea>California</gdst:rmfoArea>
+
+                    <!-- Sub-National Permit Area -->
+                    <gdst:subnationalPermitArea>Los Angeles Fishing Area</gdst:subnationalPermitArea>
+
                     <!-- FAO ZONE 77 -->
                     <cbvmda:catchArea>77</cbvmda:catchArea>
+
+                    <!-- Fishery Improvement Project -->
+                    <gdst:fisheryImprovementProject>Example Fishery Improvement Project</gdst:fisheryImprovementProject>
 
                     <!-- GEAR TYPE: Beam Trawls -->
                     <cbvmda:fishingGearTypeCode>TBB</cbvmda:fishingGearTypeCode>
@@ -288,18 +490,41 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
             <cbvmda:harvestStartDate>2020-01-27</cbvmda:harvestStartDate>
             <cbvmda:harvestEndDate>2020-01-27</cbvmda:harvestEndDate>
 
-            <!-- CATCH CERTIFICATE (?) -->
+            <!-- Certificates -->
             <cbvmda:certificationList>
+
+                <!-- This is a made up Certificate. This is just an example. -->
                 <cbvmda:certification>
-                    <gdst:certificateType>urn:gdst:certType:catch_certificate</gdst:certificateType>
-                    <cbvmda:certificationStandard>NM6</cbvmda:certificationStandard>
-                    <cbvmda:certificationAgency>DFO</cbvmda:certificationAgency>
+                    <gdst:certificateType>urn:gdst:certType:harvestCert</gdst:certificateType>
+                    <cbvmda:certificationStandard>Catch Certificate Standard</cbvmda:certificationStandard>
+                    <cbvmda:certificationAgency>Catch Certificate Authority</cbvmda:certificationAgency>
                     <cbvmda:certificationValue>SIMP.LPCO.2</cbvmda:certificationValue>
                     <cbvmda:certificationIdentification>10161781</cbvmda:certificationIdentification>
+                </cbvmda:certification>
+
+                <!-- This is a made up Certificate. This is just an example. -->
+                <cbvmda:certification>
+                    <gdst:certificateType>urn:gdst:certType:fishingAuth</gdst:certificateType>
+                    <cbvmda:certificationStandard>Los Angeles Fishing Authorization</cbvmda:certificationStandard>
+                    <cbvmda:certificationAgency>Los Angeles Fishing Authority</cbvmda:certificationAgency>
+                    <cbvmda:certificationValue>1234567890</cbvmda:certificationValue>
+                    <cbvmda:certificationIdentification>0987654321</cbvmda:certificationIdentification>
+                </cbvmda:certification>
+
+                <!-- This is a made up Certificate. This is just an example. -->
+                <cbvmda:certification>
+                    <gdst:certificateType>urn:gdst:certType:humanyPolicy</gdst:certificateType>
+                    <cbvmda:certificationStandard>WHO Human Decency Policy</cbvmda:certificationStandard>
+                    <cbvmda:certificationAgency>WHO</cbvmda:certificationAgency>
+                    <cbvmda:certificationValue>1234567890</cbvmda:certificationValue>
+                    <cbvmda:certificationIdentification>0987654321</cbvmda:certificationIdentification>
                 </cbvmda:certification>
             </cbvmda:certificationList>
         </ilmd>
     </extension>
+
+    <!-- Human Welfare Policy -->
+    <gdst:humanWelfarePolicy>WHO Human Decency Policy</gdst:humanWelfarePolicy>
 
     <!-- Bing Fishing Co. -->
     <gdst:productOwner>urn:gdst:traceability-solution.com:party:0b4e59bb-29ba-4edd-8e51-7e8d1a96dce7</gdst:productOwner>
@@ -348,8 +573,41 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
             <cbvmda:vesselCatchInformationList>
                 <cbvmda:vesselCatchInformation>
 
+                    <!-- Vessel Name -->
+                    <cbvmda:vesselName>BING Ship</cbvmda:vesselName>
+
+                    <!-- Vessel ID -->
+                    <cbvmda:vesselID>USA</cbvmda:vesselID>
+
+                    <!-- Unique Vessel Registration -->
+                    <gdst:imoNumber>IMO.1234567890</gdst:imoNumber>
+
+                    <!-- Vessel Flag -->
+                    <cbvmda:vesselFlagState>US</cbvmda:vesselFlagState>
+
+                    <!-- Vessel Public Registry Link -->
+                    <gdst:vesselPublicRegistry>https://www.register-my-vessel.fake.com</gdst:vesselPublicRegistry>
+
+                    <!-- Availability of Catch Coordinates -->
+                    <gdst:gpsAvailability>USA</gdst:gpsAvailability>
+
+                    <!-- Satellite Tracking Authority -->
+                    <gdst:satelliteTrackingAuthority>USA</gdst:satelliteTrackingAuthority>
+
+                    <!-- Economic Zone -->
+                    <cbvmda:economicZone>USA</cbvmda:economicZone>
+
+                    <!-- RMFO Area -->
+                    <gdst:rmfoArea>California</gdst:rmfoArea>
+
+                    <!-- Sub-National Permit Area -->
+                    <gdst:subnationalPermitArea>Los Angeles Fishing Area</gdst:subnationalPermitArea>
+
                     <!-- FAO ZONE 77 -->
                     <cbvmda:catchArea>77</cbvmda:catchArea>
+
+                    <!-- Fishery Improvement Project -->
+                    <gdst:fisheryImprovementProject>Example Fishery Improvement Project</gdst:fisheryImprovementProject>
 
                     <!-- GEAR TYPE: Beam Trawls -->
                     <cbvmda:fishingGearTypeCode>TBB</cbvmda:fishingGearTypeCode>
@@ -362,18 +620,41 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
             <cbvmda:harvestStartDate>2020-01-27</cbvmda:harvestStartDate>
             <cbvmda:harvestEndDate>2020-01-27</cbvmda:harvestEndDate>
 
-            <!-- CATCH CERTIFICATE -->
+            <!-- Certificates -->
             <cbvmda:certificationList>
+
+                <!-- This is a made up Certificate. This is just an example. -->
                 <cbvmda:certification>
-                    <gdst:certificateType>urn:gdst:certType:catch_certificate</gdst:certificateType>
-                    <cbvmda:certificationStandard>NM6</cbvmda:certificationStandard>
-                    <cbvmda:certificationAgency>DFO</cbvmda:certificationAgency>
+                    <gdst:certificateType>urn:gdst:certType:harvestCert</gdst:certificateType>
+                    <cbvmda:certificationStandard>Catch Certificate Standard</cbvmda:certificationStandard>
+                    <cbvmda:certificationAgency>Catch Certificate Authority</cbvmda:certificationAgency>
                     <cbvmda:certificationValue>SIMP.LPCO.2</cbvmda:certificationValue>
                     <cbvmda:certificationIdentification>10161781</cbvmda:certificationIdentification>
+                </cbvmda:certification>
+
+                <!-- This is a made up Certificate. This is just an example. -->
+                <cbvmda:certification>
+                    <gdst:certificateType>urn:gdst:certType:fishingAuth</gdst:certificateType>
+                    <cbvmda:certificationStandard>Los Angeles Fishing Authorization</cbvmda:certificationStandard>
+                    <cbvmda:certificationAgency>Los Angeles Fishing Authority</cbvmda:certificationAgency>
+                    <cbvmda:certificationValue>1234567890</cbvmda:certificationValue>
+                    <cbvmda:certificationIdentification>0987654321</cbvmda:certificationIdentification>
+                </cbvmda:certification>
+
+                <!-- This is a made up Certificate. This is just an example. -->
+                <cbvmda:certification>
+                    <gdst:certificateType>urn:gdst:certType:humanyPolicy</gdst:certificateType>
+                    <cbvmda:certificationStandard>WHO Human Decency Policy</cbvmda:certificationStandard>
+                    <cbvmda:certificationAgency>WHO</cbvmda:certificationAgency>
+                    <cbvmda:certificationValue>1234567890</cbvmda:certificationValue>
+                    <cbvmda:certificationIdentification>0987654321</cbvmda:certificationIdentification>
                 </cbvmda:certification>
             </cbvmda:certificationList>
         </ilmd>
     </extension>
+
+    <!-- Human Welfare Policy -->
+    <gdst:humanWelfarePolicy>WHO Human Decency Policy</gdst:humanWelfarePolicy>
 
     <!-- Bing Fishing Co. -->
     <gdst:productOwner>urn:gdst:traceability-solution.com:party:0b4e59bb-29ba-4edd-8e51-7e8d1a96dce7</gdst:productOwner>
