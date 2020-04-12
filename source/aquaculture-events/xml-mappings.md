@@ -82,7 +82,7 @@ Event Date & Time | `eventTime`
 Event Read Point | `readPoint`
 Product Ownership | `gdst:productOwner`
 Information Provider | `cbvmda:informationProvider`
-Harvest Chain of Custody Certificate | `ilmd/cbvmda:certificationList/cbvmda:certification[gdst:certificateType='urn:gdst:certType:harvestCoC']`
+Harvest Chain of Custody Certificate | `gdst:certificationList/cbvmda:certification[gdst:certificateType='urn:gdst:certType:harvestCoC']`
 
 
 ## Ship / Receive
