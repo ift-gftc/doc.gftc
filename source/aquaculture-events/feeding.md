@@ -10,14 +10,14 @@ This step is critical in connecting feed ingredients to harvested products from 
 
 ```xml
 <TransformationEvent>
-    <eventTime>2020-01-27T20:00:00Z</eventTime>
+    <eventTime>2020-01-27T00:00:00.000-06:00</eventTime>
+    <eventTimeZoneOffset>+00:00</eventTimeZoneOffset>
     <baseExtension>
         <eventID>2D02A33E-DAE2-4B27-9B34-7D1351AC0429</eventID>
     </baseExtension>
-    
     <bizStep>urn:epcglobal:cbv:bizstep:commissioning</bizStep>
     <disposition>urn:epcglobal:cbv:disp:active</disposition>
-
+    
     <!-- Jim's Feedmill -->
     <bizLocation>
         <id>urn:gdst:traceability-solution.com:location:loc:7D90C2CD-A801-4E22-ACEE-82BF27A4844D.FEEDMILL</id>
@@ -42,45 +42,50 @@ This step is critical in connecting feed ingredients to harvested products from 
     </outputQuantityList>
 
     <!-- LOT DATA -->
-    <extension>
-        <ilmd>
+    <ilmd>
 
-            <!-- Feed Type -->
-            <gdst:feedType>Processed</gdst:feedType>
+        <!-- Protein Source -->
+        <gdst:proteinSource>Soy</gdst:proteinSource>
 
-            <!-- Protein Source -->
-            <gdst:proteinSource>Soy</gdst:proteinSource>
+        <cbvmda:certificationList>
 
-            
-            <cbvmda:certificationList>
+            <!-- This is a made up Certificate. This is just an example. -->
+            <cbvmda:certification>
+                <gdst:certificateType>urn:gdst:certType:harvestCert</gdst:certificateType>
+                <cbvmda:certificationStandard>Feed Certificate Standard</cbvmda:certificationStandard>
+                <cbvmda:certificationAgency>Feed Certificate Authority</cbvmda:certificationAgency>
+                <cbvmda:certificationValue>SIMP.LPCO.2</cbvmda:certificationValue>
+                <cbvmda:certificationIdentification>10161781</cbvmda:certificationIdentification>
+            </cbvmda:certification>
 
-                <!-- Chain of Custody Certificate -->
-                <cbvmda:certification>
-                    <gdst:certificateType>urn:gdst:certType:chain_custody</gdst:certificateType>
-                    <cbvmda:certificationStandard>MSC Chain of Custody</cbvmda:certificationStandard>
-                    <cbvmda:certificationAgency>MSC</cbvmda:certificationAgency>
-                    <cbvmda:certificationValue>MSC_COC_1234567890</cbvmda:certificationValue>
-                    <cbvmda:certificationIdentification>MSC_COC_1234567890</cbvmda:certificationIdentification>
-                </cbvmda:certification>
+            <!-- This is a made up Certificate. This is just an example. -->
+            <cbvmda:certification>
+                <gdst:certificateType>urn:gdst:certType:harvestCoC</gdst:certificateType>
+                <cbvmda:certificationStandard>MSC Chain of Custody</cbvmda:certificationStandard>
+                <cbvmda:certificationAgency>MSC</cbvmda:certificationAgency>
+                <cbvmda:certificationValue>MSC_COC_1234567890</cbvmda:certificationValue>
+                <cbvmda:certificationIdentification>MSC_COC_1234567890</cbvmda:certificationIdentification>
+            </cbvmda:certification>
 
-                <!-- Code of Good Practice Certificate -->
-                <cbvmda:certification>
-                    <gdst:certificateType>urn:gdst:certType:good_practice</gdst:certificateType>
-                    <cbvmda:certificationStandard>Good Practice Standard Body</cbvmda:certificationStandard>
-                    <cbvmda:certificationAgency>GP Agency</cbvmda:certificationAgency>
-                    <cbvmda:certificationValue>GP_0987654321</cbvmda:certificationValue>
-                    <cbvmda:certificationIdentification>GP_0987654321</cbvmda:certificationIdentification>
-                </cbvmda:certification>
-            </cbvmda:certificationList>
-        </ilmd>
-    </extension>
+            <!-- This is a made up Certificate. This is just an example. -->
+            <cbvmda:certification>
+                <gdst:certificateType>urn:gdst:certType:humanyPolicy</gdst:certificateType>
+                <cbvmda:certificationStandard>WHO Human Decency Policy</cbvmda:certificationStandard>
+                <cbvmda:certificationAgency>WHO</cbvmda:certificationAgency>
+                <cbvmda:certificationValue>1234567890</cbvmda:certificationValue>
+                <cbvmda:certificationIdentification>0987654321</cbvmda:certificationIdentification>
+            </cbvmda:certification>
+        </cbvmda:certificationList>
+    </ilmd>
+
+    <!-- Human Welfare Policy -->
+    <gdst:humanWelfarePolicy>WHO Human Decency Policy</gdst:humanWelfarePolicy>
 
     <!-- Jim's Feeding Co. -->
     <gdst:productOwner>urn:gdst:traceability-solution.com:party:7D90C2CD-A801-4E22-ACEE-82BF27A4844D</gdst:productOwner>
 
     <!-- Jim's Feeding Co. -->
     <cbvmda:informationProvider>urn:gdst:traceability-solution.com:party:7D90C2CD-A801-4E22-ACEE-82BF27A4844D</cbvmda:informationProvider>
-
 </TransformationEvent>
 ```
 
