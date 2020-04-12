@@ -95,12 +95,9 @@ Product Ownership | `gdst:productOwner`
 Information Provider | `cbvmda:informationProvider`
 Production Date | `eventTime`
 Product Origin | `ilmd/cbvmda:countryOfOrigin`
-Harvest Certificate | `ilmd/cbvmda:certificationList/cbvmda:certification[gdst:certificateType='urn:gdst:certType:harvestCert']`
 Harvest Chain of Custody Certificate | `ilmd/cbvmda:certificationList/cbvmda:certification[gdst:certificateType='urn:gdst:certType:harvestCoC']`
-Processor's License | `ilmd/cbvmda:certificationList/cbvmda:certification[gdst:certificateType='urn:gdst:certType:processorLicense']`
 Human Welfare Policy | `ilmd/cbvmda:certificationList/cbvmda:certification[gdst:certificateType='urn:gdst:certType:humanPolicy']`
 Human Welfare Policy Standard | `gdst:humanWelfarePolicy`
-
 
 ## Aggregate / Deaggregate
 GDST  KDE | EPCIS Mapping 
@@ -112,7 +109,6 @@ Product Ownership | `gdst:productOwner`
 Information Provider | `cbvmda:informationProvider`
 Harvest Chain of Custody Certificate | `gdst:certificationList/cbvmda:certification[gdst:certificateType='urn:gdst:certType:harvestCoC']`
 
-
 ## Ship / Receive
 GDST  KDE | EPCIS Mapping 
 ----------|--------------
@@ -121,3 +117,4 @@ Event Date & Time | `eventTime`
 Event Read Point | `readPoint`
 Product Ownership | `gdst:productOwner`
 Information Provider | `cbvmda:informationProvider`
+Harvest Chain of Custody Certificate | `gdst:certificationList/cbvmda:certification[gdst:certificateType='urn:gdst:certType:harvestCoC']`
