@@ -54,7 +54,8 @@ module.exports = {
             "aquaculture-events/feeding",
             "aquaculture-events/farm-harvest",
             "aquaculture-events/wild-to-farmed",
-            "aquaculture-events/commodities"
+            "aquaculture-events/commodities",
+            "aquaculture-events/xml-mappings"
           ],
           "Wild Events": [
             "wild-events/master-data",
