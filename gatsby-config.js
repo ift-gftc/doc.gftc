@@ -64,7 +64,8 @@ module.exports = {
             "wild-events/landing",
             "wild-events/gear-types",
             "wild-events/mari-culture",
-            "wild-events/commodities"
+            "wild-events/commodities",
+            "wild-events/xml-mappings"
           ],
           "EPCIS Extensions": [
             "extensions/business-steps",

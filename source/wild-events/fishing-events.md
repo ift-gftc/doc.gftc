@@ -15,14 +15,14 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
 ```xml
 <!-- FISHING EVENT -->
 <ObjectEvent>
-    <eventTime>2020-01-27T18:00:00Z</eventTime>
+    <eventTime>2020-01-27TT00:00:00.000-06:00</eventTime>
     <eventTimeZoneOffset>+00:00</eventTimeZoneOffset>
     <baseExtension>
         <eventID>CD42262C-844C-403C-85C5-34728F7FCDA5</eventID>
     </baseExtension>
     <epcList/>
     <action>ADD</action>
-    <bizStep>urn:epcglobal:cbv:bizstep:commissioning</bizStep>
+    <bizStep>urn:gdst:bizStep:fishingEvent</bizStep>
     <disposition>urn:epcglobal:cbv:disp:active</disposition>
 
     <!-- BING Ship -->
@@ -84,7 +84,8 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
                     <gdst:fisheryImprovementProject>Example Fishery Improvement Project</gdst:fisheryImprovementProject>
 
                     <!-- GEAR TYPE: Beam Trawls -->
-                    <cbvmda:fishingGearTypeCode>TBB</cbvmda:fishingGearTypeCode>
+                    <!-- http://www.fao.org/3/t0367t/t0367t00.htm -->
+                    <cbvmda:fishingGearTypeCode>3.1.1</cbvmda:fishingGearTypeCode>
                 </cbvmda:vesselCatchInformation>
             </cbvmda:vesselCatchInformationList>
 
@@ -92,8 +93,8 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
             <productionMethodForFishAndSeafoodCode>MARINE_FISHERY</productionMethodForFishAndSeafoodCode>
             
             <!-- Dates of Captures / Vessel Trip Dates -->
-            <cbvmda:harvestStartDate>2020-01-27</cbvmda:harvestStartDate>
-            <cbvmda:harvestEndDate>2020-01-27</cbvmda:harvestEndDate>
+            <cbvmda:harvestStartDate>2020-01-27T00:00:00.000-06:00</cbvmda:harvestStartDate>
+            <cbvmda:harvestEndDate>2020-01-27T00:00:00.000-06:00</cbvmda:harvestEndDate>
 
             <!-- Certificates -->
             <cbvmda:certificationList>
@@ -148,14 +149,14 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
 ```xml
 <!-- FISHING EVENT -->
 <ObjectEvent>
-    <eventTime>2020-01-27T2:00:00Z</eventTime>
+    <eventTime>2020-01-27T00:00:00.000-06:00</eventTime>
     <eventTimeZoneOffset>+00:00</eventTimeZoneOffset>
     <baseExtension>
         <eventID>2743D44E-4E20-4237-BA68-1842F3173790</eventID>
     </baseExtension>
     <epcList/>
     <action>ADD</action>
-    <bizStep>urn:epcglobal:cbv:bizstep:commissioning</bizStep>
+    <bizStep>urn:gdst:bizStep:fishingEvent</bizStep>
     <disposition>urn:epcglobal:cbv:disp:active</disposition>
     <readPoint>
         <id>geo:38.288338,-124.018110</id>
@@ -220,15 +221,17 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
                     <gdst:fisheryImprovementProject>Example Fishery Improvement Project</gdst:fisheryImprovementProject>
 
                     <!-- GEAR TYPE: Beam Trawls -->
-                    <cbvmda:fishingGearTypeCode>TBB</cbvmda:fishingGearTypeCode>
+                    <!-- http://www.fao.org/3/t0367t/t0367t00.htm -->
+                    <cbvmda:fishingGearTypeCode>3.1.1</cbvmda:fishingGearTypeCode>
+
                 </cbvmda:vesselCatchInformation>
             </cbvmda:vesselCatchInformationList>
 
             <!-- WILD HARVEST -->
             <productionMethodForFishAndSeafoodCode>MARINE_FISHERY</productionMethodForFishAndSeafoodCode>
             
-            <cbvmda:harvestStartDate>2020-01-27</cbvmda:harvestStartDate>
-            <cbvmda:harvestEndDate>2020-01-27</cbvmda:harvestEndDate>
+            <cbvmda:harvestStartDate>2020-01-27T00:00:00.000-06:00</cbvmda:harvestStartDate>
+            <cbvmda:harvestEndDate>2020-01-27T00:00:00.000-06:00</cbvmda:harvestEndDate>
 
             <!-- Certificates -->
             <cbvmda:certificationList>
@@ -278,14 +281,14 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
 ```xml
 <!-- FISHING EVENT -->
 <ObjectEvent>
-    <eventTime>2020-01-27T2:00:00Z</eventTime>
+    <eventTime>2020-01-27T00:00:00.000-06:00</eventTime>
     <eventTimeZoneOffset>+00:00</eventTimeZoneOffset>
     <baseExtension>
         <eventID>2743D44E-4E20-4237-BA68-1842F3173790</eventID>
     </baseExtension>
     <epcList/>
     <action>ADD</action>
-    <bizStep>urn:epcglobal:cbv:bizstep:commissioning</bizStep>
+    <bizStep>urn:gdst:bizStep:fishingEvent</bizStep>
     <disposition>urn:epcglobal:cbv:disp:active</disposition>
     <readPoint>
         <id>geo:38.258151,-123.875288</id>
@@ -350,15 +353,16 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
                     <gdst:fisheryImprovementProject>Example Fishery Improvement Project</gdst:fisheryImprovementProject>
 
                     <!-- GEAR TYPE: Beam Trawls -->
-                    <cbvmda:fishingGearTypeCode>TBB</cbvmda:fishingGearTypeCode>
+                    <!-- http://www.fao.org/3/t0367t/t0367t00.htm -->
+                    <cbvmda:fishingGearTypeCode>3.1.1</cbvmda:fishingGearTypeCode>
                 </cbvmda:vesselCatchInformation>
             </cbvmda:vesselCatchInformationList>
 
             <!-- WILD HARVEST -->
             <productionMethodForFishAndSeafoodCode>MARINE_FISHERY</productionMethodForFishAndSeafoodCode>
             
-            <cbvmda:harvestStartDate>2020-01-27</cbvmda:harvestStartDate>
-            <cbvmda:harvestEndDate>2020-01-27</cbvmda:harvestEndDate>
+            <cbvmda:harvestStartDate>2020-01-27T00:00:00.000-06:00</cbvmda:harvestStartDate>
+            <cbvmda:harvestEndDate>2020-01-27T00:00:00.000-06:00</cbvmda:harvestEndDate>
 
             <!-- Certificates -->
             <cbvmda:certificationList>
@@ -408,14 +412,14 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
 ```xml
 <!-- FISHING EVENT -->
 <ObjectEvent>
-    <eventTime>2020-01-27T2:00:00Z</eventTime>
+    <eventTime>2020-01-27T00:00:00.000-06:00</eventTime>
     <eventTimeZoneOffset>+00:00</eventTimeZoneOffset>
     <baseExtension>
         <eventID>2743D44E-4E20-4237-BA68-1842F3173790</eventID>
     </baseExtension>
     <epcList/>
     <action>ADD</action>
-    <bizStep>urn:epcglobal:cbv:bizstep:commissioning</bizStep>
+    <bizStep>urn:gdst:bizStep:fishingEvent</bizStep>
     <disposition>urn:epcglobal:cbv:disp:active</disposition>
     <readPoint>
         <id>geo:38.184786,-123.776411</id>
@@ -480,15 +484,16 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
                     <gdst:fisheryImprovementProject>Example Fishery Improvement Project</gdst:fisheryImprovementProject>
 
                     <!-- GEAR TYPE: Beam Trawls -->
-                    <cbvmda:fishingGearTypeCode>TBB</cbvmda:fishingGearTypeCode>
+                    <!-- http://www.fao.org/3/t0367t/t0367t00.htm -->
+                    <cbvmda:fishingGearTypeCode>3.1.1</cbvmda:fishingGearTypeCode>
                 </cbvmda:vesselCatchInformation>
             </cbvmda:vesselCatchInformationList>
 
             <!-- WILD HARVEST -->
             <productionMethodForFishAndSeafoodCode>MARINE_FISHERY</productionMethodForFishAndSeafoodCode>
             
-            <cbvmda:harvestStartDate>2020-01-27</cbvmda:harvestStartDate>
-            <cbvmda:harvestEndDate>2020-01-27</cbvmda:harvestEndDate>
+            <cbvmda:harvestStartDate>2020-01-27T00:00:00.000-06:00</cbvmda:harvestStartDate>
+            <cbvmda:harvestEndDate>2020-01-27T00:00:00.000-06:00</cbvmda:harvestEndDate>
 
             <!-- Certificates -->
             <cbvmda:certificationList>
@@ -538,14 +543,14 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
 ```xml
 <!-- FISHING EVENT -->
 <ObjectEvent>
-    <eventTime>2020-01-27T2:00:00Z</eventTime>
+    <eventTime>2020-01-27T00:00:00.000-06:00</eventTime>
     <eventTimeZoneOffset>+00:00</eventTimeZoneOffset>
     <baseExtension>
         <eventID>2743D44E-4E20-4237-BA68-1842F3173790</eventID>
     </baseExtension>
     <epcList/>
     <action>ADD</action>
-    <bizStep>urn:epcglobal:cbv:bizstep:commissioning</bizStep>
+    <bizStep>urn:gdst:bizStep:fishingEvent</bizStep>
     <disposition>urn:epcglobal:cbv:disp:active</disposition>
     <readPoint>
         <id>geo:38.115669,-123.655561</id>
@@ -610,15 +615,16 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
                     <gdst:fisheryImprovementProject>Example Fishery Improvement Project</gdst:fisheryImprovementProject>
 
                     <!-- GEAR TYPE: Beam Trawls -->
-                    <cbvmda:fishingGearTypeCode>TBB</cbvmda:fishingGearTypeCode>
+                    <!-- http://www.fao.org/3/t0367t/t0367t00.htm -->
+                    <cbvmda:fishingGearTypeCode>3.1.1</cbvmda:fishingGearTypeCode>
                 </cbvmda:vesselCatchInformation>
             </cbvmda:vesselCatchInformationList>
 
             <!-- WILD HARVEST -->
             <productionMethodForFishAndSeafoodCode>MARINE_FISHERY</productionMethodForFishAndSeafoodCode>
             
-            <cbvmda:harvestStartDate>2020-01-27</cbvmda:harvestStartDate>
-            <cbvmda:harvestEndDate>2020-01-27</cbvmda:harvestEndDate>
+            <cbvmda:harvestStartDate>2020-01-27T00:00:00.000-06:00</cbvmda:harvestStartDate>
+            <cbvmda:harvestEndDate>2020-01-27T00:00:00.000-06:00</cbvmda:harvestEndDate>
 
             <!-- Certificates -->
             <cbvmda:certificationList>

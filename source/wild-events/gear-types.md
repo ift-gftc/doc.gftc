@@ -10,3 +10,6 @@ These are gear types that are deployed continuously for long periods of time suc
 
 ## Non-Continuous Deployement
 These are gear types that are deployed in a non-continuous manner, such as `hook and line` that are deployed for short period of times and then harvested products are collected. It is recommended that a Fishing Event is recorded for each time the gear is deployed.
+
+## FAO Gear Types
+A list of the allowed values for gear types can be found at [http://www.fao.org/3/t0367t/t0367t00.htm](http://www.fao.org/3/t0367t/t0367t00.htm).

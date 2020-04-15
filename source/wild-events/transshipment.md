@@ -13,9 +13,8 @@ It is important that if there is a change of ownership during the transfer of th
 In this case, a Transshipment event is recorded. Here we are going to build on the previous scenario where a Vessel with Multiple Harvests and Multiple Fishing Events transshipped all 4 catches to a Transshipment Vessel. In this scenario, the Transshipment Vessel, **Jimmy's Tender Vessel** owned by **Jimmy's Tender Co.**, is purchasing the Tuna from the Fishing Vessel, so these products are changing ownership and entering commerce for the first time.
 
 ```xml
-<!-- TRANSSHIPMENT EVENT -->
 <ObjectEvent>
-    <eventTime>2019-01-28T18:12:00Z</eventTime>
+    <eventTime>2019-01-28T00:00:00.000-06:00</eventTime>
     <eventTimeZoneOffset>+00:00</eventTimeZoneOffset>
     <baseExtension>
         <eventID>EEC77B23-E1BF-484D-BE2C-7CBC4EBB4F9A</eventID>
@@ -24,20 +23,18 @@ In this case, a Transshipment event is recorded. Here we are going to build on t
     <action>OBSERVE</action>
     <bizStep>urn:gdst:bizStep:transshipment</bizStep>
     <disposition>urn:gdst:entering_commerce</disposition>
-    
-
-    <!-- Jimmy's Tender Vessel -->
-    <bizLocation>
-        <id>urn:gdst:traceability-solution.com:location:loc:0048000.019283"</id>
-    </bizLocation>
 
     <!-- Transshipment Location -->
     <readPoint>
         <id>geo:37.860236,-123.144697</id>
     </readPoint>
 
+    <!-- Jimmy's Tender Vessel -->
+    <bizLocation>
+        <id>urn:gdst:traceability-solution.com:location:loc:0048000.019283"</id>
+    </bizLocation>
+    
     <extension>
-
         <!-- YELLOW FIN TUNA -->
         <quantityList>
             <quantityElement>
@@ -57,7 +54,7 @@ In this case, a Transshipment event is recorded. Here we are going to build on t
             <destination type="urn:epcglobal:cbv:sdt:owning_party">urn:gdst:traceability-solution.com:party:0048000.000001</destination>
         </destinationList>
     </extension>
-    
+
     <!-- Certificates (Harvest CoC, Human Policy, and TransShipment Authorization) -->
     <gdst:certificationList>
 
@@ -89,16 +86,20 @@ In this case, a Transshipment event is recorded. Here we are going to build on t
         </cbvmda:certification>
     </gdst:certificationList>
 
+    <!-- Transshipment Start / End Date -->
+    <gdst:transshipStartDate>2019-01-28T00:00:00.000-06:00</gdst:transshipStartDate>
+    <gdst:transshipEndDate>2019-01-28T00:00:00.000-06:00</gdst:transshipEndDate>
+
     <!-- Unloading Port -->
     <!-- This is not filled in here because this was an At-Sea TransShipment. Just including an example of where this attribute goes. -->
     <cbvmda:unloadingPort></cbvmda:unloadingPort>
-
+    
     <!-- Human Welfare Policy -->
     <gdst:humanWelfarePolicy>WHO Human Decency Policy</gdst:humanWelfarePolicy>
 
     <!-- Bing Fishing Co. -->
     <gdst:productOwner>urn:gdst:traceability-solution.com:party:0b4e59bb-29ba-4edd-8e51-7e8d1a96dce7</gdst:productOwner>
-
+    
     <!-- Jimmy's Processing Co. -->
     <cbvmda:informationProvider>urn:gdst:traceability-solution.com:party:0048000.000001</cbvmda:informationProvider>
 </ObjectEvent>
