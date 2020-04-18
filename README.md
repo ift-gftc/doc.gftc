@@ -1,8 +1,5 @@
-<p align="center">
-  <a href="https://www.traceability-dialogue.org">
-    <img alt="Global Dialogue on Seafood Traceability" src="src\assets\GDST_Logo.png" width="60" />
-  </a>
-</p>
+![Built-in request link](./src/assets/GDST_Logo.png)
+
 <h1 align="center">
   The Global Dialogue on Seafood Traceability GitHub Repository
 </h1>
