@@ -7,14 +7,10 @@ All products harvested from the wild will have a landing event. This event repre
 
 It is important that if there is a change of ownership when the products land, then that change of ownership should be recorded in the `source and destination list` on the event as well as the disposition should be set to `urn:gdst:disposition:entering_commerce` if this is the first time the products changed ownership.
 
-
-## Example #1
-When products are harvested in the wild, an offload event is recorded for the first time that they reach land.
-
 ```xml
 <!-- OFFLOADING EVENT -->
 <ObjectEvent>
-    <eventTime>2020-01-27T18:00:00Z</eventTime>
+    <eventTime>2020-01-27T00:00:00.000-06:00</eventTime>
     <eventTimeZoneOffset>+00:00</eventTimeZoneOffset>
     <baseExtension>
         <eventID>CC2BB7E8-0E81-4915-81EB-386BFD15B39C</eventID>
@@ -22,12 +18,11 @@ When products are harvested in the wild, an offload event is recorded for the fi
     <epcList/>
     <action>ADD</action>
     <bizStep>urn:gdst:bizStep:landing</bizStep>
-
+    
     <!-- Port of San Diego -->
     <bizLocation>
         <id>urn:gdst:traceability-solution.com:location:loc:0048000.SDPORT</id>
     </bizLocation>
-
     <extension>
         <quantityList>
 
@@ -43,14 +38,36 @@ When products are harvested in the wild, an offload event is recorded for the fi
     <!-- Landing Authorization -->
     <!-- This is a just an example Certificate for Transshipment Authorization and does not represnt a real Certificate -->
     <gdst:certificationList>
+
+        <!-- This is a made up Certificate. This is just an example. -->
         <cbvmda:certification>
-            <gdst:certificateType>urn:gdst:certType:landing_authorization</gdst:certificateType>
+            <gdst:certificateType>urn:gdst:certType:landingAuth</gdst:certificateType>
             <cbvmda:certificationStandard>Landing Authority</cbvmda:certificationStandard>
             <cbvmda:certificationAgency>Landing Authority</cbvmda:certificationAgency>
             <cbvmda:certificationValue>LA_123456789</cbvmda:certificationValue>
             <cbvmda:certificationIdentification>LA_123456789</cbvmda:certificationIdentification>
         </cbvmda:certification>
+
+        <!-- This is a made up Certificate. This is just an example. -->
+        <cbvmda:certification>
+            <gdst:certificateType>urn:gdst:certType:humanyPolicy</gdst:certificateType>
+            <cbvmda:certificationStandard>WHO Human Decency Policy</cbvmda:certificationStandard>
+            <cbvmda:certificationAgency>WHO</cbvmda:certificationAgency>
+            <cbvmda:certificationValue>1234567890</cbvmda:certificationValue>
+            <cbvmda:certificationIdentification>0987654321</cbvmda:certificationIdentification>
+        </cbvmda:certification>
     </gdst:certificationList>
+
+    <!-- Landing Start / End Date -->
+    <gdst:landingStartDate>2020-01-27T00:00:00.000-06:00</gdst:landingStartDate>
+    <gdst:landingEndDate>2020-01-27T00:00:00.000-06:00</gdst:landingEndDate>
+
+    <!-- Unloading Port -->
+    <!-- Techinically if you look in the Master Data for the location, you can find this there. I included it here for demonstration purposes. -->
+    <cbvmda:unloadingPort>SDPORT</cbvmda:unloadingPort>
+
+    <!-- Human Welfare Policy -->
+    <gdst:humanWelfarePolicy>WHO Human Decency Policy</gdst:humanWelfarePolicy>
 
     <!-- Jimmy's Processing Co. -->
     <gdst:productOwner>urn:gdst:traceability-solution.com:party:0048000.000001</gdst:productOwner>

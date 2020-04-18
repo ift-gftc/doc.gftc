@@ -1,0 +1,83 @@
+<EPCISDocument
+    xmlns:tr="http://schema.traceregister.com"
+    xmlns:cbvmda="urn:epcglobal:cbv:mda"
+    xmlns:gdst="https://traceability-dialogue.org/"
+    xmlns:sh="http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader" schemaVersion="0" creationDate="0001-01-01T00:00:00"
+    xmlns="urn:epcglobal:epcis:xsd:1">
+    <EPCISBody
+        xmlns="">
+        <EventList>
+            <extension>
+                <TransformationEvent>
+                    <eventTime>2020-01-27T00:00:00.000-06:00</eventTime>
+                    <eventTimeZoneOffset>+00:00</eventTimeZoneOffset>
+                    <baseExtension>
+                        <eventID>2D02A33E-DAE2-4B27-9B34-7D1351AC0429</eventID>
+                    </baseExtension>
+                    <bizStep>urn:epcglobal:cbv:bizstep:commissioning</bizStep>
+                    <disposition>urn:epcglobal:cbv:disp:active</disposition>
+                    <!-- Jim's Feedmill -->
+                    <bizLocation>
+                        <id>urn:gdst:traceability-solution.com:location:loc:7D90C2CD-A801-4E22-ACEE-82BF27A4844D.FEEDMILL</id>
+                    </bizLocation>
+                    <!-- INPUT: Vegetables -->
+                    <inputQuantityList>
+                        <quantityElement>
+                            <epcClass>urn:gdst:traceability-solution.com:product:lot:class:7D90C2CD-A801-4E22-ACEE-82BF27A4844D.VEGETABLES.LOT12232019</epcClass>
+                            <quantity>2500</quantity>
+                            <uom>KGM</uom>
+                        </quantityElement>
+                    </inputQuantityList>
+                    <!-- OUTPUT: Vegetarian Salmon Feed -->
+                    <outputQuantityList>
+                        <quantityElement>
+                            <epcClass>urn:gdst:traceability-solution.com:product:lot:class:7D90C2CD-A801-4E22-ACEE-82BF27A4844D.FEED01.LOT01272020</epcClass>
+                            <quantity>2000</quantity>
+                            <uom>KGM</uom>
+                        </quantityElement>
+                    </outputQuantityList>
+                    <!-- LOT DATA -->
+                    <ilmd>
+                        <!-- Protein Source -->
+                        <gdst:proteinSource>Soy</gdst:proteinSource>
+                        <cbvmda:certificationList>
+
+                            <!-- This is a made up Certificate. This is just an example. -->
+                            <cbvmda:certification>
+                                <gdst:certificateType>urn:gdst:certType:harvestCert</gdst:certificateType>
+                                <cbvmda:certificationStandard>Feed Certificate Standard</cbvmda:certificationStandard>
+                                <cbvmda:certificationAgency>Feed Certificate Authority</cbvmda:certificationAgency>
+                                <cbvmda:certificationValue>SIMP.LPCO.2</cbvmda:certificationValue>
+                                <cbvmda:certificationIdentification>10161781</cbvmda:certificationIdentification>
+                            </cbvmda:certification>
+
+                            <!-- This is a made up Certificate. This is just an example. -->
+                            <cbvmda:certification>
+                                <gdst:certificateType>urn:gdst:certType:harvestCoC</gdst:certificateType>
+                                <cbvmda:certificationStandard>MSC Chain of Custody</cbvmda:certificationStandard>
+                                <cbvmda:certificationAgency>MSC</cbvmda:certificationAgency>
+                                <cbvmda:certificationValue>MSC_COC_1234567890</cbvmda:certificationValue>
+                                <cbvmda:certificationIdentification>MSC_COC_1234567890</cbvmda:certificationIdentification>
+                            </cbvmda:certification>
+
+                            <!-- This is a made up Certificate. This is just an example. -->
+                            <cbvmda:certification>
+                                <gdst:certificateType>urn:gdst:certType:humanyPolicy</gdst:certificateType>
+                                <cbvmda:certificationStandard>WHO Human Decency Policy</cbvmda:certificationStandard>
+                                <cbvmda:certificationAgency>WHO</cbvmda:certificationAgency>
+                                <cbvmda:certificationValue>1234567890</cbvmda:certificationValue>
+                                <cbvmda:certificationIdentification>0987654321</cbvmda:certificationIdentification>
+                            </cbvmda:certification>
+                        </cbvmda:certificationList>
+                    </ilmd>
+                    <!-- Human Welfare Policy -->
+                    <gdst:humanWelfarePolicy>WHO Human Decency Policy</gdst:humanWelfarePolicy>
+                    <!-- Jim's Feeding Co. -->
+                    <gdst:productOwner>urn:gdst:traceability-solution.com:party:7D90C2CD-A801-4E22-ACEE-82BF27A4844D</gdst:productOwner>
+                    <!-- Jim's Feeding Co. -->
+                    <cbvmda:informationProvider>urn:gdst:traceability-solution.com:party:7D90C2CD-A801-4E22-ACEE-82BF27A4844D</cbvmda:informationProvider>
+                </TransformationEvent>
+            </extension>
+        </EventList>
+    </EPCISBody>
+</EPCISDocument>

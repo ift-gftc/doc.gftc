@@ -6,13 +6,9 @@ Larvae grown at a hatchery to be stocked in aquaculture facilities are commissio
 
 Note: This event is not used for tracing larvae harvested from the wild.
 
-
-## Example #1
-
 ``` xml
-<!-- HATCHING EVENT -->
 <ObjectEvent>
-    <eventTime>2020-01-27T2:00:00Z</eventTime>
+    <eventTime>2020-01-27T00:00:00.000-06:00</eventTime>
     <eventTimeZoneOffset>+00:00</eventTimeZoneOffset>
     <baseExtension>
         <eventID>19C618C1-1585-4369-92D2-FACC58E90A8F</eventID>
@@ -21,15 +17,12 @@ Note: This event is not used for tracing larvae harvested from the wild.
     <action>ADD</action>
     <bizStep>urn:gdst:bizStep:hatching</bizStep>
     <disposition>urn:epcglobal:cbv:disp:active</disposition>
-
     <!-- Bob's Hatchery -->
     <bizLocation>
         <id>urn:gdst:traceability-solution.com:location:loc:DFA01B63-AAAA-4454-B13C-C53D6BDFAB43.HATCHERY</id>
     </bizLocation>
-
     <extension>
         <quantityList>
-
             <!-- SALMON FRY -->
             <quantityElement>
                 <epcClass>urn:gdst:traceability-solution.com:product:class:DFA01B63-AAAA-4454-B13C-C53D6BDFAB43.SAL-FRY.LOT01272020</epcClass>
@@ -37,41 +30,48 @@ Note: This event is not used for tracing larvae harvested from the wild.
                 <uom>KGM</uom>
             </quantityElement>
         </quantityList>
-
         <ilmd>
-
             <!-- Source of Broodstock -->
             <gdst:broodstockSources>Domestic</gdst:broodstockSources>
 
             <!-- Harvest Date -->
-            <cbvmda:harvestStartDate>2020-01-27T2:00:00Z</cbvmda:harvestStartDate>
+            <cbvmda:harvestStartDate>2020-01-27T00:00:00.000-06:00</cbvmda:harvestStartDate>
+            <cbvmda:harvestEndDate>2020-01-27T00:00:00.000-06:00</cbvmda:harvestEndDate>
 
             <cbvmda:certificationList>
-
-                <!-- Chain of Custody Certificate -->
+                <!-- This is a made up Certificate. This is just an example. -->
                 <cbvmda:certification>
-                    <gdst:certificateType>urn:gdst:certType:chain_custody</gdst:certificateType>
-                    <cbvmda:certificationStandard>ASC Chain of Custody</cbvmda:certificationStandard>
-                    <cbvmda:certificationAgency>ASC</cbvmda:certificationAgency>
-                    <cbvmda:certificationValue>ASC_COC_1234567890</cbvmda:certificationValue>
-                    <cbvmda:certificationIdentification>ASC_COC_1234567890</cbvmda:certificationIdentification>
+                    <gdst:certificateType>urn:gdst:certType:harvestCert</gdst:certificateType>
+                    <cbvmda:certificationStandard>Feed Certificate Standard</cbvmda:certificationStandard>
+                    <cbvmda:certificationAgency>Feed Certificate Authority</cbvmda:certificationAgency>
+                    <cbvmda:certificationValue>SIMP.LPCO.2</cbvmda:certificationValue>
+                    <cbvmda:certificationIdentification>10161781</cbvmda:certificationIdentification>
                 </cbvmda:certification>
 
-                <!-- Code of Good Practice Certificate -->
+                <!-- This is a made up Certificate. This is just an example. -->
                 <cbvmda:certification>
-                    <gdst:certificateType>urn:gdst:certType:good_practice</gdst:certificateType>
-                    <cbvmda:certificationStandard>Good Practice Standard Body</cbvmda:certificationStandard>
-                    <cbvmda:certificationAgency>GP Agency</cbvmda:certificationAgency>
-                    <cbvmda:certificationValue>GP_0987654321</cbvmda:certificationValue>
-                    <cbvmda:certificationIdentification>GP_0987654321</cbvmda:certificationIdentification>
+                    <gdst:certificateType>urn:gdst:certType:harvestCoC</gdst:certificateType>
+                    <cbvmda:certificationStandard>MSC Chain of Custody</cbvmda:certificationStandard>
+                    <cbvmda:certificationAgency>MSC</cbvmda:certificationAgency>
+                    <cbvmda:certificationValue>MSC_COC_1234567890</cbvmda:certificationValue>
+                    <cbvmda:certificationIdentification>MSC_COC_1234567890</cbvmda:certificationIdentification>
+                </cbvmda:certification>
+
+                <!-- This is a made up Certificate. This is just an example. -->
+                <cbvmda:certification>
+                    <gdst:certificateType>urn:gdst:certType:humanyPolicy</gdst:certificateType>
+                    <cbvmda:certificationStandard>WHO Human Decency Policy</cbvmda:certificationStandard>
+                    <cbvmda:certificationAgency>WHO</cbvmda:certificationAgency>
+                    <cbvmda:certificationValue>1234567890</cbvmda:certificationValue>
+                    <cbvmda:certificationIdentification>0987654321</cbvmda:certificationIdentification>
                 </cbvmda:certification>
             </cbvmda:certificationList>
         </ilmd>
     </extension>
-
+    <!-- Human Welfare Policy -->
+    <gdst:humanWelfarePolicy>WHO Human Decency Policy</gdst:humanWelfarePolicy>
     <!-- Bob's Hatchery Co. -->
     <gdst:productOwner>urn:gdst:traceability-solution.com:party:DFA01B63-AAAA-4454-B13C-C53D6BDFAB43</gdst:productOwner>
-
     <!-- Bob's Hatchery Co. -->
     <cbvmda:informationProvider>urn:gdst:traceability-solution.com:party:DFA01B63-AAAA-4454-B13C-C53D6BDFAB43</cbvmda:informationProvider>
 </ObjectEvent>

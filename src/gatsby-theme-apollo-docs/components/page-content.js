@@ -61,7 +61,7 @@ const BodyContent = styled.div({
     display: "block",
     maxWidth: "100%",
     margin: "0 auto",
-  },
+  }
 })
 
 const Aside = styled.aside({

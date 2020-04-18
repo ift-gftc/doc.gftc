@@ -7,19 +7,16 @@ Sometimes products harvested from the wild are initially processed on-board the 
 
 Below we have an example event with accompanying Master Data to go with that event.
 
-
-## Example #1
-Sometimes products are initially processedd on the Vessel that catches them. In this case, a Transformation event is recorded to represent this initial processing step.
-
 ```xml
 <TransformationEvent>
-    <eventTime>2020-01-27T20:00:00Z</eventTime>
+    <eventTime>2020-01-27T00:00:00.000-06:00</eventTime>
+    <eventTimeZoneOffset>+00:00</eventTimeZoneOffset>
     <baseExtension>
         <eventID>6926712e-599f-4c4e-b6e9-8dd888c906bd</eventID>
     </baseExtension>
     <bizStep>urn:epcglobal:cbv:bizstep:commissioning</bizStep>
     <disposition>urn:epcglobal:cbv:disp:active</disposition>
-
+    
     <!-- BING Fishing Vessel -->
     <bizLocation>
         <id>urn:epc:id:sgln:0614141.00888.0</id>
@@ -28,25 +25,25 @@ Sometimes products are initially processedd on the Vessel that catches them. In 
     <!-- INPUT: Yellow Fin Tuna -->
     <inputQuantityList>
         <quantityElement>
-                <epcClass>urn:gdst:traceability-solution.com:product:lot:class:0b4e59bb-29ba-4edd-8e51-7e8d1a96dce7.YFT.LOT1111</epcClass>
-                <quantity>2500</quantity>
-                <uom>KGM</uom>
-            </quantityElement>
-            <quantityElement>
-                <epcClass>urn:gdst:traceability-solution.com:product:lot:class:0b4e59bb-29ba-4edd-8e51-7e8d1a96dce7.YFT.LOT2222</epcClass>
-                <quantity>2500</quantity>
-                <uom>KGM</uom>
-            </quantityElement>
-            <quantityElement>
-                <epcClass>urn:gdst:traceability-solution.com:product:lot:class:0b4e59bb-29ba-4edd-8e51-7e8d1a96dce7.YFT.LOT3333</epcClass>
-                <quantity>2500</quantity>
-                <uom>KGM</uom>
-            </quantityElement>
-            <quantityElement>
-                <epcClass>urn:gdst:traceability-solution.com:product:lot:class:0b4e59bb-29ba-4edd-8e51-7e8d1a96dce7.YFT.LOT4444</epcClass>
-                <quantity>2500</quantity>
-                <uom>KGM</uom>
-            </quantityElement>
+            <epcClass>urn:gdst:traceability-solution.com:product:lot:class:0b4e59bb-29ba-4edd-8e51-7e8d1a96dce7.YFT.LOT1111</epcClass>
+            <quantity>2500</quantity>
+            <uom>KGM</uom>
+        </quantityElement>
+        <quantityElement>
+            <epcClass>urn:gdst:traceability-solution.com:product:lot:class:0b4e59bb-29ba-4edd-8e51-7e8d1a96dce7.YFT.LOT2222</epcClass>
+            <quantity>2500</quantity>
+            <uom>KGM</uom>
+        </quantityElement>
+        <quantityElement>
+            <epcClass>urn:gdst:traceability-solution.com:product:lot:class:0b4e59bb-29ba-4edd-8e51-7e8d1a96dce7.YFT.LOT3333</epcClass>
+            <quantity>2500</quantity>
+            <uom>KGM</uom>
+        </quantityElement>
+        <quantityElement>
+            <epcClass>urn:gdst:traceability-solution.com:product:lot:class:0b4e59bb-29ba-4edd-8e51-7e8d1a96dce7.YFT.LOT4444</epcClass>
+            <quantity>2500</quantity>
+            <uom>KGM</uom>
+        </quantityElement>
     </inputQuantityList>
 
     <!-- OUTPUT: Yellow Fin Tuna Fillet -->
@@ -59,33 +56,64 @@ Sometimes products are initially processedd on the Vessel that catches them. In 
     </outputQuantityList>
 
     <!-- LOT DATA -->
-    <extension>
-        <ilmd>
+    <ilmd>
 
-            <!-- Chain of Custody Certificate -->
-            <cbvmda:certificationList>
-                <cbvmda:certification>
-                    <gdst:certificateType>urn:gdst:certType:chain_custody</gdst:certificateType>
-                    <cbvmda:certificationStandard>MSC Chain of Custody</cbvmda:certificationStandard>
-                    <cbvmda:certificationAgency>MSC</cbvmda:certificationAgency>
-                    <cbvmda:certificationValue>MSC_COC_1234567890</cbvmda:certificationValue>
-                    <cbvmda:certificationIdentification>MSC_COC_1234567890</cbvmda:certificationIdentification>
-                </cbvmda:certification>
-            </cbvmda:certificationList>
+        <!-- Vessel Information -->
+        <cbvmda:vesselCatchInformationList>
+            <cbvmda:vesselCatchInformation>
 
-            <!-- Expiration Date -->
-            <cbvmda:itemExpirationDate>2020-03-15</cbvmda:itemExpirationDate>
+                <!-- Vessel Name -->
+                <cbvmda:vesselName>BING Ship</cbvmda:vesselName>
 
-            <!-- Product Origin -->
-            <cbvmda:countryOfOrigin>US</cbvmda:sellByDate>
-        </ilmd>
-    </extension>
+                <!-- Vessel ID -->
+                <cbvmda:vesselID>USA</cbvmda:vesselID>
+
+                <!-- Unique Vessel Registration -->
+                <gdst:imoNumber>IMO.1234567890</gdst:imoNumber>
+
+                <!-- Vessel Flag -->
+                <cbvmda:vesselFlagState>US</cbvmda:vesselFlagState>
+
+                <!-- Vessel Public Registry Link -->
+                <gdst:vesselPublicRegistry>https://www.register-my-vessel.fake.com</gdst:vesselPublicRegistry>
+            </cbvmda:vesselCatchInformation>
+        </cbvmda:vesselCatchInformationList>
+
+        <!-- Certificates -->
+        <cbvmda:certificationList>
+
+            <!-- This is a made up Certificate. This is just an example. -->
+            <cbvmda:certification>
+                <gdst:certificateType>urn:gdst:certType:harvestCoC</gdst:certificateType>
+                <cbvmda:certificationStandard>MSC Chain of Custody</cbvmda:certificationStandard>
+                <cbvmda:certificationAgency>MSC</cbvmda:certificationAgency>
+                <cbvmda:certificationValue>MSC_COC_1234567890</cbvmda:certificationValue>
+                <cbvmda:certificationIdentification>MSC_COC_1234567890</cbvmda:certificationIdentification>
+            </cbvmda:certification>
+
+            <!-- This is a made up Certificate. This is just an example. -->
+            <cbvmda:certification>
+                <gdst:certificateType>urn:gdst:certType:humanyPolicy</gdst:certificateType>
+                <cbvmda:certificationStandard>WHO Human Decency Policy</cbvmda:certificationStandard>
+                <cbvmda:certificationAgency>WHO</cbvmda:certificationAgency>
+                <cbvmda:certificationValue>1234567890</cbvmda:certificationValue>
+                <cbvmda:certificationIdentification>0987654321</cbvmda:certificationIdentification>
+            </cbvmda:certification>
+        </cbvmda:certificationList>
+        <!-- Expiration Date -->
+        <cbvmda:itemExpirationDate>2020-03-15T00:00:00.000-06:00</cbvmda:itemExpirationDate>
+
+        <!-- Product Origin -->
+        <cbvmda:countryOfOrigin>US</cbvmda:countryOfOrigin>
+    </ilmd>
+
+    <!-- Human Welfare Policy -->
+    <gdst:humanWelfarePolicy>WHO Human Decency Policy</gdst:humanWelfarePolicy>
 
     <!-- Bing Fishing Co. -->
     <gdst:productOwner>urn:gdst:traceability-solution.com:party:0b4e59bb-29ba-4edd-8e51-7e8d1a96dce7</gdst:productOwner>
 
     <!-- Bing Fishing Co. -->
     <cbvmda:informationProvider>urn:gdst:traceability-solution.com:party:0b4e59bb-29ba-4edd-8e51-7e8d1a96dce7</cbvmda:informationProvider>
-
 </TransformationEvent>
 ```
