@@ -1,4 +1,12 @@
-![Built-in request link](./src/assets/GDST_Logo.png)
+<p align="center">
+  <a href="https://www.traceability-dialogue.org">
+    <img alt="Global Dialogue on Seafood Traceability" src="src\assets\GDST_Logo.png" width="60" />
+  </a>
+</p>
+<h1 align="center">
+  The Global Dialogue on Seafood Traceability GitHub Repository
+</h1>
+
 # Welcome 
 Welcome to the GitHub Documentation GitHub. Here is the repository that stores the documentation source-files and hosts the documentation website. We look forward to the community supporting and contributing. For more information about how to contribute please see our documentation at [https://ift-gftc.github.io/doc.gdst/](https://ift-gftc.github.io/doc.gdst/).
 

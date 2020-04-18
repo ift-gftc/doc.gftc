@@ -3,7 +3,7 @@ const themeOptions = require("./src/theme-options")
 module.exports = {
   pathPrefix: "/doc.gdst",
   siteMetadata: {
-    title: 'IFT Docs'
+    title: 'GDST Docs'
   },
   plugins: [
     `gatsby-plugin-dark-mode`,
@@ -30,7 +30,7 @@ module.exports = {
         ...themeOptions,
         
         root: __dirname,
-        githubRepo: "ift-gftc/doc.ift.org",
+        githubRepo: "ift-gftc/doc.gdst",
         sidebarCategories: {
           null: ["index", "intro/executive-summary", "intro/feedback", "intro/how-to-use-docs"],
           "Pretext": [
