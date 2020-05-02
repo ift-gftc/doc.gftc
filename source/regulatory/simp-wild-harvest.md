@@ -84,8 +84,13 @@ Here is the Example XML for the GDST EPCIS data. This event data will contain a 
             <!-- WILD HARVEST -->
             <cbvmda:productionMethodCode>MARINE_FISHERY</cbvmda:productionMethodCode>
             
-            <cbvmda:harvestStartDate>2020-01-27</cbvmda:harvestStartDate>
-            <cbvmda:harvestEndDate>2020-01-27</cbvmda:harvestEndDate>
+            <!-- Harvest Start & End Dates -->
+            <cbvmda:harvestStartDate>2020-01-27T00:00:00.000-06:00</cbvmda:harvestStartDate>
+            <cbvmda:harvestEndDate>2020-01-27T00:00:00.000-06:00</cbvmda:harvestEndDate>
+
+            <!-- Vessel Trip Start & End Dates -->
+            <gdst:vesselTripStart>2020-01-27T00:00:00.000-06:00</gdst:vesselTripStart>
+            <gdst:vesselTripEnd>2020-01-27T00:00:00.000-06:00</gdst:vesselTripEnd>
 
             <!-- CATCH CERTIFICATE (?) -->
             <cbvmda:certificationList>
