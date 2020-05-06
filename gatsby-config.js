@@ -43,6 +43,7 @@ module.exports = {
             "certification/other-cert"
           ],
           "Regulatory": [
+            "regulatory/gdpr",
             "regulatory/simp-aquaculture",
             "regulatory/simp-wild-harvest",
             "regulatory/eu-catch-cert",
