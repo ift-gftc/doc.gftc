@@ -4,20 +4,22 @@ title: SIMP - Aquaculture
 
 In this scenario we will cover a single Farm with a single Farm Harvest. We will be building a [PGA Record](https://www.cbp.gov/sites/default/files/assets/documents/2017-Oct/Implementation%20Guide%20for%20NMFS%20SIM%209-28-17_v2.pdf) based off the Events below. The Master Data for these events can be found above in the Master Data section.
 
+> Personally Identifying Data is not required to fill out a SIMP report; contact information can be organization-based. It is GDST's recommendation that non-personally identifying contact information is provided for the farm such as a general position at the farm company to communicate with, a general email for the farm, and the phone number for the farm company that is not a personal phone number.
+
 ## Required KDEs
 
 In order to fill out a SIMP report for a Aquaculture scenario we will need the following KDEs:
-* **Scientific Name** - Pulled from Master Data
-* **Farming Country** - Pulled from the Country of Origin in the ILMD data of the Fishing Event
-* **Harvest Date** - Pulled from the Event Time of the Offload Event.
-* **IFTP Number** - Pulled from the Master Data of the Vessel / Party. In this example we will pull it from the Master Data of the Vessel Owning Party.
-* **Farm Name** - Pulled from the Master Data for Owning Party of the BizLocation of event with the disposition of "entering_commerce".
-* **Farm Address** - Pulled from the Master Data for the BizLocation of event with the disposition of "entering_commerce".
-* **Farm Contact Name** - Pulled from the Master Data for the BizLocation of the event with the disposition of "entering_commerce".
-* **Farm Contact Email** - Pulled from the Master Data for the BizLocation of the event with the disposition of "entering_commerce".
-* **Farm Contact Phone** - Pulled from the Master Data for the BizLocation of the event with the disposition of "entering_commerce".
-* **Product Net Weight** - Pulled from the Net Weight recorded for the Product in the Offload Event
-* **Product Form** - Pulled from the Product Form of the Master Data of the Offloaded product.that occurs.
+* *PG05.ScientificSpeciesCode* - **Scientific Name** - Pulled from Master Data
+* *PG06.CountryCode & PG06.GeographicLocation* - **Farming Country** - Pulled from the Country of Origin in the ILMD data of the Fishing Event
+* *PG06.ProcessingStartDate* - **Harvest Date** - Pulled from the Event Time of the Offload Event.
+* *PG14.LPCONumber* - **IFTP Number** - Pulled from the Master Data of the Vessel / Party. In this example we will pull it from the Master Data of the Vessel Owning Party.
+* *PG19.EntityName* - **Farm Name** - Pulled from the Master Data for Owning Party of the BizLocation of event with the disposition of "entering_commerce".
+* *PG19 & PG20* - **Farm Address** - Pulled from the Master Data for the BizLocation of event with the disposition of "entering_commerce".
+* *PG21.IndividualName* - **Farm Contact Name** - Pulled from the Master Data for the BizLocation of the event with the disposition of "entering_commerce".
+* *PG21.IndividualTelephone* - **Farm Contact Email** - Pulled from the Master Data for the BizLocation of the event with the disposition of "entering_commerce".
+* *PG21.IndividualEmail* - **Farm Contact Phone** - Pulled from the Master Data for the BizLocation of the event with the disposition of "entering_commerce".
+* *PG29.CommodityNetQuantity* - **Product Net Weight** - Pulled from the Net Weight recorded for the Product in the Offload Event
+* *PG06.ProcessingDescription* - **Product Form** - Pulled from the Product Form of the Master Data of the Offloaded product.that occurs.
 
 ## Recommended Additonal EPCIS Attributes
 There are attributes required by SIMP that are not part of the GDST guidance. Here are recommendations on how these attributes could be recorded in EPCIS in order to meet SIMP requirements.

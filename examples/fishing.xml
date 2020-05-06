@@ -65,9 +65,12 @@
                         </cbvmda:vesselCatchInformationList>
                         <!-- WILD HARVEST -->
                         <productionMethodForFishAndSeafoodCode>MARINE_FISHERY</productionMethodForFishAndSeafoodCode>
-                        <!-- Dates of Captures / Vessel Trip Dates -->
+                        <!-- Harvest Start & End Dates -->
                         <cbvmda:harvestStartDate>2020-01-27T00:00:00.000-06:00</cbvmda:harvestStartDate>
                         <cbvmda:harvestEndDate>2020-01-27T00:00:00.000-06:00</cbvmda:harvestEndDate>
+                        <!-- Vessel Trip Start & End Dates -->
+                        <gdst:vesselTripStart>2020-01-27T00:00:00.000-06:00</gdst:vesselTripStart>
+                        <gdst:vesselTripEnd>2020-01-27T00:00:00.000-06:00</gdst:vesselTripEnd>
                         <!-- Certificates -->
                         <cbvmda:certificationList>
                             <!-- This is a made up Certificate. This is just an example. -->

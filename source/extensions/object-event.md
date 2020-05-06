@@ -19,6 +19,7 @@ Indicator of human welfare policies in place on a vessel/trip, answering the que
 Calendar start and end dates when seafood is discharged to a landing location.
 
 `<gdst:landingStartDate></gdst:landingStartDate>`
+
 `<gdst:landingEndDate></gdst:landingEndDate>`
 
 
@@ -32,7 +33,15 @@ The party who owns the product(s) at the time the event was recorded.
 Calendar start and end dates of a rendezvous to discharge seafood from a fishing vessel to transshipment vessel.
 
 `<gdst:transshipStartDate></gdst:transshipStartDate>`
+
 `<gdst:transshipEndDate></gdst:transshipEndDate>`
+
+## Vessel Trip Start & End Date
+This is the start and end date of the vessel trip.
+
+`<gdst:vesselTripStart></gdst:vesselTripStart>`
+
+`<gdst:vesselTripEnd></gdst:vesselTripEnd>`
 
 
 

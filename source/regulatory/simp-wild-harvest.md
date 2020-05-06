@@ -2,28 +2,30 @@
 title: SIMP - Wild Harvest
 ---
 
-In this scenario we will cover a single large vessel. In SIMP, a large vessel is considered a vessel that is either more than 12 meters long, or 20 metric tons. Below I will give an example EPCIS XML that will include Master Data, a Fishing Event, a Transshipment Event, and an Offload Event. THen we will take the EPCIS data and show how it can be converted into [PGA Record(s)](https://www.cbp.gov/sites/default/files/assets/documents/2017-Oct/Implementation%20Guide%20for%20NMFS%20SIM%209-28-17_v2.pdf) for filing a SIMP report. 
+In this scenario we will cover a single large vessel. In SIMP, a large vessel is considered a vessel that is either more than 12 meters long, or 20 metric tons. Below we give an example EPCIS XML that will include Master Data, a Fishing Event, a Transshipment Event, and an Offload Event. Then we will take the EPCIS data and show how it can be converted into [PGA Record(s)](https://www.cbp.gov/sites/default/files/assets/documents/2017-Oct/Implementation%20Guide%20for%20NMFS%20SIM%209-28-17_v2.pdf) for filing a SIMP report. 
+
+> Personally Identifying Data is not required to fill out a SIMP report; contact information can be organization-based. It is GDST's recommendation that non-personally identifying contact information is provided for the farm such as a general position at the farm company to communicate with, a general email for the farm, and the phone number for the farm company that is not a personal phone number.
 
 ## Required KDEs
 
 In order to fill out a SIMP report for a Wild Harvest scenario we will need the following KDEs:
-* **Scientific Name** - Pulled from Master Data
-* **Catching Country** - Pulled from the Country of Origin in the ILMD data of the Fishing Event
-* **FAO Zone** - Pulled from the Vessel Catch information in the ILMD data for the Fishing Event
-* **Offload / Landing Date** - Pulled from the Event Time of the Offload Event.
-* **Fishing Method** - Pulled from the Vessel Catch information in the ILMD data for the Fishing Event
-* **IFTP Number** - Pulled from the Master Data of the Vessel / Party. In this example we will pull it from the Master Data of the Vessel Owning Party.
-* **First Receiver Business Name** - Pulled from the Master Data for Owning Party of the BizLocation of event with the disposition of "entering_commerce".
-* **First Receiver Address** - Pulled from the Master Data for the BizLocation of event with the disposition of "entering_commerce".
-* **First Receiver Contact Name** - Pulled from the Master Data for the BizLocation of the event with the disposition of "entering_commerce".
-* **First Receiver Contact Email** - Pulled from the Master Data for the BizLocation of the event with the disposition of "entering_commerce".
-* **First Receiver Contact Phone** - Pulled from the Master Data for the BizLocation of the event with the disposition of "entering_commerce".
-* **Product Net Weight** - Pulled from the Net Weight recorded for the Product in the Offload Event
-* **Product Form** - Pulled from the Product Form of the Master Data of the Offloaded product.
-* **Vessel Flag** - Pulled from the Master Data for BizLocation of the Fishing Event or from the Vessel Catch information in the ILMD data of the Fishing Event
-* **Vessel Name** - Pulled from the Master Data for BizLocation of the Fishing Event or from the Vessel Catch information in the ILMD data of the Fishing Event
-* **Transshipment Location Country Code** - Pulled from Read Point geo-coordinates of the Transshipment Event.
-* **Offload Country** - Pulled from the Master Data for the BizLocation of the Offload Event. This attribute is not used in this example because there is a Transshipment that occurs.
+* *PG05.ScientificSpeciesCode* - **Scientific Name** - Pulled from Master Data
+* *PG06.CountryCode* - **Catching Country** - Pulled from the Country of Origin in the ILMD data of the Fishing Event
+* *PG06.GeographicLocation* - **FAO Zone** - Pulled from the Vessel Catch information in the ILMD data for the Fishing Event
+* *PG06.ProcessingStartDate* - **Offload / Landing Date** - Pulled from the Event Time of the Offload Event.
+* *PG06.ProcessingTypeCode* - **Fishing Method** - Pulled from the Vessel Catch information in the ILMD data for the Fishing Event
+* *PG14.LPCONumber* - **IFTP Number** - Pulled from the Master Data of the Vessel / Party. In this example we will pull it from the Master Data of the Vessel Owning Party.
+* *PG19.EntityName* - **First Receiver Business Name** - Pulled from the Master Data for Owning Party of the BizLocation of event with the disposition of "entering_commerce".
+* *PG19 & PG20* - **First Receiver Address** - Pulled from the Master Data for the BizLocation of event with the disposition of "entering_commerce".
+* *PG21.IndividualName* - **First Receiver Contact Name** - Pulled from the Master Data for the BizLocation of the event with the disposition of "entering_commerce".
+* *PG21.IndividualTelephone* - **First Receiver Contact Email** - Pulled from the Master Data for the BizLocation of the event with the disposition of "entering_commerce".
+* *PG21.IndividualEmail* - **First Receiver Contact Phone** - Pulled from the Master Data for the BizLocation of the event with the disposition of "entering_commerce".
+* *PG31VCR.NetWeight* - **Product   Net Weight** - Pulled from the Net Weight recorded for the Product in the Offload Event
+* *PG06.ProcessingDescription* - **Product Form** - Pulled from the Product Form of the Master Data of the Offloaded product.
+* *PG31VCR.CountryCode* - **Vessel Flag** - Pulled from the Master Data for BizLocation of the Fishing Event or from the Vessel Catch information in the ILMD data of the Fishing Event
+* *PG31VNM.VesselName* - **Vessel Name** - Pulled from the Master Data for BizLocation of the Fishing Event or from the Vessel Catch information in the ILMD data of the Fishing Event
+* *PG32.RoutingCountryCodex* - **Transshipment Location Country Code** - Pulled from Read Point geo-coordinates of the Transshipment Event.
+* *PG32.RoutingCountryCodex* - **Offload Country** - Pulled from the Master Data for the BizLocation of the Offload Event. This attribute is not used in this example because there is a Transshipment that occurs.
 
 This documentation is not meant to serve as a guide for SIMP and is just mean to be an example of converting GDST EPCIS XML into a SIMP Records. For futher documentation on SIMP please see [here](https://www.cbp.gov/sites/default/files/assets/documents/2017-Oct/Implementation%20Guide%20for%20NMFS%20SIM%209-28-17_v2.pdf).
 
@@ -84,8 +86,13 @@ Here is the Example XML for the GDST EPCIS data. This event data will contain a 
             <!-- WILD HARVEST -->
             <cbvmda:productionMethodCode>MARINE_FISHERY</cbvmda:productionMethodCode>
             
-            <cbvmda:harvestStartDate>2020-01-27</cbvmda:harvestStartDate>
-            <cbvmda:harvestEndDate>2020-01-27</cbvmda:harvestEndDate>
+            <!-- Harvest Start & End Dates -->
+            <cbvmda:harvestStartDate>2020-01-27T00:00:00.000-06:00</cbvmda:harvestStartDate>
+            <cbvmda:harvestEndDate>2020-01-27T00:00:00.000-06:00</cbvmda:harvestEndDate>
+
+            <!-- Vessel Trip Start & End Dates -->
+            <gdst:vesselTripStart>2020-01-27T00:00:00.000-06:00</gdst:vesselTripStart>
+            <gdst:vesselTripEnd>2020-01-27T00:00:00.000-06:00</gdst:vesselTripEnd>
 
             <!-- CATCH CERTIFICATE (?) -->
             <cbvmda:certificationList>

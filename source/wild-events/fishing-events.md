@@ -92,9 +92,14 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
             <!-- WILD HARVEST -->
             <productionMethodForFishAndSeafoodCode>MARINE_FISHERY</productionMethodForFishAndSeafoodCode>
             
-            <!-- Dates of Captures / Vessel Trip Dates -->
+            <!-- Harvest Start & End Dates -->
             <cbvmda:harvestStartDate>2020-01-27T00:00:00.000-06:00</cbvmda:harvestStartDate>
             <cbvmda:harvestEndDate>2020-01-27T00:00:00.000-06:00</cbvmda:harvestEndDate>
+
+            <!-- Vessel Trip Start & End Dates -->
+            <gdst:vesselTripStart>2020-01-27T00:00:00.000-06:00</gdst:vesselTripStart>
+            <gdst:vesselTripEnd>2020-01-27T00:00:00.000-06:00</gdst:vesselTripEnd>
+
 
             <!-- Certificates -->
             <cbvmda:certificationList>
@@ -230,8 +235,14 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
             <!-- WILD HARVEST -->
             <productionMethodForFishAndSeafoodCode>MARINE_FISHERY</productionMethodForFishAndSeafoodCode>
             
+            <!-- Harvest Start & End Dates -->
             <cbvmda:harvestStartDate>2020-01-27T00:00:00.000-06:00</cbvmda:harvestStartDate>
             <cbvmda:harvestEndDate>2020-01-27T00:00:00.000-06:00</cbvmda:harvestEndDate>
+
+            <!-- Vessel Trip Start & End Dates -->
+            <gdst:vesselTripStart>2020-01-27T00:00:00.000-06:00</gdst:vesselTripStart>
+            <gdst:vesselTripEnd>2020-01-27T00:00:00.000-06:00</gdst:vesselTripEnd>
+
 
             <!-- Certificates -->
             <cbvmda:certificationList>
@@ -361,8 +372,14 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
             <!-- WILD HARVEST -->
             <productionMethodForFishAndSeafoodCode>MARINE_FISHERY</productionMethodForFishAndSeafoodCode>
             
+            <!-- Harvest Start & End Dates -->
             <cbvmda:harvestStartDate>2020-01-27T00:00:00.000-06:00</cbvmda:harvestStartDate>
             <cbvmda:harvestEndDate>2020-01-27T00:00:00.000-06:00</cbvmda:harvestEndDate>
+
+            <!-- Vessel Trip Start & End Dates -->
+            <gdst:vesselTripStart>2020-01-27T00:00:00.000-06:00</gdst:vesselTripStart>
+            <gdst:vesselTripEnd>2020-01-27T00:00:00.000-06:00</gdst:vesselTripEnd>
+
 
             <!-- Certificates -->
             <cbvmda:certificationList>
@@ -492,8 +509,14 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
             <!-- WILD HARVEST -->
             <productionMethodForFishAndSeafoodCode>MARINE_FISHERY</productionMethodForFishAndSeafoodCode>
             
+            <!-- Harvest Start & End Dates -->
             <cbvmda:harvestStartDate>2020-01-27T00:00:00.000-06:00</cbvmda:harvestStartDate>
             <cbvmda:harvestEndDate>2020-01-27T00:00:00.000-06:00</cbvmda:harvestEndDate>
+
+            <!-- Vessel Trip Start & End Dates -->
+            <gdst:vesselTripStart>2020-01-27T00:00:00.000-06:00</gdst:vesselTripStart>
+            <gdst:vesselTripEnd>2020-01-27T00:00:00.000-06:00</gdst:vesselTripEnd>
+
 
             <!-- Certificates -->
             <cbvmda:certificationList>
@@ -623,8 +646,13 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
             <!-- WILD HARVEST -->
             <productionMethodForFishAndSeafoodCode>MARINE_FISHERY</productionMethodForFishAndSeafoodCode>
             
+            <!-- Harvest Start & End Dates -->
             <cbvmda:harvestStartDate>2020-01-27T00:00:00.000-06:00</cbvmda:harvestStartDate>
             <cbvmda:harvestEndDate>2020-01-27T00:00:00.000-06:00</cbvmda:harvestEndDate>
+
+            <!-- Vessel Trip Start & End Dates -->
+            <gdst:vesselTripStart>2020-01-27T00:00:00.000-06:00</gdst:vesselTripStart>
+            <gdst:vesselTripEnd>2020-01-27T00:00:00.000-06:00</gdst:vesselTripEnd>
 
             <!-- Certificates -->
             <cbvmda:certificationList>
