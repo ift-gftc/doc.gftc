@@ -4,7 +4,7 @@ title: SIMP - Aquaculture
 
 In this scenario we will cover a single Farm with a single Farm Harvest. We will be building a [PGA Record](https://www.cbp.gov/sites/default/files/assets/documents/2017-Oct/Implementation%20Guide%20for%20NMFS%20SIM%209-28-17_v2.pdf) based off the Events below. The Master Data for these events can be found above in the Master Data section.
 
-> Personsally Identifying Data is not required to fill out a SIMP report. It is GDST's recommendation that non-personally identifying contact information is provided for the farm such as a general position at the farm company to communicate with, a general email for the farm, and the phone number for the farm company that is not a personal phone number.
+> Personally Identifying Data is not required to fill out a SIMP report; contact information can be organization-based. It is GDST's recommendation that non-personally identifying contact information is provided for the farm such as a general position at the farm company to communicate with, a general email for the farm, and the phone number for the farm company that is not a personal phone number.
 
 ## Required KDEs
 
