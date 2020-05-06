@@ -1,11 +1,9 @@
 ---
-title: Appendix
+title: Links
 ---
 
-Duis voluptate nulla ut ea officia ea fugiat et ut ad qui ex cupidatat ad. Incididunt sint deserunt cupidatat exercitation fugiat irure. Cillum incididunt pariatur dolor non laboris pariatur magna id ea. Laborum quis magna eu elit ut ullamco proident laborum sunt labore elit minim dolore incididunt.
-
-Incididunt Lorem ut eu mollit aliquip eiusmod minim commodo dolor ipsum adipisicing dolor deserunt esse. Duis sint nisi anim mollit nulla elit cillum ea ipsum. Occaecat nulla nisi voluptate do non veniam voluptate veniam nostrud.
-
-Eu consectetur nulla in ullamco. Occaecat deserunt deserunt id elit eu dolor. Eiusmod esse ea reprehenderit voluptate proident amet quis dolor voluptate minim mollit.
-
-Sint dolor nulla dolor magna do aute. Sit culpa aliqua incididunt excepteur excepteur aliqua occaecat incididunt sint veniam. Id amet in aliquip deserunt consectetur. Cillum proident deserunt dolor dolor officia ex aliqua veniam. Sit fugiat veniam quis amet dolore culpa Lorem pariatur culpa. Sit deserunt et amet excepteur dolor Lorem culpa non.
+* **[GDST 1.0 Standard and Materials](https://traceability-dialogue.org/gdst-1-0-materials/)**
+* **[EPCIS 1.2 and CBV](https://www.gs1.org/standards/epcis)**
+* **[GS1 Foundation for Fish Seafood Aquaculture Traceability Guideline](https://www.gs1.org/sites/default/files/docs/traceability/GS1_Foundation_for_Fish_Seafood_Aquaculture_Traceability_Guideline.pdf)**
+* **[GS1 Web Vocabulary](https://www.gs1.org/voc/)**
+* **[SIMP Implementation Guide 2020](https://www.cbp.gov/sites/default/files/assets/documents/2020-Mar/ACE%20NMFS%20PGA%20Implementation%20Guide%2018Feb2020_final_0.pdf)**
