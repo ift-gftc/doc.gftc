@@ -11,23 +11,18 @@ const footerNavConfig = {
     href: 'https://www.traceability-dialogue.org',
     target: '_blank',
     rel: 'noopener noreferrer'
-  },
-  Community: {
-    href: 'http://traceability-dialogue.org/',
-    target: '_blank',
-    rel: 'noopener noreferrer'
   }
 };
 
 module.exports = {
-  siteName: "doc.gdst",
-  subtitle: "IFT Documentations",
-  description: "A guide to IFT's standards and APIs",
+  siteName: "GFTC Documentations",
+  subtitle: "Traceability Dialogue",
+  description: "A guide to GFTC's recommended standards and APIs",
   menuTitle: 'IFT ECOSYSTEM',
   segmentApiKey: 'wgrIo8Bul0Ujl8USETG3DB6hONdy4kTg',
   algoliaApiKey: '794d68c6a15fef4147f373433a439119',
   algoliaIndexName: 'gdstdocs',
-  baseUrl: 'https://ift-gftc.github.io/doc.gdst/',
+  baseUrl: 'https://developer.traceability-dialogue.org/',
   contentDir: '/source/',
   twitterHandle: 'IFT',
   spectrumHandle: 'ift',
