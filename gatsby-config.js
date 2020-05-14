@@ -1,7 +1,7 @@
 const themeOptions = require("./src/theme-options")
 
 module.exports = {
-  pathPrefix: "/doc.gdst",
+  pathPrefix: "/",
   siteMetadata: {
     title: 'GDST Docs'
   },
