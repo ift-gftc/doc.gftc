@@ -56,7 +56,8 @@ module.exports = {
             "aquaculture-events/farm-harvest",
             "aquaculture-events/wild-to-farmed",
             "aquaculture-events/commodities",
-            "aquaculture-events/xml-mappings"
+            "aquaculture-events/xml-mappings",
+            "aquaculture-events/advanced01"
           ],
           "Wild Events": [
             "wild-events/master-data",
@@ -67,7 +68,8 @@ module.exports = {
             "wild-events/gear-types",
             "wild-events/mari-culture",
             "wild-events/commodities",
-            "wild-events/xml-mappings"
+            "wild-events/xml-mappings",
+            "wild-events/advanced"
           ],
           "EPCIS Extensions": [
             "extensions/business-steps",
