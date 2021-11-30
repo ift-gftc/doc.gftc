@@ -14,4 +14,4 @@ Identifiers Video can be found at https://vimeo.com/551525183 , you can access i
  
 [GS1 Visibility Workbench](https://epcisworkbench.gs1.org/ui/home) – Great tool for verifying the syntax of the core EPCIS 1.2 xml document. 
 
-For Technical Questions and support with GDST, please reach out to [pheggelund@ift.org](email:pheggelund@ift.org)
+For Technical Questions and support with GDST, please reach out to `pheggelund@ift.org`
