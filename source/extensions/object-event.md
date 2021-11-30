@@ -6,7 +6,7 @@ description: This covers how the Object Event type has been extended to support 
 ## Certification List
 You can see in the Certificates section that we have extended the base object event to allow for Certifications where ILMD data is not allowed. 
 
-`<gdst:certificationList></gdst:certificationList>`
+`<cbvmda:certificationList></cbvmda:certificationList>`
 
 
 ## Existence of Human Welfare Policy
@@ -42,6 +42,3 @@ This is the start and end date of the vessel trip.
 `<gdst:vesselTripStart></gdst:vesselTripStart>`
 
 `<gdst:vesselTripEnd></gdst:vesselTripEnd>`
-
-
-

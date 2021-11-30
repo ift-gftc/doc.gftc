@@ -7,6 +7,7 @@ These are attributes that are extended at the `<ilmd>` level in `Object ADD` and
 
 ## Broodstock Source
 Broodstock from grow-out farms or taken from the wild.
+
 `Domestic` or `Wild Sources` are valid values.
 
 `<gdst:broodstockSource></gdst:broodstockSource>`
