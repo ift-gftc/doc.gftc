@@ -5,7 +5,7 @@ title: MSC/ASC Chain of Custody
 This document is **NOT** meant to serve as a complete guide to ensuring MSC / ASC Chain of Custody compliance. For more information please visit [MSC CoC Standard](https://www.msc.org/docs/default-source/default-document-library/for-business/program-documents/chain-of-custody-program-documents/msc-chain-of-custody-standard_default-version-v5-0.pdf?sfvrsn=b832b260_10). More so, this document is meant to serve a general starting place for knowing where in GDST data to find MSC / ASC Chain of Custody certification information and which events need to supply the certificate information.
 
 ## How to Specify the Certificate?
-The Certificate can be in the Certification List on an EPCIS event either using the `<ilmd>` data of a `TRANSFORMATION` event, or by using the `<gdst:certificationList></gdst:certificationList>` extension on a `OBJECT` event. The Certificate Type for the certificate is `urn:gdst:certType:harvestCoC`.
+The Certificate can be in the Certification List on an EPCIS event either using the `<ilmd>` data of a `TRANSFORMATION` event, or by using the `<cbvmda:certificationList></cbvmda:certificationList>` on the `OBJECT` event. The Certificate Type for the certificate is `urn:gdst:certType:harvestCoC`.
 
 ```xml
 <cbvmda:certification>

@@ -1,7 +1,38 @@
 ---
 title: XML Mappings
-description: These are ECPIS XML Mappings from GDST KDEs to the exact XPath in the EPCIS Event XML. These XPaths start from the base of the <ObjectEvent>, <TransformationEvent>, and <AggregateEvent> XML elements. If the EPCIX XML XPath mapping states that this is looked up using the master data, then the XPath is based on the root <EPCISMasterData> element.
+description: These are ECPIS XML Mappings from GDST KDEs to the exact XPath in the EPCIS Event XML.
 ---
+
+ These XPaths start from the base of the `<ObjectEvent>`, `<TransformationEvent>`, and `<AggregateEvent>` XML elements. If the EPCIX XML XPath mapping states that this is looked up using the Static Master Data, then the XPath is based on the root `<EPCISMasterData>` element.
+
+ ## Notes
+
+ - The `cbvmda:informationProvider` was originally defined for Static Master Data. However, it was adopted as an extension KDE into each CTE because it was determined to be critical in understanding which entity in the supply chain recorded the data.
+
+ - The GS1 CBV and [GS1's Addition of Attributes for Fish Traceability](https://www.gs1.org/sites/default/files/docs/epc/CBVCN_18-000108_AdditionOfFishAttributes.pdf) define some vessel KDEs to be defined in the `ILMD` section of `OBJECT-ADD` and `TRANSFORMATION`. However, these were originally defined to be in the ILMD because at the time of their definition, it was not expected that the Fishing, Transshipment, and Landing events were not expected to be recorded. Now that the these events are being recorded, it is more convenient to record some KDEs about vessels in the Static Master Data instead of the ILMD. However, because GS1 has previously defined these as to be in the ILMD, we will leave it optional for them to be either in the Static Master Data or the ILMD.
+
+
+
+## Static Master Data
+Master Data Type | Name                       | Master Data ID
+-----------------|----------------------------|---------------
+Vessel           | Vessel Flag State          | `urn:epcglobal:cbv:mda#vesselFlagState`
+Vessel           | Vessel ID                  | `urn:epcglobal:cbv:mda#vesselName`
+Vessel           | IMO Number                 | `urn:epcglobal:gdst#imoNumber`
+Vessel           | Vessel Public Registry     | `urn:epcglobal:gdst#vesselPublicRegistry`
+Vessel           | Vessel Public Registry     | `urn:epcglobal:gdst#satelliteTracking`
+Vessel           | Vessel Name                | `urn:epcglobal:cbv:mda#vesselName`
+Vessel           | Information Provider       | `urn:epcglobal:cbv:mda#informationProvider`
+Vessel           | Owning Party               | `urn:epcglobal:cbv:owning_party`
+Location         | Information Provider       | `urn:epcglobal:cbv:mda#informationProvider`
+Location         | Owning Party               | `urn:epcglobal:cbv:owning_party`
+Trade Item       | Species (Scientific Name)  | `urn:epcglobal:cbv:mda#speciesForFisheryStatisticsPurposesName`
+Trade Item       | Species (Alpha 3 Code)     | `urn:epcglobal:cbv:mda#speciesForFisheryStatisticsPurposesCode`
+Trade Item       | Product Form               | `urn:epcglobal:cbv:mda#radeItemConditionCode`
+Trade Item       | Short Description          | `urn:epcglobal:cbv:mda#descriptionShort`
+Trade Item       | Information Provider       | `urn:epcglobal:cbv:mda#informationProvider`
+Trade Item       | Owning Party               | `urn:epcglobal:cbv:owning_party`
+
 
 ## Fishing
 GDST KDE | EPCIX XML XPath
@@ -10,19 +41,19 @@ Event ID | `eventID`
 Event Date & Time | `eventTime`
 Product Owner | `gdst:productOwner`
 Information Provider | `cbvmda:informationProvider`
-Vessel Name | `extension / ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / cbvmda:vesselName`
-Vessel Registration | `extension / ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / cbvmda:vesselID`
-Unique Vessel ID | `extension / ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / gdst:imoNumber`
-Public Vessel Registry Hyperlink | `extension / ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / gdst:vesselPublicRegistry`
+Vessel Name (Static Master Data or ILMD) | `extension / ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / cbvmda:vesselName`
+Vessel Registration (Static Master Data or ILMD) | `extension / ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / cbvmda:vesselID`
+Unique Vessel ID (Static Master Data or ILMD) | `extension / ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / gdst:imoNumber`
+Public Vessel Registry Hyperlink (Static Master Data or ILMD) | `extension / ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / gdst:vesselPublicRegistry`
+Satellite Vessel Tracking Authority (Static Master Data or ILMD) | `extension / ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / gdst:satelliteTracking`
+Vessel Flag (Static Master Data or ILMD) | `extension / ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / cbvmda:vesselFlagState`
 Availability of Catch Coordinates | `extension / ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / gdst:gpsAvailability`
-Satellite Vessel Tracking Authority | `extension / ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / gdst:satelliteTracking`
 Catch Area | `extension / ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / cbvmda:catchArea`
 Economic Zone | `extension / ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / cbvmda:economicZone`
 RMFO Area | `extension / ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / gdst:rmfoArea`
 Sub-National Permit Area | `extension / ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / gdst:subnationalPermitArea`
 Fishery Improvement Project | `extension / ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / gdst:fisheryImprovementProject`
 Gear Type | `extension / ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / cbvmda:fishingGearTypeCode`
-Vessel Flag | `extension / ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / cbvmda:vesselFlagState`
 Date of Capture | `eventTime`
 Production Method | `extension / ilmd / productionMethodForFishAndSeafoodCode`
 Expiration Date | `extension / ilmd / cbvmda:itemExpirationDate`
@@ -39,11 +70,11 @@ Event ID | `eventID`
 Event Date & Time | `eventTime`
 Product Owner | `gdst:productOwner`
 Information Provider | `cbvmda:informationProvider`
-Vessel Name | `ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / cbvmda:vesselName`
-Vessel Registration | `ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / cbvmda:vesselID`
-Unique Vessel ID | `ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / cbvmda:imoNumber`
-Public Vessel Registry Hyperlink | `ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / cbvmda:vesselPublicRegistry`
-Vessel Flag | `ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / cbvmda:vesselFlagState`
+Vessel Name (Static Master Data or ILMD) | `ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / cbvmda:vesselName`
+Vessel Registration (Static Master Data or ILMD) | `ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / cbvmda:vesselID`
+Unique Vessel ID (Static Master Data or ILMD) | `ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / cbvmda:imoNumber`
+Public Vessel Registry Hyperlink (Static Master Data or ILMD) | `ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / cbvmda:vesselPublicRegistry`
+Vessel Flag (Static Master Data or ILMD) | `ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / cbvmda:vesselFlagState`
 Expiration Date | `ilmd / cbvmda:itemExpirationDate`
 Country of Origin | `ilmd / cbvmda:countryOfOrigin`
 Harvest Chain of Custody Certificate | `extension / ilmd / cbvmda:certificationList / cbvmda:certification [gdst:certificateType='urn:gdst:certType:harvestCoC']`
@@ -57,10 +88,10 @@ Event ID | `eventID`
 Event Date & Time | `eventTime`
 Product Owner | `gdst:productOwner`
 Information Provider | `cbvmda:informationProvider`
-Transshipment Vessel Name | This is looked up in the master data of the `bizLocation` of the event. `EPCISMasterData / VocabularyList / Vocabulary [@type='urn:epcglobal:epcis:vtype:Location'] / VocabularyElementList / VocabularyElement [@id='insert_gln_here'] / attribute [@id='urn:epcglobal:cbv:mda#vesselName']`
-Transshipment Vessel Unique ID | This is looked up in the master data of the `bizLocation` of the event. `EPCISMasterData / VocabularyList / Vocabulary [@type='urn:epcglobal:epcis:vtype:Location'] / VocabularyElementList / VocabularyElement [@id='insert_gln_here'] / attribute [@id='urn:epcglobal:gdst#imoNumber']`
-Transshipment Vessel Registration | This is looked up in the master data of the `bizLocation` of the event. `EPCISMasterData / VocabularyList / Vocabulary [@type='urn:epcglobal:epcis:vtype:Location'] / VocabularyElementList / VocabularyElement [@id='insert_gln_here'] / attribute [@id='urn:epcglobal:cbv:mda#vesselID']`
-Transshipment Vessel Flag | This is looked up in the master data of the `bizLocation` of the event. `EPCISMasterData / VocabularyList / Vocabulary [@type='urn:epcglobal:epcis:vtype:Location'] / VocabularyElementList / VocabularyElement [@id='insert_gln_here'] / attribute [@id='urn:epcglobal:cbv:mda#vesselFlagState']`
+Transshipment Vessel Name (Static Master Data Only) | This is looked up in the master data of the `bizLocation` of the event. `EPCISMasterData / VocabularyList / Vocabulary [@type='urn:epcglobal:epcis:vtype:Location'] / VocabularyElementList / VocabularyElement [@id='insert_gln_here'] / attribute [@id='urn:epcglobal:cbv:mda#vesselName']`
+Transshipment Vessel Unique ID (Static Master Data Only) | This is looked up in the master data of the `bizLocation` of the event. `EPCISMasterData / VocabularyList / Vocabulary [@type='urn:epcglobal:epcis:vtype:Location'] / VocabularyElementList / VocabularyElement [@id='insert_gln_here'] / attribute [@id='urn:epcglobal:gdst#imoNumber']`
+Transshipment Vessel Registration (Static Master Data Only) | This is looked up in the master data of the `bizLocation` of the event. `EPCISMasterData / VocabularyList / Vocabulary [@type='urn:epcglobal:epcis:vtype:Location'] / VocabularyElementList / VocabularyElement [@id='insert_gln_here'] / attribute [@id='urn:epcglobal:cbv:mda#vesselID']`
+Transshipment Vessel Flag (Static Master Data Only) | This is looked up in the master data of the `bizLocation` of the event. `EPCISMasterData / VocabularyList / Vocabulary [@type='urn:epcglobal:epcis:vtype:Location'] / VocabularyElementList / VocabularyElement [@id='insert_gln_here'] / attribute [@id='urn:epcglobal:cbv:mda#vesselFlagState']`
 Transshipment Location (In-Port) | `gdst:unloadingPort`
 Transshipment Location (At-Sea) | `readPoint`
 Dates of TransShipment (Start) | `gdst:transshipStartDate`
@@ -81,8 +112,8 @@ Landing Location (In-Port) | `gdst:unloadingPort`
 Landing Location (Non-Port) | `readPoint`
 Dates of Landing (Start) | `gdst:landingStartDate`
 Dates of Landing (End) | `gdst:landingEndDate`
-Landing Authorization | `gdst:certificationList / cbvmda:certification [gdst:certificateType='urn:gdst:certType:landingAuth']`
-Human Welfare Policy | `gdst:certificationList / cbvmda:certification [gdst:certificateType='urn:gdst:certType:humanPolicy']`
+Landing Authorization | `cbvmda:certificationList / cbvmda:certification [gdst:certificateType='urn:gdst:certType:landingAuth']`
+Human Welfare Policy | `cbvmda:certificationList / cbvmda:certification [gdst:certificateType='urn:gdst:certType:humanPolicy']`
 Human Policy Standard | `gdst:humanWelfarePolicy`
 
 ## Processing
@@ -107,7 +138,7 @@ Event Date & Time | `eventTime`
 Event Read Point | `readPoint`
 Product Ownership | `gdst:productOwner`
 Information Provider | `cbvmda:informationProvider`
-Harvest Chain of Custody Certificate | `gdst:certificationList / cbvmda:certification [gdst:certificateType='urn:gdst:certType:harvestCoC']`
+Harvest Chain of Custody Certificate | `cbvmda:certificationList / cbvmda:certification [gdst:certificateType='urn:gdst:certType:harvestCoC']`
 
 ## Ship  /  Receive
 GDST  KDE | EPCIS Mapping 
@@ -117,4 +148,4 @@ Event Date & Time | `eventTime`
 Event Read Point | `readPoint`
 Product Ownership | `gdst:productOwner`
 Information Provider | `cbvmda:informationProvider`
-Harvest Chain of Custody Certificate | `gdst:certificationList / cbvmda:certification [gdst:certificateType='urn:gdst:certType:harvestCoC']`
+Harvest Chain of Custody Certificate | `cbvmda:certificationList / cbvmda:certification [gdst:certificateType='urn:gdst:certType:harvestCoC']`

@@ -80,11 +80,6 @@ module.exports = {
             "extensions/ilmd",
             "extensions/object-event"
           ],
-          "Open API": [
-            "open-api/examples",
-            "open-api/swagger-api"
-
-          ],
           "Resources": [
             "resources/featured-implementation",
             "resources/index"
