@@ -1,11 +1,17 @@
 ---
-title: Appendix
+title: Links
 ---
 
-Duis voluptate nulla ut ea officia ea fugiat et ut ad qui ex cupidatat ad. Incididunt sint deserunt cupidatat exercitation fugiat irure. Cillum incididunt pariatur dolor non laboris pariatur magna id ea. Laborum quis magna eu elit ut ullamco proident laborum sunt labore elit minim dolore incididunt.
+Identifiers Video can be found at https://vimeo.com/551525183 , you can access it with the password “IFTGFTC” 
+ 
+[EPCIS 1.2 Standard](https://www.gs1.org/sites/default/files/docs/epc/EPCIS-Standard-1.2-r-2016-09-29.pdf) – GS1 EPCIS standard document.
+ 
+[EPCIS CBV 1.2](https://www.gs1.org/sites/default/files/docs/epc/CBV-Standard-1-2-2-r-2017-10-12.pdf) – Common business vocabulary for the EPCIS 1.2 standard. Read the standard before reading this.
+ 
+[GDST Standard](https://traceability-dialogue.org/wp-content/uploads/2020/03/2020.03.11_GDST1.0CoreNormativeStandardsfinalMAR13.pdf) – GDST Standard document. I highly recommend understanding EPCIS before reading this document.
+ 
+[IT Co Mapping Tool](https://ift-gftc.github.io/IT-Conversion-Mapping-Tool/) – Great tool for mapping your existing data model into the GDST data model and then seeing the exported XML file. You can also import XML files here for some sanity checking.
+ 
+[GS1 Visibility Workbench](https://epcisworkbench.gs1.org/ui/home) – Great tool for verifying the syntax of the core EPCIS 1.2 xml document. 
 
-Incididunt Lorem ut eu mollit aliquip eiusmod minim commodo dolor ipsum adipisicing dolor deserunt esse. Duis sint nisi anim mollit nulla elit cillum ea ipsum. Occaecat nulla nisi voluptate do non veniam voluptate veniam nostrud.
-
-Eu consectetur nulla in ullamco. Occaecat deserunt deserunt id elit eu dolor. Eiusmod esse ea reprehenderit voluptate proident amet quis dolor voluptate minim mollit.
-
-Sint dolor nulla dolor magna do aute. Sit culpa aliqua incididunt excepteur excepteur aliqua occaecat incididunt sint veniam. Id amet in aliquip deserunt consectetur. Cillum proident deserunt dolor dolor officia ex aliqua veniam. Sit fugiat veniam quis amet dolore culpa Lorem pariatur culpa. Sit deserunt et amet excepteur dolor Lorem culpa non.
+For Technical Questions and support with GDST, please reach out to [pheggelund@ift.org](email:pheggelund@ift.org)

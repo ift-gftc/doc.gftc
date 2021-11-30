@@ -52,11 +52,6 @@ module.exports = {
             "events/at-sea",
             "events/aquaculture",
           ],
-          "Open API": [
-            "open-api/examples",
-            "open-api/swagger-api"
-
-          ],
           "Resources": [
             "resources/index"
           ],
