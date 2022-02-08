@@ -3,7 +3,7 @@ title: XML Mappings
 description: These are ECPIS XML Mappings from GDST KDEs to the exact XPath in the EPCIS Event XML.
 ---
 
- These XPaths start from the base of the `<ObjectEvent>`, `<TransformationEvent>`, and `<AggregateEvent>` XML elements. If the EPCIX XML XPath mapping states that this is looked up using the Static Master Data, then the XPath is based on the root `<EPCISMasterData>` element.
+ These XPaths start from the base of the `<ObjectEvent>`, `<TransformationEvent>`, and `<AggregationEvent>` XML elements. If the EPCIX XML XPath mapping states that this is looked up using the Static Master Data, then the XPath is based on the root `<EPCISMasterData>` element.
 
  ## Notes
 
@@ -14,24 +14,25 @@ description: These are ECPIS XML Mappings from GDST KDEs to the exact XPath in t
 
 
 ## Static Master Data
-Master Data Type | Name                       | Master Data ID
------------------|----------------------------|---------------
-Vessel           | Vessel Flag State          | `urn:epcglobal:cbv:mda#vesselFlagState`
-Vessel           | Vessel ID                  | `urn:epcglobal:cbv:mda#vesselName`
-Vessel           | IMO Number                 | `urn:epcglobal:gdst#imoNumber`
-Vessel           | Vessel Public Registry     | `urn:epcglobal:gdst#vesselPublicRegistry`
-Vessel           | Vessel Public Registry     | `urn:epcglobal:gdst#satelliteTracking`
-Vessel           | Vessel Name                | `urn:epcglobal:cbv:mda#vesselName`
-Vessel           | Information Provider       | `urn:epcglobal:cbv:mda#informationProvider`
-Vessel           | Owning Party               | `urn:epcglobal:cbv:owning_party`
-Location         | Information Provider       | `urn:epcglobal:cbv:mda#informationProvider`
-Location         | Owning Party               | `urn:epcglobal:cbv:owning_party`
-Trade Item       | Species (Scientific Name)  | `urn:epcglobal:cbv:mda#speciesForFisheryStatisticsPurposesName`
-Trade Item       | Species (Alpha 3 Code)     | `urn:epcglobal:cbv:mda#speciesForFisheryStatisticsPurposesCode`
-Trade Item       | Product Form               | `urn:epcglobal:cbv:mda#radeItemConditionCode`
-Trade Item       | Short Description          | `urn:epcglobal:cbv:mda#descriptionShort`
-Trade Item       | Information Provider       | `urn:epcglobal:cbv:mda#informationProvider`
-Trade Item       | Owning Party               | `urn:epcglobal:cbv:owning_party`
+Master Data Type | Name                                 | Master Data ID
+-----------------|--------------------------------------|---------------
+Vessel           | Vessel Flag State                    | `urn:epcglobal:cbv:mda#vesselFlagState`
+Vessel           | Vessel ID                            | `urn:epcglobal:cbv:mda#vesselID`
+Vessel           | Unique Vessel ID                     | `urn:epcglobal:gdst#imoNumber`
+Vessel           | Public Vessel Registry Hyperlink     | `urn:epcglobal:gdst#vesselPublicRegistry`
+Vessel           | Availability of Catch Coordinates    | `urn:epcglobal:gdst#gpsAvailability`
+Vessel           | Vessel Satellite Tracking Authority  | `urn:epcglobal:gdst#satelliteTracking`
+Vessel           | Vessel Name                          | `urn:epcglobal:cbv:mda#vesselName`
+Vessel           | Information Provider                 | `urn:epcglobal:cbv:mda#informationProvider`
+Vessel           | Owning Party                         | `urn:epcglobal:cbv:owning_party`
+Location         | Information Provider                 | `urn:epcglobal:cbv:mda#informationProvider`
+Location         | Owning Party                         | `urn:epcglobal:cbv:owning_party`
+Trade Item       | Species (Scientific Name)            | `urn:epcglobal:cbv:mda#speciesForFisheryStatisticsPurposesName`
+Trade Item       | Species (Alpha 3 Code)               | `urn:epcglobal:cbv:mda#speciesForFisheryStatisticsPurposesCode`
+Trade Item       | Product Form                         | `urn:epcglobal:cbv:mda#tradeItemConditionCode`
+Trade Item       | Short Description                    | `urn:epcglobal:cbv:mda#descriptionShort`
+Trade Item       | Information Provider                 | `urn:epcglobal:cbv:mda#informationProvider`
+Trade Item       | Owning Party                         | `urn:epcglobal:cbv:owning_party`
 
 
 ## Fishing
@@ -73,7 +74,7 @@ Information Provider | `cbvmda:informationProvider`
 Vessel Name (Static Master Data or ILMD) | `ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / cbvmda:vesselName`
 Vessel Registration (Static Master Data or ILMD) | `ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / cbvmda:vesselID`
 Unique Vessel ID (Static Master Data or ILMD) | `ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / cbvmda:imoNumber`
-Public Vessel Registry Hyperlink (Static Master Data or ILMD) | `ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / cbvmda:vesselPublicRegistry`
+Public Vessel Registry Hyperlink (Static Master Data or ILMD) | `ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / gdst:vesselPublicRegistry`
 Vessel Flag (Static Master Data or ILMD) | `ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / cbvmda:vesselFlagState`
 Expiration Date | `ilmd / cbvmda:itemExpirationDate`
 Country of Origin | `ilmd / cbvmda:countryOfOrigin`
