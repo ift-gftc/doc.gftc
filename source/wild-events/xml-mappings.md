@@ -3,7 +3,7 @@ title: XML Mappings
 description: These are ECPIS XML Mappings from GDST KDEs to the exact XPath in the EPCIS Event XML.
 ---
 
- These XPaths start from the base of the `<ObjectEvent>`, `<TransformationEvent>`, and `<AggregationEvent>` XML elements. If the EPCIX XML XPath mapping states that this is looked up using the Static Master Data, then the XPath is based on the root `<EPCISMasterData>` element.
+ These XPaths start from the base of the `<ObjectEvent>`, `<TransformationEvent>`, and `<AggregationEvent>` XML elements. If the EPCIS XML XPath mapping states that this is looked up using the Static Master Data, then the XPath is based on the root `<EPCISMasterData>` element.
 
  ## Notes
 
@@ -36,7 +36,7 @@ Trade Item       | Owning Party                         | `urn:epcglobal:cbv:own
 
 
 ## Fishing
-GDST KDE | EPCIX XML XPath
+GDST KDE | EPCIS XML XPath
 ---------|----------------
 Event ID | `eventID`
 Event Date & Time | `eventTime`
@@ -65,7 +65,7 @@ Human Welfare Policy | `extension / ilmd / cbvmda:certificationList / cbvmda:cer
 Human Policy Standard | `gdst:humanWelfarePolicy`
 
 ## On-Vessel Processing
-GDST KDE | EPCIX XML XPath
+GDST KDE | EPCIS XML XPath
 ---------|----------------
 Event ID | `eventID`
 Event Date & Time | `eventTime`
@@ -83,7 +83,7 @@ Human Welfare Policy | `extension / ilmd / cbvmda:certificationList / cbvmda:cer
 Human Policy Standard | `gdst:humanWelfarePolicy`
 
 ## Transshipment
-GDST KDE | EPCIX XML XPath
+GDST KDE | EPCIS XML XPath
 ---------|----------------
 Event ID | `eventID`
 Event Date & Time | `eventTime`
@@ -103,7 +103,7 @@ Human Welfare Policy | `extension / ilmd / cbvmda:certificationList / cbvmda:cer
 Human Policy Standard | `gdst:humanWelfarePolicy`
 
 ## Landing
-GDST KDE | EPCIX XML XPath
+GDST KDE | EPCIS XML XPath
 ---------|----------------
 Event ID | `eventID`
 Event Date & Time | `eventTime`
