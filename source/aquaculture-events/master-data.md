@@ -39,7 +39,7 @@ This is the master data that will be used through the events in aquaculture scen
                     <attribute id="urn:epcglobal:cbv:mda#descriptionShort">Atlantic Salmon Fry</attribute>
                     <attribute id="urn:epcglobal:cbv:mda#speciesForFisheryStatisticsPurposesName">Salmo salar</attribute>
                     <attribute id="urn:epcglobal:cbv:mda#speciesForFisheryStatisticsPurposesCode">SAL</attribute>
-                    <attribute id="urn:epcglobal:cbv:mda#radeItemConditionCode">FIL</attribute>
+                    <attribute id="urn:epcglobal:cbv:mda#tradeItemConditionCode">FIL</attribute>
                 </VocabularyElement>
 
                 <!-- SALMON -->
@@ -49,7 +49,7 @@ This is the master data that will be used through the events in aquaculture scen
                     <attribute id="urn:epcglobal:cbv:mda#descriptionShort">Atlantic Salmon</attribute>
                     <attribute id="urn:epcglobal:cbv:mda#speciesForFisheryStatisticsPurposesName">Salmo salar</attribute>
                     <attribute id="urn:epcglobal:cbv:mda#speciesForFisheryStatisticsPurposesCode">SAL</attribute>
-                    <attribute id="urn:epcglobal:cbv:mda#radeItemConditionCode">WHL</attribute>
+                    <attribute id="urn:epcglobal:cbv:mda#tradeItemConditionCode">WHL</attribute>
                 </VocabularyElement>
 
                 <!-- SALMON FILLET -->
@@ -59,7 +59,7 @@ This is the master data that will be used through the events in aquaculture scen
                     <attribute id="urn:epcglobal:cbv:mda#descriptionShort">Atlantic Salmon Fillet</attribute>
                     <attribute id="urn:epcglobal:cbv:mda#speciesForFisheryStatisticsPurposesName">Salmo salar</attribute>
                     <attribute id="urn:epcglobal:cbv:mda#speciesForFisheryStatisticsPurposesCode">SAL</attribute>
-                    <attribute id="urn:epcglobal:cbv:mda#radeItemConditionCode">WHL</attribute>
+                    <attribute id="urn:epcglobal:cbv:mda#tradeItemConditionCode">WHL</attribute>
                 </VocabularyElement>
 
             </VocabularyElementList>
