@@ -24,7 +24,7 @@ Here is the Master Data that will be used in the scenarios listed below.
                     <attribute id="urn:epcglobal:cbv:mda#descriptionShort">Yellowfin Tuna</attribute>
                     <attribute id="urn:epcglobal:cbv:mda#speciesForFisheryStatisticsPurposesName">Thunnus albacares</attribute>
                     <attribute id="urn:epcglobal:cbv:mda#speciesForFisheryStatisticsPurposesCode">YFT</attribute>
-                    <attribute id="urn:epcglobal:cbv:mda#radeItemConditionCode">WHL</attribute>
+                    <attribute id="urn:epcglobal:cbv:mda#tradeItemConditionCode">WHL</attribute>
                 </VocabularyElement>
 
                 <!-- YELLOW FIN TUNA FILLET -->
@@ -34,7 +34,7 @@ Here is the Master Data that will be used in the scenarios listed below.
                     <attribute id="urn:epcglobal:cbv:mda#descriptionShort">Yellowfin Tuna Fillet</attribute>
                     <attribute id="urn:epcglobal:cbv:mda#speciesForFisheryStatisticsPurposesName">Thunnus albacares</attribute>
                     <attribute id="urn:epcglobal:cbv:mda#speciesForFisheryStatisticsPurposesCode">YFT</attribute>
-                    <attribute id="urn:epcglobal:cbv:mda#radeItemConditionCode">FIL</attribute>
+                    <attribute id="urn:epcglobal:cbv:mda#tradeItemConditionCode">FIL</attribute>
                 </VocabularyElement>
 
             </VocabularyElementList>

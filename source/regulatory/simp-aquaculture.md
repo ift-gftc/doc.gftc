@@ -58,7 +58,7 @@ In order to not repeat the master data used with each example, I would like to p
                     <attribute id="urn:epcglobal:cbv:mda#descriptionShort">Antlatnci Salmon Fry</attribute>
                     <attribute id="urn:epcglobal:cbv:mda#speciesForFisheryStatisticsPurposesName">Salmo salar</attribute>
                     <attribute id="urn:epcglobal:cbv:mda#speciesForFisheryStatisticsPurposesCode">SAL</attribute>
-                    <attribute id="urn:epcglobal:cbv:mda#radeItemConditionCode">FIL</attribute>
+                    <attribute id="urn:epcglobal:cbv:mda#tradeItemConditionCode">FIL</attribute>
                 </VocabularyElement>
 
                 <!-- SALMON -->
@@ -68,7 +68,7 @@ In order to not repeat the master data used with each example, I would like to p
                     <attribute id="urn:epcglobal:cbv:mda#descriptionShort">Antlantic Salmon</attribute>
                     <attribute id="urn:epcglobal:cbv:mda#speciesForFisheryStatisticsPurposesName">Salmo salar</attribute>
                     <attribute id="urn:epcglobal:cbv:mda#speciesForFisheryStatisticsPurposesCode">SAL</attribute>
-                    <attribute id="urn:epcglobal:cbv:mda#radeItemConditionCode">WHL</attribute>
+                    <attribute id="urn:epcglobal:cbv:mda#tradeItemConditionCode">WHL</attribute>
                 </VocabularyElement>
 
                 <!-- SALMON FILLET -->
@@ -78,7 +78,7 @@ In order to not repeat the master data used with each example, I would like to p
                     <attribute id="urn:epcglobal:cbv:mda#descriptionShort">Antlantic Salmon Fillet</attribute>
                     <attribute id="urn:epcglobal:cbv:mda#speciesForFisheryStatisticsPurposesName">Salmo salar</attribute>
                     <attribute id="urn:epcglobal:cbv:mda#speciesForFisheryStatisticsPurposesCode">SAL</attribute>
-                    <attribute id="urn:epcglobal:cbv:mda#radeItemConditionCode">WHL</attribute>
+                    <attribute id="urn:epcglobal:cbv:mda#tradeItemConditionCode">WHL</attribute>
                 </VocabularyElement>
 
             </VocabularyElementList>
