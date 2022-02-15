@@ -50,7 +50,7 @@ Vessel Flag (Static Master Data or ILMD) | `extension / ilmd / cbvmda:vesselCatc
 Availability of Catch Coordinates | `extension / ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / gdst:gpsAvailability`
 Catch Area | `extension / ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / cbvmda:catchArea`
 Economic Zone | `extension / ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / cbvmda:economicZone`
-RMFO Area | `extension / ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / gdst:rmfoArea`
+RMFO Area | `extension / ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / gdst:rfmoArea`
 Sub-National Permit Area | `extension / ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / gdst:subnationalPermitArea`
 Fishery Improvement Project | `extension / ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / gdst:fisheryImprovementProject`
 Gear Type | `extension / ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / cbvmda:fishingGearTypeCode`

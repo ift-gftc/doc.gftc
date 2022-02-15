@@ -67,3 +67,9 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+.vs/doc.gdst/v17/TestStore/0/testlog.manifest
+.vs/doc.gdst/v17/TestStore/0/000.testlog
+.vs/doc.gdst/v17/fileList.bin
+.vs/doc.gdst/v17/.suo
+.vs/doc.gdst/project-colors.json
+.vs/doc.gdst/config/applicationhost.config

@@ -13,13 +13,13 @@ The Certificate Type is specified using the following attribute underneath the `
 An example of this in use is as following:
 ```xml
 <cbvmda:certificationList>
-        <cbvmda:certification>
+        <certification>
             <gdst:certificationType>urn:gdst:certType:harvestCert</gdst:certificationType>
-            <cbvmda:certificationStandard>NM6</cbvmda:certificationStandard>
-            <cbvmda:certificationAgency>DFO</cbvmda:certificationAgency>
-            <cbvmda:certificationValue>SIMP.LPCO.2</cbvmda:certificationValue>
-            <cbvmda:certificationIdentification>10161781</cbvmda:certificationIdentification>
-      </cbvmda:certification>
+            <certificationStandard>NM6</certificationStandard>
+            <certificationAgency>DFO</certificationAgency>
+            <certificationValue>SIMP.LPCO.2</certificationValue>
+            <certificationIdentification>10161781</certificationIdentification>
+      </certification>
 </cbvmda:certificationList>
 ```
 
@@ -89,22 +89,22 @@ The base Object event in EPCIS was extended with `<gdst:certificationList></gdst
     <gdst:certificationList>
 
         <!-- Transshipment Authorization -->
-        <cbvmda:certification>
+        <certification>
             <gdst:certificateType>urn:gdst:certType:transshipment_authorization</gdst:certificateType>
-            <cbvmda:certificationStandard>Transshipment Authority</cbvmda:certificationStandard>
-            <cbvmda:certificationAgency>Transshipment Authority</cbvmda:certificationAgency>
-            <cbvmda:certificationValue>TA_123456789</cbvmda:certificationValue>
-            <cbvmda:certificationIdentification>TA_123456789</cbvmda:certificationIdentification>
-        </cbvmda:certification>
+            <certificationStandard>Transshipment Authority</certificationStandard>
+            <certificationAgency>Transshipment Authority</certificationAgency>
+            <certificationValue>TA_123456789</certificationValue>
+            <certificationIdentification>TA_123456789</certificationIdentification>
+        </certification>
 
         <!-- Chain of Custody -->
-        <cbvmda:certification>
+        <certification>
             <gdst:certificateType>urn:gdst:certType:chain_custody</gdst:certificateType>
-            <cbvmda:certificationStandard>MSC Chain of Custody</cbvmda:certificationStandard>
-            <cbvmda:certificationAgency>MSC</cbvmda:certificationAgency>
-            <cbvmda:certificationValue>MSC_COC_1234567890</cbvmda:certificationValue>
-            <cbvmda:certificationIdentification>MSC_COC_1234567890</cbvmda:certificationIdentification>
-        </cbvmda:certification>
+            <certificationStandard>MSC Chain of Custody</certificationStandard>
+            <certificationAgency>MSC</certificationAgency>
+            <certificationValue>MSC_COC_1234567890</certificationValue>
+            <certificationIdentification>MSC_COC_1234567890</certificationIdentification>
+        </certification>
 
     </gdst:certificationList>
 

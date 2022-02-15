@@ -36,7 +36,7 @@ In order to model this scenario we will need the following master data:
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:sbdh="http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader"
     xmlns:cbvmda="urn:epcglobal:cbv:mda"
-    xmlns:gdst="https://traceability-dialogue.org/epcis" schemaVersion="0" creationDate="2001-12-17T09:30:47Z" xsi:schemaLocation="urn:epcglobal:epcis:xsd:1  http://www.gs1si.org/BMS/epcis/1_2/EPCglobal-epcis-1_2.xsd">
+    xmlns:gdst="https://traceability-dialogue.org" schemaVersion="0" creationDate="2001-12-17T09:30:47Z" xsi:schemaLocation="urn:epcglobal:epcis:xsd:1  http://www.gs1si.org/BMS/epcis/1_2/EPCglobal-epcis-1_2.xsd">
     <EPCISHeader>
         <sbdh:StandardBusinessDocumentHeader>
             <sbdh:HeaderVersion>1.0</sbdh:HeaderVersion>
@@ -156,13 +156,13 @@ In order to model this scenario we will need the following master data:
                     </destinationList>
                 </extension>
                 <cbvmda:certificationList>
-                    <cbvmda:certification>
+                    <certification>
                         <gdst:certificateType>urn:gdst:certType:harvestCoC</gdst:certificateType>
-                        <cbvmda:certificationStandard/>
-                        <cbvmda:certificationAgency/>
-                        <cbvmda:certificationValue/>
-                        <cbvmda:certificationIdentification/>
-                    </cbvmda:certification>
+                        <certificationStandard/>
+                        <certificationAgency/>
+                        <certificationValue/>
+                        <certificationIdentification/>
+                    </certification>
                 </cbvmda:certificationList>
                 <gdst:productOwner>urn:epc:id:sgln:08600031303.1.0</gdst:productOwner>
                 <cbvmda:informationProvider>urn:gdst:example.org:party:hatchery.1</cbvmda:informationProvider>
@@ -193,13 +193,13 @@ In order to model this scenario we will need the following master data:
                     </quantityList>
                 </extension>
                 <cbvmda:certificationList>
-                    <cbvmda:certification>
+                    <certification>
                         <gdst:certificateType>urn:gdst:certType:harvestCoC</gdst:certificateType>
-                        <cbvmda:certificationStandard/>
-                        <cbvmda:certificationAgency/>
-                        <cbvmda:certificationValue/>
-                        <cbvmda:certificationIdentification/>
-                    </cbvmda:certification>
+                        <certificationStandard/>
+                        <certificationAgency/>
+                        <certificationValue/>
+                        <certificationIdentification/>
+                    </certification>
                 </cbvmda:certificationList>
                 <gdst:productOwner>urn:epc:id:sgln:08600031303.1.0</gdst:productOwner>
                 <cbvmda:informationProvider>urn:epc:id:sgln:08600031303.1.0</cbvmda:informationProvider>
@@ -274,27 +274,27 @@ In order to model this scenario we will need the following master data:
                     </outputQuantityList>
                     <ilmd>
                         <cbvmda:certificationList>
-                            <cbvmda:certification>
+                            <certification>
                                 <gdst:certificateType>urn:gdst:certType:harvestCert</gdst:certificateType>
-                                <cbvmda:certificationStandard/>
-                                <cbvmda:certificationAgency/>
-                                <cbvmda:certificationValue/>
-                                <cbvmda:certificationIdentification/>
-                            </cbvmda:certification>
-                            <cbvmda:certification>
+                                <certificationStandard/>
+                                <certificationAgency/>
+                                <certificationValue/>
+                                <certificationIdentification/>
+                            </certification>
+                            <certification>
                                 <gdst:certificateType>urn:gdst:certType:harvestCoC</gdst:certificateType>
-                                <cbvmda:certificationStandard/>
-                                <cbvmda:certificationAgency/>
-                                <cbvmda:certificationValue/>
-                                <cbvmda:certificationIdentification/>
-                            </cbvmda:certification>
-                            <cbvmda:certification>
+                                <certificationStandard/>
+                                <certificationAgency/>
+                                <certificationValue/>
+                                <certificationIdentification/>
+                            </certification>
+                            <certification>
                                 <gdst:certificateType>urn:gdst:certType:humanPolicy</gdst:certificateType>
-                                <cbvmda:certificationStandard/>
-                                <cbvmda:certificationAgency/>
-                                <cbvmda:certificationValue/>
-                                <cbvmda:certificationIdentification/>
-                            </cbvmda:certification>
+                                <certificationStandard/>
+                                <certificationAgency/>
+                                <certificationValue/>
+                                <certificationIdentification/>
+                            </certification>
                         </cbvmda:certificationList>
                     </ilmd>
                     <gdst:humanWelfarePolicy/>
@@ -369,27 +369,27 @@ In order to model this scenario we will need the following master data:
                         <cbvmda:harvestStartDate>2021-09-29T03:00:00.000Z</cbvmda:harvestStartDate>
                         <cbvmda:harvestEndDate>2021-09-29T03:00:00.000Z</cbvmda:harvestEndDate>
                         <cbvmda:certificationList>
-                            <cbvmda:certification>
+                            <certification>
                                 <gdst:certificateType>urn:gdst:certType:harvestCert</gdst:certificateType>
-                                <cbvmda:certificationStandard/>
-                                <cbvmda:certificationAgency/>
-                                <cbvmda:certificationValue/>
-                                <cbvmda:certificationIdentification/>
-                            </cbvmda:certification>
-                            <cbvmda:certification>
+                                <certificationStandard/>
+                                <certificationAgency/>
+                                <certificationValue/>
+                                <certificationIdentification/>
+                            </certification>
+                            <certification>
                                 <gdst:certificateType>urn:gdst:certType:harvestCoC</gdst:certificateType>
-                                <cbvmda:certificationStandard/>
-                                <cbvmda:certificationAgency/>
-                                <cbvmda:certificationValue/>
-                                <cbvmda:certificationIdentification/>
-                            </cbvmda:certification>
-                            <cbvmda:certification>
+                                <certificationStandard/>
+                                <certificationAgency/>
+                                <certificationValue/>
+                                <certificationIdentification/>
+                            </certification>
+                            <certification>
                                 <gdst:certificateType>urn:gdst:certType:humanPolicy</gdst:certificateType>
-                                <cbvmda:certificationStandard/>
-                                <cbvmda:certificationAgency/>
-                                <cbvmda:certificationValue/>
-                                <cbvmda:certificationIdentification/>
-                            </cbvmda:certification>
+                                <certificationStandard/>
+                                <certificationAgency/>
+                                <certificationValue/>
+                                <certificationIdentification/>
+                            </certification>
                         </cbvmda:certificationList>
                     </ilmd>
                     <gdst:humanWelfarePolicy/>
