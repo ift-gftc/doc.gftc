@@ -1,0 +1,262 @@
+[
+    {
+        "urn": "urn:gdst:rfmo:cecaf",
+        "name": "CECAF"
+    },
+    {
+        "urn": "urn:gdst:rfmo:ciffa",
+        "name": "CIFFA"
+    },
+    {
+        "urn": "urn:gdst:rfmo:coppesaalc",
+        "name": "COPPESAALC"
+    },
+    {
+        "urn": "urn:gdst:rfmo:eifaac",
+        "name": "EIFAAC"
+    },
+    {
+        "urn": "urn:gdst:rfmo:swiofc",
+        "name": "SWIOFC"
+    },
+    {
+        "urn": "urn:gdst:rfmo:wecafc",
+        "name": "WECAFC"
+    },
+    {
+        "urn": "urn:gdst:rfmo:apfic",
+        "name": "APFIC"
+    },
+    {
+        "urn": "urn:gdst:rfmo:cacfish",
+        "name": "CACFish"
+    },
+    {
+        "urn": "urn:gdst:rfmo:gfcm",
+        "name": "GFCM"
+    },
+    {
+        "urn": "urn:gdst:rfmo:iotc",
+        "name": "IOTC"
+    },
+    {
+        "urn": "urn:gdst:rfmo:recofi",
+        "name": "RECOFI"
+    },
+    {
+        "urn": "urn:gdst:rfmo:acap",
+        "name": "ACAP"
+    },
+    {
+        "urn": "urn:gdst:rfmo:ccamlr",
+        "name": "CCAMLR"
+    },
+    {
+        "urn": "urn:gdst:rfmo:ccsbt",
+        "name": "CCSBT"
+    },
+    {
+        "urn": "urn:gdst:rfmo:iwc",
+        "name": "IWC"
+    },
+    {
+        "urn": "urn:gdst:rfmo:ospesca",
+        "name": "OSPESCA"
+    },
+    {
+        "urn": "urn:gdst:rfmo:apfic",
+        "name": "APFIC"
+    },
+    {
+        "urn": "urn:gdst:rfmo:ccbsp",
+        "name": "CCBSP"
+    },
+    {
+        "urn": "urn:gdst:rfmo:ffa",
+        "name": "FFA"
+    },
+    {
+        "urn": "urn:gdst:rfmo:iattc",
+        "name": "IATTC"
+    },
+    {
+        "urn": "urn:gdst:rfmo:iphc",
+        "name": "IPHC"
+    },
+    {
+        "urn": "urn:gdst:rfmo:npafc",
+        "name": "NPAFC"
+    },
+    {
+        "urn": "urn:gdst:rfmo:npfc",
+        "name": "NPFC"
+    },
+    {
+        "urn": "urn:gdst:rfmo:pices",
+        "name": "PICES"
+    },
+    {
+        "urn": "urn:gdst:rfmo:psc",
+        "name": "PSC"
+    },
+    {
+        "urn": "urn:gdst:rfmo:seafdec",
+        "name": "SEAFDEC"
+    },
+    {
+        "urn": "urn:gdst:rfmo:spc",
+        "name": "SPC"
+    },
+    {
+        "urn": "urn:gdst:rfmo:sprfmo",
+        "name": "SPRFMO"
+    },
+    {
+        "urn": "urn:gdst:rfmo:wcpfc",
+        "name": "WCPFC"
+    },
+    {
+        "urn": "urn:gdst:rfmo:bobp-igo",
+        "name": "BOBP-IGO"
+    },
+    {
+        "urn": "urn:gdst:rfmo:iotc",
+        "name": "IOTC"
+    },
+    {
+        "urn": "urn:gdst:rfmo:recofi",
+        "name": "RECOFI"
+    },
+    {
+        "urn": "urn:gdst:rfmo:siofa",
+        "name": "SIOFA"
+    },
+    {
+        "urn": "urn:gdst:rfmo:swiofc",
+        "name": "SWIOFC"
+    },
+    {
+        "urn": "urn:gdst:rfmo:cecaf",
+        "name": "CECAF"
+    },
+    {
+        "urn": "urn:gdst:rfmo:comhafat",
+        "name": "COMHAFAT"
+    },
+    {
+        "urn": "urn:gdst:rfmo:corep",
+        "name": "COREP"
+    },
+    {
+        "urn": "urn:gdst:rfmo:crfm",
+        "name": "CRFM"
+    },
+    {
+        "urn": "urn:gdst:rfmo:ctmfm",
+        "name": "CTMFM"
+    },
+    {
+        "urn": "urn:gdst:rfmo:fcwc",
+        "name": "FCWC"
+    },
+    {
+        "urn": "urn:gdst:rfmo:iccat",
+        "name": "ICCAT"
+    },
+    {
+        "urn": "urn:gdst:rfmo:nafo",
+        "name": "NAFO"
+    },
+    {
+        "urn": "urn:gdst:rfmo:nammco",
+        "name": "NAMMCO"
+    },
+    {
+        "urn": "urn:gdst:rfmo:nasco",
+        "name": "NASCO"
+    },
+    {
+        "urn": "urn:gdst:rfmo:neafc",
+        "name": "NEAFC"
+    },
+    {
+        "urn": "urn:gdst:rfmo:seafo",
+        "name": "SEAFO"
+    },
+    {
+        "urn": "urn:gdst:rfmo:srfc",
+        "name": "SRFC"
+    },
+    {
+        "urn": "urn:gdst:rfmo:wecafc",
+        "name": "WECAFC"
+    },
+    {
+        "urn": "urn:gdst:rfmo:apfic",
+        "name": "APFIC"
+    },
+    {
+        "urn": "urn:gdst:rfmo:cacfish",
+        "name": "CACFish"
+    },
+    {
+        "urn": "urn:gdst:rfmo:cblt",
+        "name": "CBLT"
+    },
+    {
+        "urn": "urn:gdst:rfmo:ciffa",
+        "name": "CIFFA"
+    },
+    {
+        "urn": "urn:gdst:rfmo:coppesaalc",
+        "name": "COPPESAALC"
+    },
+    {
+        "urn": "urn:gdst:rfmo:eifaac",
+        "name": "EIFAAC"
+    },
+    {
+        "urn": "urn:gdst:rfmo:lta",
+        "name": "LTA"
+    },
+    {
+        "urn": "urn:gdst:rfmo:lvfo",
+        "name": "LVFO"
+    },
+    {
+        "urn": "urn:gdst:rfmo:naca",
+        "name": "NACA"
+    },
+    {
+        "urn": "urn:gdst:rfmo:mrc",
+        "name": "MRC"
+    },
+    {
+        "urn": "urn:gdst:rfmo:raa",
+        "name": "RAA"
+    },
+    {
+        "urn": "urn:gdst:rfmo:acfr",
+        "name": "ACFR"
+    },
+    {
+        "urn": "urn:gdst:rfmo:cpps",
+        "name": "CPPS"
+    },
+    {
+        "urn": "urn:gdst:rfmo:cwp",
+        "name": "CWP"
+    },
+    {
+        "urn": "urn:gdst:rfmo:firms",
+        "name": "FIRMS"
+    },
+    {
+        "urn": "urn:gdst:rfmo:gesamp",
+        "name": "GESAMP"
+    },
+    {
+        "urn": "urn:gdst:rfmo:ices",
+        "name": "ICES"
+    }
+]

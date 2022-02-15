@@ -90,19 +90,15 @@ Here is the Example XML for the GDST EPCIS data. This event data will contain a 
             <cbvmda:harvestStartDate>2020-01-27T00:00:00.000-06:00</cbvmda:harvestStartDate>
             <cbvmda:harvestEndDate>2020-01-27T00:00:00.000-06:00</cbvmda:harvestEndDate>
 
-            <!-- Vessel Trip Start & End Dates -->
-            <gdst:vesselTripStart>2020-01-27T00:00:00.000-06:00</gdst:vesselTripStart>
-            <gdst:vesselTripEnd>2020-01-27T00:00:00.000-06:00</gdst:vesselTripEnd>
-
             <!-- CATCH CERTIFICATE (?) -->
             <cbvmda:certificationList>
-                <cbvmda:certification>
+                <certification>
                     <gdst:certificateType>urn:gdst:certType:catch_certificate</gdst:certificateType>
-                    <cbvmda:certificationStandard>NM6</cbvmda:certificationStandard>
-                    <cbvmda:certificationAgency>DFO</cbvmda:certificationAgency>
-                    <cbvmda:certificationValue>SIMP.LPCO.2</cbvmda:certificationValue>
-                    <cbvmda:certificationIdentification>10161781</cbvmda:certificationIdentification>
-                </cbvmda:certification>
+                    <certificationStandard>NM6</certificationStandard>
+                    <certificationAgency>DFO</certificationAgency>
+                    <certificationValue>SIMP.LPCO.2</certificationValue>
+                    <certificationIdentification>10161781</certificationIdentification>
+                </certification>
             </cbvmda:certificationList>
         </ilmd>
     </extension>

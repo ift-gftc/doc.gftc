@@ -8,13 +8,13 @@ This document is **NOT** meant to serve as a complete guide to ensuring MSC / AS
 The Certificate can be in the Certification List on an EPCIS event either using the `<ilmd>` data of a `TRANSFORMATION` event, or by using the `<cbvmda:certificationList></cbvmda:certificationList>` on the `OBJECT` event. The Certificate Type for the certificate is `urn:gdst:certType:harvestCoC`.
 
 ```xml
-<cbvmda:certification>
+<certification>
     <gdst:certificationType>urn:gdst:certType:harvestCoC</gdst:certificationType>
-    <cbvmda:certificationStandard>MSC Chain of Custodyy</cbvmda:certificationStandard>
-    <cbvmda:certificationAgency>MSC</cbvmda:certificationAgency>
-    <cbvmda:certificationValue></cbvmda:certificationValue>
-    <cbvmda:certificationIdentification>1234567890</cbvmda:certificationIdentification>
-</cbvmda:certification>
+    <certificationStandard>MSC Chain of Custodyy</certificationStandard>
+    <certificationAgency>MSC</certificationAgency>
+    <certificationValue></certificationValue>
+    <certificationIdentification>1234567890</certificationIdentification>
+</certification>
 ```
 
 ## Which Events?

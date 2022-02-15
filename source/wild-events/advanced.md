@@ -37,7 +37,7 @@ In order to model this scenario we will need the following master data:
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:sbdh="http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader"
     xmlns:cbvmda="urn:epcglobal:cbv:mda"
-    xmlns:gdst="https://traceability-dialogue.org/epcis" schemaVersion="0" creationDate="2001-12-17T09:30:47Z" xsi:schemaLocation="urn:epcglobal:epcis:xsd:1  http://www.gs1si.org/BMS/epcis/1_2/EPCglobal-epcis-1_2.xsd">
+    xmlns:gdst="https://traceability-dialogue.org" schemaVersion="0" creationDate="2001-12-17T09:30:47Z" xsi:schemaLocation="urn:epcglobal:epcis:xsd:1  http://www.gs1si.org/BMS/epcis/1_2/EPCglobal-epcis-1_2.xsd">
     <EPCISHeader>
         <sbdh:StandardBusinessDocumentHeader>
             <sbdh:HeaderVersion>1.0</sbdh:HeaderVersion>
@@ -174,7 +174,7 @@ In order to model this scenario we will need the following master data:
                                 <gdst:satelliteTrackingAuthority/>
                                 <cbvmda:economicZone/>
                                 <gdst:fisheryImprovementProject/>
-                                <gdst:rmfoArea/>
+                                <gdst:rfmoArea/>
                                 <gdst:subnationalPermitArea/>
                                 <cbvmda:catchArea>FAO 77</cbvmda:catchArea>
                                 <cbvmda:fishingGearTypeCode>2</cbvmda:fishingGearTypeCode>
@@ -183,27 +183,27 @@ In order to model this scenario we will need the following master data:
                         <cbvmda:harvestEndDate>2021-09-30T03:00:00.000Z</cbvmda:harvestEndDate>
                         <cbvmda:harvestStartDate>2021-09-27T03:00:00.000Z</cbvmda:harvestStartDate>
                         <cbvmda:certificationList>
-                            <cbvmda:certification>
+                            <certification>
                                 <gdst:certificateType>urn:gdst:certType:fishingAuth</gdst:certificateType>
-                                <cbvmda:certificationStandard>San Diego Fishing Authority</cbvmda:certificationStandard>
-                                <cbvmda:certificationAgency>San Diego Fishing Authority</cbvmda:certificationAgency>
-                                <cbvmda:certificationValue/>
-                                <cbvmda:certificationIdentification>SDFA-1001</cbvmda:certificationIdentification>
-                            </cbvmda:certification>
-                            <cbvmda:certification>
+                                <certificationStandard>San Diego Fishing Authority</certificationStandard>
+                                <certificationAgency>San Diego Fishing Authority</certificationAgency>
+                                <certificationValue/>
+                                <certificationIdentification>SDFA-1001</certificationIdentification>
+                            </certification>
+                            <certification>
                                 <gdst:certificateType>urn:gdst:certType:harvestCert</gdst:certificateType>
-                                <cbvmda:certificationStandard>San Diego Fishing Authority</cbvmda:certificationStandard>
-                                <cbvmda:certificationAgency>San Diego Fishing Authority</cbvmda:certificationAgency>
-                                <cbvmda:certificationValue/>
-                                <cbvmda:certificationIdentification>SDFA-1001</cbvmda:certificationIdentification>
-                            </cbvmda:certification>
-                            <cbvmda:certification>
+                                <certificationStandard>San Diego Fishing Authority</certificationStandard>
+                                <certificationAgency>San Diego Fishing Authority</certificationAgency>
+                                <certificationValue/>
+                                <certificationIdentification>SDFA-1001</certificationIdentification>
+                            </certification>
+                            <certification>
                                 <gdst:certificateType>urn:gdst:certType:humanPolicy</gdst:certificateType>
-                                <cbvmda:certificationStandard>San Diego Fishing Authority</cbvmda:certificationStandard>
-                                <cbvmda:certificationAgency>San Diego Fishing Authority</cbvmda:certificationAgency>
-                                <cbvmda:certificationValue/>
-                                <cbvmda:certificationIdentification>SDFA-1001</cbvmda:certificationIdentification>
-                            </cbvmda:certification>
+                                <certificationStandard>San Diego Fishing Authority</certificationStandard>
+                                <certificationAgency>San Diego Fishing Authority</certificationAgency>
+                                <certificationValue/>
+                                <certificationIdentification>SDFA-1001</certificationIdentification>
+                            </certification>
                         </cbvmda:certificationList>
                     </ilmd>
                 </extension>
@@ -241,27 +241,27 @@ In order to model this scenario we will need the following master data:
                 <cbvmda:transshipStartDate>2021-09-28T03:00:00.000Z</cbvmda:transshipStartDate>
                 <cbvmda:transshipEndDate>2021-09-28T03:00:00.000Z</cbvmda:transshipEndDate>
                 <cbvmda:certificationList>
-                    <cbvmda:certification>
+                    <certification>
                         <gdst:certificateType>urn:gdst:certType:transshipmentAuth</gdst:certificateType>
-                        <cbvmda:certificationStandard>San Diego Transshipment Authorization</cbvmda:certificationStandard>
-                        <cbvmda:certificationAgency>San Diego Transshipment Authorization</cbvmda:certificationAgency>
-                        <cbvmda:certificationValue/>
-                        <cbvmda:certificationIdentification>SDTA-1001</cbvmda:certificationIdentification>
-                    </cbvmda:certification>
-                    <cbvmda:certification>
+                        <certificationStandard>San Diego Transshipment Authorization</certificationStandard>
+                        <certificationAgency>San Diego Transshipment Authorization</certificationAgency>
+                        <certificationValue/>
+                        <certificationIdentification>SDTA-1001</certificationIdentification>
+                    </certification>
+                    <certification>
                         <gdst:certificateType>urn:gdst:certType:harvestCoC</gdst:certificateType>
-                        <cbvmda:certificationStandard>San Diego Transshipment Authorization</cbvmda:certificationStandard>
-                        <cbvmda:certificationAgency>San Diego Transshipment Authorization</cbvmda:certificationAgency>
-                        <cbvmda:certificationValue/>
-                        <cbvmda:certificationIdentification>SDTA-1001</cbvmda:certificationIdentification>
-                    </cbvmda:certification>
-                    <cbvmda:certification>
+                        <certificationStandard>San Diego Transshipment Authorization</certificationStandard>
+                        <certificationAgency>San Diego Transshipment Authorization</certificationAgency>
+                        <certificationValue/>
+                        <certificationIdentification>SDTA-1001</certificationIdentification>
+                    </certification>
+                    <certification>
                         <gdst:certificateType>urn:gdst:certType:humanPolicy</gdst:certificateType>
-                        <cbvmda:certificationStandard>San Diego Transshipment Authorization</cbvmda:certificationStandard>
-                        <cbvmda:certificationAgency>San Diego Transshipment Authorization</cbvmda:certificationAgency>
-                        <cbvmda:certificationValue/>
-                        <cbvmda:certificationIdentification>SDTA-1001</cbvmda:certificationIdentification>
-                    </cbvmda:certification>
+                        <certificationStandard>San Diego Transshipment Authorization</certificationStandard>
+                        <certificationAgency>San Diego Transshipment Authorization</certificationAgency>
+                        <certificationValue/>
+                        <certificationIdentification>SDTA-1001</certificationIdentification>
+                    </certification>
                 </cbvmda:certificationList>
                 <gdst:productOwner>urn:epc:id:sgln:08600031303.0.0</gdst:productOwner>
                 <cbvmda:informationProvider>urn:epc:id:sgln:08600031303.0.0</cbvmda:informationProvider>
@@ -302,7 +302,7 @@ In order to model this scenario we will need the following master data:
                                 <gdst:satelliteTrackingAuthority/>
                                 <cbvmda:economicZone/>
                                 <gdst:fisheryImprovementProject/>
-                                <gdst:rmfoArea/>
+                                <gdst:rfmoArea/>
                                 <gdst:subnationalPermitArea/>
                                 <cbvmda:catchArea>FAO 77</cbvmda:catchArea>
                                 <cbvmda:fishingGearTypeCode>2</cbvmda:fishingGearTypeCode>
@@ -311,27 +311,27 @@ In order to model this scenario we will need the following master data:
                         <cbvmda:harvestEndDate>2021-09-30T03:00:00.000Z</cbvmda:harvestEndDate>
                         <cbvmda:harvestStartDate>2021-09-26T03:00:00.000Z</cbvmda:harvestStartDate>
                         <cbvmda:certificationList>
-                            <cbvmda:certification>
+                            <certification>
                                 <gdst:certificateType>urn:gdst:certType:fishingAuth</gdst:certificateType>
-                                <cbvmda:certificationStandard>San Diego Fishing Authority</cbvmda:certificationStandard>
-                                <cbvmda:certificationAgency>San Diego Fishing Authority</cbvmda:certificationAgency>
-                                <cbvmda:certificationValue/>
-                                <cbvmda:certificationIdentification>SDFA-1002</cbvmda:certificationIdentification>
-                            </cbvmda:certification>
-                            <cbvmda:certification>
+                                <certificationStandard>San Diego Fishing Authority</certificationStandard>
+                                <certificationAgency>San Diego Fishing Authority</certificationAgency>
+                                <certificationValue/>
+                                <certificationIdentification>SDFA-1002</certificationIdentification>
+                            </certification>
+                            <certification>
                                 <gdst:certificateType>urn:gdst:certType:harvestCert</gdst:certificateType>
-                                <cbvmda:certificationStandard>San Diego Fishing Authority</cbvmda:certificationStandard>
-                                <cbvmda:certificationAgency>San Diego Fishing Authority</cbvmda:certificationAgency>
-                                <cbvmda:certificationValue/>
-                                <cbvmda:certificationIdentification>SDFA-1002</cbvmda:certificationIdentification>
-                            </cbvmda:certification>
-                            <cbvmda:certification>
+                                <certificationStandard>San Diego Fishing Authority</certificationStandard>
+                                <certificationAgency>San Diego Fishing Authority</certificationAgency>
+                                <certificationValue/>
+                                <certificationIdentification>SDFA-1002</certificationIdentification>
+                            </certification>
+                            <certification>
                                 <gdst:certificateType>urn:gdst:certType:humanPolicy</gdst:certificateType>
-                                <cbvmda:certificationStandard>San Diego Fishing Authority</cbvmda:certificationStandard>
-                                <cbvmda:certificationAgency>San Diego Fishing Authority</cbvmda:certificationAgency>
-                                <cbvmda:certificationValue/>
-                                <cbvmda:certificationIdentification>SDFA-1002</cbvmda:certificationIdentification>
-                            </cbvmda:certification>
+                                <certificationStandard>San Diego Fishing Authority</certificationStandard>
+                                <certificationAgency>San Diego Fishing Authority</certificationAgency>
+                                <certificationValue/>
+                                <certificationIdentification>SDFA-1002</certificationIdentification>
+                            </certification>
                         </cbvmda:certificationList>
                     </ilmd>
                 </extension>
@@ -367,27 +367,27 @@ In order to model this scenario we will need the following master data:
                     </destinationList>
                 </extension>
                 <cbvmda:certificationList>
-                    <cbvmda:certification>
+                    <certification>
                         <gdst:certificateType>urn:gdst:certType:transshipmentAuth</gdst:certificateType>
-                        <cbvmda:certificationStandard>San Diego Transshipment Authorization</cbvmda:certificationStandard>
-                        <cbvmda:certificationAgency>San Diego Transshipment Authorization</cbvmda:certificationAgency>
-                        <cbvmda:certificationValue/>
-                        <cbvmda:certificationIdentification>SDTA-1001</cbvmda:certificationIdentification>
-                    </cbvmda:certification>
-                    <cbvmda:certification>
+                        <certificationStandard>San Diego Transshipment Authorization</certificationStandard>
+                        <certificationAgency>San Diego Transshipment Authorization</certificationAgency>
+                        <certificationValue/>
+                        <certificationIdentification>SDTA-1001</certificationIdentification>
+                    </certification>
+                    <certification>
                         <gdst:certificateType>urn:gdst:certType:harvestCoC</gdst:certificateType>
-                        <cbvmda:certificationStandard>San Diego Transshipment Authorization</cbvmda:certificationStandard>
-                        <cbvmda:certificationAgency>San Diego Transshipment Authorization</cbvmda:certificationAgency>
-                        <cbvmda:certificationValue/>
-                        <cbvmda:certificationIdentification>SDTA-1001</cbvmda:certificationIdentification>
-                    </cbvmda:certification>
-                    <cbvmda:certification>
+                        <certificationStandard>San Diego Transshipment Authorization</certificationStandard>
+                        <certificationAgency>San Diego Transshipment Authorization</certificationAgency>
+                        <certificationValue/>
+                        <certificationIdentification>SDTA-1001</certificationIdentification>
+                    </certification>
+                    <certification>
                         <gdst:certificateType>urn:gdst:certType:humanPolicy</gdst:certificateType>
-                        <cbvmda:certificationStandard>San Diego Transshipment Authorization</cbvmda:certificationStandard>
-                        <cbvmda:certificationAgency>San Diego Transshipment Authorization</cbvmda:certificationAgency>
-                        <cbvmda:certificationValue/>
-                        <cbvmda:certificationIdentification>SDTA-1001</cbvmda:certificationIdentification>
-                    </cbvmda:certification>
+                        <certificationStandard>San Diego Transshipment Authorization</certificationStandard>
+                        <certificationAgency>San Diego Transshipment Authorization</certificationAgency>
+                        <certificationValue/>
+                        <certificationIdentification>SDTA-1001</certificationIdentification>
+                    </certification>
                 </cbvmda:certificationList>
                 <gdst:productOwner>urn:epc:id:sgln:08600031303.0.0</gdst:productOwner>
                 <cbvmda:informationProvider>urn:epc:id:sgln:08600031303.0.0</cbvmda:informationProvider>
@@ -423,20 +423,20 @@ In order to model this scenario we will need the following master data:
                     </quantityList>
                 </extension>
                 <cbvmda:certificationList>
-                    <cbvmda:certification>
+                    <certification>
                         <gdst:certificateType>urn:gdst:certType:landingAuth</gdst:certificateType>
-                        <cbvmda:certificationStandard>San Diego Landing Authority</cbvmda:certificationStandard>
-                        <cbvmda:certificationAgency>San Diego Landing Authority</cbvmda:certificationAgency>
-                        <cbvmda:certificationValue/>
-                        <cbvmda:certificationIdentification>SDLA-001</cbvmda:certificationIdentification>
-                    </cbvmda:certification>
-                    <cbvmda:certification>
+                        <certificationStandard>San Diego Landing Authority</certificationStandard>
+                        <certificationAgency>San Diego Landing Authority</certificationAgency>
+                        <certificationValue/>
+                        <certificationIdentification>SDLA-001</certificationIdentification>
+                    </certification>
+                    <certification>
                         <gdst:certificateType>urn:gdst:certType:humanPolicy</gdst:certificateType>
-                        <cbvmda:certificationStandard>San Diego Landing Authority</cbvmda:certificationStandard>
-                        <cbvmda:certificationAgency>San Diego Landing Authority</cbvmda:certificationAgency>
-                        <cbvmda:certificationValue/>
-                        <cbvmda:certificationIdentification>SDLA-001</cbvmda:certificationIdentification>
-                    </cbvmda:certification>
+                        <certificationStandard>San Diego Landing Authority</certificationStandard>
+                        <certificationAgency>San Diego Landing Authority</certificationAgency>
+                        <certificationValue/>
+                        <certificationIdentification>SDLA-001</certificationIdentification>
+                    </certification>
                 </cbvmda:certificationList>
                 <gdst:productOwner>urn:epc:id:sgln:08600031303.0.0</gdst:productOwner>
                 <cbvmda:informationProvider>urn:epc:id:sgln:08600031303.0.0</cbvmda:informationProvider>
@@ -472,13 +472,13 @@ In order to model this scenario we will need the following master data:
                     </quantityList>
                 </extension>
                 <cbvmda:certificationList>
-                    <cbvmda:certification>
+                    <certification>
                         <gdst:certificateType>urn:gdst:certType:harvestCoC</gdst:certificateType>
-                        <cbvmda:certificationStandard/>
-                        <cbvmda:certificationAgency/>
-                        <cbvmda:certificationValue/>
-                        <cbvmda:certificationIdentification/>
-                    </cbvmda:certification>
+                        <certificationStandard/>
+                        <certificationAgency/>
+                        <certificationValue/>
+                        <certificationIdentification/>
+                    </certification>
                 </cbvmda:certificationList>
                 <gdst:productOwner>urn:epc:id:sgln:08600031303.0.0</gdst:productOwner>
                 <cbvmda:informationProvider>urn:epc:id:sgln:08600031303.0.0</cbvmda:informationProvider>
@@ -514,13 +514,13 @@ In order to model this scenario we will need the following master data:
                     </quantityList>
                 </extension>
                 <cbvmda:certificationList>
-                    <cbvmda:certification>
+                    <certification>
                         <gdst:certificateType>urn:gdst:certType:harvestCoC</gdst:certificateType>
-                        <cbvmda:certificationStandard/>
-                        <cbvmda:certificationAgency/>
-                        <cbvmda:certificationValue/>
-                        <cbvmda:certificationIdentification/>
-                    </cbvmda:certification>
+                        <certificationStandard/>
+                        <certificationAgency/>
+                        <certificationValue/>
+                        <certificationIdentification/>
+                    </certification>
                 </cbvmda:certificationList>
                 <gdst:productOwner>urn:epc:id:sgln:08600031303.0.0</gdst:productOwner>
                 <cbvmda:informationProvider>urn:epc:id:sgln:08600031303.0.0</cbvmda:informationProvider>

@@ -59,31 +59,31 @@ In this case, a Transshipment event is recorded. Here we are going to build on t
     <gdst:certificationList>
 
         <!-- This is a made up Certificate. This is just an example. -->
-        <cbvmda:certification>
+        <certification>
             <gdst:certificateType>urn:gdst:certType:transshipment</gdst:certificateType>
-            <cbvmda:certificationStandard>Transshipment Authority</cbvmda:certificationStandard>
-            <cbvmda:certificationAgency>Transshipment Authority</cbvmda:certificationAgency>
-            <cbvmda:certificationValue>TA_123456789</cbvmda:certificationValue>
-            <cbvmda:certificationIdentification>TA_123456789</cbvmda:certificationIdentification>
-        </cbvmda:certification>
+            <certificationStandard>Transshipment Authority</certificationStandard>
+            <certificationAgency>Transshipment Authority</certificationAgency>
+            <certificationValue>TA_123456789</certificationValue>
+            <certificationIdentification>TA_123456789</certificationIdentification>
+        </certification>
 
         <!-- This is a made up Certificate. This is just an example. -->
-        <cbvmda:certification>
+        <certification>
             <gdst:certificateType>urn:gdst:certType:harvestCoC</gdst:certificateType>
-            <cbvmda:certificationStandard>MSC Chain of Custody</cbvmda:certificationStandard>
-            <cbvmda:certificationAgency>MSC</cbvmda:certificationAgency>
-            <cbvmda:certificationValue>MSC_COC_1234567890</cbvmda:certificationValue>
-            <cbvmda:certificationIdentification>MSC_COC_1234567890</cbvmda:certificationIdentification>
-        </cbvmda:certification>
+            <certificationStandard>MSC Chain of Custody</certificationStandard>
+            <certificationAgency>MSC</certificationAgency>
+            <certificationValue>MSC_COC_1234567890</certificationValue>
+            <certificationIdentification>MSC_COC_1234567890</certificationIdentification>
+        </certification>
 
         <!-- This is a made up Certificate. This is just an example. -->
-        <cbvmda:certification>
+        <certification>
             <gdst:certificateType>urn:gdst:certType:humanyPolicy</gdst:certificateType>
-            <cbvmda:certificationStandard>WHO Human Decency Policy</cbvmda:certificationStandard>
-            <cbvmda:certificationAgency>WHO</cbvmda:certificationAgency>
-            <cbvmda:certificationValue>1234567890</cbvmda:certificationValue>
-            <cbvmda:certificationIdentification>0987654321</cbvmda:certificationIdentification>
-        </cbvmda:certification>
+            <certificationStandard>WHO Human Decency Policy</certificationStandard>
+            <certificationAgency>WHO</certificationAgency>
+            <certificationValue>1234567890</certificationValue>
+            <certificationIdentification>0987654321</certificationIdentification>
+        </certification>
     </gdst:certificationList>
 
     <!-- Transshipment Start / End Date -->

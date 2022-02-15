@@ -40,22 +40,22 @@ It is important that if there is a change of ownership when the products land, t
     <gdst:certificationList>
 
         <!-- This is a made up Certificate. This is just an example. -->
-        <cbvmda:certification>
+        <certification>
             <gdst:certificateType>urn:gdst:certType:landingAuth</gdst:certificateType>
-            <cbvmda:certificationStandard>Landing Authority</cbvmda:certificationStandard>
-            <cbvmda:certificationAgency>Landing Authority</cbvmda:certificationAgency>
-            <cbvmda:certificationValue>LA_123456789</cbvmda:certificationValue>
-            <cbvmda:certificationIdentification>LA_123456789</cbvmda:certificationIdentification>
-        </cbvmda:certification>
+            <certificationStandard>Landing Authority</certificationStandard>
+            <certificationAgency>Landing Authority</certificationAgency>
+            <certificationValue>LA_123456789</certificationValue>
+            <certificationIdentification>LA_123456789</certificationIdentification>
+        </certification>
 
         <!-- This is a made up Certificate. This is just an example. -->
-        <cbvmda:certification>
+        <certification>
             <gdst:certificateType>urn:gdst:certType:humanyPolicy</gdst:certificateType>
-            <cbvmda:certificationStandard>WHO Human Decency Policy</cbvmda:certificationStandard>
-            <cbvmda:certificationAgency>WHO</cbvmda:certificationAgency>
-            <cbvmda:certificationValue>1234567890</cbvmda:certificationValue>
-            <cbvmda:certificationIdentification>0987654321</cbvmda:certificationIdentification>
-        </cbvmda:certification>
+            <certificationStandard>WHO Human Decency Policy</certificationStandard>
+            <certificationAgency>WHO</certificationAgency>
+            <certificationValue>1234567890</certificationValue>
+            <certificationIdentification>0987654321</certificationIdentification>
+        </certification>
     </gdst:certificationList>
 
     <!-- Landing Start / End Date -->

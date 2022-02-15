@@ -232,22 +232,22 @@ This event covers how the Feed is created and the ingredients that go into makin
         <cbvmda:certificationList>
 
             <!-- Chain of Custody Certificate -->
-            <cbvmda:certification>
+            <certification>
                 <gdst:certificateType>urn:gdst:certType:chain_custody</gdst:certificateType>
-                <cbvmda:certificationStandard>MSC Chain of Custody</cbvmda:certificationStandard>
-                <cbvmda:certificationAgency>MSC</cbvmda:certificationAgency>
-                <cbvmda:certificationValue>MSC_COC_1234567890</cbvmda:certificationValue>
-                <cbvmda:certificationIdentification>MSC_COC_1234567890</cbvmda:certificationIdentification>
-            </cbvmda:certification>
+                <certificationStandard>MSC Chain of Custody</certificationStandard>
+                <certificationAgency>MSC</certificationAgency>
+                <certificationValue>MSC_COC_1234567890</certificationValue>
+                <certificationIdentification>MSC_COC_1234567890</certificationIdentification>
+            </certification>
 
             <!-- Code of Good Practice Certificate -->
-            <cbvmda:certification>
+            <certification>
                 <gdst:certificateType>urn:gdst:certType:good_practice</gdst:certificateType>
-                <cbvmda:certificationStandard>Good Practice Standard Body</cbvmda:certificationStandard>
-                <cbvmda:certificationAgency>GP Agency</cbvmda:certificationAgency>
-                <cbvmda:certificationValue>GP_0987654321</cbvmda:certificationValue>
-                <cbvmda:certificationIdentification>GP_0987654321</cbvmda:certificationIdentification>
-            </cbvmda:certification>
+                <certificationStandard>Good Practice Standard Body</certificationStandard>
+                <certificationAgency>GP Agency</certificationAgency>
+                <certificationValue>GP_0987654321</certificationValue>
+                <certificationIdentification>GP_0987654321</certificationIdentification>
+            </certification>
         </cbvmda:certificationList>
     </ilmd>
 
@@ -302,22 +302,22 @@ This event covers the creation of the Broodstock that will be used for stocking 
             <cbvmda:certificationList>
 
                 <!-- Chain of Custody Certificate -->
-                <cbvmda:certification>
+                <certification>
                     <gdst:certificateType>urn:gdst:certType:chain_custody</gdst:certificateType>
-                    <cbvmda:certificationStandard>MSC Chain of Custody</cbvmda:certificationStandard>
-                    <cbvmda:certificationAgency>MSC</cbvmda:certificationAgency>
-                    <cbvmda:certificationValue>MSC_COC_1234567890</cbvmda:certificationValue>
-                    <cbvmda:certificationIdentification>MSC_COC_1234567890</cbvmda:certificationIdentification>
-                </cbvmda:certification>
+                    <certificationStandard>MSC Chain of Custody</certificationStandard>
+                    <certificationAgency>MSC</certificationAgency>
+                    <certificationValue>MSC_COC_1234567890</certificationValue>
+                    <certificationIdentification>MSC_COC_1234567890</certificationIdentification>
+                </certification>
 
                 <!-- Code of Good Practice Certificate -->
-                <cbvmda:certification>
+                <certification>
                     <gdst:certificateType>urn:gdst:certType:good_practice</gdst:certificateType>
-                    <cbvmda:certificationStandard>Good Practice Standard Body</cbvmda:certificationStandard>
-                    <cbvmda:certificationAgency>GP Agency</cbvmda:certificationAgency>
-                    <cbvmda:certificationValue>GP_0987654321</cbvmda:certificationValue>
-                    <cbvmda:certificationIdentification>GP_0987654321</cbvmda:certificationIdentification>
-                </cbvmda:certification>
+                    <certificationStandard>Good Practice Standard Body</certificationStandard>
+                    <certificationAgency>GP Agency</certificationAgency>
+                    <certificationValue>GP_0987654321</certificationValue>
+                    <certificationIdentification>GP_0987654321</certificationIdentification>
+                </certification>
             </cbvmda:certificationList>
         </ilmd>
     </extension>
@@ -393,22 +393,22 @@ This event covers the harvesting of a product from a pond at an aquaculture even
             <cbvmda:certificationList>
 
                 <!-- Chain of Custody Certificate -->
-                <cbvmda:certification>
+                <certification>
                     <gdst:certificateType>urn:gdst:certType:chain_custody</gdst:certificateType>
-                    <cbvmda:certificationStandard>MSC Chain of Custody</cbvmda:certificationStandard>
-                    <cbvmda:certificationAgency>MSC</cbvmda:certificationAgency>
-                    <cbvmda:certificationValue>MSC_COC_1234567890</cbvmda:certificationValue>
-                    <cbvmda:certificationIdentification>MSC_COC_1234567890</cbvmda:certificationIdentification>
-                </cbvmda:certification>
+                    <certificationStandard>MSC Chain of Custody</certificationStandard>
+                    <certificationAgency>MSC</certificationAgency>
+                    <certificationValue>MSC_COC_1234567890</certificationValue>
+                    <certificationIdentification>MSC_COC_1234567890</certificationIdentification>
+                </certification>
 
                 <!-- Code of Good Practice Certificate -->
-                <cbvmda:certification>
+                <certification>
                     <gdst:certificateType>urn:gdst:certType:good_practice</gdst:certificateType>
-                    <cbvmda:certificationStandard>Good Practice Standard Body</cbvmda:certificationStandard>
-                    <cbvmda:certificationAgency>GP Agency</cbvmda:certificationAgency>
-                    <cbvmda:certificationValue>GP_0987654321</cbvmda:certificationValue>
-                    <cbvmda:certificationIdentification>GP_0987654321</cbvmda:certificationIdentification>
-                </cbvmda:certification>
+                    <certificationStandard>Good Practice Standard Body</certificationStandard>
+                    <certificationAgency>GP Agency</certificationAgency>
+                    <certificationValue>GP_0987654321</certificationValue>
+                    <certificationIdentification>GP_0987654321</certificationIdentification>
+                </certification>
             </cbvmda:certificationList>
         </ilmd>
     </extension>
@@ -478,40 +478,40 @@ This event covers the change of ownership from the Farm to the Processor and the
             <cbvmda:certificationList>
 
                 <!-- Processor License -->
-                <cbvmda:certification>
+                <certification>
                     <gdst:certificateType>urn:gdst:certType:processing_license</gdst:certificateType>
-                    <cbvmda:certificationStandard>US Processing License</cbvmda:certificationStandard>
-                    <cbvmda:certificationAgency>US Processing License Agency</cbvmda:certificationAgency>
-                    <cbvmda:certificationValue>USP_82736182</cbvmda:certificationValue>
-                    <cbvmda:certificationIdentification>USP_82736182</cbvmda:certificationIdentification>
-                </cbvmda:certification>
+                    <certificationStandard>US Processing License</certificationStandard>
+                    <certificationAgency>US Processing License Agency</certificationAgency>
+                    <certificationValue>USP_82736182</certificationValue>
+                    <certificationIdentification>USP_82736182</certificationIdentification>
+                </certification>
 
                 <!-- Chain of Custody Certificate -->
-                <cbvmda:certification>
+                <certification>
                     <gdst:certificateType>urn:gdst:certType:chain_custody</gdst:certificateType>
-                    <cbvmda:certificationStandard>MSC Chain of Custody</cbvmda:certificationStandard>
-                    <cbvmda:certificationAgency>MSC</cbvmda:certificationAgency>
-                    <cbvmda:certificationValue>MSC_COC_1234567890</cbvmda:certificationValue>
-                    <cbvmda:certificationIdentification>MSC_COC_1234567890</cbvmda:certificationIdentification>
-                </cbvmda:certification>
+                    <certificationStandard>MSC Chain of Custody</certificationStandard>
+                    <certificationAgency>MSC</certificationAgency>
+                    <certificationValue>MSC_COC_1234567890</certificationValue>
+                    <certificationIdentification>MSC_COC_1234567890</certificationIdentification>
+                </certification>
 
                 <!-- Code of Good Practice Certificate -->
-                <cbvmda:certification>
+                <certification>
                     <gdst:certificateType>urn:gdst:certType:good_practice</gdst:certificateType>
-                    <cbvmda:certificationStandard>Good Practice Standard Body</cbvmda:certificationStandard>
-                    <cbvmda:certificationAgency>GP Agency</cbvmda:certificationAgency>
-                    <cbvmda:certificationValue>GP_0987654321</cbvmda:certificationValue>
-                    <cbvmda:certificationIdentification>GP_0987654321</cbvmda:certificationIdentification>
-                </cbvmda:certification>
+                    <certificationStandard>Good Practice Standard Body</certificationStandard>
+                    <certificationAgency>GP Agency</certificationAgency>
+                    <certificationValue>GP_0987654321</certificationValue>
+                    <certificationIdentification>GP_0987654321</certificationIdentification>
+                </certification>
 
                 <!-- Aggregator License -->
-                <cbvmda:certification>
+                <certification>
                     <gdst:certificateType>urn:gdst:certType:aggregator_license</gdst:certificateType>
-                    <cbvmda:certificationStandard>Aggregator License</cbvmda:certificationStandard>
-                    <cbvmda:certificationAgency>Aggregator License Agency</cbvmda:certificationAgency>
-                    <cbvmda:certificationValue>AL_928374545</cbvmda:certificationValue>
-                    <cbvmda:certificationIdentification>AL_928374545</cbvmda:certificationIdentification>
-                </cbvmda:certification>
+                    <certificationStandard>Aggregator License</certificationStandard>
+                    <certificationAgency>Aggregator License Agency</certificationAgency>
+                    <certificationValue>AL_928374545</certificationValue>
+                    <certificationIdentification>AL_928374545</certificationIdentification>
+                </certification>
 
             </cbvmda:certificationList>
         </ilmd>

@@ -1,0 +1,278 @@
+[
+    {
+        "urn": "urn:gdst:gear:1",
+        "name": "Surrounding Nets"
+    },
+    {
+        "urn": "urn:gdst:gear:1.1",
+        "name": "Purse Seings"
+    },
+    {
+        "urn": "urn:gdst:gear:1.2",
+        "name": "Surrounding Nets without Purse Lines"
+    },
+    {
+        "urn": "urn:gdst:gear:1.9",
+        "name": "Surrounding Nets (nei)"
+    },
+    {
+        "urn": "urn:gdst:gear:2",
+        "name": "Seine Nets"
+    },
+    {
+        "urn": "urn:gdst:gear:2.1",
+        "name": "Beach Seines"
+    },
+    {
+        "urn": "urn:gdst:gear:2.2",
+        "name": "Boat Seines"
+    },
+    {
+        "urn": "urn:gdst:gear:3",
+        "name": "Trawls"
+    },
+    {
+        "urn": "urn:gdst:gear:3.11",
+        "name": "Beam Trawls"
+    },
+    {
+        "urn": "urn:gdst:gear:3.12",
+        "name": "Single boat bottom otter trawls"
+    },
+    {
+        "urn": "urn:gdst:gear:3.13",
+        "name": "Twin bottom otter trawls"
+    },
+    {
+        "urn": "urn:gdst:gear:3.14",
+        "name": "Multiple bottom otter trawls"
+    },
+    {
+        "urn": "urn:gdst:gear:3.15",
+        "name": "Bottom pair trawls"
+    },
+    {
+        "urn": "urn:gdst:gear:3.19",
+        "name": "Bottom trawls (nei)"
+    },
+    {
+        "urn": "urn:gdst:gear:3.21",
+        "name": "Single boat midwater otter trawls"
+    },
+    {
+        "urn": "urn:gdst:gear:3.22",
+        "name": "Midwater pair trawls"
+    },
+    {
+        "urn": "urn:gdst:gear:3.29",
+        "name": "Midwater trawls (nei)"
+    },
+    {
+        "urn": "urn:gdst:gear:3.3",
+        "name": "Semipelagic trawls"
+    },
+    {
+        "urn": "urn:gdst:gear:3.9",
+        "name": "Trawls (nei)"
+    },
+    {
+        "urn": "urn:gdst:gear:4",
+        "name": "Dredges"
+    },
+    {
+        "urn": "urn:gdst:gear:4.1",
+        "name": "Towed Dredges"
+    },
+    {
+        "urn": "urn:gdst:gear:4.2",
+        "name": "Hand Dredges"
+    },
+    {
+        "urn": "urn:gdst:gear:4.3",
+        "name": "Mechanized Dredges"
+    },
+    {
+        "urn": "urn:gdst:gear:4.9",
+        "name": "Dredges (nei)"
+    },
+    {
+        "urn": "urn:gdst:gear:5",
+        "name": "Lift Nets"
+    },
+    {
+        "urn": "urn:gdst:gear:5.1",
+        "name": "Portable lift nets"
+    },
+    {
+        "urn": "urn:gdst:gear:5.2",
+        "name": "Boat-operated lift nets"
+    },
+    {
+        "urn": "urn:gdst:gear:5.3",
+        "name": "Shore-operated stationary lift nets"
+    },
+    {
+        "urn": "urn:gdst:gear:5.9",
+        "name": "Lift nets (nei)"
+    },
+    {
+        "urn": "urn:gdst:gear:6",
+        "name": "Falling Gear"
+    },
+    {
+        "urn": "urn:gdst:gear:6.1",
+        "name": "Cast nets"
+    },
+    {
+        "urn": "urn:gdst:gear:6.2",
+        "name": "Cover pots / Lantern nets"
+    },
+    {
+        "urn": "urn:gdst:gear:6.9",
+        "name": "Falling gear (nei)"
+    },
+    {
+        "urn": "urn:gdst:gear:7",
+        "name": "Gillnets and Entangling Nets"
+    },
+    {
+        "urn": "urn:gdst:gear:7.1",
+        "name": "Set gillnets (anchored)"
+    },
+    {
+        "urn": "urn:gdst:gear:7.2",
+        "name": "Drift gillnets"
+    },
+    {
+        "urn": "urn:gdst:gear:7.3",
+        "name": "Encircling gillnets"
+    },
+    {
+        "urn": "urn:gdst:gear:7.4",
+        "name": "Fixed gillnets (on stakes)"
+    },
+    {
+        "urn": "urn:gdst:gear:7.5",
+        "name": "Trammel nets"
+    },
+    {
+        "urn": "urn:gdst:gear:7.6",
+        "name": "Combined gillnets-trammel nets"
+    },
+    {
+        "urn": "urn:gdst:gear:7.9",
+        "name": "Gillnets and entangling nets (nei)"
+    },
+    {
+        "urn": "urn:gdst:gear:8",
+        "name": "Traps"
+    },
+    {
+        "urn": "urn:gdst:gear:8.1",
+        "name": "Stationary unconvered pound nets"
+    },
+    {
+        "urn": "urn:gdst:gear:8.2",
+        "name": "Pots"
+    },
+    {
+        "urn": "urn:gdst:gear:8.3",
+        "name": "Fyke nets"
+    },
+    {
+        "urn": "urn:gdst:gear:8.4",
+        "name": "Stow nets"
+    },
+    {
+        "urn": "urn:gdst:gear:8.5",
+        "name": "Barriers, fences, weirs, etc."
+    },
+    {
+        "urn": "urn:gdst:gear:8.6",
+        "name": "Aerial traps"
+    },
+    {
+        "urn": "urn:gdst:gear:8.9",
+        "name": "Traps (nei)"
+    },
+    {
+        "urn": "urn:gdst:gear:9",
+        "name": "Hooks and Lines"
+    },
+    {
+        "urn": "urn:gdst:gear:9.1",
+        "name": "Handlines and hand-operated pole-and-lines"
+    },
+    {
+        "urn": "urn:gdst:gear:9.2",
+        "name": "Handlines and hand-operated pole-and-lines"
+    },
+    {
+        "urn": "urn:gdst:gear:9.31",
+        "name": "Set longlines"
+    },
+    {
+        "urn": "urn:gdst:gear:9.32",
+        "name": "Drifting longlines"
+    },
+    {
+        "urn": "urn:gdst:gear:9.39",
+        "name": "Longlines (nei)"
+    },
+    {
+        "urn": "urn:gdst:gear:9.4",
+        "name": "Vertical lines"
+    },
+    {
+        "urn": "urn:gdst:gear:9.5",
+        "name": "Trolling lines"
+    },
+    {
+        "urn": "urn:gdst:gear:9.9",
+        "name": "Hooks and lines (nei)"
+    },
+    {
+        "urn": "urn:gdst:gear:10",
+        "name": "Miscellaneous Gear"
+    },
+    {
+        "urn": "urn:gdst:gear:10.1",
+        "name": "Harpoons"
+    },
+    {
+        "urn": "urn:gdst:gear:10.2",
+        "name": "Hand implements (wrenching gear, clamps, tongs, rakes, spears)"
+    },
+    {
+        "urn": "urn:gdst:gear:10.3",
+        "name": "Pumps"
+    },
+    {
+        "urn": "urn:gdst:gear:10.4",
+        "name": "Electric fishing"
+    },
+    {
+        "urn": "urn:gdst:gear:10.5",
+        "name": "Pushnets"
+    },
+    {
+        "urn": "urn:gdst:gear:10.6",
+        "name": "Scoopnets"
+    },
+    {
+        "urn": "urn:gdst:gear:10.7",
+        "name": "Drive-in nets"
+    },
+    {
+        "urn": "urn:gdst:gear:10.8",
+        "name": "Diving"
+    },
+    {
+        "urn": "urn:gdst:gear:10.9",
+        "name": "Gear (nei)"
+    },
+    {
+        "urn": "urn:gdst:gear:99",
+        "name": "Gear not known"
+    }
+]

@@ -1,0 +1,1003 @@
+[
+    {
+        "urn": "urn:gdst:eez:ABW",
+        "name": "Aruba"
+    },
+    {
+        "urn": "urn:gdst:eez:AFG",
+        "name": "Afghanistan"
+    },
+    {
+        "urn": "urn:gdst:eez:AGO",
+        "name": "Angola"
+    },
+    {
+        "urn": "urn:gdst:eez:AIA",
+        "name": "Anguilla"
+    },
+    {
+        "urn": "urn:gdst:eez:ALA",
+        "name": "Åland Islands"
+    },
+    {
+        "urn": "urn:gdst:eez:ALB",
+        "name": "Albania"
+    },
+    {
+        "urn": "urn:gdst:eez:AND",
+        "name": "Andorra"
+    },
+    {
+        "urn": "urn:gdst:eez:ARE",
+        "name": "United Arab Emirates"
+    },
+    {
+        "urn": "urn:gdst:eez:ARG",
+        "name": "Argentina"
+    },
+    {
+        "urn": "urn:gdst:eez:ARM",
+        "name": "Armenia"
+    },
+    {
+        "urn": "urn:gdst:eez:ASM",
+        "name": "American Samoa"
+    },
+    {
+        "urn": "urn:gdst:eez:ATA",
+        "name": "Antarctica"
+    },
+    {
+        "urn": "urn:gdst:eez:ATF",
+        "name": "French Southern Territories"
+    },
+    {
+        "urn": "urn:gdst:eez:ATG",
+        "name": "Antigua and Barbuda"
+    },
+    {
+        "urn": "urn:gdst:eez:AUS",
+        "name": "Australia"
+    },
+    {
+        "urn": "urn:gdst:eez:AUT",
+        "name": "Austria"
+    },
+    {
+        "urn": "urn:gdst:eez:AZE",
+        "name": "Azerbaijan"
+    },
+    {
+        "urn": "urn:gdst:eez:BDI",
+        "name": "Burundi"
+    },
+    {
+        "urn": "urn:gdst:eez:BEL",
+        "name": "Belgium"
+    },
+    {
+        "urn": "urn:gdst:eez:BEN",
+        "name": "Benin"
+    },
+    {
+        "urn": "urn:gdst:eez:BES",
+        "name": "Bonaire, Sint Eustatius and Saba"
+    },
+    {
+        "urn": "urn:gdst:eez:BFA",
+        "name": "Burkina Faso"
+    },
+    {
+        "urn": "urn:gdst:eez:BGD",
+        "name": "Bangladesh"
+    },
+    {
+        "urn": "urn:gdst:eez:BGR",
+        "name": "Bulgaria"
+    },
+    {
+        "urn": "urn:gdst:eez:BHR",
+        "name": "Bahrain"
+    },
+    {
+        "urn": "urn:gdst:eez:BHS",
+        "name": "Bahamas"
+    },
+    {
+        "urn": "urn:gdst:eez:BIH",
+        "name": "Bosnia and Herzegovina"
+    },
+    {
+        "urn": "urn:gdst:eez:BLM",
+        "name": "Saint Barthélemy"
+    },
+    {
+        "urn": "urn:gdst:eez:BLR",
+        "name": "Belarus"
+    },
+    {
+        "urn": "urn:gdst:eez:BLZ",
+        "name": "Belize"
+    },
+    {
+        "urn": "urn:gdst:eez:BMU",
+        "name": "Bermuda"
+    },
+    {
+        "urn": "urn:gdst:eez:BOL",
+        "name": "Bolivia (Plurinational State of)"
+    },
+    {
+        "urn": "urn:gdst:eez:BRA",
+        "name": "Brazil"
+    },
+    {
+        "urn": "urn:gdst:eez:BRB",
+        "name": "Barbados"
+    },
+    {
+        "urn": "urn:gdst:eez:BRN",
+        "name": "Brunei Darussalam"
+    },
+    {
+        "urn": "urn:gdst:eez:BTN",
+        "name": "Bhutan"
+    },
+    {
+        "urn": "urn:gdst:eez:BVT",
+        "name": "Bouvet Island"
+    },
+    {
+        "urn": "urn:gdst:eez:BWA",
+        "name": "Botswana"
+    },
+    {
+        "urn": "urn:gdst:eez:CAF",
+        "name": "Central African Republic"
+    },
+    {
+        "urn": "urn:gdst:eez:CAN",
+        "name": "Canada"
+    },
+    {
+        "urn": "urn:gdst:eez:CCK",
+        "name": "Cocos (Keeling) Islands"
+    },
+    {
+        "urn": "urn:gdst:eez:CHE",
+        "name": "Switzerland"
+    },
+    {
+        "urn": "urn:gdst:eez:CHL",
+        "name": "Chile"
+    },
+    {
+        "urn": "urn:gdst:eez:CHN",
+        "name": "China"
+    },
+    {
+        "urn": "urn:gdst:eez:CIV",
+        "name": "Côte d'Ivoire"
+    },
+    {
+        "urn": "urn:gdst:eez:CMR",
+        "name": "Cameroon"
+    },
+    {
+        "urn": "urn:gdst:eez:COD",
+        "name": "Congo, Democratic Republic of the"
+    },
+    {
+        "urn": "urn:gdst:eez:COG",
+        "name": "Congo"
+    },
+    {
+        "urn": "urn:gdst:eez:COK",
+        "name": "Cook Islands"
+    },
+    {
+        "urn": "urn:gdst:eez:COL",
+        "name": "Colombia"
+    },
+    {
+        "urn": "urn:gdst:eez:COM",
+        "name": "Comoros"
+    },
+    {
+        "urn": "urn:gdst:eez:CPV",
+        "name": "Cabo Verde"
+    },
+    {
+        "urn": "urn:gdst:eez:CRI",
+        "name": "Costa Rica"
+    },
+    {
+        "urn": "urn:gdst:eez:CUB",
+        "name": "Cuba"
+    },
+    {
+        "urn": "urn:gdst:eez:CUW",
+        "name": "Curaçao"
+    },
+    {
+        "urn": "urn:gdst:eez:CXR",
+        "name": "Christmas Island"
+    },
+    {
+        "urn": "urn:gdst:eez:CYM",
+        "name": "Cayman Islands"
+    },
+    {
+        "urn": "urn:gdst:eez:CYP",
+        "name": "Cyprus"
+    },
+    {
+        "urn": "urn:gdst:eez:CZE",
+        "name": "Czechia"
+    },
+    {
+        "urn": "urn:gdst:eez:DEU",
+        "name": "Germany"
+    },
+    {
+        "urn": "urn:gdst:eez:DJI",
+        "name": "Djibouti"
+    },
+    {
+        "urn": "urn:gdst:eez:DMA",
+        "name": "Dominica"
+    },
+    {
+        "urn": "urn:gdst:eez:DNK",
+        "name": "Denmark"
+    },
+    {
+        "urn": "urn:gdst:eez:DOM",
+        "name": "Dominican Republic"
+    },
+    {
+        "urn": "urn:gdst:eez:DZA",
+        "name": "Algeria"
+    },
+    {
+        "urn": "urn:gdst:eez:ECU",
+        "name": "Ecuador"
+    },
+    {
+        "urn": "urn:gdst:eez:EGY",
+        "name": "Egypt"
+    },
+    {
+        "urn": "urn:gdst:eez:ERI",
+        "name": "Eritrea"
+    },
+    {
+        "urn": "urn:gdst:eez:ESH",
+        "name": "Western Sahara"
+    },
+    {
+        "urn": "urn:gdst:eez:ESP",
+        "name": "Spain"
+    },
+    {
+        "urn": "urn:gdst:eez:EST",
+        "name": "Estonia"
+    },
+    {
+        "urn": "urn:gdst:eez:ETH",
+        "name": "Ethiopia"
+    },
+    {
+        "urn": "urn:gdst:eez:FIN",
+        "name": "Finland"
+    },
+    {
+        "urn": "urn:gdst:eez:FJI",
+        "name": "Fiji"
+    },
+    {
+        "urn": "urn:gdst:eez:FLK",
+        "name": "Falkland Islands (Malvinas)"
+    },
+    {
+        "urn": "urn:gdst:eez:FRA",
+        "name": "France"
+    },
+    {
+        "urn": "urn:gdst:eez:FRO",
+        "name": "Faroe Islands"
+    },
+    {
+        "urn": "urn:gdst:eez:FSM",
+        "name": "Micronesia (Federated States of)"
+    },
+    {
+        "urn": "urn:gdst:eez:GAB",
+        "name": "Gabon"
+    },
+    {
+        "urn": "urn:gdst:eez:GBR",
+        "name": "United Kingdom of Great Britain and Northern Ireland"
+    },
+    {
+        "urn": "urn:gdst:eez:GEO",
+        "name": "Georgia"
+    },
+    {
+        "urn": "urn:gdst:eez:GGY",
+        "name": "Guernsey"
+    },
+    {
+        "urn": "urn:gdst:eez:GHA",
+        "name": "Ghana"
+    },
+    {
+        "urn": "urn:gdst:eez:GIB",
+        "name": "Gibraltar"
+    },
+    {
+        "urn": "urn:gdst:eez:GIN",
+        "name": "Guinea"
+    },
+    {
+        "urn": "urn:gdst:eez:GLP",
+        "name": "Guadeloupe"
+    },
+    {
+        "urn": "urn:gdst:eez:GMB",
+        "name": "Gambia"
+    },
+    {
+        "urn": "urn:gdst:eez:GNB",
+        "name": "Guinea-Bissau"
+    },
+    {
+        "urn": "urn:gdst:eez:GNQ",
+        "name": "Equatorial Guinea"
+    },
+    {
+        "urn": "urn:gdst:eez:GRC",
+        "name": "Greece"
+    },
+    {
+        "urn": "urn:gdst:eez:GRD",
+        "name": "Grenada"
+    },
+    {
+        "urn": "urn:gdst:eez:GRL",
+        "name": "Greenland"
+    },
+    {
+        "urn": "urn:gdst:eez:GTM",
+        "name": "Guatemala"
+    },
+    {
+        "urn": "urn:gdst:eez:GUF",
+        "name": "French Guiana"
+    },
+    {
+        "urn": "urn:gdst:eez:GUM",
+        "name": "Guam"
+    },
+    {
+        "urn": "urn:gdst:eez:GUY",
+        "name": "Guyana"
+    },
+    {
+        "urn": "urn:gdst:eez:HKG",
+        "name": "Hong Kong"
+    },
+    {
+        "urn": "urn:gdst:eez:HMD",
+        "name": "Heard Island and McDonald Islands"
+    },
+    {
+        "urn": "urn:gdst:eez:HND",
+        "name": "Honduras"
+    },
+    {
+        "urn": "urn:gdst:eez:HRV",
+        "name": "Croatia"
+    },
+    {
+        "urn": "urn:gdst:eez:HTI",
+        "name": "Haiti"
+    },
+    {
+        "urn": "urn:gdst:eez:HUN",
+        "name": "Hungary"
+    },
+    {
+        "urn": "urn:gdst:eez:IDN",
+        "name": "Indonesia"
+    },
+    {
+        "urn": "urn:gdst:eez:IMN",
+        "name": "Isle of Man"
+    },
+    {
+        "urn": "urn:gdst:eez:IND",
+        "name": "India"
+    },
+    {
+        "urn": "urn:gdst:eez:IOT",
+        "name": "British Indian Ocean Territory"
+    },
+    {
+        "urn": "urn:gdst:eez:IRL",
+        "name": "Ireland"
+    },
+    {
+        "urn": "urn:gdst:eez:IRN",
+        "name": "Iran (Islamic Republic of)"
+    },
+    {
+        "urn": "urn:gdst:eez:IRQ",
+        "name": "Iraq"
+    },
+    {
+        "urn": "urn:gdst:eez:ISL",
+        "name": "Iceland"
+    },
+    {
+        "urn": "urn:gdst:eez:ISR",
+        "name": "Israel"
+    },
+    {
+        "urn": "urn:gdst:eez:ITA",
+        "name": "Italy"
+    },
+    {
+        "urn": "urn:gdst:eez:JAM",
+        "name": "Jamaica"
+    },
+    {
+        "urn": "urn:gdst:eez:JEY",
+        "name": "Jersey"
+    },
+    {
+        "urn": "urn:gdst:eez:JOR",
+        "name": "Jordan"
+    },
+    {
+        "urn": "urn:gdst:eez:JPN",
+        "name": "Japan"
+    },
+    {
+        "urn": "urn:gdst:eez:KAZ",
+        "name": "Kazakhstan"
+    },
+    {
+        "urn": "urn:gdst:eez:KEN",
+        "name": "Kenya"
+    },
+    {
+        "urn": "urn:gdst:eez:KGZ",
+        "name": "Kyrgyzstan"
+    },
+    {
+        "urn": "urn:gdst:eez:KHM",
+        "name": "Cambodia"
+    },
+    {
+        "urn": "urn:gdst:eez:KIR",
+        "name": "Kiribati"
+    },
+    {
+        "urn": "urn:gdst:eez:KNA",
+        "name": "Saint Kitts and Nevis"
+    },
+    {
+        "urn": "urn:gdst:eez:KOR",
+        "name": "Korea, Republic of"
+    },
+    {
+        "urn": "urn:gdst:eez:KWT",
+        "name": "Kuwait"
+    },
+    {
+        "urn": "urn:gdst:eez:LAO",
+        "name": "Lao People's Democratic Republic"
+    },
+    {
+        "urn": "urn:gdst:eez:LBN",
+        "name": "Lebanon"
+    },
+    {
+        "urn": "urn:gdst:eez:LBR",
+        "name": "Liberia"
+    },
+    {
+        "urn": "urn:gdst:eez:LBY",
+        "name": "Libya"
+    },
+    {
+        "urn": "urn:gdst:eez:LCA",
+        "name": "Saint Lucia"
+    },
+    {
+        "urn": "urn:gdst:eez:LIE",
+        "name": "Liechtenstein"
+    },
+    {
+        "urn": "urn:gdst:eez:LKA",
+        "name": "Sri Lanka"
+    },
+    {
+        "urn": "urn:gdst:eez:LSO",
+        "name": "Lesotho"
+    },
+    {
+        "urn": "urn:gdst:eez:LTU",
+        "name": "Lithuania"
+    },
+    {
+        "urn": "urn:gdst:eez:LUX",
+        "name": "Luxembourg"
+    },
+    {
+        "urn": "urn:gdst:eez:LVA",
+        "name": "Latvia"
+    },
+    {
+        "urn": "urn:gdst:eez:MAC",
+        "name": "Macao"
+    },
+    {
+        "urn": "urn:gdst:eez:MAF",
+        "name": "Saint Martin (French part)"
+    },
+    {
+        "urn": "urn:gdst:eez:MAR",
+        "name": "Morocco"
+    },
+    {
+        "urn": "urn:gdst:eez:MCO",
+        "name": "Monaco"
+    },
+    {
+        "urn": "urn:gdst:eez:MDA",
+        "name": "Moldova, Republic of"
+    },
+    {
+        "urn": "urn:gdst:eez:MDG",
+        "name": "Madagascar"
+    },
+    {
+        "urn": "urn:gdst:eez:MDV",
+        "name": "Maldives"
+    },
+    {
+        "urn": "urn:gdst:eez:MEX",
+        "name": "Mexico"
+    },
+    {
+        "urn": "urn:gdst:eez:MHL",
+        "name": "Marshall Islands"
+    },
+    {
+        "urn": "urn:gdst:eez:MKD",
+        "name": "North Macedonia"
+    },
+    {
+        "urn": "urn:gdst:eez:MLI",
+        "name": "Mali"
+    },
+    {
+        "urn": "urn:gdst:eez:MLT",
+        "name": "Malta"
+    },
+    {
+        "urn": "urn:gdst:eez:MMR",
+        "name": "Myanmar"
+    },
+    {
+        "urn": "urn:gdst:eez:MNE",
+        "name": "Montenegro"
+    },
+    {
+        "urn": "urn:gdst:eez:MNG",
+        "name": "Mongolia"
+    },
+    {
+        "urn": "urn:gdst:eez:MNP",
+        "name": "Northern Mariana Islands"
+    },
+    {
+        "urn": "urn:gdst:eez:MOZ",
+        "name": "Mozambique"
+    },
+    {
+        "urn": "urn:gdst:eez:MRT",
+        "name": "Mauritania"
+    },
+    {
+        "urn": "urn:gdst:eez:MSR",
+        "name": "Montserrat"
+    },
+    {
+        "urn": "urn:gdst:eez:MTQ",
+        "name": "Martinique"
+    },
+    {
+        "urn": "urn:gdst:eez:MUS",
+        "name": "Mauritius"
+    },
+    {
+        "urn": "urn:gdst:eez:MWI",
+        "name": "Malawi"
+    },
+    {
+        "urn": "urn:gdst:eez:MYS",
+        "name": "Malaysia"
+    },
+    {
+        "urn": "urn:gdst:eez:MYT",
+        "name": "Mayotte"
+    },
+    {
+        "urn": "urn:gdst:eez:NAM",
+        "name": "Namibia"
+    },
+    {
+        "urn": "urn:gdst:eez:NCL",
+        "name": "New Caledonia"
+    },
+    {
+        "urn": "urn:gdst:eez:NER",
+        "name": "Niger"
+    },
+    {
+        "urn": "urn:gdst:eez:NFK",
+        "name": "Norfolk Island"
+    },
+    {
+        "urn": "urn:gdst:eez:NGA",
+        "name": "Nigeria"
+    },
+    {
+        "urn": "urn:gdst:eez:NIC",
+        "name": "Nicaragua"
+    },
+    {
+        "urn": "urn:gdst:eez:NIU",
+        "name": "Niue"
+    },
+    {
+        "urn": "urn:gdst:eez:NLD",
+        "name": "Netherlands"
+    },
+    {
+        "urn": "urn:gdst:eez:NOR",
+        "name": "Norway"
+    },
+    {
+        "urn": "urn:gdst:eez:NPL",
+        "name": "Nepal"
+    },
+    {
+        "urn": "urn:gdst:eez:NRU",
+        "name": "Nauru"
+    },
+    {
+        "urn": "urn:gdst:eez:NZL",
+        "name": "New Zealand"
+    },
+    {
+        "urn": "urn:gdst:eez:OMN",
+        "name": "Oman"
+    },
+    {
+        "urn": "urn:gdst:eez:PAK",
+        "name": "Pakistan"
+    },
+    {
+        "urn": "urn:gdst:eez:PAN",
+        "name": "Panama"
+    },
+    {
+        "urn": "urn:gdst:eez:PCN",
+        "name": "Pitcairn"
+    },
+    {
+        "urn": "urn:gdst:eez:PER",
+        "name": "Peru"
+    },
+    {
+        "urn": "urn:gdst:eez:PHL",
+        "name": "Philippines"
+    },
+    {
+        "urn": "urn:gdst:eez:PLW",
+        "name": "Palau"
+    },
+    {
+        "urn": "urn:gdst:eez:PNG",
+        "name": "Papua New Guinea"
+    },
+    {
+        "urn": "urn:gdst:eez:POL",
+        "name": "Poland"
+    },
+    {
+        "urn": "urn:gdst:eez:PRI",
+        "name": "Puerto Rico"
+    },
+    {
+        "urn": "urn:gdst:eez:PRK",
+        "name": "Korea (Democratic People's Republic of)"
+    },
+    {
+        "urn": "urn:gdst:eez:PRT",
+        "name": "Portugal"
+    },
+    {
+        "urn": "urn:gdst:eez:PRY",
+        "name": "Paraguay"
+    },
+    {
+        "urn": "urn:gdst:eez:PSE",
+        "name": "Palestine, State of"
+    },
+    {
+        "urn": "urn:gdst:eez:PYF",
+        "name": "French Polynesia"
+    },
+    {
+        "urn": "urn:gdst:eez:QAT",
+        "name": "Qatar"
+    },
+    {
+        "urn": "urn:gdst:eez:REU",
+        "name": "Réunion"
+    },
+    {
+        "urn": "urn:gdst:eez:ROU",
+        "name": "Romania"
+    },
+    {
+        "urn": "urn:gdst:eez:RUS",
+        "name": "Russian Federation"
+    },
+    {
+        "urn": "urn:gdst:eez:RWA",
+        "name": "Rwanda"
+    },
+    {
+        "urn": "urn:gdst:eez:SAU",
+        "name": "Saudi Arabia"
+    },
+    {
+        "urn": "urn:gdst:eez:SDN",
+        "name": "Sudan"
+    },
+    {
+        "urn": "urn:gdst:eez:SEN",
+        "name": "Senegal"
+    },
+    {
+        "urn": "urn:gdst:eez:SGP",
+        "name": "Singapore"
+    },
+    {
+        "urn": "urn:gdst:eez:SGS",
+        "name": "South Georgia and the South Sandwich Islands"
+    },
+    {
+        "urn": "urn:gdst:eez:SHN",
+        "name": "Saint Helena, Ascension and Tristan da Cunha"
+    },
+    {
+        "urn": "urn:gdst:eez:SJM",
+        "name": "Svalbard and Jan Mayen"
+    },
+    {
+        "urn": "urn:gdst:eez:SLB",
+        "name": "Solomon Islands"
+    },
+    {
+        "urn": "urn:gdst:eez:SLE",
+        "name": "Sierra Leone"
+    },
+    {
+        "urn": "urn:gdst:eez:SLV",
+        "name": "El Salvador"
+    },
+    {
+        "urn": "urn:gdst:eez:SMR",
+        "name": "San Marino"
+    },
+    {
+        "urn": "urn:gdst:eez:SOM",
+        "name": "Somalia"
+    },
+    {
+        "urn": "urn:gdst:eez:SPM",
+        "name": "Saint Pierre and Miquelon"
+    },
+    {
+        "urn": "urn:gdst:eez:SRB",
+        "name": "Serbia"
+    },
+    {
+        "urn": "urn:gdst:eez:SSD",
+        "name": "South Sudan"
+    },
+    {
+        "urn": "urn:gdst:eez:STP",
+        "name": "Sao Tome and Principe"
+    },
+    {
+        "urn": "urn:gdst:eez:SUR",
+        "name": "Suriname"
+    },
+    {
+        "urn": "urn:gdst:eez:SVK",
+        "name": "Slovakia"
+    },
+    {
+        "urn": "urn:gdst:eez:SVN",
+        "name": "Slovenia"
+    },
+    {
+        "urn": "urn:gdst:eez:SWE",
+        "name": "Sweden"
+    },
+    {
+        "urn": "urn:gdst:eez:SWZ",
+        "name": "Eswatini"
+    },
+    {
+        "urn": "urn:gdst:eez:SXM",
+        "name": "Sint Maarten (Dutch part)"
+    },
+    {
+        "urn": "urn:gdst:eez:SYC",
+        "name": "Seychelles"
+    },
+    {
+        "urn": "urn:gdst:eez:SYR",
+        "name": "Syrian Arab Republic"
+    },
+    {
+        "urn": "urn:gdst:eez:TCA",
+        "name": "Turks and Caicos Islands"
+    },
+    {
+        "urn": "urn:gdst:eez:TCD",
+        "name": "Chad"
+    },
+    {
+        "urn": "urn:gdst:eez:TGO",
+        "name": "Togo"
+    },
+    {
+        "urn": "urn:gdst:eez:THA",
+        "name": "Thailand"
+    },
+    {
+        "urn": "urn:gdst:eez:TJK",
+        "name": "Tajikistan"
+    },
+    {
+        "urn": "urn:gdst:eez:TKL",
+        "name": "Tokelau"
+    },
+    {
+        "urn": "urn:gdst:eez:TKM",
+        "name": "Turkmenistan"
+    },
+    {
+        "urn": "urn:gdst:eez:TLS",
+        "name": "Timor-Leste"
+    },
+    {
+        "urn": "urn:gdst:eez:TON",
+        "name": "Tonga"
+    },
+    {
+        "urn": "urn:gdst:eez:TTO",
+        "name": "Trinidad and Tobago"
+    },
+    {
+        "urn": "urn:gdst:eez:TUN",
+        "name": "Tunisia"
+    },
+    {
+        "urn": "urn:gdst:eez:TUR",
+        "name": "Turkey"
+    },
+    {
+        "urn": "urn:gdst:eez:TUV",
+        "name": "Tuvalu"
+    },
+    {
+        "urn": "urn:gdst:eez:TWN",
+        "name": "Taiwan, Province of China"
+    },
+    {
+        "urn": "urn:gdst:eez:TZA",
+        "name": "Tanzania, United Republic of"
+    },
+    {
+        "urn": "urn:gdst:eez:UGA",
+        "name": "Uganda"
+    },
+    {
+        "urn": "urn:gdst:eez:UKR",
+        "name": "Ukraine"
+    },
+    {
+        "urn": "urn:gdst:eez:UMI",
+        "name": "United States Minor Outlying Islands"
+    },
+    {
+        "urn": "urn:gdst:eez:URY",
+        "name": "Uruguay"
+    },
+    {
+        "urn": "urn:gdst:eez:USA",
+        "name": "United States of America"
+    },
+    {
+        "urn": "urn:gdst:eez:UZB",
+        "name": "Uzbekistan"
+    },
+    {
+        "urn": "urn:gdst:eez:VAT",
+        "name": "Holy See"
+    },
+    {
+        "urn": "urn:gdst:eez:VCT",
+        "name": "Saint Vincent and the Grenadines"
+    },
+    {
+        "urn": "urn:gdst:eez:VEN",
+        "name": "Venezuela (Bolivarian Republic of)"
+    },
+    {
+        "urn": "urn:gdst:eez:VGB",
+        "name": "Virgin Islands (British)"
+    },
+    {
+        "urn": "urn:gdst:eez:VIR",
+        "name": "Virgin Islands (U.S.)"
+    },
+    {
+        "urn": "urn:gdst:eez:VNM",
+        "name": "Viet Nam"
+    },
+    {
+        "urn": "urn:gdst:eez:VUT",
+        "name": "Vanuatu"
+    },
+    {
+        "urn": "urn:gdst:eez:WLF",
+        "name": "Wallis and Futuna"
+    },
+    {
+        "urn": "urn:gdst:eez:WSM",
+        "name": "Samoa"
+    },
+    {
+        "urn": "urn:gdst:eez:YEM",
+        "name": "Yemen"
+    },
+    {
+        "urn": "urn:gdst:eez:ZAF",
+        "name": "South Africa"
+    },
+    {
+        "urn": "urn:gdst:eez:ZMB",
+        "name": "Zambia"
+    },
+    {
+        "urn": "urn:gdst:eez:ZWE",
+        "name": "Zimbabwe"
+    },
+    {
+        "urn": "urn:gdst:eez:EUE",
+        "name": "European Union"
+    }
+]
+

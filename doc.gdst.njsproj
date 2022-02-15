@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{dbb4fd25-ce2e-4fb2-8008-a714f52fec20}</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectView>ProjectFiles</ProjectView>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">16.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <ItemGroup>
+    <Folder Include="source\" />
+    <Folder Include="source\aquaculture-events\" />
+    <Folder Include="source\certification\" />
+    <Folder Include="source\contributions\" />
+    <Folder Include="source\extensions\" />
+    <Folder Include="source\gdst4-draft\" />
+    <Folder Include="source\gdst4-draft\media\" />
+    <Folder Include="source\gdst4-draft\part1\" />
+    <Folder Include="source\gdst4-draft\part2\" />
+    <Folder Include="source\gdst4-draft\part3\" />
+    <Folder Include="source\intro\" />
+    <Folder Include="source\pretext\" />
+    <Folder Include="source\regulatory\" />
+    <Folder Include="source\resources\" />
+    <Folder Include="source\wild-events\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="source\aquaculture-events\ac_scenario_01.png" />
+    <Content Include="source\aquaculture-events\advanced01.md" />
+    <Content Include="source\aquaculture-events\aquaculture.md" />
+    <Content Include="source\aquaculture-events\brood-stock.md" />
+    <Content Include="source\aquaculture-events\commodities.md" />
+    <Content Include="source\aquaculture-events\farm-harvest.md" />
+    <Content Include="source\aquaculture-events\feeding.md" />
+    <Content Include="source\aquaculture-events\master-data.md" />
+    <Content Include="source\aquaculture-events\wild-to-farmed.md" />
+    <Content Include="source\aquaculture-events\xml-mappings.md" />
+    <Content Include="source\certification\msc-asc.md" />
+    <Content Include="source\certification\other-cert.md" />
+    <Content Include="source\contributions\authors.md" />
+    <Content Include="source\contributions\built-in-edit-doc.png" />
+    <Content Include="source\contributions\built-in-request-doc.png" />
+    <Content Include="source\contributions\contacts.md" />
+    <Content Include="source\contributions\gitbash.png" />
+    <Content Include="source\contributions\github-fork.png" />
+    <Content Include="source\contributions\github-new-issue-button.png" />
+    <Content Include="source\contributions\github-submit-new-issue.png" />
+    <Content Include="source\contributions\github-template.png" />
+    <Content Include="source\contributions\how-to-request-new-doc.md" />
+    <Content Include="source\contributions\how-to-submit-work-for-review.md" />
+    <Content Include="source\contributions\how-to-work-on-doc.md" />
+    <Content Include="source\contributions\install-nodejs.png" />
+    <Content Include="source\contributions\npm-install.png" />
+    <Content Include="source\contributions\npm-run-dev01.png" />
+    <Content Include="source\contributions\npm-run-dev02.png" />
+    <Content Include="source\contributions\open-gitbash.png" />
+    <Content Include="source\contributions\pr-closes-sample.png" />
+    <Content Include="source\contributions\running-gatsby.md" />
+    <Content Include="source\extensions\business-steps.md" />
+    <Content Include="source\extensions\catch-area.md" />
+    <Content Include="source\extensions\certificates.md" />
+    <Content Include="source\extensions\dispositions.md" />
+    <Content Include="source\extensions\ilmd.md" />
+    <Content Include="source\extensions\master-data.md" />
+    <Content Include="source\extensions\object-event.md" />
+    <Content Include="source\gdst4-draft\media\image11.png" />
+    <Content Include="source\gdst4-draft\media\image12.jpeg" />
+    <Content Include="source\gdst4-draft\media\image13.png" />
+    <Content Include="source\gdst4-draft\media\image14.png" />
+    <Content Include="source\gdst4-draft\media\md_image1.jpg" />
+    <Content Include="source\gdst4-draft\media\md_image10.jpg" />
+    <Content Include="source\gdst4-draft\media\md_image2.jpg" />
+    <Content Include="source\gdst4-draft\media\md_image3.jpg" />
+    <Content Include="source\gdst4-draft\media\md_image4.jpg" />
+    <Content Include="source\gdst4-draft\media\md_image5.jpg" />
+    <Content Include="source\gdst4-draft\media\md_image6.png" />
+    <Content Include="source\gdst4-draft\media\md_image7.jpg" />
+    <Content Include="source\gdst4-draft\media\md_image8.jpg" />
+    <Content Include="source\gdst4-draft\media\md_image9.jpg" />
+    <Content Include="source\gdst4-draft\part1\1-gdst-traceability-overview.md" />
+    <Content Include="source\gdst4-draft\part1\2-traceability-and-standards.md" />
+    <Content Include="source\gdst4-draft\part1\3-traceability-data-systems-sharing.md" />
+    <Content Include="source\gdst4-draft\part2\4-data-req-wild-caught.md" />
+    <Content Include="source\gdst4-draft\part2\5-data-req-aquaculture.md" />
+    <Content Include="source\gdst4-draft\part2\6-obj-loc-req.md" />
+    <Content Include="source\gdst4-draft\part2\7-interoperability-wild-farm.md" />
+    <Content Include="source\gdst4-draft\part2\8-traceability-data-use-cases.md" />
+    <Content Include="source\gdst4-draft\part3\appendix-1.md" />
+    <Content Include="source\gdst4-draft\part3\appendix-2.md" />
+    <Content Include="source\gdst4-draft\part3\appendix-explanation.md" />
+    <Content Include="source\index.mdx" />
+    <Content Include="source\intro\executive-summary.md" />
+    <Content Include="source\intro\feedback.md" />
+    <Content Include="source\intro\how-to-use-docs.md" />
+    <Content Include="source\pretext\why-epcis.md" />
+    <Content Include="source\pretext\why-extension.md" />
+    <Content Include="source\pretext\why-iuu.md" />
+    <Content Include="source\regulatory\eu-catch-cert.md" />
+    <Content Include="source\regulatory\gdpr.md" />
+    <Content Include="source\regulatory\non-western-regulations.md" />
+    <Content Include="source\regulatory\simp-aquaculture.md" />
+    <Content Include="source\regulatory\simp-wild-harvest.md" />
+    <Content Include="source\resources\featured-implementation.md" />
+    <Content Include="source\resources\index.md" />
+    <Content Include="source\wild-events\advanced.md" />
+    <Content Include="source\wild-events\commodities.md" />
+    <Content Include="source\wild-events\fishing-events.md" />
+    <Content Include="source\wild-events\gear-types.md" />
+    <Content Include="source\wild-events\landing.md" />
+    <Content Include="source\wild-events\mari-culture.md" />
+    <Content Include="source\wild-events\master-data.md" />
+    <Content Include="source\wild-events\on-vessel-processing.md" />
+    <Content Include="source\wild-events\transshipment.md" />
+    <Content Include="source\wild-events\wc_scenario_01.png" />
+    <Content Include="source\wild-events\xml-mappings.md" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:48022/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

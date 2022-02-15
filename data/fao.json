@@ -1,0 +1,952 @@
+[
+  {
+    "number": "18",
+    "urn": "urn:gdst:fao:18",
+    "name": "Arctic Sea"
+  },
+  {
+    "number": "21",
+    "urn": "urn:gdst:fao:21",
+    "name": "Atlantic, Northwest"
+  },
+  {
+    "number": "27",
+    "urn": "urn:gdst:fao:27",
+    "name": "Atlantic, Northeast"
+  },
+  {
+    "number": "31",
+    "urn": "urn:gdst:fao:31",
+    "name": "Atlantic, Western Central"
+  },
+  {
+    "number": "34",
+    "urn": "urn:gdst:fao:34",
+    "name": "Atlantic, Eastern Central"
+  },
+  {
+    "number": "37",
+    "urn": "urn:gdst:fao:37",
+    "name": "Mediterranean and Black Sea"
+  },
+  {
+    "number": "41",
+    "urn": "urn:gdst:fao:41",
+    "name": "Atlantic, Southwest"
+  },
+  {
+    "number": "47",
+    "urn": "urn:gdst:fao:47",
+    "name": "Atlantic, Southeast"
+  },
+  {
+    "number": "48",
+    "urn": "urn:gdst:fao:48",
+    "name": "Atlantic, Antarctic"
+  },
+  {
+    "number": "51",
+    "urn": "urn:gdst:fao:51",
+    "name": "Indian Ocean, Western"
+  },
+  {
+    "number": "57",
+    "urn": "urn:gdst:fao:57",
+    "name": "Indian Ocean, Eastern"
+  },
+  {
+    "number": "58",
+    "urn": "urn:gdst:fao:58",
+    "name": "Antarctic and Southern Indian Ocean"
+  },
+  {
+    "number": "61",
+    "urn": "urn:gdst:fao:61",
+    "name": "Pacific, Northwest"
+  },
+  {
+    "number": "67",
+    "urn": "urn:gdst:fao:67",
+    "name": "Pacific, Northeast"
+  },
+  {
+    "number": "71",
+    "urn": "urn:gdst:fao:71",
+    "name": "Pacific, Western Central"
+  },
+  {
+    "number": "77",
+    "urn": "urn:gdst:fao:77",
+    "name": "Pacific, Eastern Central"
+  },
+  {
+    "number": "81",
+    "urn": "urn:gdst:fao:81",
+    "name": "Pacific, Southwest"
+  },
+  {
+    "number": "87",
+    "urn": "urn:gdst:fao:87",
+    "name": "Pacific, Southeast"
+  },
+  {
+    "number": "88",
+    "urn": "urn:gdst:fao:88",
+    "name": "Pacific, Antarctic"
+  },
+  {
+    "number": "1",
+    "urn": "urn:gdst:fao:1",
+    "name": "Africa - Inland waters"
+  },
+  {
+    "number": "2",
+    "urn": "urn:gdst:fao:2",
+    "name": "America, North - Inland waters"
+  },
+  {
+    "number": "3",
+    "urn": "urn:gdst:fao:3",
+    "name": "America, South - Inland waters"
+  },
+  {
+    "number": "4",
+    "urn": "urn:gdst:fao:4",
+    "name": "Asia - Inland waters"
+  },
+  {
+    "number": "5",
+    "urn": "urn:gdst:fao:5",
+    "name": "Europe - Inland waters"
+  },
+  {
+    "number": "6",
+    "urn": "urn:gdst:fao:6",
+    "name": "Oceania - Inland waters"
+  },
+  {
+    "number": "8",
+    "urn": "urn:gdst:fao:8",
+    "name": "Antarctica - Inland waters"
+  },
+  {
+    "number": "27.1",
+    "urn": "urn:gdst:fao:27.1",
+    "name": "Barents Sea (Subarea I)"
+  },
+  {
+    "number": "27.2",
+    "urn": "urn:gdst:fao:27.2",
+    "name": "Norwegian Sea, Spitzbergen, and Bear Island (Subarea II)  "
+  },
+  {
+    "number": "27.3",
+    "urn": "urn:gdst:fao:27.3",
+    "name": "Skagerrak, Kattegat, Sound, Belt Sea, and Baltic Sea, the Sound and Belt together known also as the Transition Area (Subarea III) "
+  },
+  {
+    "number": "27.4",
+    "urn": "urn:gdst:fao:27.4",
+    "name": "North Sea (Subarea IV) "
+  },
+  {
+    "number": "27.5",
+    "urn": "urn:gdst:fao:27.5",
+    "name": "Iceland and Faeroes Grounds (Subarea V)"
+  },
+  {
+    "number": "27.6",
+    "urn": "urn:gdst:fao:27.6",
+    "name": "Rockall, Northwest Coast of Scotland and North Ireland, (the Northwest Coast of Scotland and North Ireland also known as the West of Scotland) (Subarea VI)"
+  },
+  {
+    "number": "27.7",
+    "urn": "urn:gdst:fao:27.7",
+    "name": "Irish Sea, West of Ireland, Porcupine Bank, Eastern and Western English Channel, Bristol Channel, Celtic Sea North and South, and Southwest of Ireland - East and West (Subarea VII)"
+  },
+  {
+    "number": "27.8",
+    "urn": "urn:gdst:fao:27.8",
+    "name": "Bay of Biscay (Subarea VIII)"
+  },
+  {
+    "number": "27.9",
+    "urn": "urn:gdst:fao:27.9",
+    "name": "Portuguese Waters (Subarea IX)"
+  },
+  {
+    "number": "27.10",
+    "urn": "urn:gdst:fao:27.10",
+    "name": "Azores Grounds (Subarea X)"
+  },
+  {
+    "number": "27.12",
+    "urn": "urn:gdst:fao:27.12",
+    "name": "North of Azores (Subarea XII)"
+  },
+  {
+    "number": "27.14",
+    "urn": "urn:gdst:fao:27.14",
+    "name": "East Greenland (Subarea XIV)"
+  },
+  {
+    "number": "27.1.a",
+    "urn": "urn:gdst:fao:27.1.a",
+    "name": "Barents Sea - NEAFC Regulatory Area"
+  },
+  {
+    "number": "27.1.b",
+    "urn": "urn:gdst:fao:27.1.b",
+    "name": "Barents Sea - non-NEAFC Regulatory Area"
+  },
+  {
+    "number": "27.2.a",
+    "urn": "urn:gdst:fao:27.2.a",
+    "name": "Norwegian Sea (Division IIa)"
+  },
+  {
+    "number": "27.2.b",
+    "urn": "urn:gdst:fao:27.2.b",
+    "name": "Spitzbergen and Bear Island (Division IIb)"
+  },
+  {
+    "number": "27.3.a",
+    "urn": "urn:gdst:fao:27.3.a",
+    "name": "Skagerrak and Kattegat (Division IIIa)"
+  },
+  {
+    "number": "27.3.bc",
+    "urn": "urn:gdst:fao:27.3.bc",
+    "name": "Sound and Belt Sea or the Transition Area (Divisions IIIb,c)"
+  },
+  {
+    "number": "27.3.d",
+    "urn": "urn:gdst:fao:27.3.d",
+    "name": "Baltic Sea (Division IIId)"
+  },
+  {
+    "number": "27.4.a",
+    "urn": "urn:gdst:fao:27.4.a",
+    "name": "Northern North Sea (Division IVa)"
+  },
+  {
+    "number": "27.4.b",
+    "urn": "urn:gdst:fao:27.4.b",
+    "name": "Central North Sea (Division IVb)"
+  },
+  {
+    "number": "27.4.c",
+    "urn": "urn:gdst:fao:27.4.c",
+    "name": "Southern North Sea (Division IVc)"
+  },
+  {
+    "number": "27.5.a",
+    "urn": "urn:gdst:fao:27.5.a",
+    "name": "Iceland Grounds (Division Va)"
+  },
+  {
+    "number": "27.5.b",
+    "urn": "urn:gdst:fao:27.5.b",
+    "name": "Faeroes Grounds (Division Vb)"
+  },
+  {
+    "number": "27.6.a",
+    "urn": "urn:gdst:fao:27.6.a",
+    "name": "Northwest Coast of Scotland and North Ireland or as the West of Scotland (Division VIa)"
+  },
+  {
+    "number": "27.6.b",
+    "urn": "urn:gdst:fao:27.6.b",
+    "name": "Rockall (Division VIb)"
+  },
+  {
+    "number": "27.7.a",
+    "urn": "urn:gdst:fao:27.7.a",
+    "name": "Irish Sea (Division VIIa)"
+  },
+  {
+    "number": "27.7.b",
+    "urn": "urn:gdst:fao:27.7.b",
+    "name": "West of Ireland (Division VIIb)"
+  },
+  {
+    "number": "27.7.c",
+    "urn": "urn:gdst:fao:27.7.c",
+    "name": "Porcupine Bank (Division VIIc)"
+  },
+  {
+    "number": "27.7.d",
+    "urn": "urn:gdst:fao:27.7.d",
+    "name": "Eastern English Channel (Division VIId)"
+  },
+  {
+    "number": "27.7.e",
+    "urn": "urn:gdst:fao:27.7.e",
+    "name": "Western English Channel (Division VIIe)"
+  },
+  {
+    "number": "27.7.f",
+    "urn": "urn:gdst:fao:27.7.f",
+    "name": "Bristol Channel (Division VIIf)"
+  },
+  {
+    "number": "27.7.g",
+    "urn": "urn:gdst:fao:27.7.g",
+    "name": "Celtic Sea North (Division VIIg)"
+  },
+  {
+    "number": "27.7.h",
+    "urn": "urn:gdst:fao:27.7.h",
+    "name": "Celtic Sea South ( Division VIIh)"
+  },
+  {
+    "number": "27.7.j",
+    "urn": "urn:gdst:fao:27.7.j",
+    "name": "Southwest of Ireland / East (Division VIIj)"
+  },
+  {
+    "number": "27.7.k",
+    "urn": "urn:gdst:fao:27.7.k",
+    "name": "Southwest of Ireland - West (Division VIIk)"
+  },
+  {
+    "number": "27.8.a",
+    "urn": "urn:gdst:fao:27.8.a",
+    "name": "Bay of Biscay / North (Division VIIIa)"
+  },
+  {
+    "number": "27.8.b",
+    "urn": "urn:gdst:fao:27.8.b",
+    "name": "Bay of Biscay / Central (Division VIIIb)"
+  },
+  {
+    "number": "27.8.c",
+    "urn": "urn:gdst:fao:27.8.c",
+    "name": "Bay of Biscay / South (Division VIIIc)"
+  },
+  {
+    "number": "27.8.d",
+    "urn": "urn:gdst:fao:27.8.d",
+    "name": "Bay of Biscay / Offshore (Division VIIId)"
+  },
+  {
+    "number": "27.8.e",
+    "urn": "urn:gdst:fao:27.8.e",
+    "name": "West of Bay of Biscay (Division VIIIe)"
+  },
+  {
+    "number": "27.9.a",
+    "urn": "urn:gdst:fao:27.9.a",
+    "name": "Portuguese Waters / East (Division IXa)"
+  },
+  {
+    "number": "27.9.b",
+    "urn": "urn:gdst:fao:27.9.b",
+    "name": "Portuguese Waters / West (Division IXb)"
+  },
+  {
+    "number": "27.10.a",
+    "urn": "urn:gdst:fao:27.10.a",
+    "name": "Azores Grounds (Division Xa)"
+  },
+  {
+    "number": "27.10.b",
+    "urn": "urn:gdst:fao:27.10.b",
+    "name": "Northeast Atlantic South (Division Xb)"
+  },
+  {
+    "number": "27.12.a",
+    "urn": "urn:gdst:fao:27.12.a",
+    "name": "Southern mid-Atlantic Ridge (Southern Reykjanes Ridge south to Charlie-Gibbs Fracture Zone) (Division XIIa)"
+  },
+  {
+    "number": "27.12.b",
+    "urn": "urn:gdst:fao:27.12.b",
+    "name": "Western Hatton Bank (Division XIIb)"
+  },
+  {
+    "number": "27.12.c",
+    "urn": "urn:gdst:fao:27.12.c",
+    "name": "Central Northeast Atlantic - South (Division XIIc)"
+  },
+  {
+    "number": "27.14.a",
+    "urn": "urn:gdst:fao:27.14.a",
+    "name": "Northeast Greenland (Division XIVa)"
+  },
+  {
+    "number": "27.14.b",
+    "urn": "urn:gdst:fao:27.14.b",
+    "name": "Southeast Greenland (Division XIVb)"
+  },
+  {
+    "number": "21.0",
+    "urn": "urn:gdst:fao:21.0",
+    "name": "Baffin Island, East Bluff, Bylot Island, Devon Island, Ellesmere Island"
+  },
+  {
+    "number": "21.1",
+    "urn": "urn:gdst:fao:21.1",
+    "name": "Baffin Bay, Davis Strait"
+  },
+  {
+    "number": "21.2",
+    "urn": "urn:gdst:fao:21.2",
+    "name": "Labrador coast"
+  },
+  {
+    "number": "21.3",
+    "urn": "urn:gdst:fao:21.3",
+    "name": "Newfoundland"
+  },
+  {
+    "number": "21.4",
+    "urn": "urn:gdst:fao:21.4",
+    "name": "Northwest Atlantic"
+  },
+  {
+    "number": "21.5",
+    "urn": "urn:gdst:fao:21.5",
+    "name": "Georges Bank, Gulf of Maine"
+  },
+  {
+    "number": "21.6",
+    "urn": "urn:gdst:fao:21.6",
+    "name": "Rhode Island"
+  },
+  {
+    "number": "21.0.a",
+    "urn": "urn:gdst:fao:21.0.a",
+    "name": "Davis Strait, Baffin Island"
+  },
+  {
+    "number": "21.0.b",
+    "urn": "urn:gdst:fao:21.0.b",
+    "name": "Davis Strait"
+  },
+  {
+    "number": "21.1.a",
+    "urn": "urn:gdst:fao:21.1.a",
+    "name": "Baffin Bay, Melville Bay, Disko Island"
+  },
+  {
+    "number": "21.1.b",
+    "urn": "urn:gdst:fao:21.1.b",
+    "name": "Davis Strait, Christianshaab, Store Hellefiske Banke"
+  },
+  {
+    "number": "21.1.c",
+    "urn": "urn:gdst:fao:21.1.c",
+    "name": "Davis Strait, Umanarsugssuak, Little Hellefiske Banke"
+  },
+  {
+    "number": "21.1.d",
+    "urn": "urn:gdst:fao:21.1.d",
+    "name": "Frederikshaab Glacier, Godthaab, Fyllas Banke, Fiskenaes Banke, Danas Banke"
+  },
+  {
+    "number": "21.1.e",
+    "urn": "urn:gdst:fao:21.1.e",
+    "name": "Cape Desolation, Frederikshaab Glacier, Danas Banke"
+  },
+  {
+    "number": "21.1.f",
+    "urn": "urn:gdst:fao:21.1.f",
+    "name": "Cape Desolation, Cape Farewell"
+  },
+  {
+    "number": "21.2.g",
+    "urn": "urn:gdst:fao:21.2.g",
+    "name": "Cape Mugford"
+  },
+  {
+    "number": "21.2.h",
+    "urn": "urn:gdst:fao:21.2.h",
+    "name": "Hopedale, Cape Mugford"
+  },
+  {
+    "number": "21.2.j",
+    "urn": "urn:gdst:fao:21.2.j",
+    "name": "Hopedale, Hamilton Bank"
+  },
+  {
+    "number": "21.3.k",
+    "urn": "urn:gdst:fao:21.3.k",
+    "name": "Cape Freels, Cape Bauld"
+  },
+  {
+    "number": "21.3.l",
+    "urn": "urn:gdst:fao:21.3.l",
+    "name": "Cape Freels, Cape St. Mary's, Grand Bank, Avalon Peninsula, St. John's"
+  },
+  {
+    "number": "21.3.m",
+    "urn": "urn:gdst:fao:21.3.m",
+    "name": "Flemish Cap"
+  },
+  {
+    "number": "21.3.n",
+    "urn": "urn:gdst:fao:21.3.n",
+    "name": "Grand Bank"
+  },
+  {
+    "number": "21.3.o",
+    "urn": "urn:gdst:fao:21.3.o",
+    "name": "Grand Bank"
+  },
+  {
+    "number": "21.3.p",
+    "urn": "urn:gdst:fao:21.3.p",
+    "name": "Cape St Mary's, St.Pierre and Miquelon Islands, Burin Peninsula"
+  },
+  {
+    "number": "21.4.r",
+    "urn": "urn:gdst:fao:21.4.r",
+    "name": "Gulf of Saint Lawrence, Cape Bauld, Strait of Belle Isle, Cape Ray"
+  },
+  {
+    "number": "21.4.s",
+    "urn": "urn:gdst:fao:21.4.s",
+    "name": "Gulf of Saint Lawrence, Labrador-Quebec boundary, P.te des Monts, Anticosti Island"
+  },
+  {
+    "number": "21.4.t",
+    "urn": "urn:gdst:fao:21.4.t",
+    "name": "Gulf of Saint Lawrence, Magdalen Islands"
+  },
+  {
+    "number": "21.4.v",
+    "urn": "urn:gdst:fao:21.4.v",
+    "name": "Cape North, Fourchu, Eastern Scotland Shelf"
+  },
+  {
+    "number": "21.4.w",
+    "urn": "urn:gdst:fao:21.4.w",
+    "name": "Canso, Central Scotian Shelf, Sable Island, Halifax, Nova Scotia Eastern Shore"
+  },
+  {
+    "number": "21.4.x",
+    "urn": "urn:gdst:fao:21.4.x",
+    "name": "Western Scotian Shelf, Bay of Fundy, St. Margaret's Bay, Yarmouth, Digby, Grand Manan"
+  },
+  {
+    "number": "21.5.y",
+    "urn": "urn:gdst:fao:21.5.y",
+    "name": "Gulf of Maine, Bar Harbor"
+  },
+  {
+    "number": "21.5.z",
+    "urn": "urn:gdst:fao:21.5.z",
+    "name": "Georges Bank"
+  },
+  {
+    "number": "21.6.a",
+    "urn": "urn:gdst:fao:21.6.a",
+    "name": "Rhode Island"
+  },
+  {
+    "number": "21.6.b",
+    "urn": "urn:gdst:fao:21.6.b",
+    "name": "Cape Henry"
+  },
+  {
+    "number": "21.6.c",
+    "urn": "urn:gdst:fao:21.6.c",
+    "name": "Cape Hatteras"
+  },
+  {
+    "number": "21.6.d",
+    "urn": "urn:gdst:fao:21.6.d",
+    "name": "Rhode Island"
+  },
+  {
+    "number": "21.6.e",
+    "urn": "urn:gdst:fao:21.6.e",
+    "name": "Rhode Island"
+  },
+  {
+    "number": "21.6.f",
+    "urn": "urn:gdst:fao:21.6.f",
+    "name": "Rhode Island"
+  },
+  {
+    "number": "21.6.g",
+    "urn": "urn:gdst:fao:21.6.g",
+    "name": "Rhode Island"
+  },
+  {
+    "number": "21.6.h",
+    "urn": "urn:gdst:fao:21.6.h",
+    "name": "Rhode Island"
+  },
+  {
+    "number": "34.1",
+    "urn": "urn:gdst:fao:34.1",
+    "name": "Northern Coastal"
+  },
+  {
+    "number": "34.2",
+    "urn": "urn:gdst:fao:34.2",
+    "name": "Northern Oceanic"
+  },
+  {
+    "number": "34.3",
+    "urn": "urn:gdst:fao:34.3",
+    "name": "Southern Coastal"
+  },
+  {
+    "number": "34.4",
+    "urn": "urn:gdst:fao:34.4",
+    "name": "Southern Oceanic"
+  },
+  {
+    "number": "34.1.1",
+    "urn": "urn:gdst:fao:34.1.1",
+    "name": "Morocco Coastal"
+  },
+  {
+    "number": "34.1.2",
+    "urn": "urn:gdst:fao:34.1.2",
+    "name": "Canaries/Madeira Insular"
+  },
+  {
+    "number": "34.1.3",
+    "urn": "urn:gdst:fao:34.1.3",
+    "name": "Sahara Coastal"
+  },
+  {
+    "number": "34.3.1",
+    "urn": "urn:gdst:fao:34.3.1",
+    "name": "Cape Verde Coastal"
+  },
+  {
+    "number": "34.3.2",
+    "urn": "urn:gdst:fao:34.3.2",
+    "name": "Cape Verde Insular"
+  },
+  {
+    "number": "34.3.3",
+    "urn": "urn:gdst:fao:34.3.3",
+    "name": "Sherbro"
+  },
+  {
+    "number": "34.3.4",
+    "urn": "urn:gdst:fao:34.3.4",
+    "name": "Western Gulf of Guinea"
+  },
+  {
+    "number": "34.3.5",
+    "urn": "urn:gdst:fao:34.3.5",
+    "name": "Central Gulf of Guinea"
+  },
+  {
+    "number": "34.3.6",
+    "urn": "urn:gdst:fao:34.3.6",
+    "name": "Southern Gulf of Guinea"
+  },
+  {
+    "number": "34.4.1",
+    "urn": "urn:gdst:fao:34.4.1",
+    "name": "Southwest Gulf of Guinea"
+  },
+  {
+    "number": "34.4.2",
+    "urn": "urn:gdst:fao:34.4.2",
+    "name": "Southwest Oceanic"
+  },
+  {
+    "number": "88.1",
+    "urn": "urn:gdst:fao:88.1",
+    "name": "Eastern Ross Sea"
+  },
+  {
+    "number": "88.2",
+    "urn": "urn:gdst:fao:88.2",
+    "name": "Western Ross Sea"
+  },
+  {
+    "number": "88.3",
+    "urn": "urn:gdst:fao:88.3",
+    "name": "Amundsen Sea"
+  },
+  {
+    "number": "41.1",
+    "urn": "urn:gdst:fao:41.1",
+    "name": "Northern"
+  },
+  {
+    "number": "41.2",
+    "urn": "urn:gdst:fao:41.2",
+    "name": "Central"
+  },
+  {
+    "number": "41.3",
+    "urn": "urn:gdst:fao:41.3",
+    "name": "Southern"
+  },
+  {
+    "number": "41.1.1",
+    "urn": "urn:gdst:fao:41.1.1",
+    "name": "Amazon"
+  },
+  {
+    "number": "41.1.2",
+    "urn": "urn:gdst:fao:41.1.2",
+    "name": "Natal"
+  },
+  {
+    "number": "41.1.3",
+    "urn": "urn:gdst:fao:41.1.3",
+    "name": "Salvador"
+  },
+  {
+    "number": "41.1.4",
+    "urn": "urn:gdst:fao:41.1.4",
+    "name": "Nothern Oceanic"
+  },
+  {
+    "number": "41.2.1",
+    "urn": "urn:gdst:fao:41.2.1",
+    "name": "Santos"
+  },
+  {
+    "number": "41.2.2",
+    "urn": "urn:gdst:fao:41.2.2",
+    "name": "Rio Grande"
+  },
+  {
+    "number": "41.2.3",
+    "urn": "urn:gdst:fao:41.2.3",
+    "name": "Platense"
+  },
+  {
+    "number": "41.2.4",
+    "urn": "urn:gdst:fao:41.2.4",
+    "name": "Central Oceanic"
+  },
+  {
+    "number": "41.3.1",
+    "urn": "urn:gdst:fao:41.3.1",
+    "name": "Northern Patagonian"
+  },
+  {
+    "number": "41.3.2",
+    "urn": "urn:gdst:fao:41.3.2",
+    "name": "Southern Patagonian"
+  },
+  {
+    "number": "41.3.3",
+    "urn": "urn:gdst:fao:41.3.3",
+    "name": "Southern Oceanic"
+  },
+  {
+    "number": "47.1",
+    "urn": "urn:gdst:fao:47.1",
+    "name": "Western Coastal"
+  },
+  {
+    "number": "47.2",
+    "urn": "urn:gdst:fao:47.2",
+    "name": "Agulhas Coastal"
+  },
+  {
+    "number": "47.1.1",
+    "urn": "urn:gdst:fao:47.1.1",
+    "name": "Cape Palmeirinhas"
+  },
+  {
+    "number": "47.1.2",
+    "urn": "urn:gdst:fao:47.1.2",
+    "name": "Cape Salinas"
+  },
+  {
+    "number": "47.1.3",
+    "urn": "urn:gdst:fao:47.1.3",
+    "name": "Cunene"
+  },
+  {
+    "number": "47.1.4",
+    "urn": "urn:gdst:fao:47.1.4",
+    "name": "Cape Cross"
+  },
+  {
+    "number": "47.1.5",
+    "urn": "urn:gdst:fao:47.1.5",
+    "name": "Orange River"
+  },
+  {
+    "number": "47.1.6",
+    "urn": "urn:gdst:fao:47.1.6",
+    "name": "Cape of Good Hope"
+  },
+  {
+    "number": "47.2.1",
+    "urn": "urn:gdst:fao:47.2.1",
+    "name": "Middle Agulhas"
+  },
+  {
+    "number": "47.2.2",
+    "urn": "urn:gdst:fao:47.2.2",
+    "name": "Eastern Agulhas"
+  },
+  {
+    "number": "48.1",
+    "urn": "urn:gdst:fao:48.1",
+    "name": "Antarctic Peninsula"
+  },
+  {
+    "number": "48.2",
+    "urn": "urn:gdst:fao:48.2",
+    "name": "South Orkney"
+  },
+  {
+    "number": "48.3",
+    "urn": "urn:gdst:fao:48.3",
+    "name": "South Georgia"
+  },
+  {
+    "number": "48.4",
+    "urn": "urn:gdst:fao:48.4",
+    "name": "South Sandwich"
+  },
+  {
+    "number": "48.5",
+    "urn": "urn:gdst:fao:48.5",
+    "name": "Weddel Sea"
+  },
+  {
+    "number": "48.6",
+    "urn": "urn:gdst:fao:48.6",
+    "name": "Bouvet"
+  },
+  {
+    "number": "51.1",
+    "urn": "urn:gdst:fao:51.1",
+    "name": "Red Sea"
+  },
+  {
+    "number": "51.2",
+    "urn": "urn:gdst:fao:51.2",
+    "name": "Persian Gulf"
+  },
+  {
+    "number": "51.3",
+    "urn": "urn:gdst:fao:51.3",
+    "name": "Western Arabian Sea"
+  },
+  {
+    "number": "51.4",
+    "urn": "urn:gdst:fao:51.4",
+    "name": "Eastern Arabian Sea, Laccadives"
+  },
+  {
+    "number": "51.5",
+    "urn": "urn:gdst:fao:51.5",
+    "name": "Somalia, Kenya and Tanzania"
+  },
+  {
+    "number": "51.6",
+    "urn": "urn:gdst:fao:51.6",
+    "name": "Madagascar and Mozambique Channel"
+  },
+  {
+    "number": "51.7",
+    "urn": "urn:gdst:fao:51.7",
+    "name": "Oceanic"
+  },
+  {
+    "number": "51.8",
+    "urn": "urn:gdst:fao:51.8",
+    "name": "Mozambique"
+  },
+  {
+    "number": "57.1",
+    "urn": "urn:gdst:fao:57.1",
+    "name": "Bay of Bengal"
+  },
+  {
+    "number": "57.2",
+    "urn": "urn:gdst:fao:57.2",
+    "name": "Northern"
+  },
+  {
+    "number": "57.3",
+    "urn": "urn:gdst:fao:57.3",
+    "name": "Central"
+  },
+  {
+    "number": "57.4",
+    "urn": "urn:gdst:fao:57.4",
+    "name": "Oceanic"
+  },
+  {
+    "number": "57.5",
+    "urn": "urn:gdst:fao:57.5",
+    "name": "Western Australia"
+  },
+  {
+    "number": "57.6",
+    "urn": "urn:gdst:fao:57.6",
+    "name": "Southern Australia"
+  },
+  {
+    "number": "57.5.1",
+    "urn": "urn:gdst:fao:57.5.1",
+    "name": "Northwest Australia"
+  },
+  {
+    "number": "57.5.2",
+    "urn": "urn:gdst:fao:57.5.2",
+    "name": "Southwest Australia"
+  },
+  {
+    "number": "58.4",
+    "urn": "urn:gdst:fao:58.4",
+    "name": "Enderby - Wilkes"
+  },
+  {
+    "number": "58.5",
+    "urn": "urn:gdst:fao:58.5",
+    "name": "Kerguelen, McDonald"
+  },
+  {
+    "number": "58.6",
+    "urn": "urn:gdst:fao:58.6",
+    "name": "Crozet"
+  },
+  {
+    "number": "58.7",
+    "urn": "urn:gdst:fao:58.7",
+    "name": "Marion - Edward"
+  },
+  {
+    "number": "58.4.1",
+    "urn": "urn:gdst:fao:58.4.1",
+    "name": "Wilkes Land"
+  },
+  {
+    "number": "58.4.2",
+    "urn": "urn:gdst:fao:58.4.2",
+    "name": "Prydz Bay"
+  },
+  {
+    "number": "58.4.3",
+    "urn": "urn:gdst:fao:58.4.3",
+    "name": "Danzare Bank"
+  },
+  {
+    "number": "58.4.4",
+    "urn": "urn:gdst:fao:58.4.4",
+    "name": "Ob and Lena Banks"
+  },
+  {
+    "number": "58.5.1",
+    "urn": "urn:gdst:fao:58.5.1",
+    "name": "Kerguelen"
+  },
+  {
+    "number": "58.5.2",
+    "urn": "urn:gdst:fao:58.5.2",
+    "name": "McDonald and Heard"
+  }
+]
