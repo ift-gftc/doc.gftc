@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader" targetNamespace="http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader" elementFormDefault="qualified" attributeFormDefault="unqualified">
-  <xs:include schemaLocation="BasicTypes.xsd"/>
+  <xs:include schemaLocation="https://raw.githubusercontent.com/ift-gftc/doc.gdst/master/schemas/xml/BasicTypes.xsd"/>
 
   <xs:complexType name="Manifest">
     <xs:sequence>
