@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{dbb4fd25-ce2e-4fb2-8008-a714f52fec20}</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <ProjectView>ProjectFiles</ProjectView>
+    <ProjectView>ShowAllFiles</ProjectView>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
@@ -15,6 +15,7 @@
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
   <ItemGroup>
+    <Folder Include="data\" />
     <Folder Include="source\" />
     <Folder Include="source\aquaculture-events\" />
     <Folder Include="source\certification\" />
@@ -32,6 +33,10 @@
     <Folder Include="source\wild-events\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="data\geartypes.json" />
+    <Content Include="data\rfmo.json" />
+    <Content Include="data\eez.json" />
+    <Content Include="data\fao.json" />
     <Content Include="source\aquaculture-events\ac_scenario_01.png" />
     <Content Include="source\aquaculture-events\advanced01.md" />
     <Content Include="source\aquaculture-events\aquaculture.md" />
