@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{dbb4fd25-ce2e-4fb2-8008-a714f52fec20}</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <ProjectView>ShowAllFiles</ProjectView>
+    <ProjectView>ProjectFiles</ProjectView>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
@@ -16,6 +16,9 @@
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
   <ItemGroup>
     <Folder Include="data\" />
+    <Folder Include="schemas\" />
+    <Folder Include="schemas\xml\" />
+    <Folder Include="s\" />
     <Folder Include="source\" />
     <Folder Include="source\aquaculture-events\" />
     <Folder Include="source\certification\" />
@@ -37,6 +40,18 @@
     <Content Include="data\rfmo.json" />
     <Content Include="data\eez.json" />
     <Content Include="data\fao.json" />
+    <None Include="schemas\xml\BasicTypes.xsd" />
+    <None Include="schemas\xml\BusinessScope.xsd" />
+    <None Include="schemas\xml\DocumentIdentification.xsd" />
+    <None Include="schemas\xml\EPCglobal.xsd" />
+    <None Include="schemas\xml\EPCglobal-epcis-2_0.xsd" />
+    <None Include="schemas\xml\EPCglobal-epcis-masterdata-2_0.xsd" />
+    <None Include="schemas\xml\EPCglobal-epcis-query-2_0.xsd" />
+    <Content Include="schemas\xml\Makefile" />
+    <None Include="schemas\xml\Manifest.xsd" />
+    <None Include="schemas\xml\Partner.xsd" />
+    <Content Include="schemas\xml\README.md" />
+    <None Include="schemas\xml\StandardBusinessDocumentHeader.xsd" />
     <Content Include="source\aquaculture-events\ac_scenario_01.png" />
     <Content Include="source\aquaculture-events\advanced01.md" />
     <Content Include="source\aquaculture-events\aquaculture.md" />
