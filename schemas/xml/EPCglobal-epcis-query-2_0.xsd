@@ -11,7 +11,7 @@
 
   <xsd:annotation>
     <xsd:documentation xml:lang="en">
-      <epcglobal:copyright>
+      <epcglobal:copyright> 
          Copyright (C) 2006-2021 GS1 AISBL, All Rights Reserved
       </epcglobal:copyright>
       <epcglobal:disclaimer>

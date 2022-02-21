@@ -19,7 +19,6 @@ GS1 retains the right to make changes to this document at any time, without noti
   <!-- EPCIS CORE ELEMENTS -->
   <xsd:element name="EPCISDocument" type="epcis:EPCISDocumentType"/>
   <xsd:complexType name="EPCISDocumentType">
-  <xsd:complexType name="EPCISDocumentType">
     <xsd:annotation>
       <xsd:documentation xml:lang="en">
       document that contains a Header and a Body.
