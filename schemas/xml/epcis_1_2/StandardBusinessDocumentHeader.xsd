@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader" targetNamespace="http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader" elementFormDefault="qualified" attributeFormDefault="unqualified">
-  <xs:include schemaLocation="https://raw.githubusercontent.com/ift-gftc/doc.gdst/master/schemas/xml/DocumentIdentification.xsd"/>
-  <xs:include schemaLocation="https://raw.githubusercontent.com/ift-gftc/doc.gdst/master/schemas/xml/Partner.xsd"/>
-  <xs:include schemaLocation="https://raw.githubusercontent.com/ift-gftc/doc.gdst/master/schemas/xml/Manifest.xsd"/>
-  <xs:include schemaLocation="https://raw.githubusercontent.com/ift-gftc/doc.gdst/master/schemas/xml/BusinessScope.xsd"/>
+  <xs:include schemaLocation="https://raw.githubusercontent.com/ift-gftc/doc.gdst/master/schemas/xml/epcis_1_2/DocumentIdentification.xsd"/>
+  <xs:include schemaLocation="https://raw.githubusercontent.com/ift-gftc/doc.gdst/master/schemas/xml/epcis_1_2/Partner.xsd"/>
+  <xs:include schemaLocation="https://raw.githubusercontent.com/ift-gftc/doc.gdst/master/schemas/xml/epcis_1_2/Manifest.xsd"/>
+  <xs:include schemaLocation="https://raw.githubusercontent.com/ift-gftc/doc.gdst/master/schemas/xml/epcis_1_2/BusinessScope.xsd"/>
   <xs:complexType name="StandardBusinessDocumentHeader">
     <xs:sequence>
       <xs:element name="HeaderVersion" type="xs:string"/>
