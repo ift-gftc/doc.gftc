@@ -1,0 +1,263 @@
+<?xml version="1.0"?>
+<EPCISDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:epcglobal:epcis:xsd:1 EPCglobal-epcis-1_2.xsd" xmlns:sh="http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader" xmlns:tr="http://schema.traceregister.com" xmlns:gdst="https://traceability-dialogue.org" xmlns:cbvmda="urn:epcglobal:cbv:mda" schemaVersion="0" creationDate="0001-01-01T00:00:00" xmlns="urn:epcglobal:epcis:xsd:1" schemaLocation="./EPCglobal-epcis-1_2.xsd">
+    <EPCISHeader xmlns="">
+        <sh:StandardBusinessDocumentHeader>
+            <sh:HeaderVersion>1.2.2</sh:HeaderVersion>
+            <sh:Sender>
+                <sh:Identifier Authority="GS1">urn:gdst:traceregister.com:party:tr28401.0</sh:Identifier>
+            </sh:Sender>
+            <sh:Receiver>
+                <sh:Identifier Authority="GS1">urn:gdst:traceregister.com:party:trgdst_compliance_process.0</sh:Identifier>
+            </sh:Receiver>
+            <sh:DocumentIdentification>
+                <sh:Standard>EPCIS 1.2.2</sh:Standard>
+                <sh:TypeVersion>1.2</sh:TypeVersion>
+                <sh:InstanceIdentifier>923426ae-109f-49a0-8b26-1dc1528575f7</sh:InstanceIdentifier>
+                <sh:Type>EPCIS Document</sh:Type>
+                <sh:CreationDateAndTime>0001-01-01T00:00:00</sh:CreationDateAndTime>
+            </sh:DocumentIdentification>
+        </sh:StandardBusinessDocumentHeader>
+        <extension>
+            <EPCISMasterData>
+                <VocabularyList>
+                    <Vocabulary type="urn:epcglobal:epcis:vtype:EPCClass">
+                        <VocabularyElementList>
+                            <VocabularyElement id="urn:gdst:traceregister.com:product:class:system.0sscc">
+                                <attribute id="urn:epcglobal:cbv:owning_party">urn:gdst:traceregister.com:party:unknown.0</attribute>
+                                <attribute id="urn:epcglobal:cbv:mda#informationProvider">urn:gdst:traceregister.com:party:unknown.0</attribute>
+                                <attribute id="urn:epcglobal:cbv:mda#descriptionShort">SSCC</attribute>
+                                <children />
+                            </VocabularyElement>
+                            <VocabularyElement id="urn:gdst:example.org:product:class:processor.2">
+                                <attribute id="urn:epcglobal:cbv:owning_party">urn:gdst:traceregister.com:party:tr28401.0</attribute>
+                                <attribute id="urn:epcglobal:cbv:mda#informationProvider">urn:gdst:traceregister.com:party:tr28401.0</attribute>
+                                <attribute id="urn:epcglobal:cbv:mda#descriptionShort">Can of Tuna</attribute>
+                                <attribute id="urn:epcglobal:cbv:mda#tradeItemConditionCode">OTH</attribute>
+                                <attribute id="urn:epcglobal:cbv:mda#speciesForFisheryStatisticsPurposesName">Thunnus albacares</attribute>
+                                <attribute id="urn:epcglobal:cbv:mda#speciesForFisheryStatisticsPurposesCode">YFT</attribute>
+                                <children />
+                            </VocabularyElement>
+                        </VocabularyElementList>
+                    </Vocabulary>
+                    <Vocabulary type="urn:epcglobal:epcis:vtype:Location">
+                        <VocabularyElementList>
+                            <VocabularyElement id="urn:gdst:example.org:location:loc:processor.plant1">
+                                <attribute id="urn:epcglobal:cbv:mda:owning_party">urn:gdst:traceregister.com:party:tr28401.0</attribute>
+                                <attribute id="urn:epcglobal:cbv:mda#informationProvider">urn:gdst:traceregister.com:party:tr28401.0</attribute>
+                                <attribute id="urn:epcglobal:cbv:mda#name">Processing Plant</attribute>
+                                <attribute id="urn:epcglobal:cbv:mda#streetAddressOne">123 Main St.</attribute>
+                                <attribute id="urn:epcglobal:cbv:mda#streetAddressTwo">Apartment 2</attribute>
+                                <attribute id="urn:epcglobal:cbv:mda#city">Houston</attribute>
+                                <attribute id="urn:epcglobal:cbv:mda#state">TX</attribute>
+                                <attribute id="urn:epcglobal:cbv:mda#countryCode">US</attribute>
+                                <attribute id="urn:epcglobal:cbv:mda#latitude">0</attribute>
+                                <attribute id="urn:epcglobal:cbv:mda#longitude">0</attribute>
+                                <children />
+                            </VocabularyElement>
+                            <VocabularyElement id="urn:gdst:example.org:location:loc:importer.123">
+                                <attribute id="urn:epcglobal:cbv:mda:owning_party">urn:gdst:traceregister.com:party:tr28401.0</attribute>
+                                <attribute id="urn:epcglobal:cbv:mda#informationProvider">urn:gdst:traceregister.com:party:tr28401.0</attribute>
+                                <attribute id="urn:epcglobal:cbv:mda#name">Importer Warehouse</attribute>
+                                <attribute id="urn:epcglobal:cbv:mda#streetAddressOne">134 Estados Unidos</attribute>
+                                <attribute id="urn:epcglobal:cbv:mda#city">Sao Paulo</attribute>
+                                <attribute id="urn:epcglobal:cbv:mda#state">Sao Paulo</attribute>
+                                <attribute id="urn:epcglobal:cbv:mda#countryCode">BR</attribute>
+                                <attribute id="urn:epcglobal:cbv:mda#latitude">0</attribute>
+                                <attribute id="urn:epcglobal:cbv:mda#longitude">0</attribute>
+                                <children />
+                            </VocabularyElement>
+                        </VocabularyElementList>
+                    </Vocabulary>
+                    <Vocabulary type="urn:epcglobal:epcis:vtype:Party">
+                        <VocabularyElementList>
+                            <VocabularyElement id="urn:gdst:traceregister.com:party:unknown.0">
+                                <attribute id="urn:epcglobal:cbv:mda#name">UNKNOWN</attribute>
+                                <children />
+                            </VocabularyElement>
+                            <VocabularyElement id="urn:gdst:example.org:party:processor.1">
+                                <attribute id="urn:epcglobal:cbv:mda#name">Processor</attribute>
+                                <children />
+                            </VocabularyElement>
+                            <VocabularyElement id="urn:gdst:example.org:party:importer.1">
+                                <attribute id="urn:epcglobal:cbv:mda#name">Importer</attribute>
+                                <children />
+                            </VocabularyElement>
+                            <VocabularyElement id="urn:gdst:traceregister.com:party:tr28401.0">
+                                <attribute id="urn:epcglobal:cbv:mda#name">Test Account</attribute>
+                                <children />
+                            </VocabularyElement>
+                        </VocabularyElementList>
+                    </Vocabulary>
+                </VocabularyList>
+            </EPCISMasterData>
+        </extension>
+    </EPCISHeader>
+    <EPCISBody xmlns="">
+        <EventList>
+            <ObjectEvent>
+                <eventTime>2022-06-13T11:12:04Z</eventTime>
+                <recordTime>2022-02-22T18:01:55Z</recordTime>
+                <eventTimeZoneOffset>+00:00</eventTimeZoneOffset>
+                <baseExtension>
+                    <eventID>cfb30d7a-7acc-40df-a73d-946564d688f0</eventID>
+                </baseExtension>
+                <epcList>
+                    <epc>urn:epc:id:sscc:08600031303.0003</epc>
+                </epcList>
+                <action>OBSERVE</action>
+                <bizStep>urn:epcglobal:cbv:bizstep:shipping</bizStep>
+                <disposition>urn:epcglobal:cbv:disp:active</disposition>
+                <bizLocation>
+                    <id>urn:gdst:example.org:location:loc:processor.plant1</id>
+                </bizLocation>
+                <extension>
+                    <sourceList>
+                        <source type="urn:epcglobal:cbv:sdt:owning_party">urn:gdst:example.org:party:processor.1</source>
+                    </sourceList>
+                    <destinationList>
+                        <destination type="urn:epcglobal:cbv:sdt:owning_party">urn:gdst:example.org:party:importer.1</destination>
+                    </destinationList>
+                </extension>
+                <gdst:productOwner>urn:gdst:example.org:party:importer.1</gdst:productOwner>
+                <cbvmda:informationProvider>urn:gdst:example.org:party:processor.1</cbvmda:informationProvider>
+                <cbvmda:certificationList>
+                    <certification>
+                        <certificationAgency>test</certificationAgency>
+                        <certificationStandard>test</certificationStandard>
+                        <certificationValue>test</certificationValue>
+                        <gdst:certificationType>urn:gdst:certType:harvestCoC</gdst:certificationType>
+                        <certificationIdentification>test</certificationIdentification>
+                        <avpList>
+                            <stringAVP attributeName="ECC">urn:gdst:traceregister.com:cert:tr28401.b249a7fe-a89c-495a-8ed2-085458a63a72</stringAVP>
+                        </avpList>
+                    </certification>
+                </cbvmda:certificationList>
+                <tr:eventGlobalID>CTE_urn:gdst:example.org:party:importer.1_NK-5992038910570678064_IKC601DC9FF87F2601DD1D2F902C66425F61B04A8624861B06EE649130B4F38E2F</tr:eventGlobalID>
+            </ObjectEvent>
+            <ObjectEvent>
+                <eventTime>2022-06-18T11:12:14Z</eventTime>
+                <recordTime>2022-02-22T18:01:55Z</recordTime>
+                <eventTimeZoneOffset>+00:00</eventTimeZoneOffset>
+                <baseExtension>
+                    <eventID>2f1f6ad7-67c9-4ab8-b5d9-df27070e1a5f</eventID>
+                </baseExtension>
+                <epcList>
+                    <epc>urn:epc:id:sscc:08600031303.0003</epc>
+                </epcList>
+                <action>OBSERVE</action>
+                <bizStep>urn:epcglobal:cbv:bizstep:receiving</bizStep>
+                <disposition>urn:epcglobal:cbv:disp:active</disposition>
+                <bizLocation>
+                    <id>urn:gdst:example.org:location:loc:importer.123</id>
+                </bizLocation>
+                <extension />
+                <gdst:productOwner>urn:gdst:example.org:party:importer.1</gdst:productOwner>
+                <cbvmda:informationProvider>urn:gdst:example.org:party:importer.1</cbvmda:informationProvider>
+                <cbvmda:certificationList>
+                    <certification>
+                        <certificationAgency>test</certificationAgency>
+                        <certificationStandard>test</certificationStandard>
+                        <certificationValue>test</certificationValue>
+                        <gdst:certificationType>urn:gdst:certType:harvestCoC</gdst:certificationType>
+                        <certificationIdentification>test</certificationIdentification>
+                        <avpList>
+                            <stringAVP attributeName="ECC">urn:gdst:traceregister.com:cert:tr28401.59e97992-474d-459e-a7e3-f86923a4f44c</stringAVP>
+                        </avpList>
+                    </certification>
+                </cbvmda:certificationList>
+                <tr:eventGlobalID>CTE_urn:gdst:example.org:party:importer.1_NK-3866586037951078048_IKA463F8823876F641572DE380F96F721355669B8DC2ECFFA1353EEB52A1E1E9BE</tr:eventGlobalID>
+            </ObjectEvent>
+            <AggregationEvent>
+                <eventTime>2022-06-12T11:11:25Z</eventTime>
+                <recordTime>2022-02-22T18:01:55Z</recordTime>
+                <eventTimeZoneOffset>+00:00</eventTimeZoneOffset>
+                <baseExtension>
+                    <eventID>2ed4f6d2-4e44-4f0b-a0a4-1e582c5bbf37</eventID>
+                </baseExtension>
+                <parentID>urn:epc:id:sscc:08600031303.0003</parentID>
+                <childEPCs />
+                <action>ADD</action>
+                <bizStep>urn:epcglobal:cbv:bizstep:packing</bizStep>
+                <disposition>urn:epcglobal:cbv:disp:active</disposition>
+                <bizLocation>
+                    <id>urn:gdst:example.org:location:loc:processor.plant1</id>
+                </bizLocation>
+                <extension>
+                    <childQuantityList>
+                        <quantityElement>
+                            <epcClass>urn:gdst:example.org:product:lot:class:processor.2.v1-0122-2022</epcClass>
+                            <quantity>5000</quantity>
+                            <uom>KGM</uom>
+                        </quantityElement>
+                    </childQuantityList>
+                </extension>
+                <gdst:productOwner>urn:gdst:example.org:party:processor.1</gdst:productOwner>
+                <cbvmda:informationProvider>urn:gdst:example.org:party:processor.1</cbvmda:informationProvider>
+                <cbvmda:certificationList>
+                    <certification>
+                        <certificationAgency>test</certificationAgency>
+                        <certificationStandard>test</certificationStandard>
+                        <certificationValue>test</certificationValue>
+                        <gdst:certificationType>urn:gdst:certType:harvestCoC</gdst:certificationType>
+                        <certificationIdentification>test</certificationIdentification>
+                        <avpList>
+                            <stringAVP attributeName="ECC">urn:gdst:traceregister.com:cert:tr28401.b249a7fe-a89c-495a-8ed2-085458a63a72</stringAVP>
+                        </avpList>
+                    </certification>
+                    <certification>
+                        <certificationAgency>test</certificationAgency>
+                        <certificationStandard>test</certificationStandard>
+                        <certificationValue>test</certificationValue>
+                        <gdst:certificationType>urn:gdst:certType:aggregatorLicense</gdst:certificationType>
+                        <certificationIdentification>test</certificationIdentification>
+                        <avpList>
+                            <stringAVP attributeName="ECC">urn:gdst:traceregister.com:cert:tr28401.214cd43b-cdbe-4c7d-afbb-71c7432ebdcc</stringAVP>
+                        </avpList>
+                    </certification>
+                </cbvmda:certificationList>
+                <tr:eventGlobalID>CTE_urn:gdst:example.org:party:processor.1_NK-583792930917979204_IK01728CBEB4A2D87367A5EB6B826E6A5B46B06C07032680BBF6415C5794540C92</tr:eventGlobalID>
+            </AggregationEvent>
+            <AggregationEvent>
+                <eventTime>2022-06-19T11:12:25Z</eventTime>
+                <recordTime>2022-02-22T18:01:55Z</recordTime>
+                <eventTimeZoneOffset>+00:00</eventTimeZoneOffset>
+                <baseExtension>
+                    <eventID>c3a1e4bd-2915-40e9-980c-4ae224cd4bff</eventID>
+                </baseExtension>
+                <parentID>urn:epc:id:sscc:08600031303.0003</parentID>
+                <childEPCs />
+                <action>DELETE</action>
+                <bizStep>urn:epcglobal:cbv:bizstep:unpacking</bizStep>
+                <bizLocation>
+                    <id>urn:gdst:example.org:location:loc:importer.123</id>
+                </bizLocation>
+                <extension />
+                <gdst:productOwner>urn:gdst:example.org:party:importer.1</gdst:productOwner>
+                <cbvmda:informationProvider>urn:gdst:example.org:party:importer.1</cbvmda:informationProvider>
+                <cbvmda:certificationList>
+                    <certification>
+                        <certificationAgency>test</certificationAgency>
+                        <certificationStandard>test</certificationStandard>
+                        <certificationValue>test</certificationValue>
+                        <gdst:certificationType>urn:gdst:certType:harvestCoC</gdst:certificationType>
+                        <certificationIdentification>test</certificationIdentification>
+                        <avpList>
+                            <stringAVP attributeName="ECC">urn:gdst:traceregister.com:cert:tr28401.59e97992-474d-459e-a7e3-f86923a4f44c</stringAVP>
+                        </avpList>
+                    </certification>
+                    <certification>
+                        <certificationAgency>test</certificationAgency>
+                        <certificationStandard>test</certificationStandard>
+                        <certificationValue>test</certificationValue>
+                        <gdst:certificationType>urn:gdst:certType:aggregatorLicense</gdst:certificationType>
+                        <certificationIdentification>test</certificationIdentification>
+                        <avpList>
+                            <stringAVP attributeName="ECC">urn:gdst:traceregister.com:cert:tr28401.a2a8aa31-40c1-4f1f-b91a-eb555ce64ea4</stringAVP>
+                        </avpList>
+                    </certification>
+                </cbvmda:certificationList>
+                <tr:eventGlobalID>CTE_urn:gdst:example.org:party:importer.1_NK1530543117824250556_IK0492A58B921CDA4A2767F1311B847DD6271BCE4403685734F525A83BA37738C1</tr:eventGlobalID>
+            </AggregationEvent>
+        </EventList>
+    </EPCISBody>
+</EPCISDocument>
