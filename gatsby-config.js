@@ -80,6 +80,13 @@ module.exports = {
             "extensions/ilmd",
             "extensions/object-event"
           ],
+          "Communication Protocol" : [
+            "communication-protocol/request-data.md",
+            "communication-protocol/tracebacks.md"
+          ],
+          "Tools" : [
+            "tools/capabilitytool"
+          ],
           "Resources": [
             "resources/featured-implementation",
             "resources/index"
