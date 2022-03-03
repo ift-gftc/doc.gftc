@@ -81,8 +81,8 @@ module.exports = {
             "extensions/object-event"
           ],
           "Communication Protocol" : [
-            "communication-protocol/request-data.md",
-            "communication-protocol/tracebacks.md"
+            "comms/request-data",
+            "comms/tracebacks"
           ],
           "Tools" : [
             "tools/capabilitytool"

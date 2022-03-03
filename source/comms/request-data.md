@@ -1,5 +1,5 @@
 ---
-title: Requesting Traceability Data about an EPC
+title: Requesting Traceability Data
 description: This is documentation that is meant to cover requesting traceability data from another solution provider.
 ---
 
