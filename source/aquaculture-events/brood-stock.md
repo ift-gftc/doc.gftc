@@ -41,7 +41,7 @@ Note: This event is not used for tracing larvae harvested from the wild.
             <cbvmda:certificationList>
                 <!-- This is a made up Certificate. This is just an example. -->
                 <certification>
-                    <gdst:certificateType>urn:gdst:certType:harvestCert</gdst:certificateType>
+                    <gdst:certificationType>urn:gdst:certType:harvestCert</gdst:certificationType>
                     <certificationStandard>Feed Certificate Standard</certificationStandard>
                     <certificationAgency>Feed Certificate Authority</certificationAgency>
                     <certificationValue>SIMP.LPCO.2</certificationValue>
@@ -50,7 +50,7 @@ Note: This event is not used for tracing larvae harvested from the wild.
 
                 <!-- This is a made up Certificate. This is just an example. -->
                 <certification>
-                    <gdst:certificateType>urn:gdst:certType:harvestCoC</gdst:certificateType>
+                    <gdst:certificationType>urn:gdst:certType:harvestCoC</gdst:certificationType>
                     <certificationStandard>MSC Chain of Custody</certificationStandard>
                     <certificationAgency>MSC</certificationAgency>
                     <certificationValue>MSC_COC_1234567890</certificationValue>
@@ -59,7 +59,7 @@ Note: This event is not used for tracing larvae harvested from the wild.
 
                 <!-- This is a made up Certificate. This is just an example. -->
                 <certification>
-                    <gdst:certificateType>urn:gdst:certType:humanyPolicy</gdst:certificateType>
+                    <gdst:certificationType>urn:gdst:certType:humanyPolicy</gdst:certificationType>
                     <certificationStandard>WHO Human Decency Policy</certificationStandard>
                     <certificationAgency>WHO</certificationAgency>
                     <certificationValue>1234567890</certificationValue>

@@ -93,7 +93,7 @@ Here is the Example XML for the GDST EPCIS data. This event data will contain a 
             <!-- CATCH CERTIFICATE (?) -->
             <cbvmda:certificationList>
                 <certification>
-                    <gdst:certificateType>urn:gdst:certType:catch_certificate</gdst:certificateType>
+                    <gdst:certificationType>urn:gdst:certType:catch_certificate</gdst:certificationType>
                     <certificationStandard>NM6</certificationStandard>
                     <certificationAgency>DFO</certificationAgency>
                     <certificationValue>SIMP.LPCO.2</certificationValue>

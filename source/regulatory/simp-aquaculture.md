@@ -245,7 +245,7 @@ This event covers how the Feed is created and the ingredients that go into makin
 
                 <!-- Chain of Custody Certificate -->
                 <certification>
-                    <gdst:certificateType>urn:gdst:certType:chain_custody</gdst:certificateType>
+                    <gdst:certificationType>urn:gdst:certType:chain_custody</gdst:certificationType>
                     <certificationStandard>MSC Chain of Custody</certificationStandard>
                     <certificationAgency>MSC</certificationAgency>
                     <certificationValue>MSC_COC_1234567890</certificationValue>
@@ -254,7 +254,7 @@ This event covers how the Feed is created and the ingredients that go into makin
 
                 <!-- Code of Good Practice Certificate -->
                 <certification>
-                    <gdst:certificateType>urn:gdst:certType:good_practice</gdst:certificateType>
+                    <gdst:certificationType>urn:gdst:certType:good_practice</gdst:certificationType>
                     <certificationStandard>Good Practice Standard Body</certificationStandard>
                     <certificationAgency>GP Agency</certificationAgency>
                     <certificationValue>GP_0987654321</certificationValue>
@@ -317,7 +317,7 @@ This event covers the creation of the Broodstock that will be used for stocking 
 
                 <!-- Chain of Custody Certificate -->
                 <certification>
-                    <gdst:certificateType>urn:gdst:certType:chain_custody</gdst:certificateType>
+                    <gdst:certificationType>urn:gdst:certType:chain_custody</gdst:certificationType>
                     <certificationStandard>MSC Chain of Custody</certificationStandard>
                     <certificationAgency>MSC</certificationAgency>
                     <certificationValue>MSC_COC_1234567890</certificationValue>
@@ -326,7 +326,7 @@ This event covers the creation of the Broodstock that will be used for stocking 
 
                 <!-- Code of Good Practice Certificate -->
                 <certification>
-                    <gdst:certificateType>urn:gdst:certType:good_practice</gdst:certificateType>
+                    <gdst:certificationType>urn:gdst:certType:good_practice</gdst:certificationType>
                     <certificationStandard>Good Practice Standard Body</certificationStandard>
                     <certificationAgency>GP Agency</certificationAgency>
                     <certificationValue>GP_0987654321</certificationValue>
@@ -408,7 +408,7 @@ This event covers the harvesting of a product from a pond at an aquaculture even
 
                 <!-- Chain of Custody Certificate -->
                 <certification>
-                    <gdst:certificateType>urn:gdst:certType:chain_custody</gdst:certificateType>
+                    <gdst:certificationType>urn:gdst:certType:chain_custody</gdst:certificationType>
                     <certificationStandard>MSC Chain of Custody</certificationStandard>
                     <certificationAgency>MSC</certificationAgency>
                     <certificationValue>MSC_COC_1234567890</certificationValue>
@@ -417,7 +417,7 @@ This event covers the harvesting of a product from a pond at an aquaculture even
 
                 <!-- Code of Good Practice Certificate -->
                 <certification>
-                    <gdst:certificateType>urn:gdst:certType:good_practice</gdst:certificateType>
+                    <gdst:certificationType>urn:gdst:certType:good_practice</gdst:certificationType>
                     <certificationStandard>Good Practice Standard Body</certificationStandard>
                     <certificationAgency>GP Agency</certificationAgency>
                     <certificationValue>GP_0987654321</certificationValue>

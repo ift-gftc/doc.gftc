@@ -157,7 +157,7 @@ In order to model this scenario we will need the following master data:
                 </extension>
                 <cbvmda:certificationList>
                     <certification>
-                        <gdst:certificateType>urn:gdst:certType:harvestCoC</gdst:certificateType>
+                        <gdst:certificationType>urn:gdst:certType:harvestCoC</gdst:certificationType>
                         <certificationStandard/>
                         <certificationAgency/>
                         <certificationValue/>
@@ -194,7 +194,7 @@ In order to model this scenario we will need the following master data:
                 </extension>
                 <cbvmda:certificationList>
                     <certification>
-                        <gdst:certificateType>urn:gdst:certType:harvestCoC</gdst:certificateType>
+                        <gdst:certificationType>urn:gdst:certType:harvestCoC</gdst:certificationType>
                         <certificationStandard/>
                         <certificationAgency/>
                         <certificationValue/>
@@ -275,21 +275,21 @@ In order to model this scenario we will need the following master data:
                     <ilmd>
                         <cbvmda:certificationList>
                             <certification>
-                                <gdst:certificateType>urn:gdst:certType:harvestCert</gdst:certificateType>
+                                <gdst:certificationType>urn:gdst:certType:harvestCert</gdst:certificationType>
                                 <certificationStandard/>
                                 <certificationAgency/>
                                 <certificationValue/>
                                 <certificationIdentification/>
                             </certification>
                             <certification>
-                                <gdst:certificateType>urn:gdst:certType:harvestCoC</gdst:certificateType>
+                                <gdst:certificationType>urn:gdst:certType:harvestCoC</gdst:certificationType>
                                 <certificationStandard/>
                                 <certificationAgency/>
                                 <certificationValue/>
                                 <certificationIdentification/>
                             </certification>
                             <certification>
-                                <gdst:certificateType>urn:gdst:certType:humanPolicy</gdst:certificateType>
+                                <gdst:certificationType>urn:gdst:certType:humanPolicy</gdst:certificationType>
                                 <certificationStandard/>
                                 <certificationAgency/>
                                 <certificationValue/>
@@ -370,21 +370,21 @@ In order to model this scenario we will need the following master data:
                         <cbvmda:harvestEndDate>2021-09-29T03:00:00.000Z</cbvmda:harvestEndDate>
                         <cbvmda:certificationList>
                             <certification>
-                                <gdst:certificateType>urn:gdst:certType:harvestCert</gdst:certificateType>
+                                <gdst:certificationType>urn:gdst:certType:harvestCert</gdst:certificationType>
                                 <certificationStandard/>
                                 <certificationAgency/>
                                 <certificationValue/>
                                 <certificationIdentification/>
                             </certification>
                             <certification>
-                                <gdst:certificateType>urn:gdst:certType:harvestCoC</gdst:certificateType>
+                                <gdst:certificationType>urn:gdst:certType:harvestCoC</gdst:certificationType>
                                 <certificationStandard/>
                                 <certificationAgency/>
                                 <certificationValue/>
                                 <certificationIdentification/>
                             </certification>
                             <certification>
-                                <gdst:certificateType>urn:gdst:certType:humanPolicy</gdst:certificateType>
+                                <gdst:certificationType>urn:gdst:certType:humanPolicy</gdst:certificationType>
                                 <certificationStandard/>
                                 <certificationAgency/>
                                 <certificationValue/>

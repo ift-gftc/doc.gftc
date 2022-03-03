@@ -101,7 +101,7 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
 
                 <!-- This is a made up Certificate. This is just an example. -->
                 <certification>
-                    <gdst:certificateType>urn:gdst:certType:harvestCert</gdst:certificateType>
+                    <gdst:certificationType>urn:gdst:certType:harvestCert</gdst:certificationType>
                     <certificationStandard>Catch Certificate Standard</certificationStandard>
                     <certificationAgency>Catch Certificate Authority</certificationAgency>
                     <certificationValue>SIMP.LPCO.2</certificationValue>
@@ -110,7 +110,7 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
 
                 <!-- This is a made up Certificate. This is just an example. -->
                 <certification>
-                    <gdst:certificateType>urn:gdst:certType:fishingAuth</gdst:certificateType>
+                    <gdst:certificationType>urn:gdst:certType:fishingAuth</gdst:certificationType>
                     <certificationStandard>Los Angeles Fishing Authorization</certificationStandard>
                     <certificationAgency>Los Angeles Fishing Authority</certificationAgency>
                     <certificationValue>1234567890</certificationValue>
@@ -119,7 +119,7 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
 
                 <!-- This is a made up Certificate. This is just an example. -->
                 <certification>
-                    <gdst:certificateType>urn:gdst:certType:humanyPolicy</gdst:certificateType>
+                    <gdst:certificationType>urn:gdst:certType:humanyPolicy</gdst:certificationType>
                     <certificationStandard>WHO Human Decency Policy</certificationStandard>
                     <certificationAgency>WHO</certificationAgency>
                     <certificationValue>1234567890</certificationValue>
@@ -239,7 +239,7 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
 
                 <!-- This is a made up Certificate. This is just an example. -->
                 <certification>
-                    <gdst:certificateType>urn:gdst:certType:harvestCert</gdst:certificateType>
+                    <gdst:certificationType>urn:gdst:certType:harvestCert</gdst:certificationType>
                     <certificationStandard>Catch Certificate Standard</certificationStandard>
                     <certificationAgency>Catch Certificate Authority</certificationAgency>
                     <certificationValue>SIMP.LPCO.2</certificationValue>
@@ -248,7 +248,7 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
 
                 <!-- This is a made up Certificate. This is just an example. -->
                 <certification>
-                    <gdst:certificateType>urn:gdst:certType:fishingAuth</gdst:certificateType>
+                    <gdst:certificationType>urn:gdst:certType:fishingAuth</gdst:certificationType>
                     <certificationStandard>Los Angeles Fishing Authorization</certificationStandard>
                     <certificationAgency>Los Angeles Fishing Authority</certificationAgency>
                     <certificationValue>1234567890</certificationValue>
@@ -257,7 +257,7 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
 
                 <!-- This is a made up Certificate. This is just an example. -->
                 <certification>
-                    <gdst:certificateType>urn:gdst:certType:humanyPolicy</gdst:certificateType>
+                    <gdst:certificationType>urn:gdst:certType:humanyPolicy</gdst:certificationType>
                     <certificationStandard>WHO Human Decency Policy</certificationStandard>
                     <certificationAgency>WHO</certificationAgency>
                     <certificationValue>1234567890</certificationValue>
@@ -371,7 +371,7 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
 
                 <!-- This is a made up Certificate. This is just an example. -->
                 <certification>
-                    <gdst:certificateType>urn:gdst:certType:harvestCert</gdst:certificateType>
+                    <gdst:certificationType>urn:gdst:certType:harvestCert</gdst:certificationType>
                     <certificationStandard>Catch Certificate Standard</certificationStandard>
                     <certificationAgency>Catch Certificate Authority</certificationAgency>
                     <certificationValue>SIMP.LPCO.2</certificationValue>
@@ -380,7 +380,7 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
 
                 <!-- This is a made up Certificate. This is just an example. -->
                 <certification>
-                    <gdst:certificateType>urn:gdst:certType:fishingAuth</gdst:certificateType>
+                    <gdst:certificationType>urn:gdst:certType:fishingAuth</gdst:certificationType>
                     <certificationStandard>Los Angeles Fishing Authorization</certificationStandard>
                     <certificationAgency>Los Angeles Fishing Authority</certificationAgency>
                     <certificationValue>1234567890</certificationValue>
@@ -389,7 +389,7 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
 
                 <!-- This is a made up Certificate. This is just an example. -->
                 <certification>
-                    <gdst:certificateType>urn:gdst:certType:humanyPolicy</gdst:certificateType>
+                    <gdst:certificationType>urn:gdst:certType:humanyPolicy</gdst:certificationType>
                     <certificationStandard>WHO Human Decency Policy</certificationStandard>
                     <certificationAgency>WHO</certificationAgency>
                     <certificationValue>1234567890</certificationValue>
@@ -503,7 +503,7 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
 
                 <!-- This is a made up Certificate. This is just an example. -->
                 <certification>
-                    <gdst:certificateType>urn:gdst:certType:harvestCert</gdst:certificateType>
+                    <gdst:certificationType>urn:gdst:certType:harvestCert</gdst:certificationType>
                     <certificationStandard>Catch Certificate Standard</certificationStandard>
                     <certificationAgency>Catch Certificate Authority</certificationAgency>
                     <certificationValue>SIMP.LPCO.2</certificationValue>
@@ -512,7 +512,7 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
 
                 <!-- This is a made up Certificate. This is just an example. -->
                 <certification>
-                    <gdst:certificateType>urn:gdst:certType:fishingAuth</gdst:certificateType>
+                    <gdst:certificationType>urn:gdst:certType:fishingAuth</gdst:certificationType>
                     <certificationStandard>Los Angeles Fishing Authorization</certificationStandard>
                     <certificationAgency>Los Angeles Fishing Authority</certificationAgency>
                     <certificationValue>1234567890</certificationValue>
@@ -521,7 +521,7 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
 
                 <!-- This is a made up Certificate. This is just an example. -->
                 <certification>
-                    <gdst:certificateType>urn:gdst:certType:humanyPolicy</gdst:certificateType>
+                    <gdst:certificationType>urn:gdst:certType:humanyPolicy</gdst:certificationType>
                     <certificationStandard>WHO Human Decency Policy</certificationStandard>
                     <certificationAgency>WHO</certificationAgency>
                     <certificationValue>1234567890</certificationValue>
@@ -635,7 +635,7 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
 
                 <!-- This is a made up Certificate. This is just an example. -->
                 <certification>
-                    <gdst:certificateType>urn:gdst:certType:harvestCert</gdst:certificateType>
+                    <gdst:certificationType>urn:gdst:certType:harvestCert</gdst:certificationType>
                     <certificationStandard>Catch Certificate Standard</certificationStandard>
                     <certificationAgency>Catch Certificate Authority</certificationAgency>
                     <certificationValue>SIMP.LPCO.2</certificationValue>
@@ -644,7 +644,7 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
 
                 <!-- This is a made up Certificate. This is just an example. -->
                 <certification>
-                    <gdst:certificateType>urn:gdst:certType:fishingAuth</gdst:certificateType>
+                    <gdst:certificationType>urn:gdst:certType:fishingAuth</gdst:certificationType>
                     <certificationStandard>Los Angeles Fishing Authorization</certificationStandard>
                     <certificationAgency>Los Angeles Fishing Authority</certificationAgency>
                     <certificationValue>1234567890</certificationValue>
@@ -653,7 +653,7 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
 
                 <!-- This is a made up Certificate. This is just an example. -->
                 <certification>
-                    <gdst:certificateType>urn:gdst:certType:humanyPolicy</gdst:certificateType>
+                    <gdst:certificationType>urn:gdst:certType:humanyPolicy</gdst:certificationType>
                     <certificationStandard>WHO Human Decency Policy</certificationStandard>
                     <certificationAgency>WHO</certificationAgency>
                     <certificationValue>1234567890</certificationValue>

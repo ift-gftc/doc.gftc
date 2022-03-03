@@ -1,9 +1,5 @@
 [
     {
-        "urn": "urn:gdst:gear:1",
-        "name": "Surrounding Nets"
-    },
-    {
         "urn": "urn:gdst:gear:1.1",
         "name": "Purse Seings"
     },
@@ -16,20 +12,12 @@
         "name": "Surrounding Nets (nei)"
     },
     {
-        "urn": "urn:gdst:gear:2",
-        "name": "Seine Nets"
-    },
-    {
         "urn": "urn:gdst:gear:2.1",
         "name": "Beach Seines"
     },
     {
         "urn": "urn:gdst:gear:2.2",
         "name": "Boat Seines"
-    },
-    {
-        "urn": "urn:gdst:gear:3",
-        "name": "Trawls"
     },
     {
         "urn": "urn:gdst:gear:3.11",
@@ -76,10 +64,6 @@
         "name": "Trawls (nei)"
     },
     {
-        "urn": "urn:gdst:gear:4",
-        "name": "Dredges"
-    },
-    {
         "urn": "urn:gdst:gear:4.1",
         "name": "Towed Dredges"
     },
@@ -94,10 +78,6 @@
     {
         "urn": "urn:gdst:gear:4.9",
         "name": "Dredges (nei)"
-    },
-    {
-        "urn": "urn:gdst:gear:5",
-        "name": "Lift Nets"
     },
     {
         "urn": "urn:gdst:gear:5.1",
@@ -116,10 +96,6 @@
         "name": "Lift nets (nei)"
     },
     {
-        "urn": "urn:gdst:gear:6",
-        "name": "Falling Gear"
-    },
-    {
         "urn": "urn:gdst:gear:6.1",
         "name": "Cast nets"
     },
@@ -130,10 +106,6 @@
     {
         "urn": "urn:gdst:gear:6.9",
         "name": "Falling gear (nei)"
-    },
-    {
-        "urn": "urn:gdst:gear:7",
-        "name": "Gillnets and Entangling Nets"
     },
     {
         "urn": "urn:gdst:gear:7.1",
@@ -164,10 +136,6 @@
         "name": "Gillnets and entangling nets (nei)"
     },
     {
-        "urn": "urn:gdst:gear:8",
-        "name": "Traps"
-    },
-    {
         "urn": "urn:gdst:gear:8.1",
         "name": "Stationary unconvered pound nets"
     },
@@ -194,10 +162,6 @@
     {
         "urn": "urn:gdst:gear:8.9",
         "name": "Traps (nei)"
-    },
-    {
-        "urn": "urn:gdst:gear:9",
-        "name": "Hooks and Lines"
     },
     {
         "urn": "urn:gdst:gear:9.1",
@@ -230,10 +194,6 @@
     {
         "urn": "urn:gdst:gear:9.9",
         "name": "Hooks and lines (nei)"
-    },
-    {
-        "urn": "urn:gdst:gear:10",
-        "name": "Miscellaneous Gear"
     },
     {
         "urn": "urn:gdst:gear:10.1",

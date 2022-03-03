@@ -58,9 +58,9 @@ Date of Capture | `eventTime`
 Production Method | `extension / ilmd / productionMethodForFishAndSeafoodCode`
 Expiration Date | `extension / ilmd / cbvmda:itemExpirationDate`
 Country of Origin | `extension / ilmd / cbvmda:countryOfOrigin`
-Fishing Authorization | ```extension  /  ilmd  /  cbvmda:certificationList  /  cbvmda:certification  [gdst:certificateType='urn:gdst:certType:fishingAuth']```
-Harvest Certificate | `extension / ilmd / cbvmda:certificationList / cbvmda:certification [gdst:certificateType='urn:gdst:certType:harvestCert']`
-Human Welfare Policy | `extension / ilmd / cbvmda:certificationList / cbvmda:certification [gdst:certificateType='urn:gdst:certType:humanPolicy']`
+Fishing Authorization | ```extension  /  ilmd  /  cbvmda:certificationList  /  certification  [gdst:certificationType='urn:gdst:certType:fishingAuth']```
+Harvest Certificate | `extension / ilmd / cbvmda:certificationList / certification [gdst:certificationType='urn:gdst:certType:harvestCert']`
+Human Welfare Policy | `extension / ilmd / cbvmda:certificationList / certification [gdst:certificationType='urn:gdst:certType:humanPolicy']`
 Human Policy Standard | `gdst:humanWelfarePolicy`
 
 ## On-Vessel Processing
@@ -77,8 +77,8 @@ Public Vessel Registry Hyperlink (Static Master Data or ILMD) | `ilmd / cbvmda:v
 Vessel Flag (Static Master Data or ILMD) | `ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / cbvmda:vesselFlagState`
 Expiration Date | `ilmd / cbvmda:itemExpirationDate`
 Country of Origin | `ilmd / cbvmda:countryOfOrigin`
-Harvest Chain of Custody Certificate | `extension / ilmd / cbvmda:certificationList / cbvmda:certification [gdst:certificateType='urn:gdst:certType:harvestCoC']`
-Human Welfare Policy | `extension / ilmd / cbvmda:certificationList / cbvmda:certification [gdst:certificateType='urn:gdst:certType:humanPolicy']`
+Harvest Chain of Custody Certificate | `extension / ilmd / cbvmda:certificationList / certification [gdst:certificationType='urn:gdst:certType:harvestCoC']`
+Human Welfare Policy | `extension / ilmd / cbvmda:certificationList / certification [gdst:certificationType='urn:gdst:certType:humanPolicy']`
 Human Policy Standard | `gdst:humanWelfarePolicy`
 
 ## Transshipment
@@ -96,9 +96,9 @@ Transshipment Location (In-Port) | `gdst:unloadingPort`
 Transshipment Location (At-Sea) | `readPoint`
 Dates of TransShipment (Start) | `gdst:transshipStartDate`
 Dates of TransShipment (End) | `gdst:transshipEndDate`
-TransShipment Authorization | `gdst:certificationList / cbvmda:certification [gdst:certificateType='urn:gdst:certType:transshipmentAuth']`
-Harvest Chain of Custody Certificate | `gdst:certificationList / cbvmda:certification [gdst:certificateType='urn:gdst:certType:harvestCoC']`
-Human Welfare Policy | `extension / ilmd / cbvmda:certificationList / cbvmda:certification [gdst:certificateType='urn:gdst:certType:humanPolicy']`
+TransShipment Authorization | `gdst:certificationList / certification [gdst:certificationType='urn:gdst:certType:transshipmentAuth']`
+Harvest Chain of Custody Certificate | `gdst:certificationList / certification [gdst:certificationType='urn:gdst:certType:harvestCoC']`
+Human Welfare Policy | `extension / ilmd / cbvmda:certificationList / certification [gdst:certificationType='urn:gdst:certType:humanPolicy']`
 Human Policy Standard | `gdst:humanWelfarePolicy`
 
 ## Landing
@@ -112,8 +112,8 @@ Landing Location (In-Port) | `gdst:unloadingPort`
 Landing Location (Non-Port) | `readPoint`
 Dates of Landing (Start) | `gdst:landingStartDate`
 Dates of Landing (End) | `gdst:landingEndDate`
-Landing Authorization | `cbvmda:certificationList / cbvmda:certification [gdst:certificateType='urn:gdst:certType:landingAuth']`
-Human Welfare Policy | `cbvmda:certificationList / cbvmda:certification [gdst:certificateType='urn:gdst:certType:humanPolicy']`
+Landing Authorization | `cbvmda:certificationList / certification [gdst:certificationType='urn:gdst:certType:landingAuth']`
+Human Welfare Policy | `cbvmda:certificationList / certification [gdst:certificationType='urn:gdst:certType:humanPolicy']`
 Human Policy Standard | `gdst:humanWelfarePolicy`
 
 ## Processing
@@ -126,8 +126,8 @@ Product Ownership | `gdst:productOwner`
 Information Provider | `cbvmda:informationProvider`
 Production Date | `eventTime`
 Product Origin | `ilmd / cbvmda:countryOfOrigin`
-Harvest Chain of Custody Certificate | `ilmd / cbvmda:certificationList / cbvmda:certification [gdst:certificateType='urn:gdst:certType:harvestCoC']`
-Human Welfare Policy | `ilmd / cbvmda:certificationList / cbvmda:certification [gdst:certificateType='urn:gdst:certType:humanPolicy']`
+Harvest Chain of Custody Certificate | `ilmd / cbvmda:certificationList / certification [gdst:certificationType='urn:gdst:certType:harvestCoC']`
+Human Welfare Policy | `ilmd / cbvmda:certificationList / certification [gdst:certificationType='urn:gdst:certType:humanPolicy']`
 Human Welfare Policy Standard | `gdst:humanWelfarePolicy`
 
 ## Aggregate  /  Deaggregate
@@ -138,7 +138,7 @@ Event Date & Time | `eventTime`
 Event Read Point | `readPoint`
 Product Ownership | `gdst:productOwner`
 Information Provider | `cbvmda:informationProvider`
-Harvest Chain of Custody Certificate | `cbvmda:certificationList / cbvmda:certification [gdst:certificateType='urn:gdst:certType:harvestCoC']`
+Harvest Chain of Custody Certificate | `cbvmda:certificationList / certification [gdst:certificationType='urn:gdst:certType:harvestCoC']`
 
 ## Ship  /  Receive
 GDST  KDE | EPCIS Mapping 
@@ -148,4 +148,12 @@ Event Date & Time | `eventTime`
 Event Read Point | `readPoint`
 Product Ownership | `gdst:productOwner`
 Information Provider | `cbvmda:informationProvider`
-Harvest Chain of Custody Certificate | `cbvmda:certificationList / cbvmda:certification [gdst:certificateType='urn:gdst:certType:harvestCoC']`
+Harvest Chain of Custody Certificate | `cbvmda:certificationList / certification [gdst:certificationType='urn:gdst:certType:harvestCoC']`
+
+
+Additional KDE (Not Required by GDST Standard) | EPCIS Mapping
+-----------------------------------------------|--------------
+Transit Provider                               | `extension / sourceList[type='urn:epcglobal:cbv:sdt:possessing_party']/@text`
+Transport Type                                 | `extension / gdst:transportType`
+Transport Vehicle ID                           | `extension / gdst:transportVehicleID`
+Shipment Number                                | `extension / gdst:transportNunber`

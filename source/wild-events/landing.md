@@ -41,7 +41,7 @@ It is important that if there is a change of ownership when the products land, t
 
         <!-- This is a made up Certificate. This is just an example. -->
         <certification>
-            <gdst:certificateType>urn:gdst:certType:landingAuth</gdst:certificateType>
+            <gdst:certificationType>urn:gdst:certType:landingAuth</gdst:certificationType>
             <certificationStandard>Landing Authority</certificationStandard>
             <certificationAgency>Landing Authority</certificationAgency>
             <certificationValue>LA_123456789</certificationValue>
@@ -50,7 +50,7 @@ It is important that if there is a change of ownership when the products land, t
 
         <!-- This is a made up Certificate. This is just an example. -->
         <certification>
-            <gdst:certificateType>urn:gdst:certType:humanyPolicy</gdst:certificateType>
+            <gdst:certificationType>urn:gdst:certType:humanyPolicy</gdst:certificationType>
             <certificationStandard>WHO Human Decency Policy</certificationStandard>
             <certificationAgency>WHO</certificationAgency>
             <certificationValue>1234567890</certificationValue>

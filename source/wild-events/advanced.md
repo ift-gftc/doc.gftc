@@ -184,21 +184,21 @@ In order to model this scenario we will need the following master data:
                         <cbvmda:harvestStartDate>2021-09-27T03:00:00.000Z</cbvmda:harvestStartDate>
                         <cbvmda:certificationList>
                             <certification>
-                                <gdst:certificateType>urn:gdst:certType:fishingAuth</gdst:certificateType>
+                                <gdst:certificationType>urn:gdst:certType:fishingAuth</gdst:certificationType>
                                 <certificationStandard>San Diego Fishing Authority</certificationStandard>
                                 <certificationAgency>San Diego Fishing Authority</certificationAgency>
                                 <certificationValue/>
                                 <certificationIdentification>SDFA-1001</certificationIdentification>
                             </certification>
                             <certification>
-                                <gdst:certificateType>urn:gdst:certType:harvestCert</gdst:certificateType>
+                                <gdst:certificationType>urn:gdst:certType:harvestCert</gdst:certificationType>
                                 <certificationStandard>San Diego Fishing Authority</certificationStandard>
                                 <certificationAgency>San Diego Fishing Authority</certificationAgency>
                                 <certificationValue/>
                                 <certificationIdentification>SDFA-1001</certificationIdentification>
                             </certification>
                             <certification>
-                                <gdst:certificateType>urn:gdst:certType:humanPolicy</gdst:certificateType>
+                                <gdst:certificationType>urn:gdst:certType:humanPolicy</gdst:certificationType>
                                 <certificationStandard>San Diego Fishing Authority</certificationStandard>
                                 <certificationAgency>San Diego Fishing Authority</certificationAgency>
                                 <certificationValue/>
@@ -242,21 +242,21 @@ In order to model this scenario we will need the following master data:
                 <cbvmda:transshipEndDate>2021-09-28T03:00:00.000Z</cbvmda:transshipEndDate>
                 <cbvmda:certificationList>
                     <certification>
-                        <gdst:certificateType>urn:gdst:certType:transshipmentAuth</gdst:certificateType>
+                        <gdst:certificationType>urn:gdst:certType:transshipmentAuth</gdst:certificationType>
                         <certificationStandard>San Diego Transshipment Authorization</certificationStandard>
                         <certificationAgency>San Diego Transshipment Authorization</certificationAgency>
                         <certificationValue/>
                         <certificationIdentification>SDTA-1001</certificationIdentification>
                     </certification>
                     <certification>
-                        <gdst:certificateType>urn:gdst:certType:harvestCoC</gdst:certificateType>
+                        <gdst:certificationType>urn:gdst:certType:harvestCoC</gdst:certificationType>
                         <certificationStandard>San Diego Transshipment Authorization</certificationStandard>
                         <certificationAgency>San Diego Transshipment Authorization</certificationAgency>
                         <certificationValue/>
                         <certificationIdentification>SDTA-1001</certificationIdentification>
                     </certification>
                     <certification>
-                        <gdst:certificateType>urn:gdst:certType:humanPolicy</gdst:certificateType>
+                        <gdst:certificationType>urn:gdst:certType:humanPolicy</gdst:certificationType>
                         <certificationStandard>San Diego Transshipment Authorization</certificationStandard>
                         <certificationAgency>San Diego Transshipment Authorization</certificationAgency>
                         <certificationValue/>
@@ -312,21 +312,21 @@ In order to model this scenario we will need the following master data:
                         <cbvmda:harvestStartDate>2021-09-26T03:00:00.000Z</cbvmda:harvestStartDate>
                         <cbvmda:certificationList>
                             <certification>
-                                <gdst:certificateType>urn:gdst:certType:fishingAuth</gdst:certificateType>
+                                <gdst:certificationType>urn:gdst:certType:fishingAuth</gdst:certificationType>
                                 <certificationStandard>San Diego Fishing Authority</certificationStandard>
                                 <certificationAgency>San Diego Fishing Authority</certificationAgency>
                                 <certificationValue/>
                                 <certificationIdentification>SDFA-1002</certificationIdentification>
                             </certification>
                             <certification>
-                                <gdst:certificateType>urn:gdst:certType:harvestCert</gdst:certificateType>
+                                <gdst:certificationType>urn:gdst:certType:harvestCert</gdst:certificationType>
                                 <certificationStandard>San Diego Fishing Authority</certificationStandard>
                                 <certificationAgency>San Diego Fishing Authority</certificationAgency>
                                 <certificationValue/>
                                 <certificationIdentification>SDFA-1002</certificationIdentification>
                             </certification>
                             <certification>
-                                <gdst:certificateType>urn:gdst:certType:humanPolicy</gdst:certificateType>
+                                <gdst:certificationType>urn:gdst:certType:humanPolicy</gdst:certificationType>
                                 <certificationStandard>San Diego Fishing Authority</certificationStandard>
                                 <certificationAgency>San Diego Fishing Authority</certificationAgency>
                                 <certificationValue/>
@@ -368,21 +368,21 @@ In order to model this scenario we will need the following master data:
                 </extension>
                 <cbvmda:certificationList>
                     <certification>
-                        <gdst:certificateType>urn:gdst:certType:transshipmentAuth</gdst:certificateType>
+                        <gdst:certificationType>urn:gdst:certType:transshipmentAuth</gdst:certificationType>
                         <certificationStandard>San Diego Transshipment Authorization</certificationStandard>
                         <certificationAgency>San Diego Transshipment Authorization</certificationAgency>
                         <certificationValue/>
                         <certificationIdentification>SDTA-1001</certificationIdentification>
                     </certification>
                     <certification>
-                        <gdst:certificateType>urn:gdst:certType:harvestCoC</gdst:certificateType>
+                        <gdst:certificationType>urn:gdst:certType:harvestCoC</gdst:certificationType>
                         <certificationStandard>San Diego Transshipment Authorization</certificationStandard>
                         <certificationAgency>San Diego Transshipment Authorization</certificationAgency>
                         <certificationValue/>
                         <certificationIdentification>SDTA-1001</certificationIdentification>
                     </certification>
                     <certification>
-                        <gdst:certificateType>urn:gdst:certType:humanPolicy</gdst:certificateType>
+                        <gdst:certificationType>urn:gdst:certType:humanPolicy</gdst:certificationType>
                         <certificationStandard>San Diego Transshipment Authorization</certificationStandard>
                         <certificationAgency>San Diego Transshipment Authorization</certificationAgency>
                         <certificationValue/>
@@ -424,14 +424,14 @@ In order to model this scenario we will need the following master data:
                 </extension>
                 <cbvmda:certificationList>
                     <certification>
-                        <gdst:certificateType>urn:gdst:certType:landingAuth</gdst:certificateType>
+                        <gdst:certificationType>urn:gdst:certType:landingAuth</gdst:certificationType>
                         <certificationStandard>San Diego Landing Authority</certificationStandard>
                         <certificationAgency>San Diego Landing Authority</certificationAgency>
                         <certificationValue/>
                         <certificationIdentification>SDLA-001</certificationIdentification>
                     </certification>
                     <certification>
-                        <gdst:certificateType>urn:gdst:certType:humanPolicy</gdst:certificateType>
+                        <gdst:certificationType>urn:gdst:certType:humanPolicy</gdst:certificationType>
                         <certificationStandard>San Diego Landing Authority</certificationStandard>
                         <certificationAgency>San Diego Landing Authority</certificationAgency>
                         <certificationValue/>
@@ -473,7 +473,7 @@ In order to model this scenario we will need the following master data:
                 </extension>
                 <cbvmda:certificationList>
                     <certification>
-                        <gdst:certificateType>urn:gdst:certType:harvestCoC</gdst:certificateType>
+                        <gdst:certificationType>urn:gdst:certType:harvestCoC</gdst:certificationType>
                         <certificationStandard/>
                         <certificationAgency/>
                         <certificationValue/>
@@ -515,7 +515,7 @@ In order to model this scenario we will need the following master data:
                 </extension>
                 <cbvmda:certificationList>
                     <certification>
-                        <gdst:certificateType>urn:gdst:certType:harvestCoC</gdst:certificateType>
+                        <gdst:certificationType>urn:gdst:certType:harvestCoC</gdst:certificationType>
                         <certificationStandard/>
                         <certificationAgency/>
                         <certificationValue/>
