@@ -233,7 +233,7 @@ This event covers how the Feed is created and the ingredients that go into makin
 
             <!-- Chain of Custody Certificate -->
             <certification>
-                <gdst:certificateType>urn:gdst:certType:chain_custody</gdst:certificateType>
+                <gdst:certificationType>urn:gdst:certType:chain_custody</gdst:certificationType>
                 <certificationStandard>MSC Chain of Custody</certificationStandard>
                 <certificationAgency>MSC</certificationAgency>
                 <certificationValue>MSC_COC_1234567890</certificationValue>
@@ -242,7 +242,7 @@ This event covers how the Feed is created and the ingredients that go into makin
 
             <!-- Code of Good Practice Certificate -->
             <certification>
-                <gdst:certificateType>urn:gdst:certType:good_practice</gdst:certificateType>
+                <gdst:certificationType>urn:gdst:certType:good_practice</gdst:certificationType>
                 <certificationStandard>Good Practice Standard Body</certificationStandard>
                 <certificationAgency>GP Agency</certificationAgency>
                 <certificationValue>GP_0987654321</certificationValue>
@@ -303,7 +303,7 @@ This event covers the creation of the Broodstock that will be used for stocking 
 
                 <!-- Chain of Custody Certificate -->
                 <certification>
-                    <gdst:certificateType>urn:gdst:certType:chain_custody</gdst:certificateType>
+                    <gdst:certificationType>urn:gdst:certType:chain_custody</gdst:certificationType>
                     <certificationStandard>MSC Chain of Custody</certificationStandard>
                     <certificationAgency>MSC</certificationAgency>
                     <certificationValue>MSC_COC_1234567890</certificationValue>
@@ -312,7 +312,7 @@ This event covers the creation of the Broodstock that will be used for stocking 
 
                 <!-- Code of Good Practice Certificate -->
                 <certification>
-                    <gdst:certificateType>urn:gdst:certType:good_practice</gdst:certificateType>
+                    <gdst:certificationType>urn:gdst:certType:good_practice</gdst:certificationType>
                     <certificationStandard>Good Practice Standard Body</certificationStandard>
                     <certificationAgency>GP Agency</certificationAgency>
                     <certificationValue>GP_0987654321</certificationValue>
@@ -394,7 +394,7 @@ This event covers the harvesting of a product from a pond at an aquaculture even
 
                 <!-- Chain of Custody Certificate -->
                 <certification>
-                    <gdst:certificateType>urn:gdst:certType:chain_custody</gdst:certificateType>
+                    <gdst:certificationType>urn:gdst:certType:chain_custody</gdst:certificationType>
                     <certificationStandard>MSC Chain of Custody</certificationStandard>
                     <certificationAgency>MSC</certificationAgency>
                     <certificationValue>MSC_COC_1234567890</certificationValue>
@@ -403,7 +403,7 @@ This event covers the harvesting of a product from a pond at an aquaculture even
 
                 <!-- Code of Good Practice Certificate -->
                 <certification>
-                    <gdst:certificateType>urn:gdst:certType:good_practice</gdst:certificateType>
+                    <gdst:certificationType>urn:gdst:certType:good_practice</gdst:certificationType>
                     <certificationStandard>Good Practice Standard Body</certificationStandard>
                     <certificationAgency>GP Agency</certificationAgency>
                     <certificationValue>GP_0987654321</certificationValue>
@@ -479,7 +479,7 @@ This event covers the change of ownership from the Farm to the Processor and the
 
                 <!-- Processor License -->
                 <certification>
-                    <gdst:certificateType>urn:gdst:certType:processing_license</gdst:certificateType>
+                    <gdst:certificationType>urn:gdst:certType:processing_license</gdst:certificationType>
                     <certificationStandard>US Processing License</certificationStandard>
                     <certificationAgency>US Processing License Agency</certificationAgency>
                     <certificationValue>USP_82736182</certificationValue>
@@ -488,7 +488,7 @@ This event covers the change of ownership from the Farm to the Processor and the
 
                 <!-- Chain of Custody Certificate -->
                 <certification>
-                    <gdst:certificateType>urn:gdst:certType:chain_custody</gdst:certificateType>
+                    <gdst:certificationType>urn:gdst:certType:chain_custody</gdst:certificationType>
                     <certificationStandard>MSC Chain of Custody</certificationStandard>
                     <certificationAgency>MSC</certificationAgency>
                     <certificationValue>MSC_COC_1234567890</certificationValue>
@@ -497,7 +497,7 @@ This event covers the change of ownership from the Farm to the Processor and the
 
                 <!-- Code of Good Practice Certificate -->
                 <certification>
-                    <gdst:certificateType>urn:gdst:certType:good_practice</gdst:certificateType>
+                    <gdst:certificationType>urn:gdst:certType:good_practice</gdst:certificationType>
                     <certificationStandard>Good Practice Standard Body</certificationStandard>
                     <certificationAgency>GP Agency</certificationAgency>
                     <certificationValue>GP_0987654321</certificationValue>
@@ -506,7 +506,7 @@ This event covers the change of ownership from the Farm to the Processor and the
 
                 <!-- Aggregator License -->
                 <certification>
-                    <gdst:certificateType>urn:gdst:certType:aggregator_license</gdst:certificateType>
+                    <gdst:certificationType>urn:gdst:certType:aggregator_license</gdst:certificationType>
                     <certificationStandard>Aggregator License</certificationStandard>
                     <certificationAgency>Aggregator License Agency</certificationAgency>
                     <certificationValue>AL_928374545</certificationValue>

@@ -61,7 +61,7 @@ The `farm harvest` event is used to record the harvested of seafood products fro
         <cbvmda:certificationList>
             <!-- This is a made up Certificate. This is just an example. -->
             <certification>
-                <gdst:certificateType>urn:gdst:certType:harvestCert</gdst:certificateType>
+                <gdst:certificationType>urn:gdst:certType:harvestCert</gdst:certificationType>
                 <certificationStandard>Farm Certificate Standard</certificationStandard>
                 <certificationAgency>Farm Certificate Authority</certificationAgency>
                 <certificationValue>SIMP.LPCO.2</certificationValue>
@@ -70,7 +70,7 @@ The `farm harvest` event is used to record the harvested of seafood products fro
 
             <!-- This is a made up Certificate. This is just an example. -->
             <certification>
-                <gdst:certificateType>urn:gdst:certType:harvestCoC</gdst:certificateType>
+                <gdst:certificationType>urn:gdst:certType:harvestCoC</gdst:certificationType>
                 <certificationStandard>MSC Chain of Custody</certificationStandard>
                 <certificationAgency>MSC</certificationAgency>
                 <certificationValue>MSC_COC_1234567890</certificationValue>
@@ -79,7 +79,7 @@ The `farm harvest` event is used to record the harvested of seafood products fro
 
             <!-- This is a made up Certificate. This is just an example. -->
             <certification>
-                <gdst:certificateType>urn:gdst:certType:humanyPolicy</gdst:certificateType>
+                <gdst:certificationType>urn:gdst:certType:humanyPolicy</gdst:certificationType>
                 <certificationStandard>WHO Human Decency Policy</certificationStandard>
                 <certificationAgency>WHO</certificationAgency>
                 <certificationValue>1234567890</certificationValue>

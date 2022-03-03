@@ -5,6 +5,8 @@ description: This covers how the ILMD attributes have been extended to support t
 
 These are attributes that are extended at the `<ilmd>` level in `Object ADD` and `Transformation ADD`. This not meant to include all the KDEs required by GDST, just the ones that required the `<ilmd>` to be extended.
 
+# GDST KDEs
+
 ## Broodstock Source
 Broodstock from grow-out farms or taken from the wild.
 
@@ -40,3 +42,22 @@ This represents the general source used for the protein in feed.
 *  Other
 
 `<gdst:proteinSource></gdst:proteinSource>`
+
+
+# Additional KDEs not required by GDST
+Sometimes, industry members need to include additional information on events that 
+are not required by the GDST. In an effort to improve interoperability, GDST will 
+come up a with a common mapping for that industry member to use.
+
+## Processing Type
+This defines what kind of processing was done. 
+
+Allowed values are:
+- GENERAL
+- CLEANING
+- 
+-
+-
+
+An example of the XML is:
+`<gdst:processingType>GENERAL</gdst:processingType>`

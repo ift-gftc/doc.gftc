@@ -60,7 +60,7 @@ In this case, a Transshipment event is recorded. Here we are going to build on t
 
         <!-- This is a made up Certificate. This is just an example. -->
         <certification>
-            <gdst:certificateType>urn:gdst:certType:transshipment</gdst:certificateType>
+            <gdst:certificationType>urn:gdst:certType:transshipment</gdst:certificationType>
             <certificationStandard>Transshipment Authority</certificationStandard>
             <certificationAgency>Transshipment Authority</certificationAgency>
             <certificationValue>TA_123456789</certificationValue>
@@ -69,7 +69,7 @@ In this case, a Transshipment event is recorded. Here we are going to build on t
 
         <!-- This is a made up Certificate. This is just an example. -->
         <certification>
-            <gdst:certificateType>urn:gdst:certType:harvestCoC</gdst:certificateType>
+            <gdst:certificationType>urn:gdst:certType:harvestCoC</gdst:certificationType>
             <certificationStandard>MSC Chain of Custody</certificationStandard>
             <certificationAgency>MSC</certificationAgency>
             <certificationValue>MSC_COC_1234567890</certificationValue>
@@ -78,7 +78,7 @@ In this case, a Transshipment event is recorded. Here we are going to build on t
 
         <!-- This is a made up Certificate. This is just an example. -->
         <certification>
-            <gdst:certificateType>urn:gdst:certType:humanyPolicy</gdst:certificateType>
+            <gdst:certificationType>urn:gdst:certType:humanyPolicy</gdst:certificationType>
             <certificationStandard>WHO Human Decency Policy</certificationStandard>
             <certificationAgency>WHO</certificationAgency>
             <certificationValue>1234567890</certificationValue>

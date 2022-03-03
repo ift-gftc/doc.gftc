@@ -90,7 +90,7 @@ The base Object event in EPCIS was extended with `<gdst:certificationList></gdst
 
         <!-- Transshipment Authorization -->
         <certification>
-            <gdst:certificateType>urn:gdst:certType:transshipment_authorization</gdst:certificateType>
+            <gdst:certificationType>urn:gdst:certType:transshipmentAuth</gdst:certificationType>
             <certificationStandard>Transshipment Authority</certificationStandard>
             <certificationAgency>Transshipment Authority</certificationAgency>
             <certificationValue>TA_123456789</certificationValue>
@@ -99,7 +99,7 @@ The base Object event in EPCIS was extended with `<gdst:certificationList></gdst
 
         <!-- Chain of Custody -->
         <certification>
-            <gdst:certificateType>urn:gdst:certType:chain_custody</gdst:certificateType>
+            <gdst:certificationType>urn:gdst:certType:harvestCoC</gdst:certificationType>
             <certificationStandard>MSC Chain of Custody</certificationStandard>
             <certificationAgency>MSC</certificationAgency>
             <certificationValue>MSC_COC_1234567890</certificationValue>
