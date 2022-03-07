@@ -87,7 +87,7 @@ GS1-CBV-XML-Format	    ALWAYS_URN
 
 <epcis:EPCISDocument xmlns:epcis="urn:epcglobal:epcis:xsd:1"
                      xmlns:cbvmda="urn:epcglobal:cbv:mda" 
-                     xmlns:gdst="https://traceability-dialogue.org" 
+                     xmlns:gdst="https://traceability-dialogue.org/epcis/" 
                      xmlns:sbdh="http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader" 
                      schemaVersion="1.2" 
                      creationDate="2022-01-01T00:00:00.000Z">
@@ -166,7 +166,7 @@ GS1-CBV-XML-Format	    ALWAYS_URN
 
 <epcis:EPCISDocument xmlns:epcis="urn:epcglobal:epcis:xsd:1"
                      xmlns:cbvmda="urn:epcglobal:cbv:mda" 
-                     xmlns:gdst="https://traceability-dialogue.org" 
+                     xmlns:gdst="https://traceability-dialogue.org/epcis/" 
                      xmlns:sbdh="http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader" 
                      schemaVersion="1.2" 
                      creationDate="2022-01-01T00:00:00.000Z">

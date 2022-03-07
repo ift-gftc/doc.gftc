@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<EPCISDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:epcglobal:epcis:xsd:1 EPCglobal-epcis-1_2.xsd" xmlns:sh="http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader" xmlns:tr="http://schema.traceregister.com" xmlns:gdst="https://traceability-dialogue.org" xmlns:cbvmda="urn:epcglobal:cbv:mda" schemaVersion="0" creationDate="0001-01-01T00:00:00" xmlns="urn:epcglobal:epcis:xsd:1" schemaLocation="./EPCglobal-epcis-1_2.xsd">
+<EPCISDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:epcglobal:epcis:xsd:1 EPCglobal-epcis-1_2.xsd" xmlns:sh="http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader" xmlns:tr="http://schema.traceregister.com" xmlns:gdst="https://traceability-dialogue.org/epcis/" xmlns:cbvmda="urn:epcglobal:cbv:mda" schemaVersion="0" creationDate="0001-01-01T00:00:00" xmlns="urn:epcglobal:epcis:xsd:1" schemaLocation="./EPCglobal-epcis-1_2.xsd">
     <EPCISHeader xmlns="">
         <sh:StandardBusinessDocumentHeader>
             <sh:HeaderVersion>1.2.2</sh:HeaderVersion>
