@@ -36,7 +36,7 @@ In order to model this scenario we will need the following master data:
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:sbdh="http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader"
     xmlns:cbvmda="urn:epcglobal:cbv:mda"
-    xmlns:gdst="https://traceability-dialogue.org" schemaVersion="0" creationDate="2001-12-17T09:30:47Z" xsi:schemaLocation="urn:epcglobal:epcis:xsd:1  http://www.gs1si.org/BMS/epcis/1_2/EPCglobal-epcis-1_2.xsd">
+    xmlns:gdst="https://traceability-dialogue.org/epcis/" schemaVersion="0" creationDate="2001-12-17T09:30:47Z" xsi:schemaLocation="urn:epcglobal:epcis:xsd:1  http://www.gs1si.org/BMS/epcis/1_2/EPCglobal-epcis-1_2.xsd">
     <EPCISHeader>
         <sbdh:StandardBusinessDocumentHeader>
             <sbdh:HeaderVersion>1.0</sbdh:HeaderVersion>

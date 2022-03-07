@@ -1,7 +1,7 @@
 <EPCISDocument
     xmlns:tr="http://schema.traceregister.com"
     xmlns:cbvmda="urn:epcglobal:cbv:mda"
-    xmlns:gdst="https://traceability-dialogue.org/"
+    xmlns:gdst="https://traceability-dialogue.org/epcis/"
     xmlns:sh="http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader" schemaVersion="0" creationDate="0001-01-01T00:00:00"
     xmlns="urn:epcglobal:epcis:xsd:1">
     <EPCISBody
