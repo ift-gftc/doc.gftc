@@ -11,6 +11,7 @@ Here we are going to cover the different events that need to be recorded in Aqua
 This is the master data that will be used through the events in this aquaculture scenario.
 
 ```xml
+<!-- WARNING: This is not a complete EPCIS Document, this is a partial of an EPCIS Document for demonstration purposes only. -->
 <!-- MASTER DATA -->
 <EPCISMasterData>
     <VocabularyList>
@@ -178,18 +179,13 @@ This is the master data that will be used through the events in this aquaculture
 This event covers how the Feed is created and the ingredients that go into making the feed.
 
 ```xml
+<!-- WARNING: This is not a complete EPCIS Document, this is a partial of an EPCIS Document for demonstration purposes only. -->
 <TransformationEvent>
     <eventTime>2020-01-28T20:00:00Z</eventTime>
+    <eventTimeZoneOffset>-00:00</eventTimeZoneOffset>
     <baseExtension>
         <eventID>8130DCF8-3F63-4E40-A895-E4BA9FF66FDD</eventID>
     </baseExtension>
-    <bizStep>urn:epcglobal:cbv:bizstep:commissioning</bizStep>
-    <disposition>urn:epcglobal:cbv:disp:active</disposition>
-
-    <!-- Per's Salmon Farm -->
-    <bizLocation>
-        <id>urn:gdst:traceability-solution.com:location:loc:D8F9F0B4-A03D-41A3-AA60-B2BE0FD9C2F3.FARM</id>
-    </bizLocation>
 
     <!-- INPUT: Vegetarian Feed + Antlantic Salmon Fry -->
     <inputQuantityList>
@@ -217,11 +213,19 @@ This event covers how the Feed is created and the ingredients that go into makin
             <uom>KGM</uom>
         </quantityElement>
     </outputQuantityList>
+
+    <bizStep>urn:epcglobal:cbv:bizstep:commissioning</bizStep>
+    <disposition>urn:epcglobal:cbv:disp:active</disposition>
+
+    <!-- Per's Salmon Farm -->
+    <bizLocation>
+        <id>urn:gdst:traceability-solution.com:location:loc:D8F9F0B4-A03D-41A3-AA60-B2BE0FD9C2F3.FARM</id>
+    </bizLocation>
     
     <!-- LOT DATA -->
     <ilmd>
         <!-- FARM HARVEST -->
-        <productionMethodForFishAndSeafoodCode>AQUACULTURE</productionMethodForFishAndSeafoodCode>
+        <cbvmda:productionMethodForFishAndSeafoodCode>AQUACULTURE</cbvmda:productionMethodForFishAndSeafoodCode>
 
         <!-- Harvest Date -->
         <cbvmda:harvestStartDate>Processed</cbvmda:harvestStartDate>
@@ -334,6 +338,7 @@ This event covers the creation of the Broodstock that will be used for stocking 
 This event covers the harvesting of a product from a pond at an aquaculture event. This is a transformation event where the input is the Broodstock and Feed and the output is the harvested product.
 
 ```xml
+<!-- WARNING: This is not a complete EPCIS Document, this is a partial of an EPCIS Document for demonstration purposes only. -->
 <TransformationEvent>
     <eventTime>2020-01-28T20:00:00Z</eventTime>
     <baseExtension>
@@ -426,6 +431,7 @@ This event covers the harvesting of a product from a pond at an aquaculture even
 This event covers the change of ownership from the Farm to the Processor and the Transformation from the whole Salmon to the Salmon Fillets. This is also when the Salmon entered into commerce. For a more detailed event history, a receiving event would be recorded, but for the sake of simplicity we will not do that.
 
 ```xml
+<!-- WARNING: This is not a complete EPCIS Document, this is a partial of an EPCIS Document for demonstration purposes only. -->
 <TransformationEvent>
     <eventTime>2020-01-29T20:00:00Z</eventTime>
     <baseExtension>

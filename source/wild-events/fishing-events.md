@@ -13,9 +13,10 @@ This covers when a single large vessel harvested products from multiple location
 In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co.** has gone fishing in **FAO Zone 77**. It has gone trawling in multiple locations for **Tuna**. In this scenario the fishing vessel caught **10,000 Kilograms** of Tuna through out it's fishing trip.
 
 ```xml
+<!-- WARNING: This is not a complete EPCIS Document, this is a partial of an EPCIS Document for demonstration purposes only. -->
 <!-- FISHING EVENT -->
 <ObjectEvent>
-    <eventTime>2020-01-27TT00:00:00.000-06:00</eventTime>
+    <eventTime>2020-01-27T00:00:00.000-06:00</eventTime>
     <eventTimeZoneOffset>+00:00</eventTimeZoneOffset>
     <baseExtension>
         <eventID>CD42262C-844C-403C-85C5-34728F7FCDA5</eventID>
@@ -90,7 +91,7 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
             </cbvmda:vesselCatchInformationList>
 
             <!-- WILD HARVEST -->
-            <productionMethodForFishAndSeafoodCode>MARINE_FISHERY</productionMethodForFishAndSeafoodCode>
+            <cbvmda:productionMethodForFishAndSeafoodCode>MARINE_FISHERY</cbvmda:productionMethodForFishAndSeafoodCode>
             
             <!-- Harvest Start & End Dates -->
             <cbvmda:harvestStartDate>2020-01-27T00:00:00.000-06:00</cbvmda:harvestStartDate>
@@ -147,6 +148,7 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
 
 **Fishing Event #1**
 ```xml
+<!-- WARNING: This is not a complete EPCIS Document, this is a partial of an EPCIS Document for demonstration purposes only. -->
 <!-- FISHING EVENT -->
 <ObjectEvent>
     <eventTime>2020-01-27T00:00:00.000-06:00</eventTime>
@@ -228,7 +230,7 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
             </cbvmda:vesselCatchInformationList>
 
             <!-- WILD HARVEST -->
-            <productionMethodForFishAndSeafoodCode>MARINE_FISHERY</productionMethodForFishAndSeafoodCode>
+            <cbvmda:productionMethodForFishAndSeafoodCode>MARINE_FISHERY</cbvmda:productionMethodForFishAndSeafoodCode>
             
             <!-- Harvest Start & End Dates -->
             <cbvmda:harvestStartDate>2020-01-27T00:00:00.000-06:00</cbvmda:harvestStartDate>
@@ -280,6 +282,7 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
 
 **Fishing Event #2**
 ```xml
+<!-- WARNING: This is not a complete EPCIS Document, this is a partial of an EPCIS Document for demonstration purposes only. -->
 <!-- FISHING EVENT -->
 <ObjectEvent>
     <eventTime>2020-01-27T00:00:00.000-06:00</eventTime>
@@ -360,7 +363,7 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
             </cbvmda:vesselCatchInformationList>
 
             <!-- WILD HARVEST -->
-            <productionMethodForFishAndSeafoodCode>MARINE_FISHERY</productionMethodForFishAndSeafoodCode>
+            <cbvmda:productionMethodForFishAndSeafoodCode>MARINE_FISHERY</cbvmda:productionMethodForFishAndSeafoodCode>
             
             <!-- Harvest Start & End Dates -->
             <cbvmda:harvestStartDate>2020-01-27T00:00:00.000-06:00</cbvmda:harvestStartDate>
@@ -412,6 +415,7 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
 
 **Fishing Event #3**
 ```xml
+<!-- WARNING: This is not a complete EPCIS Document, this is a partial of an EPCIS Document for demonstration purposes only. -->
 <!-- FISHING EVENT -->
 <ObjectEvent>
     <eventTime>2020-01-27T00:00:00.000-06:00</eventTime>
@@ -492,7 +496,7 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
             </cbvmda:vesselCatchInformationList>
 
             <!-- WILD HARVEST -->
-            <productionMethodForFishAndSeafoodCode>MARINE_FISHERY</productionMethodForFishAndSeafoodCode>
+            <cbvmda:productionMethodForFishAndSeafoodCode>MARINE_FISHERY</cbvmda:productionMethodForFishAndSeafoodCode>
             
             <!-- Harvest Start & End Dates -->
             <cbvmda:harvestStartDate>2020-01-27T00:00:00.000-06:00</cbvmda:harvestStartDate>
@@ -544,6 +548,7 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
 
 **Fishing Event #4**
 ```xml
+<!-- WARNING: This is not a complete EPCIS Document, this is a partial of an EPCIS Document for demonstration purposes only. -->
 <!-- FISHING EVENT -->
 <ObjectEvent>
     <eventTime>2020-01-27T00:00:00.000-06:00</eventTime>
@@ -624,7 +629,7 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
             </cbvmda:vesselCatchInformationList>
 
             <!-- WILD HARVEST -->
-            <productionMethodForFishAndSeafoodCode>MARINE_FISHERY</productionMethodForFishAndSeafoodCode>
+            <cbvmda:productionMethodForFishAndSeafoodCode>MARINE_FISHERY</cbvmda:productionMethodForFishAndSeafoodCode>
             
             <!-- Harvest Start & End Dates -->
             <cbvmda:harvestStartDate>2020-01-27T00:00:00.000-06:00</cbvmda:harvestStartDate>

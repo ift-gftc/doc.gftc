@@ -8,6 +8,7 @@ All products harvested from the wild will have a landing event. This event repre
 It is important that if there is a change of ownership when the products land, then that change of ownership should be recorded in the `source and destination list` on the event as well as the disposition should be set to `urn:gdst:disposition:entering_commerce` if this is the first time the products changed ownership.
 
 ```xml
+<!-- WARNING: This is not a complete EPCIS Document, this is a partial of an EPCIS Document for demonstration purposes only. -->
 <!-- OFFLOADING EVENT -->
 <ObjectEvent>
     <eventTime>2020-01-27T00:00:00.000-06:00</eventTime>

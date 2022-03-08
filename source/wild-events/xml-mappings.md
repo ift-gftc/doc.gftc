@@ -55,7 +55,7 @@ Sub-National Permit Area | `extension / ilmd / cbvmda:vesselCatchInformationList
 Fishery Improvement Project | `extension / ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / gdst:fisheryImprovementProject`
 Gear Type | `extension / ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / cbvmda:fishingGearTypeCode`
 Date of Capture | `eventTime`
-Production Method | `extension / ilmd / productionMethodForFishAndSeafoodCode`
+Production Method | `extension / ilmd / cbvmda:productionMethodForFishAndSeafoodCode`
 Expiration Date | `extension / ilmd / cbvmda:itemExpirationDate`
 Country of Origin | `extension / ilmd / cbvmda:countryOfOrigin`
 Fishing Authorization | ```extension  /  ilmd  /  cbvmda:certificationList  /  certification  [gdst:certificationType='urn:gdst:certType:fishingAuth']```

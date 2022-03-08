@@ -9,19 +9,13 @@ Feeding in aquaculture have at least two processes: feed transformation and feed
 This step is critical in connecting feed ingredients to harvested products from a seafood facility. Here we will define a transformation event that connects the feed ingredients to the actual feed used. The *business step* will be `commissioning` and the *dispoition* will be `active` from the standard **CBV 1.2**.
 
 ```xml
+<!-- WARNING: This is not a complete EPCIS Document, this is a partial of an EPCIS Document for demonstration purposes only. -->
 <TransformationEvent>
     <eventTime>2020-01-27T00:00:00.000-06:00</eventTime>
     <eventTimeZoneOffset>+00:00</eventTimeZoneOffset>
     <baseExtension>
         <eventID>2D02A33E-DAE2-4B27-9B34-7D1351AC0429</eventID>
     </baseExtension>
-    <bizStep>urn:epcglobal:cbv:bizstep:commissioning</bizStep>
-    <disposition>urn:epcglobal:cbv:disp:active</disposition>
-    
-    <!-- Jim's Feedmill -->
-    <bizLocation>
-        <id>urn:gdst:traceability-solution.com:location:loc:7D90C2CD-A801-4E22-ACEE-82BF27A4844D.FEEDMILL</id>
-    </bizLocation>
 
     <!-- INPUT: Vegetables -->
     <inputQuantityList>
@@ -40,6 +34,14 @@ This step is critical in connecting feed ingredients to harvested products from 
             <uom>KGM</uom>
         </quantityElement>
     </outputQuantityList>
+
+    <bizStep>urn:epcglobal:cbv:bizstep:commissioning</bizStep>
+    <disposition>urn:epcglobal:cbv:disp:active</disposition>
+    
+    <!-- Jim's Feedmill -->
+    <bizLocation>
+        <id>urn:gdst:traceability-solution.com:location:loc:7D90C2CD-A801-4E22-ACEE-82BF27A4844D.FEEDMILL</id>
+    </bizLocation>
 
     <!-- LOT DATA -->
     <ilmd>

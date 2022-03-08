@@ -1,7 +1,7 @@
 <EPCISDocument
     xmlns:tr="http://schema.traceregister.com"
     xmlns:cbvmda="urn:epcglobal:cbv:mda"
-    xmlns:gdst="https://traceability-dialogue.org/epcis/"
+    xmlns:gdst="https://traceability-dialogue.org/epcis"
     xmlns:sh="http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader" schemaVersion="0" creationDate="0001-01-01T00:00:00"
     xmlns="urn:epcglobal:epcis:xsd:1">
     <EPCISBody
@@ -52,7 +52,7 @@
                     <!-- LOT DATA -->
                     <ilmd>
                         <!-- FARM HARVEST -->
-                        <productionMethodForFishAndSeafoodCode>AQUACULTURE</productionMethodForFishAndSeafoodCode>
+                        <cbvmda:productionMethodForFishAndSeafoodCode>AQUACULTURE</cbvmda:productionMethodForFishAndSeafoodCode>
 
                         <!-- Harvest Date -->
                         <cbvmda:harvestStartDate>2020-01-28T00:00:00.000-06:00</cbvmda:harvestStartDate>
@@ -89,7 +89,8 @@
                                 <cbvmda:certificationIdentification>0987654321</cbvmda:certificationIdentification>
                             </cbvmda:certification>
                         </cbvmda:certificationList>
-                    </ilmd>
+                    
+                </ilmd>
 
                     <!-- Human Welfare Policy -->
                     <gdst:humanWelfarePolicy>WHO Human Decency Policy</gdst:humanWelfarePolicy>

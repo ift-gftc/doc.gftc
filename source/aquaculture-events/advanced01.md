@@ -36,7 +36,10 @@ In order to model this scenario we will need the following master data:
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:sbdh="http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader"
     xmlns:cbvmda="urn:epcglobal:cbv:mda"
-    xmlns:gdst="https://traceability-dialogue.org/epcis/" schemaVersion="0" creationDate="2001-12-17T09:30:47Z" xsi:schemaLocation="urn:epcglobal:epcis:xsd:1  http://www.gs1si.org/BMS/epcis/1_2/EPCglobal-epcis-1_2.xsd">
+    xmlns:gdst="https://traceability-dialogue.org/epcis" 
+    schemaVersion="0" 
+    creationDate="2001-12-17T09:30:47Z" 
+    xsi:schemaLocation="urn:epcglobal:epcis:xsd:1  http://www.gs1si.org/BMS/epcis/1_2/EPCglobal-epcis-1_2.xsd">
     <EPCISHeader>
         <sbdh:StandardBusinessDocumentHeader>
             <sbdh:HeaderVersion>1.0</sbdh:HeaderVersion>
@@ -211,15 +214,6 @@ In order to model this scenario we will need the following master data:
                     <baseExtension>
                         <eventID>c0bbba77-95cf-4961-806c-d751825eefe0</eventID>
                     </baseExtension>
-                    <bizStep>urn:gdst:bizstep:farmStocking</bizStep>
-                    <transformationID>hatching_08012021</transformationID>
-                    <disposition>urn:epcglobal:cbv:disp:active</disposition>
-                    <readPoint>
-                        <id/>
-                    </readPoint>
-                    <bizLocation>
-                        <id>urn:gdst:example.org:location:loc:hatchery.9</id>
-                    </bizLocation>
                     <inputQuantityList>
                         <quantityElement>
                             <epcClass>urn:gdst:example.org:product:lot:class:hatchery.2.BS-06012021</epcClass>
@@ -227,6 +221,15 @@ In order to model this scenario we will need the following master data:
                             <uom>KGM</uom>
                         </quantityElement>
                     </inputQuantityList>
+                    <transformationID>hatching_08012021</transformationID>
+                    <bizStep>urn:gdst:bizstep:farmStocking</bizStep>
+                    <disposition>urn:epcglobal:cbv:disp:active</disposition>
+                    <readPoint>
+                        <id/>
+                    </readPoint>
+                    <bizLocation>
+                        <id>urn:gdst:example.org:location:loc:hatchery.9</id>
+                    </bizLocation>
                     <gdst:humanWelfarePolicy/>
                     <gdst:productOwner>urn:gdst:example.org:party:hatchery.1</gdst:productOwner>
                     <cbvmda:informationProvider>urn:gdst:example.org:party:hatchery.1</cbvmda:informationProvider>
@@ -239,15 +242,6 @@ In order to model this scenario we will need the following master data:
                     <baseExtension>
                         <eventID>0f021f8a-48d3-407c-9233-d14d784c07d7</eventID>
                     </baseExtension>
-                    <bizStep>urn:gdst:bizStep:hatching</bizStep>
-                    <transformationID>hatching_08012021</transformationID>
-                    <disposition>urn:epcglobal:cbv:disp:active</disposition>
-                    <readPoint>
-                        <id/>
-                    </readPoint>
-                    <bizLocation>
-                        <id>urn:gdst:example.org:location:loc:hatchery.9</id>
-                    </bizLocation>
                     <inputQuantityList>
                         <quantityElement>
                             <epcClass>urn:gdst:example.org:product:lot:class:hatchery.5.BFF-03012021</epcClass>
@@ -272,6 +266,15 @@ In order to model this scenario we will need the following master data:
                             <uom>KGM</uom>
                         </quantityElement>
                     </outputQuantityList>
+                    <transformationID>hatching_08012021</transformationID>
+                    <bizStep>urn:gdst:bizStep:hatching</bizStep>
+                    <disposition>urn:epcglobal:cbv:disp:active</disposition>
+                    <readPoint>
+                        <id/>
+                    </readPoint>
+                    <bizLocation>
+                        <id>urn:gdst:example.org:location:loc:hatchery.9</id>
+                    </bizLocation>
                     <ilmd>
                         <cbvmda:certificationList>
                             <certification>
@@ -309,15 +312,6 @@ In order to model this scenario we will need the following master data:
                     <baseExtension>
                         <eventID>757f070b-989e-4ce2-b00b-cb9bed828e89</eventID>
                     </baseExtension>
-                    <bizStep>urn:gdst:bizstep:farmStocking</bizStep>
-                    <transformationID>salmon_pond2_09012021</transformationID>
-                    <disposition>urn:epcglobal:cbv:disp:active</disposition>
-                    <readPoint>
-                        <id/>
-                    </readPoint>
-                    <bizLocation>
-                        <id>urn:epc:id:sgln:08600031303.5.0</id>
-                    </bizLocation>
                     <inputQuantityList>
                         <quantityElement>
                             <epcClass>urn:gdst:example.org:product:lot:class:hatchery.3.SF-08212021</epcClass>
@@ -325,6 +319,15 @@ In order to model this scenario we will need the following master data:
                             <uom>KGM</uom>
                         </quantityElement>
                     </inputQuantityList>
+                    <transformationID>salmon_pond2_09012021</transformationID>
+                    <bizStep>urn:gdst:bizstep:farmStocking</bizStep>
+                    <disposition>urn:epcglobal:cbv:disp:active</disposition>
+                    <readPoint>
+                        <id/>
+                    </readPoint>
+                    <bizLocation>
+                        <id>urn:epc:id:sgln:08600031303.5.0</id>
+                    </bizLocation>
                     <gdst:humanWelfarePolicy/>
                     <gdst:productOwner>urn:epc:id:sgln:08600031303.1.0</gdst:productOwner>
                     <cbvmda:informationProvider>urn:epc:id:sgln:08600031303.1.0</cbvmda:informationProvider>
@@ -337,15 +340,6 @@ In order to model this scenario we will need the following master data:
                     <baseExtension>
                         <eventID>937e608a-cbb7-40b8-832a-bf9e787d743e</eventID>
                     </baseExtension>
-                    <bizStep>urn:gdst:bizStep:farmHarvest</bizStep>
-                    <transformationID>salmon_pond2_09012021</transformationID>
-                    <disposition>urn:epcglobal:cbv:disp:active</disposition>
-                    <readPoint>
-                        <id/>
-                    </readPoint>
-                    <bizLocation>
-                        <id>urn:epc:id:sgln:08600031303.5.0</id>
-                    </bizLocation>
                     <inputQuantityList>
                         <quantityElement>
                             <epcClass>urn:gdst:example.org:product:lot:class:hatchery.100.FTSS-04012021</epcClass>
@@ -360,11 +354,20 @@ In order to model this scenario we will need the following master data:
                     </inputQuantityList>
                     <outputQuantityList>
                         <quantityElement>
-                            <epcClass>.RAS-SS-09292021-02</epcClass>
+                            <epcClass>urn:epc:class:lgtin:08600031303.00.RAS-SS-09292021-02</epcClass>
                             <quantity>10000</quantity>
                             <uom>KGM</uom>
                         </quantityElement>
                     </outputQuantityList>
+                    <transformationID>salmon_pond2_09012021</transformationID>
+                    <bizStep>urn:gdst:bizStep:farmHarvest</bizStep>
+                    <disposition>urn:epcglobal:cbv:disp:active</disposition>
+                    <readPoint>
+                        <id/>
+                    </readPoint>
+                    <bizLocation>
+                        <id>urn:epc:id:sgln:08600031303.5.0</id>
+                    </bizLocation>
                     <ilmd>
                         <cbvmda:harvestStartDate>2021-09-29T03:00:00.000Z</cbvmda:harvestStartDate>
                         <cbvmda:harvestEndDate>2021-09-29T03:00:00.000Z</cbvmda:harvestEndDate>

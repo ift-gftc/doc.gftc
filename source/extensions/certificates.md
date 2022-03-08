@@ -12,6 +12,7 @@ The Certificate Type is specified using the following attribute underneath the `
 
 An example of this in use is as following:
 ```xml
+<!-- WARNING: This is not a complete EPCIS Document, this is a partial of an EPCIS Document for demonstration purposes only. -->
 <cbvmda:certificationList>
         <certification>
             <gdst:certificationType>urn:gdst:certType:harvestCert</gdst:certificationType>
@@ -40,6 +41,7 @@ An example of this in use is as following:
 The base Object event in EPCIS was extended with `<gdst:certificationList></gdst:certificationList>` to allow for certificate to be specified on events that ILMD data is not allowed.
 
 ```xml
+<!-- WARNING: This is not a complete EPCIS Document, this is a partial of an EPCIS Document for demonstration purposes only. -->
 <!-- TRANSSHIPMENT EVENT -->
 <ObjectEvent>
     <eventTime>2019-01-28T18:12:00Z</eventTime>
@@ -52,16 +54,15 @@ The base Object event in EPCIS was extended with `<gdst:certificationList></gdst
     <bizStep>urn:gdst:bizStep:transshipment</bizStep>
     <disposition>urn:gdst:entering_commerce</disposition>
     
-
-    <!-- Jimmy's Tender Vessel -->
-    <bizLocation>
-        <id>urn:gdst:traceability-solution.com:location:loc:0048000.019283"</id>
-    </bizLocation>
-
     <!-- Transshipment Location -->
     <readPoint>
         <id>geo:37.860236,-123.144697</id>
     </readPoint>
+
+    <!-- Jimmy's Tender Vessel -->
+    <bizLocation>
+        <id>urn:gdst:traceability-solution.com:location:loc:0048000.019283</id>
+    </bizLocation>
 
     <extension>
 

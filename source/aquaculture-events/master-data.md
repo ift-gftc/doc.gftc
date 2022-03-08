@@ -10,6 +10,7 @@ Master data on objects, locations, and entities are data that tend not to grow w
 This is the master data that will be used through the events in aquaculture scenarios.
 
 ```xml
+<!-- WARNING: This is not a complete EPCIS Document, this is a partial of an EPCIS Document for demonstration purposes only. -->
 <!-- MASTER DATA -->
 <EPCISMasterData>
     <VocabularyList>

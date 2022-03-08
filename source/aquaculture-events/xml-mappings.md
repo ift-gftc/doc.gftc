@@ -46,7 +46,7 @@ Event Date & Time | `eventTime`
 Event Read Point | `readPoint`
 Product Ownership | `gdst:productOwner`
 Information Provider | `cbvmda:informationProvider`
-Production Method | `ilmd / productionMethodForFishAndSeafoodCode`
+Production Method | `ilmd / cbvmda:productionMethodForFishAndSeafoodCode`
 Farming Method | `ilmd / aquacultureMethod`
 Date of Harvest (Start) | `ilmd / harvestStartDate`
 Date of Harvest (End) | `ilmd / harvestEndDate`

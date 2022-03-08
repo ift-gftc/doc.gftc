@@ -8,19 +8,13 @@ Sometimes products harvested from the wild are initially processed on-board the 
 Below we have an example event with accompanying Master Data to go with that event.
 
 ```xml
+<!-- WARNING: This is not a complete EPCIS Document, this is a partial of an EPCIS Document for demonstration purposes only. -->
 <TransformationEvent>
     <eventTime>2020-01-27T00:00:00.000-06:00</eventTime>
     <eventTimeZoneOffset>+00:00</eventTimeZoneOffset>
     <baseExtension>
         <eventID>6926712e-599f-4c4e-b6e9-8dd888c906bd</eventID>
     </baseExtension>
-    <bizStep>urn:epcglobal:cbv:bizstep:commissioning</bizStep>
-    <disposition>urn:epcglobal:cbv:disp:active</disposition>
-    
-    <!-- BING Fishing Vessel -->
-    <bizLocation>
-        <id>urn:epc:id:sgln:0614141.00888.0</id>
-    </bizLocation>
 
     <!-- INPUT: Yellow Fin Tuna -->
     <inputQuantityList>
@@ -54,6 +48,14 @@ Below we have an example event with accompanying Master Data to go with that eve
             <uom>KGM</uom>
         </quantityElement>
     </outputQuantityList>
+
+    <bizStep>urn:epcglobal:cbv:bizstep:commissioning</bizStep>
+    <disposition>urn:epcglobal:cbv:disp:active</disposition>
+    
+    <!-- BING Fishing Vessel -->
+    <bizLocation>
+        <id>urn:epc:id:sgln:0614141.00888.0</id>
+    </bizLocation>
 
     <!-- LOT DATA -->
     <ilmd>

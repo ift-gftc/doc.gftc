@@ -38,6 +38,7 @@ There are attributes required by SIMP that are not part of the GDST guidance. He
 Here is the Example XML for the GDST EPCIS data. This event data will contain a Fishing Event, Transshipment, and Offload Event.
 
 ```xml
+<!-- WARNING: This is not a complete EPCIS Document, this is a partial of an EPCIS Document for demonstration purposes only. -->
 <!-- FISHING EVENT -->
 <ObjectEvent>
     <eventTime>2020-01-27T18:00:00Z</eventTime>
@@ -114,6 +115,7 @@ Here is the Example XML for the GDST EPCIS data. This event data will contain a 
 ## TransShipment Event
 
 ```xml
+<!-- WARNING: This is not a complete EPCIS Document, this is a partial of an EPCIS Document for demonstration purposes only. -->
 <!-- TRANSSHIPMENT EVENT -->
 <ObjectEvent>
     <eventTime>2020-01-27T18:00:00Z</eventTime>
@@ -164,6 +166,7 @@ Here is the Example XML for the GDST EPCIS data. This event data will contain a 
 ## Offload Event
 
 ```xml
+<!-- WARNING: This is not a complete EPCIS Document, this is a partial of an EPCIS Document for demonstration purposes only. -->
 <!-- OFFLOADING EVENT -->
 <ObjectEvent>
     <eventTime>2020-01-27T18:00:00Z</eventTime>

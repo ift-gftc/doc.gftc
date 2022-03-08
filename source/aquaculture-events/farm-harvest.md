@@ -5,19 +5,13 @@ title: Farm Harvest
 The `farm harvest` event is used to record the harvested of seafood products from an aquaculture facility. This event is indicated with a *business step* of `urn:gdst:bizStep:farmHarvest` and a *disposition* of `active`. This is a `transformation` `add` type event with the inputs of the event being the products used to stock the aquaculture facility and the feed used. The outputs of the event are products harvested from the aquaculture facility.
 
 ```xml
+<!-- WARNING: This is not a complete EPCIS Document, this is a partial of an EPCIS Document for demonstration purposes only. -->
 <TransformationEvent>
     <eventTime>2020-01-28T00:00:00.000-06:00</eventTime>
     <eventTimeZoneOffset>+00:00</eventTimeZoneOffset>
     <baseExtension>
         <eventID>8130DCF8-3F63-4E40-A895-E4BA9FF66FDD</eventID>
     </baseExtension>
-    <bizStep>urn:epcglobal:cbv:bizstep:commissioning</bizStep>
-    <disposition>urn:epcglobal:cbv:disp:active</disposition>
-
-    <!-- Per's Salmon Farm -->
-    <bizLocation>
-        <id>urn:gdst:traceability-solution.com:location:loc:D8F9F0B4-A03D-41A3-AA60-B2BE0FD9C2F3.FARM</id>
-    </bizLocation>
 
     <!-- INPUT: Vegetarian Feed + Antlantic Salmon Fry -->
     <inputQuantityList>
@@ -45,11 +39,19 @@ The `farm harvest` event is used to record the harvested of seafood products fro
             <uom>KGM</uom>
         </quantityElement>
     </outputQuantityList>
+
+    <bizStep>urn:epcglobal:cbv:bizstep:commissioning</bizStep>
+    <disposition>urn:epcglobal:cbv:disp:active</disposition>
+
+    <!-- Per's Salmon Farm -->
+    <bizLocation>
+        <id>urn:gdst:traceability-solution.com:location:loc:D8F9F0B4-A03D-41A3-AA60-B2BE0FD9C2F3.FARM</id>
+    </bizLocation>
     
     <!-- LOT DATA -->
     <ilmd>
         <!-- FARM HARVEST -->
-        <productionMethodForFishAndSeafoodCode>AQUACULTURE</productionMethodForFishAndSeafoodCode>
+        <cbvmda:productionMethodForFishAndSeafoodCode>AQUACULTURE</cbvmda:productionMethodForFishAndSeafoodCode>
 
         <!-- Harvest Date -->
         <cbvmda:harvestStartDate>2020-01-28T00:00:00.000-06:00</cbvmda:harvestStartDate>
