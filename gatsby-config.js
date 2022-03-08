@@ -89,7 +89,9 @@ module.exports = {
             "comms/tracebacks"
           ],
           "Tools" : [
-            "tools/capabilitytool"
+            "tools/check-tool",
+            "tools/firstmile-wild-test",
+            "tools/fullchain-test"
           ],
           "Resources": [
             "resources/featured-implementation",

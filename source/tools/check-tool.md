@@ -16,16 +16,26 @@ Before we get started make sure that you have registered for the GDST Capability
 * the exact name of the traceability solution provided during registration
 * the version number of the traceability solution you will be accessing
 
+### Variables
+During this documentation you will encounter many variables that will be wrapped in curly-braces like so "{CAPABILITY-TOOL-API-URL}". 
+
+Below is a list of these variables and what they mean:
+
+* {CAPABILITY-TOOL-API-URL} - the base url to the capability tool
+* {YOUR-SOLUTION-NAME} - the name of your registered solution
+* {YOUR-API-KEY} - this is the api key generaed by the capability tool and given to you to access the capability process api, digital link resolver, and epcis query interface of the capability tool.
+* {VERSION-OF-YOUR-SOLUTION} - the version of the traceability solution you are testing
+
 ## Checking the XML
 In order to start the process you will perform the following HTTP Request:
 
 ```
 HTTP Post 1.1
-{CAPABILITY_TOOL_API_URL}/process/check/{YOUR_SOLUTION_NAME}/{VERSION_OF_YOUR_SOLUTION}
+{CAPABILITY-TOOL-API-URL}/process/check/{YOUR-SOLUTION-NAME}/{VERSION-OF-YOUR-SOLUTION}
 
 Accept          application/json
 Content-Type    application/json
-X-API-Key       {YOUR_API_KEY}
+X-API-Key       {YOUR-API-KEY}
 
 <epcis:EPCISDocument xmlns:epcis="urn:epcglobal:epcis:xsd:1"
                      xmlns:cbvmda="urn:epcglobal:cbv:mda" 
