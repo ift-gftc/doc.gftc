@@ -32,11 +32,15 @@ module.exports = {
         root: __dirname,
         githubRepo: "ift-gftc/doc.gdst",
         sidebarCategories: {
-          null: ["index", "intro/executive-summary", "intro/feedback", "intro/how-to-use-docs"],
+          null: ["index", "intro/executive-summary", "intro/how-to-use-docs"],
           "Pretext": [
             "pretext/why-epcis",
             "pretext/why-extension",
             "pretext/why-iuu",
+          ],
+          "Frequently Asked Questions (F.A.Q.)": [
+            "faq/epcis-faq",
+            "faq/gdst-faq"
           ],
           "Certifications": [
             "certification/msc-asc",

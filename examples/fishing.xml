@@ -2,7 +2,7 @@
     xmlns:tr="http://schema.traceregister.com"
     xmlns:sh="http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader" schemaVersion="0" creationDate="0001-01-01T00:00:00"
     xmlns:cbvmda="urn:epcglobal:cbv:mda"
-    xmlns:gdst="https://traceability-dialogue.org/epcis/"
+    xmlns:gdst="https://traceability-dialogue.org/epcis"
     xmlns="urn:epcglobal:epcis:xsd:1">
     <EPCISBody
         xmlns="">
@@ -64,7 +64,7 @@
                             </cbvmda:vesselCatchInformation>
                         </cbvmda:vesselCatchInformationList>
                         <!-- WILD HARVEST -->
-                        <productionMethodForFishAndSeafoodCode>MARINE_FISHERY</productionMethodForFishAndSeafoodCode>
+                        <cbvmda:productionMethodForFishAndSeafoodCode>MARINE_FISHERY</cbvmda:productionMethodForFishAndSeafoodCode>
                         <!-- Harvest Start & End Dates -->
                         <cbvmda:harvestStartDate>2020-01-27T00:00:00.000-06:00</cbvmda:harvestStartDate>
                         <cbvmda:harvestEndDate>2020-01-27T00:00:00.000-06:00</cbvmda:harvestEndDate>
@@ -98,7 +98,8 @@
                                 <cbvmda:certificationIdentification>0987654321</cbvmda:certificationIdentification>
                             </cbvmda:certification>
                         </cbvmda:certificationList>
-                    </ilmd>
+                    
+                </ilmd>
                 </extension>
                 <!-- Human Welfare Policy -->
                 <gdst:humanWelfarePolicy>WHO Human Decency Policy</gdst:humanWelfarePolicy>

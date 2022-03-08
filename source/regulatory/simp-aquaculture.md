@@ -29,6 +29,7 @@ There are attributes required by SIMP that are not part of the GDST guidance. He
 ## Master Data
 In order to not repeat the master data used with each example, I would like to provide the master data used in the examples below. 
 ```xml
+<!-- WARNING: This is not a complete EPCIS Document, this is a partial of an EPCIS Document for demonstration purposes only. -->
 <!-- MASTER DATA -->
 <EPCISMasterData>
     <VocabularyList>
@@ -198,20 +199,14 @@ In order to not repeat the master data used with each example, I would like to p
 This event covers how the Feed is created and the ingredients that go into making the feed.
 
 ```xml
+<!-- WARNING: This is not a complete EPCIS Document, this is a partial of an EPCIS Document for demonstration purposes only. -->
 <TransformationEvent>
     <eventTime>2020-01-27T20:00:00Z</eventTime>
+    <eventTimeZoneOffset>+00:00</eventTimeZoneOffset>
     <baseExtension>
         <eventID>2D02A33E-DAE2-4B27-9B34-7D1351AC0429</eventID>
     </baseExtension>
     
-    <bizStep>urn:epcglobal:cbv:bizstep:commissioning</bizStep>
-    <disposition>urn:epcglobal:cbv:disp:active</disposition>
-
-    <!-- Jim's Feedmill -->
-    <bizLocation>
-        <id>urn:gdst:traceability-solution.com:location:loc:7D90C2CD-A801-4E22-ACEE-82BF27A4844D.FEEDMILL</id>
-    </bizLocation>
-
     <!-- INPUT: Vegetables -->
     <inputQuantityList>
         <quantityElement>
@@ -229,6 +224,14 @@ This event covers how the Feed is created and the ingredients that go into makin
             <uom>KGM</uom>
         </quantityElement>
     </outputQuantityList>
+
+    <bizStep>urn:epcglobal:cbv:bizstep:commissioning</bizStep>
+    <disposition>urn:epcglobal:cbv:disp:active</disposition>
+
+    <!-- Jim's Feedmill -->
+    <bizLocation>
+        <id>urn:gdst:traceability-solution.com:location:loc:7D90C2CD-A801-4E22-ACEE-82BF27A4844D.FEEDMILL</id>
+    </bizLocation>
 
     <!-- LOT DATA -->
     <extension>
@@ -348,20 +351,14 @@ This event covers the creation of the Broodstock that will be used for stocking 
 This event covers the harvesting of a product from a pond at an aquaculture event. This is a transformation event where the input is the Broodstock and Feed and the output is the harvested product.
 
 ```xml
+<!-- WARNING: This is not a complete EPCIS Document, this is a partial of an EPCIS Document for demonstration purposes only. -->
 <TransformationEvent>
     <eventTime>2020-01-28T20:00:00Z</eventTime>
+    <eventTimeZoneOffset>+00:00</eventTimeZoneOffset>
     <baseExtension>
         <eventID>8130DCF8-3F63-4E40-A895-E4BA9FF66FDD</eventID>
     </baseExtension>
     
-    <bizStep>urn:epcglobal:cbv:bizstep:commissioning</bizStep>
-    <disposition>urn:epcglobal:cbv:disp:active</disposition>
-
-    <!-- Per's Salmon Farm -->
-    <bizLocation>
-        <id>urn:gdst:traceability-solution.com:location:loc:D8F9F0B4-A03D-41A3-AA60-B2BE0FD9C2F3.FARM</id>
-    </bizLocation>
-
     <!-- INPUT: Vegetarian Feed + Antlantic Salmon Fry -->
     <inputQuantityList>
 
@@ -389,6 +386,14 @@ This event covers the harvesting of a product from a pond at an aquaculture even
             <uom>KGM</uom>
         </quantityElement>
     </outputQuantityList>
+    
+    <bizStep>urn:epcglobal:cbv:bizstep:commissioning</bizStep>
+    <disposition>urn:epcglobal:cbv:disp:active</disposition>
+
+    <!-- Per's Salmon Farm -->
+    <bizLocation>
+        <id>urn:gdst:traceability-solution.com:location:loc:D8F9F0B4-A03D-41A3-AA60-B2BE0FD9C2F3.FARM</id>
+    </bizLocation>
 
     <!-- LOT DATA -->
     <extension>

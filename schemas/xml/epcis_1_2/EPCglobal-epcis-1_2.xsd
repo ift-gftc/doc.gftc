@@ -2,7 +2,7 @@
 <xsd:schema xmlns:epcis="urn:epcglobal:epcis:xsd:1" 
             xmlns:sbdh="http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader" 
             xmlns:epcglobal="urn:epcglobal:xsd:1" 
-            xmlns:gdst="https://traceability-dialogue.org/epcis/"
+            xmlns:gdst="https://traceability-dialogue.org/epcis"
             xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
             targetNamespace="urn:epcglobal:epcis:xsd:1" 
             elementFormDefault="unqualified" 

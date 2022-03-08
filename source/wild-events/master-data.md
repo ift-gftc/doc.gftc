@@ -9,6 +9,7 @@ In order to not repeat this master data on every page we have example events, we
 Here is the Master Data that will be used in the scenarios listed below.
 
 ```xml
+<!-- WARNING: This is not a complete EPCIS Document, this is a partial of an EPCIS Document for demonstration purposes only. -->
 <!-- MASTER DATA -->
 <EPCISMasterData>
     <VocabularyList>
