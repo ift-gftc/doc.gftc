@@ -1,5 +1,5 @@
 ---
-title: Full Chain Capability Test
+title: Full Chain Test
 description: This is documentation that covers how to use the capability tool for full-chain capability.
 ---
 

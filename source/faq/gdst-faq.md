@@ -1,5 +1,5 @@
 ---
-title: GDST - Frequently Asked Questions (F.A.Q.)
+title: GDST - F.A.Q.
 description: Below is a list of frequently asked questions about the GDST standard.
 ---
 
