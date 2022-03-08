@@ -3,6 +3,17 @@ title: GDST - Frequently Asked Questions (F.A.Q.)
 description: Below is a list of frequently asked questions about the GDST standard.
 ---
 
+## What KDEs / CTEs are required?
+A CTE/KDE is required if the event occurs or the information exists. This means that if the event does not occur, then the event cannot be recorded. If the information for the KDE on an event does not exist, then that KDE cannot be recorded.
+
+> Example #1: The IMO is not required if the vessel performing the fishing event does not have an IMO Number.
+
+> Example #2: The On-Vessel Processing event is not required if no processing occurs onboard the fishing or transshipment vessel.
+
+> Example #3: The Transshipment event is only required when transshiping occurs.
+
+> Example #4: IF no Chain-of-Custody certification program is assigned to the facility or vessel, then this certificate cannot be recorded for a Transshipment, Landing, Receive, Ship or Processing event.
+
 ## Do I need a GS1 Company Prefix to create a EPC/GTIN/GLN/PGLN?
 No, you do not need a GS1 Company Prefix to create identifiers in the EPCIS / GDST standard. This is because we have defined a way to create identifiers that follow the private industry URN format defined in the [EPCIS CBV 1.2](https://www.gs1.org/sites/default/files/docs/epc/CBV-Standard-1-2-2-r-2017-10-12.pdf) document.
 
