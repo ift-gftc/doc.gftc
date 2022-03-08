@@ -1,6 +1,6 @@
 ---
-title: Full Chain Capability Test
-description: This is documentation that covers how to use the capability tool for full-chain capability.
+title: First-Mile (Wild + Farmed) Capability Test
+description: This is documentation that covers how to use the capability tool for first-mile farmed and wild capability test.
 ---
 
 # Registration
@@ -45,6 +45,7 @@ X-API-Key       {YOUR_API_KEY}
 {
     "SolutionName" : "{YOUR_SOLUTION_NAME}",
     "Version" : "{VERSION_OF_YOUR_SOLUTION}"
+    "EPCs" : [ "{SOLUTION_PROVIDER_GENERATED_EPC}" ]
 }
 ```
 
@@ -55,142 +56,11 @@ Content-Type    application/json
 {
     "SolutionName" : "{YOUR_SOLUTION_NAME}",
     "Version" : "{VERSION_OF_YOUR_SOLUTION}",
-    "EPCs" : [
-        "{CAPABILITY_TOOL_GENERATED_EPC}"
-    ],
     "UUID" : "{CAPABILITY_PROCESS_UUID}"
 }
 ```
 
-## Step 2: Querying for Traceability Data from the Capability Tool
-This step will require you to take the {CAPABILITY_TOOL_GENERATED_EPC} and use it to query the traceability data associated with this EPC from the Capability Tool using the communication protocol in the GDST Technical Standard v1.1
-
-A summary of these steps will include:
-* Querying the Digital Link Resolver of the Capability Tool to obtain the EPCIS URL
-* Querying the EPCIS Query Interface for all events associated with the EPC
-* Performing a trace-back by scanning all inputs of any events returned, and querying the EPCIS Query Interface for events associated with those inputs. This step may need to be performed until no more unknown inputs are found.
-
-### Querying the Digital Link Resolver of the Capability Tool to Obtain the EPCIS URL
-In order to perform this step you will need to execute the following HTTP Request:
-
-```
-HTTP GET 1.1
-{CAPABILITY_TOOL_API_URL}/digitallink/sscc/{CAPABILITY_TOOL_GENERATED_EPC}?linkType=gs1:epcis
-
-Accept          application/json
-X-API-Key       {YOUR_API_KEY}
-```
-
-This HTTP Request will return the following response:
-
-```
-[
-    {
-        "linkType" : "gs1:epcis",
-        "link" : "{CAPABILITY_TOOL_API_URL}/epcis",
-        "authRequired" : true,
-    }
-]
-```
-
-### Querying the the EPCIS Query Interface for all events associated with the EPC
-In order to perform this step, you will need to execute the following HTTP Request:
-
-```
-HTTP POST 1.1
-{CAPABILITY_TOOL_API_URL}/epcis/queries/SimpleEventQuery
-
-Accept          application/xml
-X-API-Key       {YOUR_API_KEY}
-
-{
-    "type" : "events",
-    "query" : {
-        "MATCH_epc" : [ 
-            "{CAPABILITY_TOOL_GENERATED_EPC}"
-        ]
-    }
-}
-```
-
-This response will contain an EPCIS Document in the 1.2 XML format that conforms to the EPCIS 1.2 XML Schema.
-
-> You will also need to perform a trace-back. This is covered in our Communication Protocol / Trace-back article.
-
-## Step 3: Moving the Capability Process to the next stage.
-Step 3 involves you moving the capability process to the next stage, which tells the Capability Tool that you have pulled across the traceability data from step 2, and have saved it into your system. 
-
-```
-HTTP Post 1.1
-{CAPABILITY_TOOL_API_URL}/process/next
-
-Accept                      application/json
-Content-Type                application/json
-X-API-Key                   {YOUR_API_KEY}
-X-Capability-Process-UUID   {CAPABILITY_PROCESS_UUID}
-
-{
-    "SolutionName" : "{YOUR_SOLUTION_NAME}",
-    "Version" : "{VERSION_OF_YOUR_SOLUTION}"
-    "EPCs" : ["{SOLUTION_PROVIDER_GENERATED_EPC}"]
-}
-```
-
-There will be no body in the response.
-
-> For the this call you need to make sure to include the ***X-Capability-Process-UUID*** header in the request call including the UUID for the capability process you started.
-
-## Step 4: Capability Tool requests it's data back from you
-At this point the Capability Tool is going to use the same communication protocols from step 2 to request the same data back from you.
-
-### Querying the Digital Link Resolver of the Capability Tool to Obtain the EPCIS URL
-In order to perform this step the capability tool will execute the following HTTP Request:
-
-```
-HTTP GET 1.1
-{SOLUTION_PROVIDER_URL}/digitallink/sscc/{CAPABILITY_TOOL_GENERATED_EPC}?linkType=gs1:epcis
-
-Accept          application/json
-X-API-Key       {CAPABILITY_TOOL_API_KEY}
-```
-
-This HTTP Request will return the following response:
-
-```
-[
-    {
-        "linkType" : "gs1:epcis",
-        "link" : "{SOLUTION_PROVIDER_URL}/epcis",
-        "authRequired" : true,
-    }
-]
-```
-
-### Querying the the EPCIS Query Interface for all events associated with the EPC
-In order to perform this step, the capability tool will execute the following HTTP Request:
-
-```
-HTTP POST 1.1
-{SOLUTION_PROVIDER_URL}/epcis/queries/SimpleEventQuery
-
-Accept          application/xml
-X-API-Key       {CAPABILITY_TOOL_API_KEY}
-
-{
-    "type" : "events",
-    "query" : {
-        "MATCH_epc" : [ 
-            "{CAPABILITY_TOOL_GENERATED_EPC}"
-        ]
-    }
-}
-```
-
-This response will contain an EPCIS Document in the 1.2 XML format that conforms to the EPCIS 1.2 XML Schema.
-
-> The Capability Tool will also perform a trace-back. This is covered in our Communication Protocol / Trace-back article.
-
-## Step 5: Capability tool requests traceability data for the solution provider generated data
+## Step 2: Capability Tool Requests Solution Generated Data using B2B Workflow
 During step 3, you provided one or more EPCs to the Capability Tool. This step will repeat what is in step 4, except starting with the {SOLUTION_PROVIDER_GENERATED_EPC}
 
 At this point the Capability Tool is going to use the same communication protocols from step 2 to request the same data back from you.
@@ -231,7 +101,7 @@ X-API-Key       {CAPABILITY_TOOL_API_KEY}
 {
     "type" : "events",
     "query" : {
-        "MATCH_epc" : [ 
+        "MATCH_anyEPC" : [ 
             "{SOLUTION_PROVIDER_GENERATED_EPC}"
         ]
     }
@@ -240,7 +110,60 @@ X-API-Key       {CAPABILITY_TOOL_API_KEY}
 
 This response will contain an EPCIS Document in the 1.2 XML format that conforms to the EPCIS 1.2 XML Schema.
 
+> This example assumes the {SOLUTION_PROVIDER_GENERATED_EPC} is an instance-level EPC, if it was a class-level EPC, then you would use the MATCH_anyEPCClass filter instead.
+
 > The Capability Tool will also perform a trace-back. This is covered in our Communication Protocol / Trace-back article.
+
+## Step 3: Capability Tool Requests Solution Generated Data using Internal System-to-System
+At this point the Capability Tool is going to use the same communication protocols from step 2 to request the same data back from you.
+
+> NOTE: This step will use the GE_recordTime and LE_recordTime.
+
+### Querying the Digital Link Resolver of the Capability Tool to Obtain the EPCIS URL
+In order to perform this step the capability tool will execute the following HTTP Request:
+
+```
+HTTP GET 1.1
+{SOLUTION_PROVIDER_URL}/digitallink/sscc/{CAPABILITY_TOOL_GENERATED_EPC}?linkType=gs1:epcis
+
+Accept          application/json
+X-API-Key       {CAPABILITY_TOOL_API_KEY}
+```
+
+This HTTP Request will return the following response:
+
+```
+[
+    {
+        "linkType" : "gs1:epcis",
+        "link" : "{SOLUTION_PROVIDER_URL}/epcis",
+        "authRequired" : true,
+    }
+]
+```
+
+### Querying the the EPCIS Query Interface for all events associated with the EPC
+In order to perform this step, the capability tool will execute the following HTTP Request:
+
+```
+HTTP POST 1.1
+{SOLUTION_PROVIDER_URL}/epcis/queries/SimpleEventQuery
+
+Accept          application/xml
+X-API-Key       {CAPABILITY_TOOL_API_KEY}
+
+{
+    "type" : "events",
+    "query" : {
+        "GE_recordTime" : {START_OF_CAPABILITY_PROCESS},
+        "LE_recordTime" : {CURRENT_UTC_DATETIME}
+    }
+}
+```
+
+This response will contain an EPCIS Document in the 1.2 XML format that conforms to the EPCIS 1.2 XML Schema.
+
+> No trace-back is required here.
 
 # Step 6: Request the Report
 At any point during the capability process you can request a report about the capability process. You can use this method to poll for the status until steps 4 and 5 are complete.
