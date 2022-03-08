@@ -1,5 +1,5 @@
 ---
-title: Check XML for CTE/KDE Completeness
+title: Check XML
 description: This documents a API method that solution providers can use to check an EPCIS XML document for schema validation and GDST CTE/KDE completeness.
 ---
 

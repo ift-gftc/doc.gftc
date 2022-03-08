@@ -38,7 +38,7 @@ module.exports = {
             "pretext/why-extension",
             "pretext/why-iuu",
           ],
-          "Frequently Asked Questions (F.A.Q.)": [
+          "Frequently Asked Questions": [
             "faq/epcis-faq",
             "faq/gdst-faq"
           ],
@@ -88,7 +88,7 @@ module.exports = {
             "comms/request-data",
             "comms/tracebacks"
           ],
-          "Tools" : [
+          "Capability Tool" : [
             "tools/check-tool",
             "tools/firstmile-wild-test",
             "tools/fullchain-test"

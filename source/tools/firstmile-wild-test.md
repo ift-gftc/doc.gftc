@@ -1,5 +1,5 @@
 ---
-title: First-Mile (Wild + Farmed) Capability Test
+title: First-Mile Test
 description: This is documentation that covers how to use the capability tool for first-mile farmed and wild capability test.
 ---
 
