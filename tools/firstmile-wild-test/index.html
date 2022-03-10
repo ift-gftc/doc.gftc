@@ -217,7 +217,47 @@ X-API-Key       {CAPABILITY-TOOL-API-KEY}
         ]
     }
 }</code><span aria-hidden="true" class="line-numbers-rows" style="white-space:normal;width:auto;left:0"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></div></div></div>
-<p>This response will contain an EPCIS Document in the 1.2 XML format that conforms to the EPCIS 1.2 XML Schema.</p>
+<p><strong><em>HTTP Response</em></strong></p>
+<div class="gatsby-highlight" data-language="text"><div class="css-1gcd36t e1ulzjg70"><div class="css-j1ow3a e1ulzjg71"><button class="css-1pl2i23"><div class="css-dtw560">Copy</div></button></div><div class="css-r8v8pb e1ulzjg73"><pre class="language-text line-numbers"><code class="language-text">Content-Type	        application/xml
+GS1-EPCIS-Version	    1.2
+GS1-EPCIS-Min	        1.2
+GS1-EPCIS-Max	        1.2
+GS1-CBV-Version	        1.2
+GS1-EPC-Version	        ALWAYS_EPC_URN
+GS1-CBV-XML-Format	    ALWAYS_URN
+
+&lt;epcis:EPCISDocument xmlns:epcis=&quot;urn:epcglobal:epcis:xsd:1&quot;
+                     xmlns:cbvmda=&quot;urn:epcglobal:cbv:mda&quot; 
+                     xmlns:gdst=&quot;https://traceability-dialogue.org/epcis&quot; 
+                     xmlns:sbdh=&quot;http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader&quot; 
+                     schemaVersion=&quot;1.2&quot; 
+                     creationDate=&quot;2022-01-01T00:00:00.000Z&quot;&gt;
+    &lt;EPCISHeader&gt;
+        &lt;sbdh:StandardBusinessDocumentHeader&gt;    
+            &lt;!-- Standard Business Document Header --&gt;
+        &lt;/sbdh:StandardBusinessDocumentHeader&gt;
+        &lt;extension&gt;
+            &lt;EPCISMasterData&gt;
+                &lt;VocabularyList&gt;
+                    &lt;Vocabulary type=&quot;urn:epcglobal:epcis:vtype:EPCClass&quot;&gt;
+                        &lt;!-- Trade Items / Product Definitions --&gt;
+                    &lt;/Vocabulary&gt;
+                    &lt;Vocabulary type=&quot;urn:epcglobal:epcis:vtype:Location&quot;&gt;
+                        &lt;!-- Locations --&gt;
+                    &lt;/Vocabulary&gt;
+                    &lt;Vocabulary type=&quot;urn:epcglobal:epcis:vtype:Party&quot;&gt;
+                        &lt;!-- Trading Parties --&gt;
+                    &lt;/Vocabulary&gt;
+                &lt;/VocabularyList&gt;
+            &lt;/EPCISMasterData&gt;
+        &lt;/extension&gt;
+    &lt;/EPCISHeader&gt;
+    &lt;EPCISBody&gt;
+        &lt;EventList&gt;
+            &lt;!-- EPCIS Events --&gt;
+        &lt;/EventList&gt;
+    &lt;/EPCISBody&gt;
+&lt;/epcis:EPCISDocument&gt;</code><span aria-hidden="true" class="line-numbers-rows" style="white-space:normal;width:auto;left:0"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></div></div></div>
 <blockquote>
 <p>This example assumes the {SOLUTION-PROVIDER-GENERATED-EPC} is an instance-level EPC, if it was a class-level EPC, then you would use the MATCH_anyEPCClass filter instead.</p>
 </blockquote>
@@ -259,7 +299,47 @@ X-API-Key       {CAPABILITY-TOOL-API-KEY}
         &quot;LE_recordTime&quot; : {CURRENT_UTC_DATETIME}
     }
 }</code><span aria-hidden="true" class="line-numbers-rows" style="white-space:normal;width:auto;left:0"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></div></div></div>
-<p>This response will contain an EPCIS Document in the 1.2 XML format that conforms to the EPCIS 1.2 XML Schema.</p>
+<p><em>HTTP Response</em></p>
+<div class="gatsby-highlight" data-language="text"><div class="css-1gcd36t e1ulzjg70"><div class="css-j1ow3a e1ulzjg71"><button class="css-1pl2i23"><div class="css-dtw560">Copy</div></button></div><div class="css-r8v8pb e1ulzjg73"><pre class="language-text line-numbers"><code class="language-text">Content-Type	        application/xml
+GS1-EPCIS-Version	    1.2
+GS1-EPCIS-Min	        1.2
+GS1-EPCIS-Max	        1.2
+GS1-CBV-Version	        1.2
+GS1-EPC-Version	        ALWAYS_EPC_URN
+GS1-CBV-XML-Format	    ALWAYS_URN
+
+&lt;epcis:EPCISDocument xmlns:epcis=&quot;urn:epcglobal:epcis:xsd:1&quot;
+                     xmlns:cbvmda=&quot;urn:epcglobal:cbv:mda&quot; 
+                     xmlns:gdst=&quot;https://traceability-dialogue.org/epcis&quot; 
+                     xmlns:sbdh=&quot;http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader&quot; 
+                     schemaVersion=&quot;1.2&quot; 
+                     creationDate=&quot;2022-01-01T00:00:00.000Z&quot;&gt;
+    &lt;EPCISHeader&gt;
+        &lt;sbdh:StandardBusinessDocumentHeader&gt;    
+            &lt;!-- Standard Business Document Header --&gt;
+        &lt;/sbdh:StandardBusinessDocumentHeader&gt;
+        &lt;extension&gt;
+            &lt;EPCISMasterData&gt;
+                &lt;VocabularyList&gt;
+                    &lt;Vocabulary type=&quot;urn:epcglobal:epcis:vtype:EPCClass&quot;&gt;
+                        &lt;!-- Trade Items / Product Definitions --&gt;
+                    &lt;/Vocabulary&gt;
+                    &lt;Vocabulary type=&quot;urn:epcglobal:epcis:vtype:Location&quot;&gt;
+                        &lt;!-- Locations --&gt;
+                    &lt;/Vocabulary&gt;
+                    &lt;Vocabulary type=&quot;urn:epcglobal:epcis:vtype:Party&quot;&gt;
+                        &lt;!-- Trading Parties --&gt;
+                    &lt;/Vocabulary&gt;
+                &lt;/VocabularyList&gt;
+            &lt;/EPCISMasterData&gt;
+        &lt;/extension&gt;
+    &lt;/EPCISHeader&gt;
+    &lt;EPCISBody&gt;
+        &lt;EventList&gt;
+            &lt;!-- EPCIS Events --&gt;
+        &lt;/EventList&gt;
+    &lt;/EPCISBody&gt;
+&lt;/epcis:EPCISDocument&gt;</code><span aria-hidden="true" class="line-numbers-rows" style="white-space:normal;width:auto;left:0"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></div></div></div>
 <blockquote>
 <p>No trace-back is required here.</p>
 </blockquote>
