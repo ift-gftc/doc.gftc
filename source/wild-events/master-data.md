@@ -96,7 +96,7 @@ Here is the Master Data that will be used in the scenarios listed below.
                     <attribute id="urn:epcglobal:cbv:mda#name">Jimmy's Tender Vessel</attribute>
                     <attribute id="urn:epcglobal:cbv:mda#vesselName">Jimmy's Tender Vessel</attribute>
                     <attribute id="urn:epcglobal:cbv:mda#vesselID">SOME_VESSEL_ID</attribute>
-                    <attribute id="urn:epcglobal:gdst#imoNumber">IMO.1234567</attribute>
+                    <attribute id="urn:gdst:kde#imoNumber">IMO.1234567</attribute>
                     <attribute id="urn:epcglobal:cbv:mda#vesselFlagState">US</attribute>
                     <attribute id="urn:epcglobal:cbv:mda#streetAddressOne">3165 Pacific Hwy</attribute>
                     <attribute id="urn:epcglobal:cbv:mda#streetAddressTwo"></attribute>

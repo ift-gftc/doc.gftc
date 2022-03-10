@@ -83,7 +83,7 @@ In order to model this scenario we will need the following master data:
                                 <attribute id="urn:epcglobal:cbv:mda#state">CA</attribute>
                                 <attribute id="urn:epcglobal:cbv:mda#countryCode">US</attribute>
                                 <attribute id="urn:epcglobal:cbv:mda#vesselID">FV-001</attribute>
-                                <attribute id="urn:epcglobal:cbv:mda#imoNumber">IMO00000001</attribute>
+                                <attribute id="urn:gdst:kde#imoNumber">IMO00000001</attribute>
                                 <attribute id="urn:epcglobal:cbv:mda#vesselFlagState">US</attribute>
                             </VocabularyElement>
                             <VocabularyElement id="urn:gdst:example.org:location:loc:fisherman02.1">
@@ -91,7 +91,7 @@ In order to model this scenario we will need the following master data:
                                 <attribute id="urn:epcglobal:cbv:mda#state">CA</attribute>
                                 <attribute id="urn:epcglobal:cbv:mda#countryCode">US</attribute>
                                 <attribute id="urn:epcglobal:cbv:mda#vesselID">FV-002</attribute>
-                                <attribute id="urn:epcglobal:cbv:mda#imoNumber">IMO00000002</attribute>
+                                <attribute id="urn:gdst:kde#imoNumber">IMO00000002</attribute>
                                 <attribute id="urn:epcglobal:cbv:mda#vesselFlagState">US</attribute>
                             </VocabularyElement>
                             <VocabularyElement id="urn:gdst:example.org:location:loc:transshipment_company.1">
@@ -99,7 +99,7 @@ In order to model this scenario we will need the following master data:
                                 <attribute id="urn:epcglobal:cbv:mda#state">CA</attribute>
                                 <attribute id="urn:epcglobal:cbv:mda#countryCode">US</attribute>
                                 <attribute id="urn:epcglobal:cbv:mda#vesselID">TV-001</attribute>
-                                <attribute id="urn:epcglobal:cbv:mda#imoNumber">IMO00000003</attribute>
+                                <attribute id="urn:gdst:kde#imoNumber">IMO00000003</attribute>
                                 <attribute id="urn:epcglobal:cbv:mda#vesselFlagState">US</attribute>
                             </VocabularyElement>
                             <VocabularyElement id="urn:gdst:example.org:location:loc:tuna_processor.port_san_diego">
