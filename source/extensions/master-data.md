@@ -24,17 +24,17 @@ So that the vessel ID would not have to be repeated each time in the Vessel Catc
 ## IMO Number
 IMO number is a required attribute for GDST. It is expected that the IMO number will be recorded in the master data for the vessel.
 
-`<attribute id="urn:epcglobal:gdst#imoNumber">IMO.1234567</attribute>`
+`<attribute id="urn:gdst:kde#imoNumber">IMO.1234567</attribute>`
 
 ## Vessel Public Registry
 Vessel public registry is a required attribute for GDST. It is expected that the Vessel Public Registry will be recorded in the master data for the vessel.
 
-`<attribute id="urn:epcglobal:gdst#vesselPublicRegistry">https://vesselregistry.com/example/1234567890</attribute>`
+`<attribute id="urn:gdst:kde#vesselPublicRegistry">https://vesselregistry.com/example/1234567890</attribute>`
 
 ## Satellite Tracking Authority
 Satellite tracking authority is a required attribtue for GDST. It is expected that the Satellite Tracking Authority will be recorded in the master data for the vessel.
 
-`<attribute id="urn:epcglobal:gdst#satelliteTracking">https://vessel_tracking.com/vessel/1234567890</attribute>`
+`<attribute id="urn:gdst:kde#satelliteTrackingAuthority">https://vessel_tracking.com/vessel/1234567890</attribute>`
 
 ## Notes on EPCIS Conformance
 The CBV 1.2 documentation states that:

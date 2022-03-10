@@ -77,10 +77,12 @@ Here is the Example XML for the GDST EPCIS data. This event data will contain a 
                 <cbvmda:vesselCatchInformation>
 
                     <!-- FAO ZONE 77 -->
-                    <cbvmda:catchArea>77</cbvmda:catchArea>
+                    <!-- Allowed Values: https://raw.githubusercontent.com/ift-gftc/doc.gdst/master/data/geartypes.json -->
+                    <cbvmda:catchArea>urn:gdst:fao:77</cbvmda:catchArea>
 
                     <!-- GEAR TYPE: Beam Trawls -->
-                    <cbvmda:fishingGearTypeCode>TBB</cbvmda:fishingGearTypeCode>
+                    <!-- Allowed Values: https://raw.githubusercontent.com/ift-gftc/doc.gdst/master/data/geartypes.json -->
+                    <cbvmda:fishingGearTypeCode>urn:gdst:gear:1.2</cbvmda:fishingGearTypeCode>
                 </cbvmda:vesselCatchInformation>
             </cbvmda:vesselCatchInformationList>
 

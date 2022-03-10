@@ -83,7 +83,7 @@ In order to model this scenario we will need the following master data:
                                 <attribute id="urn:epcglobal:cbv:mda#state">CA</attribute>
                                 <attribute id="urn:epcglobal:cbv:mda#countryCode">US</attribute>
                                 <attribute id="urn:epcglobal:cbv:mda#vesselID">FV-001</attribute>
-                                <attribute id="urn:epcglobal:cbv:mda#imoNumber">IMO00000001</attribute>
+                                <attribute id="urn:gdst:kde#imoNumber">IMO00000001</attribute>
                                 <attribute id="urn:epcglobal:cbv:mda#vesselFlagState">US</attribute>
                             </VocabularyElement>
                             <VocabularyElement id="urn:gdst:example.org:location:loc:fisherman02.1">
@@ -91,7 +91,7 @@ In order to model this scenario we will need the following master data:
                                 <attribute id="urn:epcglobal:cbv:mda#state">CA</attribute>
                                 <attribute id="urn:epcglobal:cbv:mda#countryCode">US</attribute>
                                 <attribute id="urn:epcglobal:cbv:mda#vesselID">FV-002</attribute>
-                                <attribute id="urn:epcglobal:cbv:mda#imoNumber">IMO00000002</attribute>
+                                <attribute id="urn:gdst:kde#imoNumber">IMO00000002</attribute>
                                 <attribute id="urn:epcglobal:cbv:mda#vesselFlagState">US</attribute>
                             </VocabularyElement>
                             <VocabularyElement id="urn:gdst:example.org:location:loc:transshipment_company.1">
@@ -99,7 +99,7 @@ In order to model this scenario we will need the following master data:
                                 <attribute id="urn:epcglobal:cbv:mda#state">CA</attribute>
                                 <attribute id="urn:epcglobal:cbv:mda#countryCode">US</attribute>
                                 <attribute id="urn:epcglobal:cbv:mda#vesselID">TV-001</attribute>
-                                <attribute id="urn:epcglobal:cbv:mda#imoNumber">IMO00000003</attribute>
+                                <attribute id="urn:gdst:kde#imoNumber">IMO00000003</attribute>
                                 <attribute id="urn:epcglobal:cbv:mda#vesselFlagState">US</attribute>
                             </VocabularyElement>
                             <VocabularyElement id="urn:gdst:example.org:location:loc:tuna_processor.port_san_diego">
@@ -176,8 +176,8 @@ In order to model this scenario we will need the following master data:
                                 <gdst:fisheryImprovementProject/>
                                 <gdst:rfmoArea/>
                                 <gdst:subnationalPermitArea/>
-                                <cbvmda:catchArea>FAO 77</cbvmda:catchArea>
-                                <cbvmda:fishingGearTypeCode>2</cbvmda:fishingGearTypeCode>
+                                <cbvmda:catchArea>urn:gdst:fao:77</cbvmda:catchArea>
+                                <cbvmda:fishingGearTypeCode>urn:gdst:gear:1.2</cbvmda:fishingGearTypeCode>
                             </cbvmda:vesselCatchInformation>
                         </cbvmda:vesselCatchInformationList>
                         <cbvmda:harvestEndDate>2021-09-30T03:00:00.000Z</cbvmda:harvestEndDate>
@@ -304,8 +304,8 @@ In order to model this scenario we will need the following master data:
                                 <gdst:fisheryImprovementProject/>
                                 <gdst:rfmoArea/>
                                 <gdst:subnationalPermitArea/>
-                                <cbvmda:catchArea>FAO 77</cbvmda:catchArea>
-                                <cbvmda:fishingGearTypeCode>2</cbvmda:fishingGearTypeCode>
+                                <cbvmda:catchArea>urn:gdst:fao:77</cbvmda:catchArea>
+                                <cbvmda:fishingGearTypeCode>urn:gdst:gear:1.2</cbvmda:fishingGearTypeCode>
                             </cbvmda:vesselCatchInformation>
                         </cbvmda:vesselCatchInformationList>
                         <cbvmda:harvestEndDate>2021-09-30T03:00:00.000Z</cbvmda:harvestEndDate>

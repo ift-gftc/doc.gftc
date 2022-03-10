@@ -18,9 +18,9 @@ Master Data Type | Name                       | Master Data ID
 -----------------|----------------------------|---------------
 Vessel           | Vessel Flag State          | `urn:epcglobal:cbv:mda#vesselFlagState`
 Vessel           | Vessel ID                  | `urn:epcglobal:cbv:mda#vesselName`
-Vessel           | IMO Number                 | `urn:epcglobal:gdst#imoNumber`
-Vessel           | Vessel Public Registry     | `urn:epcglobal:gdst#vesselPublicRegistry`
-Vessel           | Vessel Public Registry     | `urn:epcglobal:gdst#satelliteTracking`
+Vessel           | IMO Number                 | `urn:gdst:kde#imoNumber`
+Vessel           | Vessel Public Registry     | `urn:gdst:kde#vesselPublicRegistry`
+Vessel           | Vessel Public Registry     | `urn:gdst:kde#satelliteTracking`
 Vessel           | Vessel Name                | `urn:epcglobal:cbv:mda#vesselName`
 Vessel           | Information Provider       | `urn:epcglobal:cbv:mda#informationProvider`
 Vessel           | Owning Party               | `urn:epcglobal:cbv:owning_party`
@@ -89,7 +89,7 @@ Event Date & Time | `eventTime`
 Product Owner | `gdst:productOwner`
 Information Provider | `cbvmda:informationProvider`
 Transshipment Vessel Name (Static Master Data Only) | This is looked up in the master data of the `bizLocation` of the event. `EPCISMasterData / VocabularyList / Vocabulary [@type='urn:epcglobal:epcis:vtype:Location'] / VocabularyElementList / VocabularyElement [@id='insert_gln_here'] / attribute [@id='urn:epcglobal:cbv:mda#vesselName']`
-Transshipment Vessel Unique ID (Static Master Data Only) | This is looked up in the master data of the `bizLocation` of the event. `EPCISMasterData / VocabularyList / Vocabulary [@type='urn:epcglobal:epcis:vtype:Location'] / VocabularyElementList / VocabularyElement [@id='insert_gln_here'] / attribute [@id='urn:epcglobal:gdst#imoNumber']`
+Transshipment Vessel Unique ID (Static Master Data Only) | This is looked up in the master data of the `bizLocation` of the event. `EPCISMasterData / VocabularyList / Vocabulary [@type='urn:epcglobal:epcis:vtype:Location'] / VocabularyElementList / VocabularyElement [@id='insert_gln_here'] / attribute [@id='urn:gdst:kde#imoNumber']`
 Transshipment Vessel Registration (Static Master Data Only) | This is looked up in the master data of the `bizLocation` of the event. `EPCISMasterData / VocabularyList / Vocabulary [@type='urn:epcglobal:epcis:vtype:Location'] / VocabularyElementList / VocabularyElement [@id='insert_gln_here'] / attribute [@id='urn:epcglobal:cbv:mda#vesselID']`
 Transshipment Vessel Flag (Static Master Data Only) | This is looked up in the master data of the `bizLocation` of the event. `EPCISMasterData / VocabularyList / Vocabulary [@type='urn:epcglobal:epcis:vtype:Location'] / VocabularyElementList / VocabularyElement [@id='insert_gln_here'] / attribute [@id='urn:epcglobal:cbv:mda#vesselFlagState']`
 Transshipment Location (In-Port) | `gdst:unloadingPort`

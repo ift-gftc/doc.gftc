@@ -113,8 +113,49 @@ X-API-Key       {YOUR-API-KEY}
     }
 }
 ```
+*HTTP Response*
+```
+Content-Type	        application/xml
+GS1-EPCIS-Version	    1.2
+GS1-EPCIS-Min	        1.2
+GS1-EPCIS-Max	        1.2
+GS1-CBV-Version	        1.2
+GS1-EPC-Version	        ALWAYS_EPC_URN
+GS1-CBV-XML-Format	    ALWAYS_URN
 
-This response will contain an EPCIS Document in the 1.2 XML format that conforms to the EPCIS 1.2 XML Schema.
+<epcis:EPCISDocument xmlns:epcis="urn:epcglobal:epcis:xsd:1"
+                     xmlns:cbvmda="urn:epcglobal:cbv:mda" 
+                     xmlns:gdst="https://traceability-dialogue.org/epcis" 
+                     xmlns:sbdh="http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader" 
+                     schemaVersion="1.2" 
+                     creationDate="2022-01-01T00:00:00.000Z">
+    <EPCISHeader>
+        <sbdh:StandardBusinessDocumentHeader>    
+            <!-- Standard Business Document Header -->
+        </sbdh:StandardBusinessDocumentHeader>
+        <extension>
+            <EPCISMasterData>
+                <VocabularyList>
+                    <Vocabulary type="urn:epcglobal:epcis:vtype:EPCClass">
+                        <!-- Trade Items / Product Definitions -->
+                    </Vocabulary>
+                    <Vocabulary type="urn:epcglobal:epcis:vtype:Location">
+                        <!-- Locations -->
+                    </Vocabulary>
+                    <Vocabulary type="urn:epcglobal:epcis:vtype:Party">
+                        <!-- Trading Parties -->
+                    </Vocabulary>
+                </VocabularyList>
+            </EPCISMasterData>
+        </extension>
+    </EPCISHeader>
+    <EPCISBody>
+        <EventList>
+            <!-- EPCIS Events -->
+        </EventList>
+    </EPCISBody>
+</epcis:EPCISDocument>
+```
 
 > You will also need to perform a trace-back. This is covered in our Communication Protocol / Trace-back article.
 
@@ -187,8 +228,49 @@ X-API-Key       {CAPABILITY-TOOL-API-KEY}
     }
 }
 ```
+*HTTP Response*
+```
+Content-Type	        application/xml
+GS1-EPCIS-Version	    1.2
+GS1-EPCIS-Min	        1.2
+GS1-EPCIS-Max	        1.2
+GS1-CBV-Version	        1.2
+GS1-EPC-Version	        ALWAYS_EPC_URN
+GS1-CBV-XML-Format	    ALWAYS_URN
 
-This response will contain an EPCIS Document in the 1.2 XML format that conforms to the EPCIS 1.2 XML Schema.
+<epcis:EPCISDocument xmlns:epcis="urn:epcglobal:epcis:xsd:1"
+                     xmlns:cbvmda="urn:epcglobal:cbv:mda" 
+                     xmlns:gdst="https://traceability-dialogue.org/epcis" 
+                     xmlns:sbdh="http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader" 
+                     schemaVersion="1.2" 
+                     creationDate="2022-01-01T00:00:00.000Z">
+    <EPCISHeader>
+        <sbdh:StandardBusinessDocumentHeader>    
+            <!-- Standard Business Document Header -->
+        </sbdh:StandardBusinessDocumentHeader>
+        <extension>
+            <EPCISMasterData>
+                <VocabularyList>
+                    <Vocabulary type="urn:epcglobal:epcis:vtype:EPCClass">
+                        <!-- Trade Items / Product Definitions -->
+                    </Vocabulary>
+                    <Vocabulary type="urn:epcglobal:epcis:vtype:Location">
+                        <!-- Locations -->
+                    </Vocabulary>
+                    <Vocabulary type="urn:epcglobal:epcis:vtype:Party">
+                        <!-- Trading Parties -->
+                    </Vocabulary>
+                </VocabularyList>
+            </EPCISMasterData>
+        </extension>
+    </EPCISHeader>
+    <EPCISBody>
+        <EventList>
+            <!-- EPCIS Events -->
+        </EventList>
+    </EPCISBody>
+</epcis:EPCISDocument>
+```
 
 > No trace-back is required here.
 
@@ -239,8 +321,49 @@ X-API-Key       {CAPABILITY-TOOL-API-KEY}
     }
 }
 ```
+*HTTP Response*
+```
+Content-Type	        application/xml
+GS1-EPCIS-Version	    1.2
+GS1-EPCIS-Min	        1.2
+GS1-EPCIS-Max	        1.2
+GS1-CBV-Version	        1.2
+GS1-EPC-Version	        ALWAYS_EPC_URN
+GS1-CBV-XML-Format	    ALWAYS_URN
 
-This response will contain an EPCIS Document in the 1.2 XML format that conforms to the EPCIS 1.2 XML Schema.
+<epcis:EPCISDocument xmlns:epcis="urn:epcglobal:epcis:xsd:1"
+                     xmlns:cbvmda="urn:epcglobal:cbv:mda" 
+                     xmlns:gdst="https://traceability-dialogue.org/epcis" 
+                     xmlns:sbdh="http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader" 
+                     schemaVersion="1.2" 
+                     creationDate="2022-01-01T00:00:00.000Z">
+    <EPCISHeader>
+        <sbdh:StandardBusinessDocumentHeader>    
+            <!-- Standard Business Document Header -->
+        </sbdh:StandardBusinessDocumentHeader>
+        <extension>
+            <EPCISMasterData>
+                <VocabularyList>
+                    <Vocabulary type="urn:epcglobal:epcis:vtype:EPCClass">
+                        <!-- Trade Items / Product Definitions -->
+                    </Vocabulary>
+                    <Vocabulary type="urn:epcglobal:epcis:vtype:Location">
+                        <!-- Locations -->
+                    </Vocabulary>
+                    <Vocabulary type="urn:epcglobal:epcis:vtype:Party">
+                        <!-- Trading Parties -->
+                    </Vocabulary>
+                </VocabularyList>
+            </EPCISMasterData>
+        </extension>
+    </EPCISHeader>
+    <EPCISBody>
+        <EventList>
+            <!-- EPCIS Events -->
+        </EventList>
+    </EPCISBody>
+</epcis:EPCISDocument>
+```
 
 > The Capability Tool will also perform a trace-back. This is covered in our Communication Protocol / Trace-back article.
 

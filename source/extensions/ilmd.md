@@ -55,9 +55,6 @@ This defines what kind of processing was done.
 Allowed values are:
 - GENERAL
 - CLEANING
-- 
--
--
 
 An example of the XML is:
 `<gdst:processingType>GENERAL</gdst:processingType>`
