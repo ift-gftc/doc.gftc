@@ -70,23 +70,26 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
                     <gdst:satelliteTrackingAuthority>USA</gdst:satelliteTrackingAuthority>
 
                     <!-- Economic Zone -->
-                    <cbvmda:economicZone>USA</cbvmda:economicZone>
+                    <!-- Allowed Values: https://raw.githubusercontent.com/ift-gftc/doc.gdst/master/data/eez.json -->
+                    <cbvmda:economicZone>urn:gdst:eez:USA</cbvmda:economicZone>
 
                     <!-- RMFO Area -->
-                    <gdst:rfmoArea>California</gdst:rfmoArea>
+                    <!-- Allowed Values: https://raw.githubusercontent.com/ift-gftc/doc.gdst/master/data/rfmo.json -->
+                    <gdst:rmfoArea>urn:gdst:rfmo:ciffa</gdst:rmfoArea>
 
                     <!-- Sub-National Permit Area -->
                     <gdst:subnationalPermitArea>Los Angeles Fishing Area</gdst:subnationalPermitArea>
 
                     <!-- FAO ZONE 77 -->
-                    <cbvmda:catchArea>77</cbvmda:catchArea>
+                    <!-- Allowed Values: https://raw.githubusercontent.com/ift-gftc/doc.gdst/master/data/fao.json -->
+                    <cbvmda:catchArea>urn:gdst:fao:77</cbvmda:catchArea>
 
                     <!-- Fishery Improvement Project -->
                     <gdst:fisheryImprovementProject>Example Fishery Improvement Project</gdst:fisheryImprovementProject>
 
                     <!-- GEAR TYPE: Beam Trawls -->
-                    <!-- http://www.fao.org/3/t0367t/t0367t00.htm -->
-                    <cbvmda:fishingGearTypeCode>3.1.1</cbvmda:fishingGearTypeCode>
+                    <!-- Allowed Values: https://raw.githubusercontent.com/ift-gftc/doc.gdst/master/data/geartypes.json -->
+                    <cbvmda:fishingGearTypeCode>urn:gdst:gear:1.2</cbvmda:fishingGearTypeCode>
                 </cbvmda:vesselCatchInformation>
             </cbvmda:vesselCatchInformationList>
 
@@ -208,23 +211,26 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
                     <gdst:satelliteTrackingAuthority>USA</gdst:satelliteTrackingAuthority>
 
                     <!-- Economic Zone -->
-                    <cbvmda:economicZone>USA</cbvmda:economicZone>
+                    <!-- Allowed Values: https://raw.githubusercontent.com/ift-gftc/doc.gdst/master/data/eez.json -->
+                    <cbvmda:economicZone>urn:gdst:eez:USA</cbvmda:economicZone>
 
                     <!-- RMFO Area -->
-                    <gdst:rfmoArea>California</gdst:rfmoArea>
+                    <!-- Allowed Values: https://raw.githubusercontent.com/ift-gftc/doc.gdst/master/data/rfmo.json -->
+                    <gdst:rmfoArea>urn:gdst:rfmo:ciffa</gdst:rmfoArea>
 
                     <!-- Sub-National Permit Area -->
                     <gdst:subnationalPermitArea>Los Angeles Fishing Area</gdst:subnationalPermitArea>
 
                     <!-- FAO ZONE 77 -->
-                    <cbvmda:catchArea>77</cbvmda:catchArea>
+                    <!-- Allowed Values: https://raw.githubusercontent.com/ift-gftc/doc.gdst/master/data/fao.json -->
+                    <cbvmda:catchArea>urn:gdst:fao:77</cbvmda:catchArea>
 
                     <!-- Fishery Improvement Project -->
                     <gdst:fisheryImprovementProject>Example Fishery Improvement Project</gdst:fisheryImprovementProject>
 
                     <!-- GEAR TYPE: Beam Trawls -->
-                    <!-- http://www.fao.org/3/t0367t/t0367t00.htm -->
-                    <cbvmda:fishingGearTypeCode>3.1.1</cbvmda:fishingGearTypeCode>
+                    <!-- Allowed Values: https://raw.githubusercontent.com/ift-gftc/doc.gdst/master/data/geartypes.json -->
+                    <cbvmda:fishingGearTypeCode>urn:gdst:gear:1.2</cbvmda:fishingGearTypeCode>
 
                 </cbvmda:vesselCatchInformation>
             </cbvmda:vesselCatchInformationList>
@@ -342,23 +348,26 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
                     <gdst:satelliteTrackingAuthority>USA</gdst:satelliteTrackingAuthority>
 
                     <!-- Economic Zone -->
-                    <cbvmda:economicZone>USA</cbvmda:economicZone>
+                    <!-- Allowed Values: https://raw.githubusercontent.com/ift-gftc/doc.gdst/master/data/eez.json -->
+                    <cbvmda:economicZone>urn:gdst:eez:USA</cbvmda:economicZone>
 
                     <!-- RMFO Area -->
-                    <gdst:rfmoArea>California</gdst:rfmoArea>
+                    <!-- Allowed Values: https://raw.githubusercontent.com/ift-gftc/doc.gdst/master/data/rfmo.json -->
+                    <gdst:rmfoArea>urn:gdst:rfmo:ciffa</gdst:rmfoArea>
 
                     <!-- Sub-National Permit Area -->
                     <gdst:subnationalPermitArea>Los Angeles Fishing Area</gdst:subnationalPermitArea>
 
                     <!-- FAO ZONE 77 -->
-                    <cbvmda:catchArea>77</cbvmda:catchArea>
+                    <!-- Allowed Values: https://raw.githubusercontent.com/ift-gftc/doc.gdst/master/data/fao.json -->
+                    <cbvmda:catchArea>urn:gdst:fao:77</cbvmda:catchArea>
 
                     <!-- Fishery Improvement Project -->
                     <gdst:fisheryImprovementProject>Example Fishery Improvement Project</gdst:fisheryImprovementProject>
 
                     <!-- GEAR TYPE: Beam Trawls -->
-                    <!-- http://www.fao.org/3/t0367t/t0367t00.htm -->
-                    <cbvmda:fishingGearTypeCode>3.1.1</cbvmda:fishingGearTypeCode>
+                    <!-- Allowed Values: https://raw.githubusercontent.com/ift-gftc/doc.gdst/master/data/geartypes.json -->
+                    <cbvmda:fishingGearTypeCode>urn:gdst:gear:1.2</cbvmda:fishingGearTypeCode>
                 </cbvmda:vesselCatchInformation>
             </cbvmda:vesselCatchInformationList>
 
@@ -475,23 +484,26 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
                     <gdst:satelliteTrackingAuthority>USA</gdst:satelliteTrackingAuthority>
 
                     <!-- Economic Zone -->
-                    <cbvmda:economicZone>USA</cbvmda:economicZone>
+                    <!-- Allowed Values: https://raw.githubusercontent.com/ift-gftc/doc.gdst/master/data/eez.json -->
+                    <cbvmda:economicZone>urn:gdst:eez:USA</cbvmda:economicZone>
 
                     <!-- RFMO Area -->
-                    <gdst:rfmoArea>California</gdst:rfmoArea>
+                    <!-- Allowed Values: https://raw.githubusercontent.com/ift-gftc/doc.gdst/master/data/rfmo.json -->
+                    <gdst:rmfoArea>urn:gdst:rfmo:ciffa</gdst:rmfoArea>
 
                     <!-- Sub-National Permit Area -->
                     <gdst:subnationalPermitArea>Los Angeles Fishing Area</gdst:subnationalPermitArea>
 
                     <!-- FAO ZONE 77 -->
-                    <cbvmda:catchArea>77</cbvmda:catchArea>
+                    <!-- Allowed Values: https://raw.githubusercontent.com/ift-gftc/doc.gdst/master/data/fao.json -->
+                    <cbvmda:catchArea>urn:gdst:fao:77</cbvmda:catchArea>
 
                     <!-- Fishery Improvement Project -->
                     <gdst:fisheryImprovementProject>Example Fishery Improvement Project</gdst:fisheryImprovementProject>
 
                     <!-- GEAR TYPE: Beam Trawls -->
-                    <!-- http://www.fao.org/3/t0367t/t0367t00.htm -->
-                    <cbvmda:fishingGearTypeCode>3.1.1</cbvmda:fishingGearTypeCode>
+                    <!-- Allowed Values: https://raw.githubusercontent.com/ift-gftc/doc.gdst/master/data/geartypes.json -->
+                    <cbvmda:fishingGearTypeCode>urn:gdst:gear:1.2</cbvmda:fishingGearTypeCode>
                 </cbvmda:vesselCatchInformation>
             </cbvmda:vesselCatchInformationList>
 
@@ -608,23 +620,26 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
                     <gdst:satelliteTrackingAuthority>USA</gdst:satelliteTrackingAuthority>
 
                     <!-- Economic Zone -->
-                    <cbvmda:economicZone>USA</cbvmda:economicZone>
+                    <!-- Allowed Values: https://raw.githubusercontent.com/ift-gftc/doc.gdst/master/data/eez.json -->
+                    <cbvmda:economicZone>urn:gdst:eez:USA</cbvmda:economicZone>
 
                     <!-- RMFO Area -->
-                    <gdst:rfmoArea>California</gdst:rfmoArea>
+                    <!-- Allowed Values: https://raw.githubusercontent.com/ift-gftc/doc.gdst/master/data/rfmo.json -->
+                    <gdst:rmfoArea>urn:gdst:rfmo:ciffa</gdst:rmfoArea>
 
                     <!-- Sub-National Permit Area -->
                     <gdst:subnationalPermitArea>Los Angeles Fishing Area</gdst:subnationalPermitArea>
 
                     <!-- FAO ZONE 77 -->
-                    <cbvmda:catchArea>77</cbvmda:catchArea>
+                    <!-- Allowed Values: https://raw.githubusercontent.com/ift-gftc/doc.gdst/master/data/fao.json -->
+                    <cbvmda:catchArea>urn:gdst:fao:77</cbvmda:catchArea>
 
                     <!-- Fishery Improvement Project -->
                     <gdst:fisheryImprovementProject>Example Fishery Improvement Project</gdst:fisheryImprovementProject>
 
                     <!-- GEAR TYPE: Beam Trawls -->
-                    <!-- http://www.fao.org/3/t0367t/t0367t00.htm -->
-                    <cbvmda:fishingGearTypeCode>3.1.1</cbvmda:fishingGearTypeCode>
+                    <!-- Allowed Values: https://raw.githubusercontent.com/ift-gftc/doc.gdst/master/data/geartypes.json -->
+                    <cbvmda:fishingGearTypeCode>urn:gdst:gear:1.2</cbvmda:fishingGearTypeCode>
                 </cbvmda:vesselCatchInformation>
             </cbvmda:vesselCatchInformationList>
 
