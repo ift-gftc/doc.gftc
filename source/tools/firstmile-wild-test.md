@@ -62,16 +62,14 @@ Content-Type    application/json
 ```
 
 ## Step 2: Capability Tool Requests Solution Generated Data using B2B Workflow
-During step 3, you provided one or more EPCs to the Capability Tool. This step will repeat what is in step 4, except starting with the {SOLUTION-PROVIDER-GENERATED-EPC}
-
-At this point the Capability Tool is going to use the same communication protocols from step 2 to request the same data back from you.
+When you started the capability process, you provided one or more EPCs represented in this documentation as {SOLUTION-PROVIDER-GENERATED-EPC}. In this step, the Capability Tool is going to query your GS1 Resolver / EPCIS Query Interface to pull back traceability data related to this EPC(s).
 
 ### Querying the Digital Link Resolver of the Capability Tool to Obtain the EPCIS URL
 In order to perform this step the capability tool will execute the following HTTP Request:
 
 ```
 HTTP GET 1.1
-{SOLUTION-PROVIDER-URL}/digitallink/sscc/{CAPABILITY-TOOL-GENERATED-EPC}?linkType=gs1:epcis
+{SOLUTION-PROVIDER-URL}/digitallink/sscc/{SOLUTION-PROVIDER-GENERATED-EPC}?linkType=gs1:epcis
 
 Accept          application/json
 X-API-Key       {CAPABILITY-TOOL-API-KEY}
