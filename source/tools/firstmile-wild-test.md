@@ -156,9 +156,9 @@ GS1-CBV-XML-Format	    ALWAYS_URN
 > The Capability Tool will also perform a trace-back. This is covered in our Communication Protocol / Trace-back article.
 
 ## Step 3: Capability Tool Requests Solution Generated Data using Internal System-to-System
-At this point the Capability Tool is going to use the same communication protocols from step 2 to request the same data back from you.
+At this point the Capability Tool is going to use the same communication protocols from step 2 to request the same data back from you. 
 
-> NOTE: This step will use the GE_recordTime and LE_recordTime.
+> NOTE: This step will use the GE_recordTime and LE_recordTime. It will scan the events returned in step 2 to find the min/max record time. 
 
 ### Querying the Digital Link Resolver of the Capability Tool to Obtain the EPCIS URL
 In order to perform this step the capability tool will execute the following HTTP Request:

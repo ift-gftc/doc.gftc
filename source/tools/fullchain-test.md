@@ -4,7 +4,7 @@ description: This is documentation that covers how to use the capability tool fo
 ---
 
 # Registration
-In order to register for the GDST Capability Tool, you will need to contact bharris@ift.org for more information.
+Official registration for the capaibilty tool is not open yet, we are still in beta mode.
 
 # Capability Process
 The capability process is an automated process that can be executed by a solution provider to determine if a specific version of a traceability solution is GDST Capable.
@@ -195,7 +195,7 @@ In order to perform this step the capability tool will execute the following HTT
 
 ```
 HTTP GET 1.1
-{SOLUTION-PROVIDER-URL}/digitallink?linkType=gs1:epcis
+{SOLUTION-PROVIDER-URL}?linkType=gs1:epcis
 
 Accept          application/json
 X-API-Key       {CAPABILITY-TOOL-API-KEY}
@@ -289,7 +289,7 @@ In order to perform this step the capability tool will execute the following HTT
 
 ```
 HTTP GET 1.1
-{SOLUTION-PROVIDER-URL}/digitallink/sscc/{CAPABILITY-TOOL-GENERATED-EPC}?linkType=gs1:epcis
+{SOLUTION-PROVIDER-URL}/sscc/{CAPABILITY-TOOL-GENERATED-EPC}?linkType=gs1:epcis
 
 Accept          application/json
 X-API-Key       {CAPABILITY-TOOL-API-KEY}
