@@ -34,7 +34,7 @@ HTTP Post 1.1
 {CAPABILITY-TOOL-API-URL}/process/check/{YOUR-SOLUTION-NAME}/{VERSION-OF-YOUR-SOLUTION}
 
 Accept          application/json
-Content-Type    application/json
+Content-Type    application/xml
 X-API-Key       {YOUR-API-KEY}
 
 <epcis:EPCISDocument xmlns:epcis="urn:epcglobal:epcis:xsd:1"
