@@ -79,8 +79,9 @@ In order to perform this step you will need to execute the following HTTP Reques
 HTTP GET 1.1
 {CAPABILITY-TOOL-API-URL}/digitallink/sscc/{CAPABILITY-TOOL-GENERATED-EPC}?linkType=gs1:epcis
 
-Accept          application/json
-X-API-Key       {YOUR-API-KEY}
+Accept                      application/json
+X-API-Key                   {YOUR-API-KEY}
+X-Capability-Process-UUID   {CAPABILITY-PROCESS-UUID}
 ```
 
 This HTTP Request will return the following response:
@@ -102,8 +103,9 @@ In order to perform this step, you will need to execute the following HTTP Reque
 HTTP POST 1.1
 {CAPABILITY-TOOL-API-URL}/epcis/queries/SimpleEventQuery
 
-Accept          application/xml
-X-API-Key       {YOUR-API-KEY}
+Accept                      application/xml
+X-API-Key                   {YOUR-API-KEY}
+X-Capability-Process-UUID   {CAPABILITY-PROCESS-UUID}
 
 {
     "type" : "events",
