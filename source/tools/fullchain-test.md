@@ -110,7 +110,7 @@ X-Capability-Process-UUID   {CAPABILITY-PROCESS-UUID}
 {
     "type" : "events",
     "query" : {
-        "MATCH_epc" : [ 
+        "MATCH_anyEPC" : [ 
             "{CAPABILITY-TOOL-GENERATED-EPC}"
         ]
     }
@@ -322,7 +322,7 @@ X-API-Key       {CAPABILITY-TOOL-API-KEY}
 {
     "type" : "events",
     "query" : {
-        "MATCH_epc" : [ 
+        "MATCH_anyEPC" : [ 
             "{SOLUTION-PROVIDER-GENERATED-EPC}"
         ]
     }
