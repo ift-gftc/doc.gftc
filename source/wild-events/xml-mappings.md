@@ -54,6 +54,7 @@ RMFO Area | `extension / ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesse
 Sub-National Permit Area | `extension / ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / gdst:subnationalPermitArea`
 Fishery Improvement Project | `extension / ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / gdst:fisheryImprovementProject`
 Gear Type | `extension / ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / cbvmda:fishingGearTypeCode`
+Vessel Trip Date | `extension / ilmd / cbvmda:vesselCatchInformationList / cbvmda:vesselCatchInformation / gdst:vesselTripDate`
 Date of Capture | `eventTime`
 Production Method | `extension / ilmd / cbvmda:productionMethodForFishAndSeafoodCode`
 Expiration Date | `extension / ilmd / cbvmda:itemExpirationDate`
