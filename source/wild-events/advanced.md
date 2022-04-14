@@ -176,12 +176,9 @@ In order to model this scenario we will need the following master data:
                                 <gdst:fisheryImprovementProject/>
                                 <gdst:rfmoArea/>
                                 <gdst:subnationalPermitArea/>
-                                <cbvmda:catchArea>urn:gdst:fao:77</cbvmda:catchArea>
-                                <cbvmda:fishingGearTypeCode>urn:gdst:gear:1.2</cbvmda:fishingGearTypeCode>
+                                <cbvmda:catchArea>urn:gdst:fao:77</cbvmda:catchArea>                                <cbvmda:fishingGearTypeCode>urn:gdst:gear:1.2</cbvmda:fishingGearTypeCode>                                <gdst:vesselTripDate>2021-09-26T13:37:42.255Z</gdst:vesselTripDate>
                             </cbvmda:vesselCatchInformation>
                         </cbvmda:vesselCatchInformationList>
-                        <cbvmda:harvestEndDate>2021-09-30T03:00:00.000Z</cbvmda:harvestEndDate>
-                        <cbvmda:harvestStartDate>2021-09-27T03:00:00.000Z</cbvmda:harvestStartDate>
                         <cbvmda:certificationList>
                             <certification>
                                 <gdst:certificationType>urn:gdst:certType:fishingAuth</gdst:certificationType>
@@ -306,10 +303,9 @@ In order to model this scenario we will need the following master data:
                                 <gdst:subnationalPermitArea/>
                                 <cbvmda:catchArea>urn:gdst:fao:77</cbvmda:catchArea>
                                 <cbvmda:fishingGearTypeCode>urn:gdst:gear:1.2</cbvmda:fishingGearTypeCode>
+                                <gdst:vesselTripDate>2021-09-26T13:37:42.255Z</gdst:vesselTripDate>
                             </cbvmda:vesselCatchInformation>
                         </cbvmda:vesselCatchInformationList>
-                        <cbvmda:harvestEndDate>2021-09-30T03:00:00.000Z</cbvmda:harvestEndDate>
-                        <cbvmda:harvestStartDate>2021-09-26T03:00:00.000Z</cbvmda:harvestStartDate>
                         <cbvmda:certificationList>
                             <certification>
                                 <gdst:certificationType>urn:gdst:certType:fishingAuth</gdst:certificationType>

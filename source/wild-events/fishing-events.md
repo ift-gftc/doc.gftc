@@ -52,7 +52,7 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
                     <cbvmda:vesselName>BING Ship</cbvmda:vesselName>
 
                     <!-- Vessel ID -->
-                    <cbvmda:vesselID>USA</cbvmda:vesselID>
+                    <cbvmda:vesselID>ID123456789</cbvmda:vesselID>
 
                     <!-- Unique Vessel Registration -->
                     <gdst:imoNumber>IMO.1234567890</gdst:imoNumber>
@@ -90,15 +90,14 @@ In this scenario a fishing vessel named **BING Ship** owned by **Bing Fishing Co
                     <!-- GEAR TYPE: Beam Trawls -->
                     <!-- Allowed Values: https://raw.githubusercontent.com/ift-gftc/doc.gdst/master/data/geartypes.json -->
                     <cbvmda:fishingGearTypeCode>urn:gdst:gear:1.2</cbvmda:fishingGearTypeCode>
+
+                    <!-- Start date of the fishing event. -->
+                    <gdst:vesselTripDate>2020-01-25T00:00:00.000-06:00</gdst:vesselTripDate>
                 </cbvmda:vesselCatchInformation>
             </cbvmda:vesselCatchInformationList>
 
             <!-- WILD HARVEST -->
             <cbvmda:productionMethodForFishAndSeafoodCode>MARINE_FISHERY</cbvmda:productionMethodForFishAndSeafoodCode>
-            
-            <!-- Harvest Start & End Dates -->
-            <cbvmda:harvestStartDate>2020-01-27T00:00:00.000-06:00</cbvmda:harvestStartDate>
-            <cbvmda:harvestEndDate>2020-01-27T00:00:00.000-06:00</cbvmda:harvestEndDate>
 
             <!-- Certificates -->
             <cbvmda:certificationList>
