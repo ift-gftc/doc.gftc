@@ -86,7 +86,8 @@ module.exports = {
           ],
           "Communication Protocol" : [
             "comms/request-data",
-            "comms/tracebacks"
+            "comms/tracebacks",
+            "comms/gs1-webvocab"
           ],
           "Capability Tool" : [
             "tools/check-tool",
