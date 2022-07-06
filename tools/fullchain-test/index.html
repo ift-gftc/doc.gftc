@@ -236,14 +236,16 @@ GS1-CBV-Version	        1.2
 GS1-EPC-Version	        ALWAYS_EPC_URN
 GS1-CBV-XML-Format	    ALWAYS_URN
 
-&lt;epcis:EPCISDocument xmlns:epcis=&quot;urn:epcglobal:epcis:xsd:1&quot;
-                     xmlns:cbvmda=&quot;urn:epcglobal:cbv:mda&quot; 
-                     xmlns:gdst=&quot;https://traceability-dialogue.org/epcis&quot; 
-                     xmlns:sbdh=&quot;http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader&quot; 
-                     schemaVersion=&quot;1.2&quot; 
+&lt;epcisq:EPCISQueryDocument 
+                     xmlns:epcis=&quot;urn:epcglobal:epcis:xsd:1&quot;
+                     xmlns:cbvmda=&quot;urn:epcglobal:cbv:mda&quot;
+                     xmlns:gdst=&quot;https://traceability-dialogue.org/epcis&quot;
+                     xmlns:sbdh=&quot;http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader&quot;
+                     xmlns:epcisq=&quot;urn:epcglobal:epcis-query:xsd:1&quot; 
+                     schemaVersion=&quot;1.2&quot;
                      creationDate=&quot;2022-01-01T00:00:00.000Z&quot;&gt;
     &lt;EPCISHeader&gt;
-        &lt;sbdh:StandardBusinessDocumentHeader&gt;    
+        &lt;sbdh:StandardBusinessDocumentHeader&gt;
             &lt;!-- Standard Business Document Header --&gt;
         &lt;/sbdh:StandardBusinessDocumentHeader&gt;
         &lt;extension&gt;
@@ -263,11 +265,16 @@ GS1-CBV-XML-Format	    ALWAYS_URN
         &lt;/extension&gt;
     &lt;/EPCISHeader&gt;
     &lt;EPCISBody&gt;
-        &lt;EventList&gt;
-            &lt;!-- EPCIS Events --&gt;
-        &lt;/EventList&gt;
+        &lt;epcisq:QueryResults&gt;
+            &lt;queryName&gt;SimpleEventQuery&lt;/queryName&gt;
+            &lt;resultsBody&gt;
+                &lt;EventList&gt;
+                    &lt;!-- Events Here --&gt;
+                &lt;/EventList&gt;
+            &lt;/resultsBody&gt;
+        &lt;/epcisq:QueryResults&gt;
     &lt;/EPCISBody&gt;
-&lt;/epcis:EPCISDocument&gt;</code><span aria-hidden="true" class="line-numbers-rows" style="white-space:normal;width:auto;left:0"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></div></div></div>
+&lt;/epcisq:EPCISQueryDocument&gt;</code><span aria-hidden="true" class="line-numbers-rows" style="white-space:normal;width:auto;left:0"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></div></div></div>
 <blockquote>
 <p>You will also need to perform a trace-back. This is covered in our Communication Protocol / Trace-back article.</p>
 </blockquote>
@@ -340,14 +347,16 @@ GS1-CBV-Version	        1.2
 GS1-EPC-Version	        ALWAYS_EPC_URN
 GS1-CBV-XML-Format	    ALWAYS_URN
 
-&lt;epcis:EPCISDocument xmlns:epcis=&quot;urn:epcglobal:epcis:xsd:1&quot;
-                     xmlns:cbvmda=&quot;urn:epcglobal:cbv:mda&quot; 
-                     xmlns:gdst=&quot;https://traceability-dialogue.org/epcis&quot; 
-                     xmlns:sbdh=&quot;http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader&quot; 
-                     schemaVersion=&quot;1.2&quot; 
+&lt;epcisq:EPCISQueryDocument 
+                     xmlns:epcis=&quot;urn:epcglobal:epcis:xsd:1&quot;
+                     xmlns:cbvmda=&quot;urn:epcglobal:cbv:mda&quot;
+                     xmlns:gdst=&quot;https://traceability-dialogue.org/epcis&quot;
+                     xmlns:sbdh=&quot;http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader&quot;
+                     xmlns:epcisq=&quot;urn:epcglobal:epcis-query:xsd:1&quot; 
+                     schemaVersion=&quot;1.2&quot;
                      creationDate=&quot;2022-01-01T00:00:00.000Z&quot;&gt;
     &lt;EPCISHeader&gt;
-        &lt;sbdh:StandardBusinessDocumentHeader&gt;    
+        &lt;sbdh:StandardBusinessDocumentHeader&gt;
             &lt;!-- Standard Business Document Header --&gt;
         &lt;/sbdh:StandardBusinessDocumentHeader&gt;
         &lt;extension&gt;
@@ -367,11 +376,16 @@ GS1-CBV-XML-Format	    ALWAYS_URN
         &lt;/extension&gt;
     &lt;/EPCISHeader&gt;
     &lt;EPCISBody&gt;
-        &lt;EventList&gt;
-            &lt;!-- EPCIS Events --&gt;
-        &lt;/EventList&gt;
+        &lt;epcisq:QueryResults&gt;
+            &lt;queryName&gt;SimpleEventQuery&lt;/queryName&gt;
+            &lt;resultsBody&gt;
+                &lt;EventList&gt;
+                    &lt;!-- Events Here --&gt;
+                &lt;/EventList&gt;
+            &lt;/resultsBody&gt;
+        &lt;/epcisq:QueryResults&gt;
     &lt;/EPCISBody&gt;
-&lt;/epcis:EPCISDocument&gt;</code><span aria-hidden="true" class="line-numbers-rows" style="white-space:normal;width:auto;left:0"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></div></div></div>
+&lt;/epcisq:EPCISQueryDocument&gt;</code><span aria-hidden="true" class="line-numbers-rows" style="white-space:normal;width:auto;left:0"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></div></div></div>
 <blockquote>
 <p>No trace-back is required here.</p>
 </blockquote>
@@ -418,14 +432,16 @@ GS1-CBV-Version	        1.2
 GS1-EPC-Version	        ALWAYS_EPC_URN
 GS1-CBV-XML-Format	    ALWAYS_URN
 
-&lt;epcis:EPCISDocument xmlns:epcis=&quot;urn:epcglobal:epcis:xsd:1&quot;
-                     xmlns:cbvmda=&quot;urn:epcglobal:cbv:mda&quot; 
-                     xmlns:gdst=&quot;https://traceability-dialogue.org/epcis&quot; 
-                     xmlns:sbdh=&quot;http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader&quot; 
-                     schemaVersion=&quot;1.2&quot; 
+&lt;epcisq:EPCISQueryDocument 
+                     xmlns:epcis=&quot;urn:epcglobal:epcis:xsd:1&quot;
+                     xmlns:cbvmda=&quot;urn:epcglobal:cbv:mda&quot;
+                     xmlns:gdst=&quot;https://traceability-dialogue.org/epcis&quot;
+                     xmlns:sbdh=&quot;http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader&quot;
+                     xmlns:epcisq=&quot;urn:epcglobal:epcis-query:xsd:1&quot; 
+                     schemaVersion=&quot;1.2&quot;
                      creationDate=&quot;2022-01-01T00:00:00.000Z&quot;&gt;
     &lt;EPCISHeader&gt;
-        &lt;sbdh:StandardBusinessDocumentHeader&gt;    
+        &lt;sbdh:StandardBusinessDocumentHeader&gt;
             &lt;!-- Standard Business Document Header --&gt;
         &lt;/sbdh:StandardBusinessDocumentHeader&gt;
         &lt;extension&gt;
@@ -445,11 +461,16 @@ GS1-CBV-XML-Format	    ALWAYS_URN
         &lt;/extension&gt;
     &lt;/EPCISHeader&gt;
     &lt;EPCISBody&gt;
-        &lt;EventList&gt;
-            &lt;!-- EPCIS Events --&gt;
-        &lt;/EventList&gt;
+        &lt;epcisq:QueryResults&gt;
+            &lt;queryName&gt;SimpleEventQuery&lt;/queryName&gt;
+            &lt;resultsBody&gt;
+                &lt;EventList&gt;
+                    &lt;!-- Events Here --&gt;
+                &lt;/EventList&gt;
+            &lt;/resultsBody&gt;
+        &lt;/epcisq:QueryResults&gt;
     &lt;/EPCISBody&gt;
-&lt;/epcis:EPCISDocument&gt;</code><span aria-hidden="true" class="line-numbers-rows" style="white-space:normal;width:auto;left:0"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></div></div></div>
+&lt;/epcisq:EPCISQueryDocument&gt;</code><span aria-hidden="true" class="line-numbers-rows" style="white-space:normal;width:auto;left:0"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></div></div></div>
 <blockquote>
 <p>The Capability Tool will also perform a trace-back. This is covered in our Communication Protocol / Trace-back article.</p>
 </blockquote>
