@@ -166,7 +166,7 @@ In order to perform this step the capability tool will execute the following HTT
 
 ```
 HTTP GET 1.1
-{SOLUTION-PROVIDER-URL}/digitallink/sscc/{CAPABILITY-TOOL-GENERATED-EPC}?linkType=gs1:epcis
+{CAPABILITY_TOOL-API-URL}/digitallink/sscc/{CAPABILITY-TOOL-GENERATED-EPC}?linkType=gs1:epcis
 
 Accept          application/json
 X-API-Key       {CAPABILITY-TOOL-API-KEY}

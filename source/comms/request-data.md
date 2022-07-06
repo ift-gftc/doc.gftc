@@ -85,14 +85,16 @@ GS1-CBV-Version	        1.2
 GS1-EPC-Version	        ALWAYS_EPC_URN
 GS1-CBV-XML-Format	    ALWAYS_URN
 
-<epcis:EPCISDocument xmlns:epcis="urn:epcglobal:epcis:xsd:1"
-                     xmlns:cbvmda="urn:epcglobal:cbv:mda" 
-                     xmlns:gdst="https://traceability-dialogue.org/epcis" 
-                     xmlns:sbdh="http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader" 
-                     schemaVersion="1.2" 
+<epcisq:EPCISQueryDocument 
+                     xmlns:epcis="urn:epcglobal:epcis:xsd:1"
+                     xmlns:cbvmda="urn:epcglobal:cbv:mda"
+                     xmlns:gdst="https://traceability-dialogue.org/epcis"
+                     xmlns:sbdh="http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader"
+                     xmlns:epcisq="urn:epcglobal:epcis-query:xsd:1" 
+                     schemaVersion="1.2"
                      creationDate="2022-01-01T00:00:00.000Z">
     <EPCISHeader>
-        <sbdh:StandardBusinessDocumentHeader>    
+        <sbdh:StandardBusinessDocumentHeader>
             <!-- Standard Business Document Header -->
         </sbdh:StandardBusinessDocumentHeader>
         <extension>
@@ -112,11 +114,16 @@ GS1-CBV-XML-Format	    ALWAYS_URN
         </extension>
     </EPCISHeader>
     <EPCISBody>
-        <EventList>
-            <!-- EPCIS Events -->
-        </EventList>
+        <epcisq:QueryResults>
+            <queryName>SimpleEventQuery</queryName>
+            <resultsBody>
+                <EventList>
+                    <!-- Events Here -->
+                </EventList>
+            </resultsBody>
+        </epcisq:QueryResults>
     </EPCISBody>
-</epcis:EPCISDocument>
+</epcisq:EPCISQueryDocument>
 ```
 
 # Step #3: Performing Trace-Back
@@ -164,14 +171,16 @@ GS1-CBV-Version	        1.2
 GS1-EPC-Version	        ALWAYS_EPC_URN
 GS1-CBV-XML-Format	    ALWAYS_URN
 
-<epcis:EPCISDocument xmlns:epcis="urn:epcglobal:epcis:xsd:1"
-                     xmlns:cbvmda="urn:epcglobal:cbv:mda" 
-                     xmlns:gdst="https://traceability-dialogue.org/epcis" 
-                     xmlns:sbdh="http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader" 
-                     schemaVersion="1.2" 
+<epcisq:EPCISQueryDocument 
+                     xmlns:epcis="urn:epcglobal:epcis:xsd:1"
+                     xmlns:cbvmda="urn:epcglobal:cbv:mda"
+                     xmlns:gdst="https://traceability-dialogue.org/epcis"
+                     xmlns:sbdh="http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader"
+                     xmlns:epcisq="urn:epcglobal:epcis-query:xsd:1" 
+                     schemaVersion="1.2"
                      creationDate="2022-01-01T00:00:00.000Z">
     <EPCISHeader>
-        <sbdh:StandardBusinessDocumentHeader>    
+        <sbdh:StandardBusinessDocumentHeader>
             <!-- Standard Business Document Header -->
         </sbdh:StandardBusinessDocumentHeader>
         <extension>
@@ -191,9 +200,14 @@ GS1-CBV-XML-Format	    ALWAYS_URN
         </extension>
     </EPCISHeader>
     <EPCISBody>
-        <EventList>
-            <!-- EPCIS Events -->
-        </EventList>
+        <epcisq:QueryResults>
+            <queryName>SimpleEventQuery</queryName>
+            <resultsBody>
+                <EventList>
+                    <!-- Events Here -->
+                </EventList>
+            </resultsBody>
+        </epcisq:QueryResults>
     </EPCISBody>
-</epcis:EPCISDocument>
+</epcisq:EPCISQueryDocument>
 ```
