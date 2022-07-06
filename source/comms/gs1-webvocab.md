@@ -32,6 +32,7 @@ Below is an example of a product definition with the GDST KDEs represented in th
 ```
 
 # Locations
+```
 {
     "@context": {
         "gs1": "http://gs1.org/voc/",
@@ -79,6 +80,7 @@ Below is an example of a product definition with the GDST KDEs represented in th
         "@type": "gs1:PostalAddress"
     }
 }
+```
 
 # Trading Parties
 The `PGLN` of the trading party is recorded under the `globalLocationNumber` KDE. The `@type` tells you this is a trading party (`gs1:Organization`).
