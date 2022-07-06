@@ -32,6 +32,8 @@ Below is an example of a product definition with the GDST KDEs represented in th
 ```
 
 # Locations
+Below is an example of a location with the GDST KDEs represented in the GS1 Web Vocab format.
+
 ```
 {
     "@context": {
@@ -83,7 +85,11 @@ Below is an example of a product definition with the GDST KDEs represented in th
 ```
 
 # Trading Parties
-The `PGLN` of the trading party is recorded under the `globalLocationNumber` KDE. The `@type` tells you this is a trading party (`gs1:Organization`).
+Below is an example of a trading party with the GDST KDEs represented in the GS1 Web Vocab format.
+
+- The `PGLN` of the trading party is recorded under the `globalLocationNumber` KDE. 
+- The `@type` tells you this is a trading party (`gs1:Organization`).
+
 ```
 {
     "@context": {
