@@ -4,7 +4,7 @@ description: This is documentation that covers how to use the capability tool fo
 ---
 
 # Registration
-Official registration for the capaibilty tool is not open yet, we are still in beta mode.
+Please reach out to info@traceability-dialogue.org to register.
 
 # Capability Process
 The capability process is an automated process that can be executed by a solution provider to determine if a specific version of a traceability solution is GDST Capable.
