@@ -5,8 +5,8 @@ description: This documents a API method that solution providers can use to chec
 
 In order to help developers implementing the CTE/KDE completeness
 
-## Registration
-You will need to be registered for the GDST Capability Tool before you get started. In order to register for the GDST Capability Tool, you will need to contact bharris@ift.org for more information.
+# Registration
+Please reach out to info@traceability-dialogue.org to register.
 
 ## Before we get started...
 Before we get started make sure that you have registered for the GDST Capability Tool by following the registration steps above. After that you will need:
