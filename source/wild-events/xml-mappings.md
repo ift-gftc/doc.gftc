@@ -14,24 +14,24 @@ description: These are ECPIS XML Mappings from GDST KDEs to the exact XPath in t
 
 
 ## Static Master Data
-Master Data Type | Name                       | Master Data ID
------------------|----------------------------|---------------
-Vessel           | Vessel Flag State          | `urn:epcglobal:cbv:mda#vesselFlagState`
-Vessel           | Vessel ID                  | `urn:epcglobal:cbv:mda#vesselName`
-Vessel           | IMO Number                 | `urn:gdst:kde#imoNumber`
-Vessel           | Vessel Public Registry     | `urn:gdst:kde#vesselPublicRegistry`
-Vessel           | Vessel Public Registry     | `urn:gdst:kde#satelliteTracking`
-Vessel           | Vessel Name                | `urn:epcglobal:cbv:mda#vesselName`
-Vessel           | Information Provider       | `urn:epcglobal:cbv:mda#informationProvider`
-Vessel           | Owning Party               | `urn:epcglobal:cbv:owning_party`
-Location         | Information Provider       | `urn:epcglobal:cbv:mda#informationProvider`
-Location         | Owning Party               | `urn:epcglobal:cbv:owning_party`
-Trade Item       | Species (Scientific Name)  | `urn:epcglobal:cbv:mda#speciesForFisheryStatisticsPurposesName`
-Trade Item       | Species (Alpha 3 Code)     | `urn:epcglobal:cbv:mda#speciesForFisheryStatisticsPurposesCode`
-Trade Item       | Product Form               | `urn:epcglobal:cbv:mda#radeItemConditionCode`
-Trade Item       | Short Description          | `urn:epcglobal:cbv:mda#descriptionShort`
-Trade Item       | Information Provider       | `urn:epcglobal:cbv:mda#informationProvider`
-Trade Item       | Owning Party               | `urn:epcglobal:cbv:owning_party`
+Master Data Type | Name                         | Master Data ID
+-----------------|------------------------------|---------------
+Vessel           | Vessel Flag State            | `urn:epcglobal:cbv:mda#vesselFlagState`
+Vessel           | Vessel ID                    |  `urn:epcglobal:cbv:mda#vesselName`
+Vessel           | IMO Number                   | `urn:gdst:kde#imoNumber`
+Vessel           | Vessel Public Registry       | `urn:gdst:kde#vesselPublicRegistry`
+Vessel           | Satellite Tracking Authority | `urn:gdst:kde#satelliteTracking`
+Vessel           | Vessel Name                  | `urn:epcglobal:cbv:mda#vesselName`
+Vessel           | Information Provider         | `urn:epcglobal:cbv:mda#informationProvider`
+Vessel           | Owning Party                 | `urn:epcglobal:cbv:owning_party`
+Location         | Information Provider         | `urn:epcglobal:cbv:mda#informationProvider`
+Location         | Owning Party                 | `urn:epcglobal:cbv:owning_party`
+Trade Item       | Species (Scientific Name)    | `urn:epcglobal:cbv:mda#speciesForFisheryStatisticsPurposesName`
+Trade Item       | Species (Alpha 3 Code)       | `urn:epcglobal:cbv:mda#speciesForFisheryStatisticsPurposesCode`
+Trade Item       | Product Form                 | `urn:epcglobal:cbv:mda#radeItemConditionCode`
+Trade Item       | Short Description            | `urn:epcglobal:cbv:mda#descriptionShort`
+Trade Item       | Information Provider         | `urn:epcglobal:cbv:mda#informationProvider`
+Trade Item       | Owning Party                 | `urn:epcglobal:cbv:owning_party`
 
 
 ## Fishing
