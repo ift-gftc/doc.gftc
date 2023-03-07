@@ -129,6 +129,7 @@
     <Content Include="source\regulatory\simp-wild-harvest.md" />
     <Content Include="source\resources\featured-implementation.md" />
     <Content Include="source\resources\index.md" />
+    <Content Include="source\wild-events\implementation.md" />
     <Content Include="source\wild-events\advanced.md" />
     <Content Include="source\wild-events\commodities.md" />
     <Content Include="source\wild-events\fishing-events.md" />
