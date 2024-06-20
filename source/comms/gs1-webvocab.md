@@ -21,12 +21,21 @@ Below is an example of a product definition with the GDST KDEs represented in th
             "@language": "en"
         }
     ],
-    "gtin": "urn:gdst:traceability-solution.com:product:class:0b4e59bb-29ba-4edd-8e51-7e8d1a96dce7.YFT",
+
+    // ALWAYS REQUIRED
+    "gtin": "urn:gdst:traceability-solution.com:product:class:0b4e59bb-29ba-4edd-8e51-7e8d1a96dce7.YFT-PALLET",
     "cbv:informationProvider": "urn:gdst:traceability-solution.com:party:0048000.000001",
     "cbv:owning_party": "urn:gdst:traceability-solution.com:party:0048000.000001",
+
+    // THESE KDEs SHOULD BE HERE, UNLESS THEY EXIST ON AN INNER-GTIN
     "cbv:tradeItemConditionCode": "WHL",
     "cbv:speciesForFisheryStatisticsPurposesCode": [
         "YFT"
+    ],
+
+    // ONLY REQUIRED IF THE GTIN HAS INNER-GTINS
+    "innerTradeItems": [
+        "urn:gdst:traceability-solution.com:product:class:0b4e59bb-29ba-4edd-8e51-7e8d1a96dce7.YFT-CASE"
     ]
 }
 ```
@@ -44,6 +53,8 @@ Below is an example of a location with the GDST KDEs represented in the GS1 Web 
         "@vocab": "http://gs1.org/voc/"
     },
     "@type": "gs1:Place",
+
+    // ALWAYS REQUIRED KDEs
     "globalLocationNumber": "urn:gdst:traceability-solution.com:location:loc:0b4e59bb-29ba-4edd-8e51-7e8d1a96dce7.47797660-9355-4f8c-8867-c98ee1e8b684",
     "name": [
             {
@@ -53,13 +64,19 @@ Below is an example of a location with the GDST KDEs represented in the GS1 Web 
         ],
     "cbv:informationProvider": "urn:gdst:traceability-solution.com:party:0048000.000001",
     "cbv:owning_party": "urn:gdst:traceability-solution.com:party:0048000.000001",
+
+    // VESSEL ONLY KDEs
     "cbv:vesselName" : "some vessel",
     "cbv:vesselID" : "some_vessel_id",
     "gdst:imoNumber" : "some_imo_number",
     "cbv:vesselFlagState" : "US",
-    "cbv:unloadingPort" : "SDPORT",
     "gdst:vesselPublicRegistry" : "https://some.registry.com/some_vessel_id",
     "gdst:satelliteTracking" : "Some Name of a Sattelite tracking authority",
+
+    // LANDING / PORT KDEs
+    "cbv:unloadingPort" : "SDPORT",
+
+    // ALWAYS REQUIRED
     "address": {
         "streetAddress": [
             {
@@ -101,11 +118,17 @@ Below is an example of a trading party with the GDST KDEs represented in the GS1
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "@vocab": "http://gs1.org/voc/"
     },
+
+    // ALWAYS REQUIRED
     "@type": "gs1:Organization", 
     "globalLocationNumber": "urn:gdst:traceability-solution.com:party:0048000.000001",
     "cbv:informationProvider": "urn:gdst:traceability-solution.com:party:0048000.000001",
     "cbv:owning_party": "urn:gdst:traceability-solution.com:party:0048000.000001",
+
+    // NOT A GDST KDE, ONLY HERE FOR DEMONSTRATION PURPOSES FOR U.S. SIMP REQUIREMENTS 
     "gdst:iftp" : "1234567890",
+
+    // ALWAYS REQUIRED
     "organizationName": [
         {
             "@value": "test",
